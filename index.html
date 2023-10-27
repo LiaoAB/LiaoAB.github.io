@@ -195,6 +195,15 @@
         .contact-body {
             padding: 20px;
         }
+        .social-icon {
+            width: 40px;       /* sets the width to 40px */
+            height: auto;     /* maintains the aspect ratio */
+            margin-right: 10px;  /* adds a 10px margin to the right side of each icon */
+            transition: transform 0.3s;  /* Optional: keep the transition effect for hover */
+        }
+        .social-icon:hover {
+            transform: scale(1.1);  /* Slightly enlarge the icon on hover */
+        }
 
         /* Animations */
         @keyframes fadeInDown {
@@ -334,8 +343,8 @@
         </div>
         
         <div class="social-links">
-            <a href="https://github.com/LiaoAB" target="_blank"><img src="github_icon.png" alt="Github"></a>
-            <a href="https://www.linkedin.com/in/yuchen-liao-1b47781ab/" target="_blank"><img src="linkedin_icon.png" alt="LinkedIn"></a>
+            <a href="https://github.com/LiaoAB" target="_blank"><img src="github_icon.png" alt="Github" class="social-icon"></a>
+            <a href="https://www.linkedin.com/in/yuchen-liao-1b47781ab/" target="_blank"><img src="linkedin_icon.png" alt="LinkedIn" class="social-icon"></a>
             <!-- Add other social links as desired -->
         </div>
     </section>

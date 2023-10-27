@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YuChenLiao - Portfolio</title>
+    <title>YuChen Liao - Portfolio</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -17,12 +17,42 @@
         /* Banner Section */
         #banner {
             height: 100vh;
-            background-color: #282c34;
+            background: linear-gradient(45deg, #6C5B7B, #C06C84, #F67280);
             color: #ffffff;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #banner h1 {
+            font-size: 3em;
+            animation: fadeInDown 2s both;
+        }
+
+        #banner p {
+            font-size: 1.5em;
+            animation: fadeInUp 2s 0.5s both;
+        }
+
+        .cta-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #ffffff;
+            color: #F67280;
+            border-radius: 25px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #F67280;
+            color: #ffffff;
         }
 
         /* About Section */
@@ -46,10 +76,27 @@
             background-color: #c2c4c6;
         }
 
-        /* Smooth scrolling */
-        a {
-            text-decoration: none;
-            color: inherit;
+        /* Animations */
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         /* Nav Styles */
@@ -86,15 +133,16 @@
 
     <!-- Banner Section -->
     <section id="banner">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Web Developer | Designer | Tech Enthusiast</p>
+        <h1>Welcome to YuChen Liao's Portfolio</h1>
+        <p>Software Engineer / Software Quality Assurance Engineer </p>
+        <a href="#about" class="cta-button">Learn More About Me</a>
     </section>
 
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
         <p>
-            Hello! I'm [Your Name], a passionate web developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Hello! I'm YuChen Liao, a passionate web developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Quisque efficitur, lorem id sollicitudin.
         </p>
     </section>

@@ -202,7 +202,7 @@
     <section id="contact">
         <h2>Contact Me</h2>
         <p>
-            Let's talk! You can reach me at: <a href="mailto:yliao309@gatech.edu">yliao309@gatech.edu</a>.
+            Let's talk! You can reach me at: <a href="mailto:yliao309@gatech.edu">yliao309@gatech.edu</a>
         </p>
     </section>
 
@@ -211,7 +211,6 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth'
                 });

@@ -85,11 +85,61 @@
             flex: 1; /* Take remaining space after the image */
         }
 
+        /* ... (previous styles) ... */
+
         /* Projects Section */
         #projects {
-            height: 100vh;
             padding: 50px;
             background-color: #e0e1e2;
+        }
+
+        .project-grid {
+            display: flex;
+            flex-wrap: wrap; /* Wrap items to the next line if they don’t fit */
+            gap: 30px; /* Space between project cards */
+            justify-content: center;
+        }
+
+        .project-card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05); /* Slightly scale the card on hover */
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; /* Maintain the aspect ratio of the image */
+        }
+
+        .project-card h3 {
+            padding: 15px 20px;
+            margin: 0;
+        }
+
+        .project-card p {
+            padding: 0 20px;
+            margin: 10px 0;
+        }
+
+        .project-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #ffffff;
+            border-radius: 5px;
+            margin: 15px 20px;
+            text-decoration: none;
+        }
+
+        .project-link:hover {
+            background-color: #0056b3;
         }
 
         /* Contact Section */
@@ -193,16 +243,30 @@
     <!-- Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
-        <p>
-            Here are some of my awesome projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque efficitur, lorem id sollicitudin.
-        </p>
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="reversi.jpg" alt="Project 1">
+                <h3>Reversi-Telegram-Bot</h3>
+                <p>A Telegram Bot that plays Reversi with user.</p>
+                <a href="https://github.com/LiaoAB/Reversi-Telegram-Bot" class="project-link">View Project</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="sheep.jpeg" alt="Project 2">
+                <h3>Solvable-Sheep-Game-Agent</h3>
+                <p>A game agent written in python using pyautogui to play Solvable Sheep Game (https://solvable-sheep-game.streakingman.com/)</p>
+                <a href="https://github.com/LiaoAB/Solvable-Sheep-Game-Agent" class="project-link">View Project</a>
+            </div>
+            <!-- ... Add more projects as needed ... -->
+        </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
         <p>
-            Let's talk! You can reach me at: <a href="mailto:yliao309@gatech.edu">yliao309@gatech.edu</a>
+            Let's talk! You can reach me at: <a href="mailto:yliao309@gatech.edu">yliao309@gatech.edu</a>.
         </p>
     </section>
 
@@ -211,6 +275,7 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
+
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth'
                 });

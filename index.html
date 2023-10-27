@@ -303,14 +303,13 @@
                 YuChen Liao
             </div>
             <ul class="nav-list">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" onclick="setActive(this)">Home</a></li>
+                <li><a href="#about" onclick="setActive(this)">About Me</a></li>
+                <li><a href="#projects" onclick="setActive(this)">Projects</a></li>
+                <li><a href="#contact" onclick="setActive(this)">Contact</a></li>
             </ul>
         </div>
     </nav>
-    
 
     <!-- Banner Section -->
     <section id="banner">
@@ -411,6 +410,18 @@
             });
         });
     </script>
-</body>
 
+    <script>
+        function setActive(linkElement) {
+            // Get all the navigation links
+            let navLinks = document.querySelectorAll('.nav-list a');
+            
+            // Remove 'active' class from all links
+            navLinks.forEach(link => link.classList.remove('active'));
+            
+            // Add 'active' class to the clicked link
+            linkElement.classList.add('active');
+        }
+    </script>
+</body>
 </html>

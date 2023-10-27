@@ -297,19 +297,20 @@
 
 <body>
     <!-- Navigation -->
-    <nav id="fancyNav">
-        <div class="container">
-            <div class="nav-logo">
-                YuChen Liao
-            </div>
-            <ul class="nav-list">
-                <li><a href="#home" onclick="setActive(this)">Home</a></li>
-                <li><a href="#about" onclick="setActive(this)">About Me</a></li>
-                <li><a href="#projects" onclick="setActive(this)">Projects</a></li>
-                <li><a href="#contact" onclick="setActive(this)">Contact</a></li>
-            </ul>
+<nav id="fancyNav">
+    <div class="container">
+        <div class="nav-logo">
+            YuChen Liao
         </div>
-    </nav>
+        <ul class="nav-list">
+            <li><a href="#home" onclick="scrollToSection(event, this)">Home</a></li>
+            <li><a href="#about" onclick="scrollToSection(event, this)">About Me</a></li>
+            <li><a href="#projects" onclick="scrollToSection(event, this)">Projects</a></li>
+            <li><a href="#contact" onclick="scrollToSection(event, this)">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
 
     <!-- Banner Section -->
     <section id="banner">
@@ -423,5 +424,18 @@
             linkElement.classList.add('active');
         }
     </script>
+    <script>
+        function scrollToSection(event, element) {
+            event.preventDefault();
+            const navHeight = document.querySelector('#fancyNav').offsetHeight;
+            const target = document.querySelector(element.getAttribute('href'));
+            window.scroll({
+                top: target.offsetTop - navHeight,
+                behavior: 'smooth'
+            });
+            setActive(element);
+        }
+    </script>
+
 </body>
 </html>

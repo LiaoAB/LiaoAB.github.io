@@ -1,10 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-   <title>My Personal Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YuChenLiao - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        /* Banner Section */
+        #banner {
+            height: 100vh;
+            background-color: #282c34;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* About Section */
+        #about {
+            height: 100vh;
+            padding: 50px;
+            background-color: #f3f4f6;
+        }
+
+        /* Projects Section */
+        #projects {
+            height: 100vh;
+            padding: 50px;
+            background-color: #e0e1e2;
+        }
+
+        /* Contact Section */
+        #contact {
+            height: 100vh;
+            padding: 50px;
+            background-color: #c2c4c6;
+        }
+
+        /* Smooth scrolling */
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Nav Styles */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 10px 50px;
+            z-index: 1000;
+        }
+
+        nav a {
+            margin: 0 10px;
+            color: #333;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+    </style>
 </head>
+
 <body>
-   <h1>Welcome to my website</h1>
-   <p>This is a simple GitHub Pages site.</p>
+    <!-- Navigation -->
+    <nav>
+        <a href="#banner">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Banner Section -->
+    <section id="banner">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Web Developer | Designer | Tech Enthusiast</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm [Your Name], a passionate web developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Quisque efficitur, lorem id sollicitudin.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>
+            Here are some of my awesome projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque efficitur, lorem id sollicitudin.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            Let's talk! You can reach me at: <a href="mailto:yliao309@gatech.edu">yliao309@gatech.edu</a>.
+        </p>
+    </section>
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
+
 </html>

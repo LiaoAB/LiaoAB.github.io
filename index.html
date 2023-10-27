@@ -85,6 +85,38 @@
             flex: 1; /* Take remaining space after the image */
         }
 
+        #about h2 {
+            font-size: 2em;
+            color: #333; /* Darker color for the title for better emphasis */
+            margin-bottom: 15px; /* Spacing adjustment */
+        }
+        
+        .about-text details {
+            margin-bottom: 20px; /* Add some space between details */
+            border: 1px solid #e0e0e0; /* Add a border */
+            border-radius: 5px; /* Rounded corners */
+            overflow: hidden; /* Ensures border wraps around details and summary */
+        }
+        
+        .about-text details[open] {
+            background-color: #eef; /* Light highlight when details are open */
+        }
+        
+        .about-text summary {
+            font-weight: bold; /* Bold summary for emphasis */
+            padding: 10px; /* Padding for better touch/target area */
+            cursor: pointer; /* Show that this is clickable */
+        }
+        
+        .about-text summary:hover {
+            background-color: #ddd; /* Light background on hover */
+        }
+        
+        .about-text p {
+            margin: 0;
+            padding: 10px; /* Padding around the content */
+        }
+        
         /* Projects Section */
         #projects {
             padding: 50px;

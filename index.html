@@ -307,9 +307,17 @@
             border-radius: 4px;
         }
     </style>
+    
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
+    
+    <!-- AOS JS -->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
 </head>
 
 <body>
+
     <!-- Navigation -->
 <nav id="fancyNav">
     <div class="container">
@@ -326,7 +334,7 @@
 
 
     <!-- Banner Section -->
-    <section id="banner">
+    <section id="banner" data-aos="fade-down">
         <h1>Welcome to YuChen Liao's Website</h1>
         <p>Software Engineer / Software Quality Assurance Engineer </p>
         <a href="#about" class="cta-button">Learn More About Me</a>
@@ -449,5 +457,8 @@
         }
     </script>
 
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

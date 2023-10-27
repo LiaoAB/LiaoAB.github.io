@@ -319,18 +319,18 @@
 <body>
 
     <!-- Navigation -->
-<nav id="fancyNav">
-    <div class="container">
-        <div class="nav-logo">
-            YuChen Liao
+    <nav id="fancyNav">
+        <div class="container">
+            <div class="nav-logo">
+                YuChen Liao
+            </div>
+            <ul class="nav-list">
+                <li><a href="#about" onclick="scrollToSection(event, this)">About Me</a></li>
+                <li><a href="#projects" onclick="scrollToSection(event, this)">Projects</a></li>
+                <li><a href="#contact" onclick="scrollToSection(event, this)">Contact</a></li>
+            </ul>
         </div>
-        <ul class="nav-list">
-            <li><a href="#about" onclick="scrollToSection(event, this)">About Me</a></li>
-            <li><a href="#projects" onclick="scrollToSection(event, this)">Projects</a></li>
-            <li><a href="#contact" onclick="scrollToSection(event, this)">Contact</a></li>
-        </ul>
-    </div>
-</nav>
+    </nav>
 
 
     <!-- Banner Section -->
@@ -341,7 +341,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about">
+    <ssection id="about" data-aos="fade-up" data-aos-delay="100">
         <div class="about-content">
             <img src="yuchen.jpeg" alt="YuChen Liao" class="profile-photo">
             <div class="about-text">
@@ -370,7 +370,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section id="projects" data-aos="fade-up" data-aos-delay="200">
         <h2>My Projects</h2>
         <div class="project-grid">
             <!-- Project 1 -->
@@ -396,7 +396,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" data-aos="fade-up" data-aos-delay="300">
         <p>Thank you for visiting my portfolio. Let's connect and explore how we can innovate together!</p>
 
         <div class="container">

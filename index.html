@@ -7,251 +7,289 @@
     <title>YuChen Liao - Portfolio</title>
     <style>
         body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
 
-/* Banner Section */
-#banner {
-    height: 100vh;
-    background: linear-gradient(45deg, #6C5B7B, #C06C84, #F67280);
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-}
+        /* Banner Section */
+        #banner {
+            height: 100vh;
+            background: linear-gradient(45deg, #6C5B7B, #C06C84, #F67280);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
 
-#banner h1 {
-    font-size: 3em;
-    animation: fadeInDown 2s both;
-}
+        #banner h1 {
+            font-size: 3em;
+            animation: fadeInDown 2s both;
+        }
 
-#banner p {
-    font-size: 1.5em;
-    animation: fadeInUp 2s 0.5s both;
-}
+        #banner p {
+            font-size: 1.5em;
+            animation: fadeInUp 2s 0.5s both;
+        }
 
-.cta-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    border: none;
-    background-color: #ffffff;
-    color: #F67280;
-    border-radius: 25px;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
+        .cta-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #ffffff;
+            color: #F67280;
+            border-radius: 25px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
 
-.cta-button:hover {
-    background-color: #F67280;
-    color: #ffffff;
-}
+        .cta-button:hover {
+            background-color: #F67280;
+            color: #ffffff;
+        }
 
-/* About Section */
-#about {
-    padding: 50px;
-    background-color: #f3f4f6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        /* About Section */
+        #about {
+            height: auto; /* Adjust height to content */
+            padding: 50px;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-.about-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    width: 100%;
-}
+        .about-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px; /* Limiting the width for larger screens */
+            width: 100%;
+        }
 
-.profile-photo {
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    margin-right: 50px;
-}
+        .profile-photo {
+            border-radius: 50%; /* Circular photo */
+            width: 250px;
+            height: 250px;
+            object-fit: cover; /* Makes sure photo maintains its aspect ratio */
+            margin-right: 50px;
+        }
 
-.about-text {
-    flex: 1;
-}
+        .about-text {
+            flex: 1; /* Take remaining space after the image */
+        }
 
-/* Projects Section */
-#projects {
-    padding: 50px;
-    background-color: #e0e1e2;
-}
+        /* Projects Section */
+        #projects {
+            padding: 50px;
+            background-color: #e0e1e2;
+        }
 
-.project-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-}
+        .project-grid {
+            display: flex;
+            flex-wrap: wrap; /* Wrap items to the next line if they don’t fit */
+            gap: 30px; /* Space between project cards */
+            justify-content: center;
+        }
 
-.project-card {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s;
-    display: flex;
-    flex-direction: column;
-}
+        .project-card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column; /* Makes content stack vertically */
+        }
 
-.project-card-content {
-    flex: 1;
-    padding: 15px 20px;
-}
+        .project-card-content {
+            flex: 1; /* Allows this container to grow and consume available space */
+            padding: 15px 20px;
+        }
 
-.project-description {
-    height: 60px;
-    margin: 10px 0;
-}
+        .project-description {
+            height: 60px; /* Set this to a value that accommodates your longest description without clipping */
+            margin: 10px 0;
+        }
 
-.project-card:hover {
-    transform: scale(1.05);
-}
+        .project-card:hover {
+            transform: scale(1.05); /* Slightly scale the card on hover */
+        }
 
-.project-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
 
-.project-card h3 {
-    padding: 15px 20px;
-    margin: 0;
-}
+        .project-card h3 {
+            padding: 15px 20px;
+            margin: 0;
+        }
 
-.project-card p {
-    padding: 0 20px;
-    margin: 10px 0;
-}
+        .project-card p {
+            padding: 0 20px;
+            margin: 10px 0;
+        }
 
-.project-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #ffffff;
-    border-radius: 5px;
-    margin: 15px 20px;
-    text-decoration: none;
-    align-self: flex-end;
-}
+        .project-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #ffffff;
+            border-radius: 5px;
+            margin: 15px 20px;
+            text-decoration: none;
+            align-self: flex-end; /* Aligns the button to the bottom of the flex container */
+        }
 
-.project-link:hover {
-    background-color: #0056b3;
-}
+        .project-link:hover {
+            background-color: #0056b3;
+        }
 
-/* Contact Section */
-#contact {
-    background-color: #f4f4f4;
-    padding: 50px 0;
-    text-align: center;
-}
+        /* Contact Section */
+        #contact {
+            background-color: #f4f4f4;
+            padding: 50px 0;
+            text-align: center;
+        }
 
-.social-links {
-    margin-top: 30px;
-}
+        #contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
 
-.social-links a {
-    margin: 0 15px;
-    transition: transform 0.3s;
-}
+        .social-links {
+            margin-top: 30px;
+        }
 
-.social-links a:hover {
-    transform: scale(1.1);
-}
+        .social-links a {
+            margin: 0 15px;
+            transition: transform 0.3s;
+        }
 
-.social-icon {
-    width: 40px;
-    height: auto;
-    margin-right: 10px;
-    transition: transform 0.3s;
-}
+        .social-links a:hover {
+            transform: scale(1.1);
+        }
 
-.social-icon:hover {
-    transform: scale(1.1);
-}
+        .contact-section {
+            background-color: #f7f7f7;
+        }
+        .contact-card {
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-header {
+            border-radius: 5px 5px 0 0;
+            padding: 15px;
+        }
+        .contact-body {
+            padding: 20px;
+        }
+        .social-icon {
+            width: 40px;       /* sets the width to 40px */
+            height: auto;     /* maintains the aspect ratio */
+            margin-right: 10px;  /* adds a 10px margin to the right side of each icon */
+            transition: transform 0.3s;  /* Optional: keep the transition effect for hover */
+        }
+        .social-icon:hover {
+            transform: scale(1.1);  /* Slightly enlarge the icon on hover */
+        }
 
-/* Animations */
-@keyframes fadeInDown {
-    0% {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+        /* Animations */
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-/* Nav Styles */
-#fancyNav {
-    background-color: #333;
-    padding: 15px 0;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
+        /* Nav Styles */
+        #fancyNav {
+            background-color: #333;
+            padding: 15px 0;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-#fancyNav a {
-    color: #ffffff;
-    text-decoration: none;
-    margin-right: 20px;
-    transition: color 0.3s;
-}
+        .nav-logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
 
-#fancyNav a:last-child {
-    margin-right: 0;
-}
+        .nav-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
 
-#fancyNav a:hover {
-    color: #F67280;
-}
+        .nav-list li a {
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 15px;
+            border-radius: 4px;
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-list li a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-list li a.active {
+            background-color: #007BFF;
+            padding: 10px 15px;
+            border-radius: 4px;
+        }
     </style>
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav id="fancyNav">
-        <div class="container">
-            <div class="nav-logo">
-                YuChen Liao
-            </div>
-            <ul class="nav-list">
-                <li><a href="#about" onclick="scrollToSection(event, this)">About Me</a></li>
-                <li><a href="#projects" onclick="scrollToSection(event, this)">Projects</a></li>
-                <li><a href="#contact" onclick="scrollToSection(event, this)">Contact</a></li>
-            </ul>
+<nav id="fancyNav">
+    <div class="container">
+        <div class="nav-logo">
+            YuChen Liao
         </div>
-    </nav>
+        <ul class="nav-list">
+            <li><a href="#about" onclick="scrollToSection(event, this)">About Me</a></li>
+            <li><a href="#projects" onclick="scrollToSection(event, this)">Projects</a></li>
+            <li><a href="#contact" onclick="scrollToSection(event, this)">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
 
     <!-- Banner Section -->
     <section id="banner">
@@ -338,6 +376,20 @@
             <!-- Add other social links as desired -->
         </div>
     </section>
+
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 
     <script>
         function setActive(linkElement) {

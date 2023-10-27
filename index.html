@@ -240,19 +240,18 @@
 
 <body>
     <!-- Navigation -->
-<nav id="fancyNav">
-    <div class="container">
-        <div class="nav-logo">
-            YuChen Liao
+    <nav id="fancyNav">
+        <div class="container">
+            <div class="nav-logo">
+                YuChen Liao
+            </div>
+            <ul class="nav-list">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <ul class="nav-list">
-            <li><a href="#about" onclick="scrollToSection(event, this)">About Me</a></li>
-            <li><a href="#projects" onclick="scrollToSection(event, this)">Projects</a></li>
-            <li><a href="#contact" onclick="scrollToSection(event, this)">Contact</a></li>
-        </ul>
-    </div>
-</nav>
-
+    </nav>
 
     <!-- Banner Section -->
     <section id="banner">
@@ -339,20 +338,6 @@
             <!-- Add other social links as desired -->
         </div>
     </section>
-
-
-    <!-- JavaScript for Smooth Scrolling -->
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
 
     <script>
         function setActive(linkElement) {

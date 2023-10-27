@@ -157,9 +157,43 @@
 
         /* Contact Section */
         #contact {
-            height: 100vh;
-            padding: 50px;
-            background-color: #c2c4c6;
+            background-color: #f4f4f4;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            margin: 0 15px;
+            transition: transform 0.3s;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.1);
+        }
+
+        .contact-section {
+            background-color: #f7f7f7;
+        }
+        .contact-card {
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-header {
+            border-radius: 5px 5px 0 0;
+            padding: 15px;
+        }
+        .contact-body {
+            padding: 20px;
         }
 
         /* Animations */
@@ -242,12 +276,12 @@
             
                 <details>
                     <summary>Projects and Interests</summary>
-                    <p>One of my most notable projects was the Automatic Warehouse Storage Location Planning. I employed Python to simulate and optimize storage solutions, reflecting my commitment to designing tools that significantly enhance efficiency and efficacy. Interested in embedded system software and high-performance computing.</p>
+                    <p>One of my most notable projects was the Automatic Warehouse Storage Location Planning, where I employed Python to simulate and optimize storage solutions, reflecting my commitment to designing tools that significantly enhance efficiency and efficacy. Interested in embedded system software and high-performance computing.</p>
                 </details>
             
                 <details>
                     <summary>Future Goals</summary>
-                    <p>As I continue my academic journey at Georgia Tech, I'm excited to further my expertise in Software Engineering. My dream is to collaborate with tech giants like Microsoft, Google, Adobe, and Atlassian. Outside of the coding environment, I'm a team player who values collaboration, effective communication, and a shared vision. I'm constantly looking for learning opportunities, always aiming to merge theoretical knowledge with practical applications. Thank you for visiting my portfolio. Let's connect and explore how we can innovate together!</p>
+                    <p>As I continue my academic journey at Georgia Tech, I'm excited to further my expertise in Embedded System Programming and Software Engineering. My dream is to collaborate with tech giants like Microsoft, Google, Adobe, and Atlassian. Outside of the coding environment, I'm a team player who values collaboration, effective communication, and a shared vision. I'm constantly on the lookout for learning opportunities, always aiming to merge theoretical knowledge with practical applications. Thank you for visiting my portfolio. Let's connect and explore how we can innovate together!</p>
                 </details>
             </div>
         </div>
@@ -270,7 +304,7 @@
             <div class="project-card">
                 <img src="sheep.jpeg" alt="Project 2">
                 <div class="project-card-content">
-                    <h3>Sheep-Game-Agent</h3>
+                    <h3>Solvable-Sheep-Game-Agent</h3>
                     <p class="project-description">A game agent written in python using pyautogui to play Solvable Sheep Game (https://solvable-sheep-game.streakingman.com/)</p>
                 </div>
                 <a href="https://github.com/LiaoAB/Solvable-Sheep-Game-Agent" class="project-link">View Project</a>
@@ -282,10 +316,31 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>
-            Let's talk! You can reach me at: <a href="mailto:yliao309@gatech.edu">yliao309@gatech.edu</a>.
-        </p>
+        <p>If you have any questions or just want to say hello, feel free to contact me!</p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="contact-card">
+                        <div class="contact-header bg-primary text-white">
+                            <h4 class="text-center">Contact Me</h4>
+                        </div>
+                        <div class="contact-body">
+                            <!-- Google Form Embed Code -->
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjC07fG_nZ5cvz1dFGrur3egdYq9TuCAAqHKSuPqwxjx09Iw/viewform?embedded=true" width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="social-links">
+            <a href="https://github.com/LiaoAB" target="_blank"><img src="github_icon.png" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/yuchen-liao-1b47781ab/" target="_blank"><img src="linkedin_icon.png" alt="LinkedIn"></a>
+            <!-- Add other social links as desired -->
+        </div>
     </section>
+
 
     <!-- JavaScript for Smooth Scrolling -->
     <script>

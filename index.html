@@ -57,9 +57,32 @@
 
         /* About Section */
         #about {
-            height: 100vh;
+            height: auto; /* Adjust height to content */
             padding: 50px;
             background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px; /* Limiting the width for larger screens */
+            width: 100%;
+        }
+
+        .profile-photo {
+            border-radius: 50%; /* Circular photo */
+            width: 250px;
+            height: 250px;
+            object-fit: cover; /* Makes sure photo maintains its aspect ratio */
+            margin-right: 50px;
+        }
+
+        .about-text {
+            flex: 1; /* Take remaining space after the image */
         }
 
         /* Projects Section */
@@ -140,11 +163,15 @@
 
     <!-- About Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Hello! I'm YuChen Liao, a passionate web developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Quisque efficitur, lorem id sollicitudin.
-        </p>
+        <div class="about-content">
+            <img src="yuchen.jpeg" alt="YuChen Liao" class="profile-photo">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm YuChen Liao, a passionate web developer from Georgia Tech. I specialize in front-end development and design. With a keen eye for detail, I always aim to craft immersive and responsive websites. In my free time, I love exploring the latest tech trends and dabbling in various creative projects.
+                </p>
+            </div>
+        </div>
     </section>
 
     <!-- Projects Section -->

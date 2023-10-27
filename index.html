@@ -307,41 +307,33 @@
             border-radius: 4px;
         }
     </style>
-    
-    <!-- AOS CSS -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
-    
-    <!-- AOS JS -->
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-
 </head>
 
 <body>
-
     <!-- Navigation -->
-    <nav id="fancyNav">
-        <div class="container">
-            <div class="nav-logo">
-                YuChen Liao
-            </div>
-            <ul class="nav-list">
-                <li><a href="#about" onclick="scrollToSection(event, this)">About Me</a></li>
-                <li><a href="#projects" onclick="scrollToSection(event, this)">Projects</a></li>
-                <li><a href="#contact" onclick="scrollToSection(event, this)">Contact</a></li>
-            </ul>
+<nav id="fancyNav">
+    <div class="container">
+        <div class="nav-logo">
+            YuChen Liao
         </div>
-    </nav>
+        <ul class="nav-list">
+            <li><a href="#about" onclick="scrollToSection(event, this)">About Me</a></li>
+            <li><a href="#projects" onclick="scrollToSection(event, this)">Projects</a></li>
+            <li><a href="#contact" onclick="scrollToSection(event, this)">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
 
     <!-- Banner Section -->
-    <section id="banner" data-aos="fade-down">
+    <section id="banner">
         <h1>Welcome to YuChen Liao's Website</h1>
         <p>Software Engineer / Software Quality Assurance Engineer </p>
         <a href="#about" class="cta-button">Learn More About Me</a>
     </section>
 
     <!-- About Section -->
-    <ssection id="about" data-aos="fade-up" data-aos-delay="100">
+    <section id="about">
         <div class="about-content">
             <img src="yuchen.jpeg" alt="YuChen Liao" class="profile-photo">
             <div class="about-text">
@@ -370,7 +362,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" data-aos="fade-up" data-aos-delay="200">
+    <section id="projects">
         <h2>My Projects</h2>
         <div class="project-grid">
             <!-- Project 1 -->
@@ -396,7 +388,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" data-aos="fade-up" data-aos-delay="300">
+    <section id="contact">
         <p>Thank you for visiting my portfolio. Let's connect and explore how we can innovate together!</p>
 
         <div class="container">
@@ -457,8 +449,5 @@
         }
     </script>
 
-    <script>
-        AOS.init();
-    </script>
 </body>
 </html>

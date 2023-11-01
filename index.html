@@ -13,7 +13,86 @@
             box-sizing: border-box;
             scroll-behavior: smooth;
         }
+        /* Dark Mode */
+        [data-theme="dark"] {
+            background-color: #121212;
+            color: #eaeaea;
+        }
+        
+        [data-theme="dark"] #banner {
+            background: linear-gradient(45deg, #222, #444);
+        }
+        
+        [data-theme="dark"] #fancyNav,
+        [data-theme="dark"] .nav-list li a {
+            background-color: #222;
+        }
+        
+        [data-theme="dark"] .nav-list li a:hover {
+            background-color: #555;
+        }
+        
+        [data-theme="dark"] #about,
+        [data-theme="dark"] #projects,
+        [data-theme="dark"] #contact {
+            background-color: #181818;
+        }
+        
+        [data-theme="dark"] .cta-button {
+            background-color: #555;
+            color: #eaeaea;
+        }
+        
+        .dark-mode-toggle {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            z-index: 1000;
+        }
 
+        .nav-list li a::before {
+            content: "";
+            display: block;
+            height: 2px;
+            background-color: #007BFF;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            right: 0;
+            transform: scaleX(0);
+            transition: transform 0.3s;
+        }
+        
+        .nav-list li a:hover::before {
+            transform: scaleX(1);
+        }
+
+        .project-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            color: #fff;
+        }
+        
+        .project-card:hover::before {
+            opacity: 1;
+        }
+        
+        .project-card:hover img {
+            filter: brightness(0.5);
+        }        
         /* Banner Section */
         #banner {
             height: 100vh;
@@ -25,6 +104,10 @@
             flex-direction: column;
             position: relative;
             overflow: hidden;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         #banner h1 {
@@ -329,6 +412,10 @@
         </div>
     </nav>
 
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle" onclick="toggleDarkMode()">
+        🌙
+    </div>
 
     <!-- Banner Section -->
     <section id="banner">
@@ -454,5 +541,14 @@
         }
     </script>
 
+    <script>
+        function toggleDarkMode() {
+            if (document.documentElement.getAttribute('data-theme') == 'dark') {
+                document.documentElement.removeAttribute('data-theme');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        }
+    </script>
 </body>
 </html>

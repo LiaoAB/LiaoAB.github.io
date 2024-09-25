@@ -1,368 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YuChen Liao</title>
+    <title>YuChen Liao | Software Engineer</title>
+    <meta name="description" content="Welcome to the personal website of YuChen Liao, a passionate Software Engineer and Software Quality Assurance Engineer. Discover my projects, experiences, and let's connect.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/your_kit_id.js" crossorigin="anonymous"></script>
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    <!-- Custom CSS -->
     <style>
-        /* Root variables for easy theming */
+        /* Root Variables */
         :root {
-            --primary-color: #0d6efd;
-            --secondary-color: #6c757d;
-            --background-color: #f8f9fa;
-            --text-color: #212529;
-            --light-color: #ffffff;
-            --dark-color: #343a40;
+            --primary-color: #00ADB5;
+            --secondary-color: #393E46;
+            --accent-color: #FF5722;
+            --light-color: #EEEEEE;
+            --dark-color: #222831;
+            --text-color: #393E46;
+            --font-family: 'Poppins', sans-serif;
         }
 
         /* Global Styles */
-        body {
-            font-family: 'Montserrat', sans-serif;
+        * {
             margin: 0;
             padding: 0;
-            background-color: var(--background-color);
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-family);
             color: var(--text-color);
+            background-color: var(--light-color);
             scroll-behavior: smooth;
+            overflow-x: hidden;
         }
 
-        /* Dark Mode */
-        [data-theme="dark"] {
-            --background-color: #121212;
-            --text-color: #eaeaea;
-            --light-color: #1e1e1e;
-            --dark-color: #f8f9fa;
-        }
-
-        .dark-mode-toggle {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: var(--light-color);
-            border: none;
-            padding: 10px;
-            border-radius: 50%;
-            cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: background 0.3s;
-        }
-
-        .dark-mode-toggle:hover {
-            background: var(--primary-color);
-            color: var(--light-color);
-        }
-
-        /* Navigation Styles */
+        /* Navigation Bar */
         nav {
             position: fixed;
             width: 100%;
-            background: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(10px);
-            z-index: 999;
+            background-color: rgba(34, 40, 49, 0.8);
+            padding: 20px 0;
+            z-index: 1000;
+            transition: background-color 0.3s;
         }
 
-        nav[data-theme="dark"] {
-            background: rgba(18, 18, 18, 0.8);
+        nav.scrolled {
+            background-color: rgba(34, 40, 49, 1);
         }
 
-        .nav-container {
+        nav .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 15px 20px;
+            padding: 0 30px;
             display: flex;
-            justify-content: space-between;
             align-items: center;
+            justify-content: space-between;
         }
 
-        .nav-logo {
-            font-size: 1.5em;
+        nav .logo {
+            font-size: 1.8em;
+            color: var(--light-color);
             font-weight: 700;
-            color: var(--text-color);
             text-decoration: none;
         }
 
-        .nav-menu {
+        nav ul {
             display: flex;
             list-style: none;
-            gap: 30px;
         }
 
-        .nav-menu li a {
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav ul li a {
+            color: var(--light-color);
             text-decoration: none;
-            color: var(--text-color);
+            font-size: 1em;
             font-weight: 500;
-            position: relative;
             transition: color 0.3s;
         }
 
-        .nav-menu li a::after {
+        nav ul li a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Mobile Navigation */
+        nav .menu-toggle {
+            display: none;
+            font-size: 2em;
+            color: var(--light-color);
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                background-color: var(--dark-color);
+                position: absolute;
+                top: 70px;
+                right: 0;
+                width: 200px;
+                padding: 20px;
+                border-radius: 0 0 0 10px;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+
+            nav ul li {
+                margin: 15px 0;
+            }
+
+            nav .menu-toggle {
+                display: block;
+            }
+        }
+
+        /* Hero Section */
+        #hero {
+            height: 100vh;
+            background-image: url('hero-background.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        #hero::after {
             content: '';
             position: absolute;
-            width: 0%;
-            height: 2px;
-            background: var(--primary-color);
+            top: 0;
             left: 0;
-            bottom: -5px;
-            transition: width 0.3s;
-        }
-
-        .nav-menu li a:hover {
-            color: var(--primary-color);
-        }
-
-        .nav-menu li a:hover::after {
             width: 100%;
+            height: 100%;
+            background-color: rgba(34, 40, 49, 0.8);
         }
 
-        /* Banner Section */
-        #banner {
-            height: 100vh;
-            background: linear-gradient(135deg, #007bff 0%, #00d4ff 100%);
-            color: var(--light-color);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+        #hero .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        #banner h1 {
-            font-size: 4em;
-            margin: 0;
-            animation: fadeInDown 1s both;
-        }
-
-        #banner p {
-            font-size: 1.5em;
-            margin-top: 20px;
-            animation: fadeInUp 1s both;
-        }
-
-        .cta-button {
-            margin-top: 40px;
-            padding: 15px 30px;
-            background: var(--light-color);
-            color: var(--primary-color);
-            border: none;
-            border-radius: 50px;
-            font-size: 1em;
-            font-weight: 700;
-            cursor: pointer;
-            transition: background 0.3s, color 0.3s;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .cta-button:hover {
-            background: var(--primary-color);
             color: var(--light-color);
+            max-width: 800px;
+            padding: 0 20px;
+        }
+
+        #hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            animation: fadeInDown 1s ease-out both;
+        }
+
+        #hero p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            animation: fadeInUp 1s ease-out both;
+        }
+
+        #hero .btn {
+            padding: 15px 30px;
+            background-color: var(--primary-color);
+            color: var(--light-color);
+            border: none;
+            border-radius: 30px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            animation: fadeInUp 1s ease-out both;
+        }
+
+        #hero .btn:hover {
+            background-color: var(--accent-color);
             transform: translateY(-5px);
-            box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
         }
 
         /* About Section */
         #about {
-            padding: 100px 20px;
-            background: var(--background-color);
+            padding: 100px 0;
+            background-color: var(--light-color);
+        }
+
+        #about .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 30px;
             display: flex;
-            flex-direction: column;
             align-items: center;
+            flex-wrap: wrap;
+        }
+
+        #about .image {
+            flex: 1;
+            min-width: 300px;
             text-align: center;
         }
 
-        #about h2 {
-            font-size: 3em;
-            margin-bottom: 40px;
-            position: relative;
-        }
-
-        #about h2::after {
-            content: '';
-            width: 50px;
-            height: 5px;
-            background: var(--primary-color);
-            position: absolute;
-            bottom: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-
-        .about-content {
-            display: flex;
-            flex-wrap: wrap;
-            max-width: 1000px;
-            align-items: center;
-            justify-content: center;
-            gap: 40px;
-        }
-
-        .profile-photo {
+        #about .image img {
+            width: 80%;
+            max-width: 400px;
             border-radius: 20px;
-            width: 300px;
-            height: 400px;
-            object-fit: cover;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
         }
 
-        .about-text {
+        #about .content {
             flex: 1;
-            max-width: 600px;
-        }
-
-        .about-text details {
-            background: var(--light-color);
-            border-radius: 10px;
-            margin-bottom: 20px;
+            min-width: 300px;
             padding: 20px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
         }
 
-        .about-text summary {
+        #about .content h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+        }
+
+        #about .content p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        #about .content details {
+            margin-bottom: 15px;
+        }
+
+        #about .content details summary {
             font-size: 1.2em;
-            font-weight: 700;
+            font-weight: 600;
             cursor: pointer;
+            position: relative;
+            padding-left: 20px;
         }
 
-        .about-text p {
-            margin-top: 15px;
+        #about .content details summary::before {
+            content: '\25B6';
+            position: absolute;
+            left: 0;
+            transition: transform 0.3s;
+        }
+
+        #about .content details[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        #about .content details p {
+            margin-top: 10px;
+            padding-left: 20px;
+            font-size: 1em;
             line-height: 1.6;
         }
 
         /* Projects Section */
         #projects {
-            padding: 100px 20px;
-            background: var(--light-color);
+            padding: 100px 0;
+            background-color: var(--dark-color);
+            color: var(--light-color);
+        }
+
+        #projects .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 30px;
             text-align: center;
         }
 
         #projects h2 {
-            font-size: 3em;
-            margin-bottom: 40px;
-            position: relative;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: var(--primary-color);
         }
 
-        #projects h2::after {
-            content: '';
-            width: 50px;
-            height: 5px;
-            background: var(--primary-color);
-            position: absolute;
-            bottom: -15px;
-            left: 50%;
-            transform: translateX(-50%);
+        #projects p {
+            font-size: 1.2em;
+            margin-bottom: 60px;
         }
 
-        .project-grid {
+        #projects .project-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-            max-width: 1200px;
-            margin: 0 auto;
+            grid-gap: 40px;
         }
 
-        .project-card {
-            background: var(--background-color);
-            border-radius: 15px;
+        #projects .project-card {
+            background-color: var(--light-color);
+            color: var(--text-color);
+            border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s;
-            position: relative;
         }
 
-        .project-card:hover {
+        #projects .project-card:hover {
             transform: translateY(-10px);
         }
 
-        .project-card img {
+        #projects .project-card img {
             width: 100%;
             height: 200px;
             object-fit: cover;
         }
 
-        .project-card-content {
+        #projects .project-card .content {
             padding: 20px;
         }
 
-        .project-card h3 {
-            margin-top: 0;
+        #projects .project-card h3 {
+            margin-bottom: 10px;
             font-size: 1.5em;
-            color: var(--primary-color);
         }
 
-        .project-card p {
+        #projects .project-card p {
+            margin-bottom: 20px;
+            font-size: 1em;
             line-height: 1.6;
-            color: var(--text-color);
         }
 
-        .project-link {
-            display: inline-block;
-            margin-top: 20px;
+        #projects .project-card .btn {
             padding: 10px 20px;
-            background: var(--primary-color);
+            background-color: var(--primary-color);
             color: var(--light-color);
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 700;
-            transition: background 0.3s;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s;
         }
 
-        .project-link:hover {
-            background: var(--dark-color);
+        #projects .project-card .btn:hover {
+            background-color: var(--accent-color);
         }
 
         /* Contact Section */
         #contact {
-            padding: 100px 20px;
-            background: var(--background-color);
+            padding: 100px 0;
+            background-color: var(--light-color);
+        }
+
+        #contact .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 30px;
             text-align: center;
         }
 
         #contact h2 {
-            font-size: 3em;
-            margin-bottom: 40px;
-            position: relative;
-        }
-
-        #contact h2::after {
-            content: '';
-            width: 50px;
-            height: 5px;
-            background: var(--primary-color);
-            position: absolute;
-            bottom: -15px;
-            left: 50%;
-            transform: translateX(-50%);
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: var(--secondary-color);
         }
 
         #contact p {
             font-size: 1.2em;
             margin-bottom: 40px;
-            line-height: 1.6;
         }
 
-        .social-links {
+        #contact .social-links {
             display: flex;
             justify-content: center;
             gap: 30px;
+            margin-bottom: 40px;
         }
 
-        .social-links a {
-            color: var(--text-color);
+        #contact .social-links a {
             font-size: 2em;
+            color: var(--secondary-color);
             transition: color 0.3s;
         }
 
-        .social-links a:hover {
+        #contact .social-links a:hover {
             color: var(--primary-color);
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        #contact form input,
+        #contact form textarea {
+            padding: 15px;
+            border: 1px solid var(--secondary-color);
+            border-radius: 5px;
+            font-size: 1em;
+            resize: none;
+        }
+
+        #contact form .btn {
+            padding: 15px;
+            background-color: var(--primary-color);
+            color: var(--light-color);
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #contact form .btn:hover {
+            background-color: var(--accent-color);
         }
 
         /* Footer */
         footer {
-            background: var(--dark-color);
+            background-color: var(--dark-color);
             color: var(--light-color);
             padding: 20px 0;
             text-align: center;
@@ -374,7 +433,6 @@
                 opacity: 0;
                 transform: translateY(-50px);
             }
-
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -386,101 +444,65 @@
                 opacity: 0;
                 transform: translateY(50px);
             }
-
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-
-        /* Media Queries */
-        @media (max-width: 768px) {
-            .nav-menu {
-                display: none;
-            }
-
-            .nav-toggle {
-                display: block;
-                cursor: pointer;
-                font-size: 1.5em;
-                color: var(--text-color);
-            }
-
-            .about-content {
-                flex-direction: column;
-            }
-
-            .profile-photo {
-                margin-bottom: 40px;
-            }
-        }
-
-        /* Mobile Navigation */
-        .nav-menu.mobile-active {
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            width: 100%;
-            background: var(--light-color);
-            padding: 20px;
-        }
-
-        .nav-menu.mobile-active li {
-            margin-bottom: 20px;
-        }
     </style>
+
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
-
 <body>
-    <!-- Dark Mode Toggle -->
-    <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
 
-    <!-- Navigation -->
+    <!-- Navigation Bar -->
     <nav id="navbar">
-        <div class="nav-container">
-            <a href="#" class="nav-logo">YuChen Liao</a>
-            <div class="nav-toggle" onclick="toggleNav()">☰</div>
-            <ul class="nav-menu">
-                <li><a href="#about" onclick="setActive(this)">About Me</a></li>
-                <li><a href="#projects" onclick="setActive(this)">Projects</a></li>
-                <li><a href="#contact" onclick="setActive(this)">Contact</a></li>
+        <div class="container">
+            <a href="#" class="logo">YuChen Liao</a>
+            <div class="menu-toggle" onclick="toggleMenu();"><i class="fas fa-bars"></i></div>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Banner Section -->
-    <section id="banner">
-        <h1>Welcome to YuChen Liao's Website</h1>
-        <p>Software Engineer / Software Quality Assurance Engineer</p>
-        <a href="#about" class="cta-button">Learn More About Me</a>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Hello, I'm YuChen Liao</h1>
+            <p>Software Engineer | Software Quality Assurance Engineer</p>
+            <a href="#about" class="btn">Discover More</a>
+        </div>
     </section>
 
     <!-- About Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <img src="yuchen.jpeg" alt="YuChen Liao" class="profile-photo">
-            <div class="about-text">
+        <div class="container">
+            <div class="image" data-aos="fade-right">
+                <img src="yuchen.jpg" alt="YuChen Liao">
+            </div>
+            <div class="content" data-aos="fade-left">
+                <h2>About Me</h2>
+                <p>Currently pursuing my Master's in Computational Science at the Georgia Institute of Technology...</p>
+                <!-- Details Sections -->
                 <details>
                     <summary>Educational Background</summary>
-                    <p>Currently pursuing my Master's in Computational Science at the Georgia Institute of Technology. My journey into computer science began during my undergraduate years at National Yang Ming Chiao Tung University, Taiwan's esteemed institution, where I majored in Industrial Engineering and Management for my bachelor's degree.</p>
+                    <p>Currently pursuing my Master's in Computational Science at the Georgia Institute of Technology...</p>
                 </details>
-
                 <details>
                     <summary>Professional Experience</summary>
-                    <p>I've had the privilege to intern at Garmin, diving deep into roles ranging from software quality assurance to full-fledged software engineering. I've designed tools that ease the burden on teams, from GPS tracking functionalities to NFC payment applications.</p>
+                    <p>I've had the privilege to intern at Garmin, diving deep into roles ranging from software quality assurance to full-fledged software engineering...</p>
                 </details>
-
                 <details>
                     <summary>Projects and Interests</summary>
-                    <p>One of my most notable projects was the THSR booking system I created. I streamlined the ticket booking process using sophisticated algorithms and interfaces, making it intuitive and efficient for users. This project underscored my dedication to designing software tools that enhance user experience and system efficiency. My keen interests lie in software engineering and machine learning.</p>
+                    <p>One of my most notable projects was the THSR booking system I created...</p>
                 </details>
-
                 <details>
                     <summary>Future Goals</summary>
-                    <p>As I continue my academic journey at Georgia Tech, I'm excited to further my expertise in Software Engineering. I dream of collaborating with tech giants. Outside of the coding environment, I'm a team player who values collaboration, effective communication, and a shared vision. I constantly seek learning opportunities, always aiming to merge theoretical knowledge with practical applications.</p>
+                    <p>As I continue my academic journey at Georgia Tech, I'm excited to further my expertise in Software Engineering...</p>
                 </details>
             </div>
         </div>
@@ -488,41 +510,50 @@
 
     <!-- Projects Section -->
     <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-grid">
-            <!-- Project 1 -->
-            <div class="project-card">
-                <img src="reversi.jpg" alt="Reversi-Telegram-Bot">
-                <div class="project-card-content">
-                    <h3>Reversi-Telegram-Bot</h3>
-                    <p>A Telegram Bot that plays Reversi with the user.</p>
-                    <a href="https://github.com/LiaoAB/Reversi-Telegram-Bot" class="project-link">View Project</a>
+        <div class="container">
+            <h2 data-aos="fade-up">My Projects</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Here are some of my recent works.</p>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="zoom-in">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="content">
+                        <h3>Reversi Telegram Bot</h3>
+                        <p>A Telegram Bot that plays Reversi with the user.</p>
+                        <a href="https://github.com/LiaoAB/Reversi-Telegram-Bot" class="btn">View Project</a>
+                    </div>
                 </div>
-            </div>
-            <!-- Project 2 -->
-            <div class="project-card">
-                <img src="sheep.jpeg" alt="Sheep-Game-Agent">
-                <div class="project-card-content">
-                    <h3>Sheep-Game-Agent</h3>
-                    <p>A game agent written in Python using Pyautogui to play Solvable Sheep Game.</p>
-                    <a href="https://github.com/LiaoAB/Solvable-Sheep-Game-Agent" class="project-link">View Project</a>
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="project2.jpg" alt="Project 2">
+                    <div class="content">
+                        <h3>Sheep Game Agent</h3>
+                        <p>A game agent written in Python using Pyautogui to play Solvable Sheep Game.</p>
+                        <a href="https://github.com/LiaoAB/Solvable-Sheep-Game-Agent" class="btn">View Project</a>
+                    </div>
                 </div>
+                <!-- Add more projects -->
             </div>
-            <!-- Add more projects as needed -->
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Thank you for visiting my portfolio. Let's connect and explore how we can innovate together!</p>
-        <!-- Google Form Embed -->
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjC07fG_nZ5cvz1dFGrur3egdYq9TuCAAqHKSuPqwxjx09Iw/viewform?embedded=true" width="100%" height="1200px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-        <div class="social-links">
-            <a href="https://github.com/LiaoAB" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/yuchen-liao-1b47781ab/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <!-- Add other social links as desired -->
+        <div class="container">
+            <h2 data-aos="fade-up">Get In Touch</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Feel free to reach out for collaborations or just a friendly hello 👋</p>
+            <div class="social-links" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://github.com/LiaoAB" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/yuchen-liao-1b47781ab/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <!-- Add other social links -->
+            </div>
+            <!-- Contact Form -->
+            <form action="https://formspree.io/f/{your_form_id}" method="POST" data-aos="fade-up" data-aos-delay="300">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="_replyto" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
         </div>
     </section>
 
@@ -531,46 +562,32 @@
         <p>&copy; 2023 YuChen Liao. All rights reserved.</p>
     </footer>
 
+    <!-- AOS Animation JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
     <!-- Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/your_kit_id.js" crossorigin="anonymous"></script>
 
-    <!-- JavaScript -->
+    <!-- Custom JavaScript -->
     <script>
-        // Dark Mode Toggle
-        function toggleDarkMode() {
-            const theme = document.documentElement.getAttribute('data-theme');
-            if (theme === 'dark') {
-                document.documentElement.removeAttribute('data-theme');
-                localStorage.removeItem('theme');
+        // Initialize AOS Library
+        AOS.init();
+
+        // Sticky Navigation
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
             } else {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                localStorage.setItem('theme', 'dark');
+                navbar.classList.remove('scrolled');
             }
-        }
+        });
 
-        // Preserve theme on reload
-        (function() {
-            const theme = localStorage.getItem('theme');
-            if (theme === 'dark') {
-                document.documentElement.setAttribute('data-theme', 'dark');
-            }
-        })();
-
-        // Mobile Navigation Toggle
-        function toggleNav() {
-            const navMenu = document.querySelector('.nav-menu');
-            navMenu.classList.toggle('mobile-active');
-        }
-
-        // Set Active Navigation Link
-        function setActive(link) {
-            const navLinks = document.querySelectorAll('.nav-menu li a');
-            navLinks.forEach(navLink => {
-                navLink.classList.remove('active');
-            });
-            link.classList.add('active');
+        // Mobile Menu Toggle
+        function toggleMenu() {
+            const menu = document.querySelector('nav ul');
+            menu.classList.toggle('showing');
         }
     </script>
 </body>
-
 </html>

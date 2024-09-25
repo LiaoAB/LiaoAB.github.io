@@ -5,243 +5,276 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YuChen Liao</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
     <style>
+        /* Root variables for easy theming */
+        :root {
+            --primary-color: #0d6efd;
+            --secondary-color: #6c757d;
+            --background-color: #f8f9fa;
+            --text-color: #212529;
+            --light-color: #ffffff;
+            --dark-color: #343a40;
+        }
+
+        /* Global Styles */
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            background-color: var(--background-color);
+            color: var(--text-color);
             scroll-behavior: smooth;
         }
+
         /* Dark Mode */
         [data-theme="dark"] {
-            background-color: #121212;
-            color: #eaeaea;
+            --background-color: #121212;
+            --text-color: #eaeaea;
+            --light-color: #1e1e1e;
+            --dark-color: #f8f9fa;
         }
-        
-        [data-theme="dark"] #banner {
-            background: linear-gradient(45deg, #222, #444);
-        }
-        
-        [data-theme="dark"] #fancyNav,
-        [data-theme="dark"] .nav-list li a {
-            background-color: #222;
-        }
-        
-        [data-theme="dark"] .nav-list li a:hover {
-            background-color: #555;
-        }
-        
-        [data-theme="dark"] #about,
-        [data-theme="dark"] #projects,
-        [data-theme="dark"] #contact {
-            background-color: #181818;
-        }
-        
-        [data-theme="dark"] .cta-button {
-            background-color: #555;
-            color: #eaeaea;
-        }
-        
+
         .dark-mode-toggle {
             position: fixed;
-            top: 10px;
-            right: 10px;
+            top: 20px;
+            right: 20px;
+            background: var(--light-color);
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
             cursor: pointer;
-            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s;
         }
 
-        .nav-list li a::before {
-            content: "";
-            display: block;
-            height: 2px;
-            background-color: #007BFF;
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            right: 0;
-            transform: scaleX(0);
-            transition: transform 0.3s;
-        }
-        
-        .nav-list li a:hover::before {
-            transform: scaleX(1);
+        .dark-mode-toggle:hover {
+            background: var(--primary-color);
+            color: var(--light-color);
         }
 
-        .project-card::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
+        /* Navigation Styles */
+        nav {
+            position: fixed;
             width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.6);
-            opacity: 0;
-            transition: opacity 0.3s;
-            pointer-events: none;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            z-index: 999;
+        }
+
+        nav[data-theme="dark"] {
+            background: rgba(18, 18, 18, 0.8);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px 20px;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
+        }
+
+        .nav-logo {
             font-size: 1.5em;
-            color: #fff;
+            font-weight: 700;
+            color: var(--text-color);
+            text-decoration: none;
         }
-        
-        .project-card:hover::before {
-            opacity: 1;
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 30px;
         }
-        
-        .project-card:hover img {
-            filter: brightness(0.5);
-        }        
+
+        .nav-menu li a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            position: relative;
+            transition: color 0.3s;
+        }
+
+        .nav-menu li a::after {
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            background: var(--primary-color);
+            left: 0;
+            bottom: -5px;
+            transition: width 0.3s;
+        }
+
+        .nav-menu li a:hover {
+            color: var(--primary-color);
+        }
+
+        .nav-menu li a:hover::after {
+            width: 100%;
+        }
+
         /* Banner Section */
         #banner {
             height: 100vh;
-            background: linear-gradient(45deg, #00FFCC, #33FFCC, #66FFCC, #99FFCC, #CCFFCC);
-            color: #000000;
+            background: linear-gradient(135deg, #007bff 0%, #00d4ff 100%);
+            color: var(--light-color);
             display: flex;
-            justify-content: center;
-            align-items: center;
             flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
             position: relative;
             overflow: hidden;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
         }
 
         #banner h1 {
-            font-size: 3em;
-            animation: fadeInDown 2s both;
+            font-size: 4em;
+            margin: 0;
+            animation: fadeInDown 1s both;
         }
 
         #banner p {
             font-size: 1.5em;
-            animation: fadeInUp 2s 0.5s both;
+            margin-top: 20px;
+            animation: fadeInUp 1s both;
         }
 
         .cta-button {
-            margin-top: 20px;
-            padding: 10px 20px;
+            margin-top: 40px;
+            padding: 15px 30px;
+            background: var(--light-color);
+            color: var(--primary-color);
             border: none;
-            background-color: #ffff99;
-            color: #000000;
-            border-radius: 25px;
-            font-weight: bold;
-            text-align: center;
+            border-radius: 50px;
+            font-size: 1em;
+            font-weight: 700;
             cursor: pointer;
-            transition: background-color 0.3s, color 0.3s;
+            transition: background 0.3s, color 0.3s;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
         }
 
         .cta-button:hover {
-            background-color: #ff9966;
-            color: #ffffff;
+            background: var(--primary-color);
+            color: var(--light-color);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
         }
 
         /* About Section */
         #about {
-            height: auto; /* Adjust height to content */
-            padding: 50px;
-            background-color: #f3f4f6;
+            padding: 100px 20px;
+            background: var(--background-color);
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-        }
-        .about-text p {
-            font-weight: bold; /* Makes paragraph text bold */
-            margin: 0;
-            padding: 10px; /* Padding around the content */
-            text-align: justify; /* Justify the paragraph text */
-        }
-        .about-content {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            max-width: 1200px; /* Limiting the width for larger screens */
-            width: 100%;
-        }
-
-        .profile-photo {
-            border-radius: 50%; /* Circular photo */
-            width: 250px;
-            height: 250px;
-            object-fit: cover; /* Makes sure photo maintains its aspect ratio */
-            margin-right: 50px;
-        }
-
-        .about-text {
-            flex: 1; /* Take remaining space after the image */
+            text-align: center;
         }
 
         #about h2 {
-            font-size: 2em;
-            color: #333; /* Darker color for the title for better emphasis */
-            margin-bottom: 15px; /* Spacing adjustment */
+            font-size: 3em;
+            margin-bottom: 40px;
+            position: relative;
         }
-        
+
+        #about h2::after {
+            content: '';
+            width: 50px;
+            height: 5px;
+            background: var(--primary-color);
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .profile-photo {
+            border-radius: 20px;
+            width: 300px;
+            height: 400px;
+            object-fit: cover;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-text {
+            flex: 1;
+            max-width: 600px;
+        }
+
         .about-text details {
-            margin-bottom: 20px; /* Add some space between details */
-            border: 1px solid #e0e0e0; /* Add a border */
-            border-radius: 5px; /* Rounded corners */
-            overflow: hidden; /* Ensures border wraps around details and summary */
+            background: var(--light-color);
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
         }
-        
-        .about-text details[open] {
-            background-color: #eef; /* Light highlight when details are open */
-        }
-        
+
         .about-text summary {
-            font-weight: bold; /* Bold summary for emphasis */
-            padding: 10px; /* Padding for better touch/target area */
-            cursor: pointer; /* Show that this is clickable */
+            font-size: 1.2em;
+            font-weight: 700;
+            cursor: pointer;
         }
-        
-        .about-text summary:hover {
-            background-color: #ddd; /* Light background on hover */
-        }
-        
+
         .about-text p {
-            margin: 0;
-            padding: 10px; /* Padding around the content */
+            margin-top: 15px;
+            line-height: 1.6;
         }
-        
+
         /* Projects Section */
         #projects {
-            padding: 50px;
-            background-color: #e0e1e2;
+            padding: 100px 20px;
+            background: var(--light-color);
+            text-align: center;
+        }
+
+        #projects h2 {
+            font-size: 3em;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        #projects h2::after {
+            content: '';
+            width: 50px;
+            height: 5px;
+            background: var(--primary-color);
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
         }
 
         .project-grid {
-            display: flex;
-            flex-wrap: wrap; /* Wrap items to the next line if they don’t fit */
-            gap: 30px; /* Space between project cards */
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         .project-card {
-            width: 300px; 
-            height: 450px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
+            background: var(--background-color);
+            border-radius: 15px;
             overflow: hidden;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s;
-            display: flex;
-            flex-direction: column; /* Makes content stack vertically */
+            position: relative;
         }
-
-        .project-card-content {
-            flex: 1; /* Allows this container to grow and consume available space */
-            padding: 15px 20px;
-        }
-
-        .project-description {
-            height: 60px;
-            margin: 10px 0;
-        }
-
 
         .project-card:hover {
-            transform: scale(1.05); /* Slightly scale the card on hover */
+            transform: translateY(-10px);
         }
 
         .project-card img {
@@ -250,201 +283,201 @@
             object-fit: cover;
         }
 
+        .project-card-content {
+            padding: 20px;
+        }
+
         .project-card h3 {
-            padding: 15px 20px;
-            margin: 0;
+            margin-top: 0;
+            font-size: 1.5em;
+            color: var(--primary-color);
         }
 
         .project-card p {
-            padding: 0 20px;
-            margin: 10px 0;
+            line-height: 1.6;
+            color: var(--text-color);
         }
 
         .project-link {
             display: inline-block;
+            margin-top: 20px;
             padding: 10px 20px;
-            background-color: #007BFF;
-            color: #ffffff;
-            border-radius: 5px;
-            margin: 15px 20px;
+            background: var(--primary-color);
+            color: var(--light-color);
+            border-radius: 50px;
             text-decoration: none;
-            align-self: flex-end; /* Aligns the button to the bottom of the flex container */
+            font-weight: 700;
+            transition: background 0.3s;
         }
 
         .project-link:hover {
-            background-color: #0056b3;
+            background: var(--dark-color);
         }
 
         /* Contact Section */
         #contact {
-            background-color: #f4f4f4;
-            padding: 50px 0;
+            padding: 100px 20px;
+            background: var(--background-color);
             text-align: center;
         }
 
         #contact h2 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
+            font-size: 3em;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        #contact h2::after {
+            content: '';
+            width: 50px;
+            height: 5px;
+            background: var(--primary-color);
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #contact p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            line-height: 1.6;
         }
 
         .social-links {
-            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
         }
 
         .social-links a {
-            margin: 0 15px;
-            transition: transform 0.3s;
+            color: var(--text-color);
+            font-size: 2em;
+            transition: color 0.3s;
         }
 
         .social-links a:hover {
-            transform: scale(1.1);
+            color: var(--primary-color);
         }
 
-        .contact-section {
-            background-color: #f7f7f7;
-        }
-        .contact-card {
-            border: none;
-            border-radius: 5px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .contact-header {
-            border-radius: 5px 5px 0 0;
-            padding: 15px;
-        }
-        .contact-body {
-            padding: 20px;
-        }
-        .social-icon {
-            width: 40px;       /* sets the width to 40px */
-            height: auto;     /* maintains the aspect ratio */
-            margin-right: 10px;  /* adds a 10px margin to the right side of each icon */
-            transition: transform 0.3s;  /* Optional: keep the transition effect for hover */
-        }
-        .social-icon:hover {
-            transform: scale(1.1);  /* Slightly enlarge the icon on hover */
+        /* Footer */
+        footer {
+            background: var(--dark-color);
+            color: var(--light-color);
+            padding: 20px 0;
+            text-align: center;
         }
 
         /* Animations */
         @keyframes fadeInDown {
-            0% {
+            from {
                 opacity: 0;
                 transform: translateY(-50px);
             }
-            100% {
+
+            to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
 
         @keyframes fadeInUp {
-            0% {
+            from {
                 opacity: 0;
                 transform: translateY(50px);
             }
-            100% {
+
+            to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
 
-        /* Nav Styles */
-        #fancyNav {
-            background-color: #333;
-            padding: 15px 0;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+            }
+
+            .nav-toggle {
+                display: block;
+                cursor: pointer;
+                font-size: 1.5em;
+                color: var(--text-color);
+            }
+
+            .about-content {
+                flex-direction: column;
+            }
+
+            .profile-photo {
+                margin-bottom: 40px;
+            }
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
+        /* Mobile Navigation */
+        .nav-menu.mobile-active {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background: var(--light-color);
+            padding: 20px;
         }
 
-        .nav-logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #fff;
-        }
-
-        .nav-list {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            gap: 20px;
-        }
-
-        .nav-list li a {
-            text-decoration: none;
-            font-weight: 500;
-            padding: 10px 15px;
-            border-radius: 4px;
-            color: #fff;
-            transition: background-color 0.3s ease;
-        }
-
-        .nav-list li a:hover {
-            background-color: rgba(255, 255, 255, 0.1);
-        }
-
-        .nav-list li a.active {
-            background-color: #007BFF;
-            padding: 10px 15px;
-            border-radius: 4px;
+        .nav-menu.mobile-active li {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 
 <body>
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
+
     <!-- Navigation -->
-    <nav id="fancyNav">
-        <div class="container">
-            <div class="nav-logo">
-                YuChen Liao
-            </div>
-            <ul class="nav-list">
-                <li><a href="#about" onclick="scrollToSection(event, this)">About Me</a></li>
-                <li><a href="#projects" onclick="scrollToSection(event, this)">Projects</a></li>
-                <li><a href="#contact" onclick="scrollToSection(event, this)">Contact</a></li>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">YuChen Liao</a>
+            <div class="nav-toggle" onclick="toggleNav()">☰</div>
+            <ul class="nav-menu">
+                <li><a href="#about" onclick="setActive(this)">About Me</a></li>
+                <li><a href="#projects" onclick="setActive(this)">Projects</a></li>
+                <li><a href="#contact" onclick="setActive(this)">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Dark Mode Toggle -->
-    <div class="dark-mode-toggle" onclick="toggleDarkMode()">
-        🌙
-    </div>
-
     <!-- Banner Section -->
     <section id="banner">
         <h1>Welcome to YuChen Liao's Website</h1>
-        <p>Software Engineer / Software Quality Assurance Engineer </p>
+        <p>Software Engineer / Software Quality Assurance Engineer</p>
         <a href="#about" class="cta-button">Learn More About Me</a>
     </section>
 
     <!-- About Section -->
     <section id="about">
+        <h2>About Me</h2>
         <div class="about-content">
             <img src="yuchen.jpeg" alt="YuChen Liao" class="profile-photo">
             <div class="about-text">
-                <h2>About Me</h2>
                 <details>
                     <summary>Educational Background</summary>
-                    <p>Currently pursuing my Master's in Computational Science at the Georgia Institute of Technology. My journey into computer science began during my undergraduate years at National Yang Ming Chiao Tung University, Taiwan's esteemed institution, where I majored in Industrial Engineering and Management for my bachelor degree.</p>
+                    <p>Currently pursuing my Master's in Computational Science at the Georgia Institute of Technology. My journey into computer science began during my undergraduate years at National Yang Ming Chiao Tung University, Taiwan's esteemed institution, where I majored in Industrial Engineering and Management for my bachelor's degree.</p>
                 </details>
-            
+
                 <details>
                     <summary>Professional Experience</summary>
                     <p>I've had the privilege to intern at Garmin, diving deep into roles ranging from software quality assurance to full-fledged software engineering. I've designed tools that ease the burden on teams, from GPS tracking functionalities to NFC payment applications.</p>
                 </details>
-            
+
                 <details>
                     <summary>Projects and Interests</summary>
                     <p>One of my most notable projects was the THSR booking system I created. I streamlined the ticket booking process using sophisticated algorithms and interfaces, making it intuitive and efficient for users. This project underscored my dedication to designing software tools that enhance user experience and system efficiency. My keen interests lie in software engineering and machine learning.</p>
                 </details>
-            
+
                 <details>
                     <summary>Future Goals</summary>
                     <p>As I continue my academic journey at Georgia Tech, I'm excited to further my expertise in Software Engineering. I dream of collaborating with tech giants. Outside of the coding environment, I'm a team player who values collaboration, effective communication, and a shared vision. I constantly seek learning opportunities, always aiming to merge theoretical knowledge with practical applications.</p>
@@ -459,96 +492,85 @@
         <div class="project-grid">
             <!-- Project 1 -->
             <div class="project-card">
-                <img src="reversi.jpg" alt="Project 1">
+                <img src="reversi.jpg" alt="Reversi-Telegram-Bot">
                 <div class="project-card-content">
                     <h3>Reversi-Telegram-Bot</h3>
-                    <p class="project-description">A Telegram Bot that plays Reversi with the user.</p>
+                    <p>A Telegram Bot that plays Reversi with the user.</p>
+                    <a href="https://github.com/LiaoAB/Reversi-Telegram-Bot" class="project-link">View Project</a>
                 </div>
-                <a href="https://github.com/LiaoAB/Reversi-Telegram-Bot" class="project-link">View Project</a>
             </div>
             <!-- Project 2 -->
             <div class="project-card">
-                <img src="sheep.jpeg" alt="Project 2">
+                <img src="sheep.jpeg" alt="Sheep-Game-Agent">
                 <div class="project-card-content">
                     <h3>Sheep-Game-Agent</h3>
-                    <p class="project-description">A game agent written in Python using Pyautogui to play Solvable Sheep Game (https://solvable-sheep-game.streakingman.com/)</p>
+                    <p>A game agent written in Python using Pyautogui to play Solvable Sheep Game.</p>
+                    <a href="https://github.com/LiaoAB/Solvable-Sheep-Game-Agent" class="project-link">View Project</a>
                 </div>
-                <a href="https://github.com/LiaoAB/Solvable-Sheep-Game-Agent" class="project-link">View Project</a>
             </div>
-            <!-- ... Add more projects as needed ... -->
+            <!-- Add more projects as needed -->
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
+        <h2>Contact Me</h2>
         <p>Thank you for visiting my portfolio. Let's connect and explore how we can innovate together!</p>
+        <!-- Google Form Embed -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjC07fG_nZ5cvz1dFGrur3egdYq9TuCAAqHKSuPqwxjx09Iw/viewform?embedded=true" width="100%" height="1200px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mx-auto">
-                    <div class="contact-card">
-                        <div class="contact-body">
-                            <!-- Google Form Embed Code -->
-                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjC07fG_nZ5cvz1dFGrur3egdYq9TuCAAqHKSuPqwxjx09Iw/viewform?embedded=true" width="1200px" height="1200px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
         <div class="social-links">
-            <a href="https://github.com/LiaoAB" target="_blank"><img src="github_icon.png" alt="Github" class="social-icon"></a>
-            <a href="https://www.linkedin.com/in/yuchen-liao-1b47781ab/" target="_blank"><img src="linkedin_icon.png" alt="LinkedIn" class="social-icon"></a>
+            <a href="https://github.com/LiaoAB" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yuchen-liao-1b47781ab/" target="_blank"><i class="fab fa-linkedin"></i></a>
             <!-- Add other social links as desired -->
         </div>
     </section>
 
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 YuChen Liao. All rights reserved.</p>
+    </footer>
 
-    <!-- JavaScript for Smooth Scrolling -->
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
     <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
-
-    <script>
-        function setActive(linkElement) {
-            // Get all the navigation links
-            let navLinks = document.querySelectorAll('.nav-list a');
-            
-            // Remove 'active' class from all links
-            navLinks.forEach(link => link.classList.remove('active'));
-
-        }
-    </script>
-    
-    <script>
-        function scrollToSection(event, element) {
-            event.preventDefault();
-            const navHeight = document.querySelector('#fancyNav').offsetHeight;
-            const target = document.querySelector(element.getAttribute('href'));
-            window.scroll({
-                top: target.offsetTop - navHeight,
-                behavior: 'smooth'
-            });
-            setActive(element);
-        }
-    </script>
-
-    <script>
+        // Dark Mode Toggle
         function toggleDarkMode() {
-            if (document.documentElement.getAttribute('data-theme') == 'dark') {
+            const theme = document.documentElement.getAttribute('data-theme');
+            if (theme === 'dark') {
                 document.documentElement.removeAttribute('data-theme');
+                localStorage.removeItem('theme');
             } else {
                 document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
             }
+        }
+
+        // Preserve theme on reload
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
+
+        // Mobile Navigation Toggle
+        function toggleNav() {
+            const navMenu = document.querySelector('.nav-menu');
+            navMenu.classList.toggle('mobile-active');
+        }
+
+        // Set Active Navigation Link
+        function setActive(link) {
+            const navLinks = document.querySelectorAll('.nav-menu li a');
+            navLinks.forEach(navLink => {
+                navLink.classList.remove('active');
+            });
+            link.classList.add('active');
         }
     </script>
 </body>
+
 </html>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="rv-bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080d18"/>
+      <stop offset="1" stop-color="#0b1224"/>
+    </linearGradient>
+    <radialGradient id="rv-glow" cx="0.5" cy="0.5" r="0.55">
+      <stop stop-color="#22d3ee" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rv-board" x1="190" y1="90" x2="610" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111a2c"/>
+      <stop offset="1" stop-color="#0a101d"/>
+    </linearGradient>
+    <linearGradient id="rv-white" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b8c4da"/>
+    </linearGradient>
+    <linearGradient id="rv-black" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#334155"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="rv-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="rv-grid" width="52.5" height="52.5" patternUnits="userSpaceOnUse">
+      <path d="M52.5 0H0V52.5" stroke="#ffffff" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <pattern id="rv-dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#ffffff" opacity=".06"/>
+    </pattern>
+    <filter id="rv-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#rv-bg)"/>
+  <rect width="800" height="600" fill="url(#rv-dots)"/>
+  <circle cx="430" cy="300" r="300" fill="url(#rv-glow)"/>
+
+  <!-- ambient discs -->
+  <circle cx="700" cy="118" r="48" fill="#22d3ee" opacity=".14" filter="url(#rv-blur)"/>
+  <circle cx="96" cy="500" r="52" fill="#a78bfa" opacity=".16" filter="url(#rv-blur)"/>
+
+  <g transform="rotate(-5 400 300)">
+    <rect x="190" y="90" width="420" height="420" rx="22" fill="url(#rv-board)" stroke="#ffffff" stroke-opacity=".12"/>
+    <rect x="190" y="90" width="420" height="420" rx="22" fill="url(#rv-grid)"/>
+
+    <!-- discs -->
+    <circle cx="321.25" cy="221.25" r="21" fill="url(#rv-black)" stroke="#ffffff" stroke-opacity=".18"/>
+    <circle cx="321.25" cy="273.75" r="21" fill="url(#rv-white)"/>
+    <circle cx="321.25" cy="378.75" r="21" fill="url(#rv-black)" stroke="#ffffff" stroke-opacity=".18"/>
+    <circle cx="373.75" cy="221.25" r="21" fill="url(#rv-white)"/>
+    <circle cx="373.75" cy="273.75" r="21" fill="url(#rv-white)"/>
+    <circle cx="373.75" cy="326.25" r="21" fill="url(#rv-black)" stroke="#ffffff" stroke-opacity=".18"/>
+    <circle cx="373.75" cy="378.75" r="21" fill="url(#rv-white)"/>
+    <circle cx="426.25" cy="273.75" r="21" fill="url(#rv-black)" stroke="#ffffff" stroke-opacity=".18"/>
+    <circle cx="426.25" cy="326.25" r="21" fill="url(#rv-white)"/>
+    <circle cx="478.75" cy="221.25" r="21" fill="url(#rv-white)"/>
+    <circle cx="478.75" cy="273.75" r="21" fill="url(#rv-black)" stroke="#ffffff" stroke-opacity=".18"/>
+    <circle cx="478.75" cy="378.75" r="21" fill="url(#rv-black)" stroke="#ffffff" stroke-opacity=".18"/>
+    <circle cx="531.25" cy="326.25" r="21" fill="url(#rv-white)"/>
+    <circle cx="268.75" cy="326.25" r="21" fill="url(#rv-black)" stroke="#ffffff" stroke-opacity=".18"/>
+
+    <!-- last move ring -->
+    <circle cx="531.25" cy="326.25" r="27" stroke="#22d3ee" stroke-width="1.6" stroke-opacity=".8"/>
+    <circle cx="531.25" cy="326.25" r="31" stroke="#22d3ee" stroke-width="1" stroke-opacity=".25"/>
+
+    <!-- valid moves -->
+    <circle cx="321.25" cy="326.25" r="6" fill="#22d3ee" opacity=".75"/>
+    <circle cx="426.25" cy="221.25" r="6" fill="#a78bfa" opacity=".75"/>
+    <circle cx="478.75" cy="326.25" r="6" fill="#22d3ee" opacity=".75"/>
+    <circle cx="268.75" cy="273.75" r="6" fill="#a78bfa" opacity=".6"/>
+  </g>
+
+  <!-- floating pieces -->
+  <g opacity=".9">
+    <circle cx="682" cy="470" r="30" fill="#0f172a" stroke="url(#rv-accent)" stroke-width="1.6"/>
+    <circle cx="682" cy="470" r="20" fill="#0b1220"/>
+    <circle cx="116" cy="130" r="24" fill="#e9edf7" opacity=".9"/>
+    <circle cx="116" cy="130" r="16" fill="#c3cee2"/>
+  </g>
+
+  <path d="M646 186c2 9 5.5 12.5 14.5 14.5-9 2-12.5 5.5-14.5 14.5-2-9-5.5-12.5-14.5-14.5 9-2 12.5-5.5 14.5-14.5Z" fill="#22d3ee" opacity=".7"/>
+  <circle cx="144" cy="410" r="3" fill="#22d3ee" opacity=".7"/>
+  <circle cx="720" cy="300" r="2.5" fill="#a78bfa" opacity=".8"/>
+</svg>

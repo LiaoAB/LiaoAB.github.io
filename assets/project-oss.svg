@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="os-bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080c16"/>
+      <stop offset="1" stop-color="#0d0b1c"/>
+    </linearGradient>
+    <radialGradient id="os-glow" cx="0.62" cy="0.4" r="0.55">
+      <stop stop-color="#a78bfa" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="os-window" x1="120" y1="100" x2="620" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#0a0f1c"/>
+    </linearGradient>
+    <linearGradient id="os-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="os-line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22d3ee" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity=".55"/>
+    </linearGradient>
+    <pattern id="os-dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#ffffff" opacity=".06"/>
+    </pattern>
+    <filter id="os-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#os-bg)"/>
+  <rect width="800" height="600" fill="url(#os-dots)"/>
+  <circle cx="500" cy="250" r="300" fill="url(#os-glow)"/>
+  <ellipse cx="640" cy="470" rx="150" ry="90" fill="#22d3ee" opacity=".08" filter="url(#os-blur)"/>
+
+  <!-- code window -->
+  <g transform="rotate(-2 400 300)">
+    <rect x="118" y="98" width="564" height="404" rx="20" fill="url(#os-window)" stroke="#ffffff" stroke-opacity=".12"/>
+    <path d="M118 158h564" stroke="#ffffff" stroke-opacity=".08"/>
+    <circle cx="150" cy="128" r="6" fill="#f472b6"/>
+    <circle cx="172" cy="128" r="6" fill="#facc15"/>
+    <circle cx="194" cy="128" r="6" fill="#a3e635"/>
+    <rect x="556" y="120" width="92" height="18" rx="9" fill="#22d3ee" opacity=".12"/>
+
+    <!-- line numbers -->
+    <g fill="#ffffff" opacity=".18" font-family="Inter, Arial, sans-serif" font-size="12">
+      <text x="148" y="204">1</text>
+      <text x="148" y="238">2</text>
+      <text x="148" y="272">3</text>
+      <text x="148" y="306">4</text>
+      <text x="148" y="340">5</text>
+      <text x="148" y="374">6</text>
+      <text x="148" y="408">7</text>
+      <text x="148" y="442">8</text>
+    </g>
+
+    <!-- code -->
+    <rect x="180" y="193" width="74" height="12" rx="6" fill="#a78bfa" opacity=".75"/>
+    <rect x="262" y="193" width="126" height="12" rx="6" fill="#e9edf7" opacity=".2"/>
+
+    <rect x="202" y="227" width="50" height="12" rx="6" fill="#22d3ee" opacity=".6"/>
+    <rect x="260" y="227" width="178" height="12" rx="6" fill="#e9edf7" opacity=".16"/>
+
+    <rect x="202" y="261" width="92" height="12" rx="6" fill="#f472b6" opacity=".55"/>
+    <rect x="302" y="261" width="140" height="12" rx="6" fill="#e9edf7" opacity=".13"/>
+
+    <rect x="220" y="295" width="58" height="12" rx="6" fill="#a3e635" opacity=".5"/>
+    <rect x="286" y="295" width="196" height="12" rx="6" fill="#e9edf7" opacity=".15"/>
+
+    <rect x="220" y="329" width="134" height="12" rx="6" fill="#e9edf7" opacity=".12"/>
+
+    <rect x="202" y="363" width="42" height="12" rx="6" fill="#22d3ee" opacity=".6"/>
+    <rect x="252" y="363" width="112" height="12" rx="6" fill="#e9edf7" opacity=".15"/>
+
+    <rect x="180" y="397" width="82" height="12" rx="6" fill="#a78bfa" opacity=".6"/>
+
+    <rect x="202" y="431" width="160" height="12" rx="6" fill="#e9edf7" opacity=".1"/>
+
+    <!-- cursor line -->
+    <rect x="368" y="391" width="2" height="24" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0;1" dur="1.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- git branch graph -->
+  <g transform="translate(624 298)">
+    <path d="M0 66C0 20 34 0 72 0" stroke="url(#os-accent)" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+    <path d="M0 66c0 46 34 66 72 66" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+    <circle cx="0" cy="66" r="9" fill="#0b1220" stroke="#22d3ee" stroke-width="2"/>
+    <circle cx="72" cy="0" r="9" fill="#0b1220" stroke="#a78bfa" stroke-width="2"/>
+    <circle cx="72" cy="132" r="9" fill="#0b1220" stroke="#22d3ee" stroke-width="2"/>
+    <circle cx="0" cy="66" r="3" fill="#22d3ee"/>
+    <circle cx="72" cy="0" r="3" fill="#a78bfa"/>
+    <circle cx="72" cy="132" r="3" fill="#22d3ee"/>
+    <circle cx="36" cy="30" r="3" fill="#f472b6" opacity=".9"/>
+  </g>
+
+  <!-- labels -->
+  <g font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600">
+    <rect x="592" y="466" width="86" height="30" rx="15" fill="#0b1220" stroke="#22d3ee" stroke-opacity=".35"/>
+    <text x="635" y="486" text-anchor="middle" fill="#a5eff9">FastAPI</text>
+    <rect x="688" y="466" width="86" height="30" rx="15" fill="#0b1220" stroke="#a78bfa" stroke-opacity=".35"/>
+    <text x="731" y="486" text-anchor="middle" fill="#cbbdfd">Airflow</text>
+  </g>
+
+  <path d="M676 154c2 9 5.5 12.5 14.5 14.5-9 2-12.5 5.5-14.5 14.5-2-9-5.5-12.5-14.5-14.5 9-2 12.5-5.5 14.5-14.5Z" fill="#a78bfa" opacity=".75"/>
+  <circle cx="96" cy="220" r="3" fill="#22d3ee" opacity=".7"/>
+  <circle cx="112" cy="512" r="2.5" fill="#a78bfa" opacity=".7"/>
+</svg>

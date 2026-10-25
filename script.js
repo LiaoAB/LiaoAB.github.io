@@ -84,10 +84,10 @@
   /* ---------- Typewriter ---------- */
   const typeEl = $("#typewriter");
   const roles = [
-    "Software Engineer",
-    "AI & Data Enthusiast",
-    "Python Developer",
-    "Open Source Contributor"
+    "Full-Stack Developer",
+    "Java / Node.js Engineer",
+    "React & GWT Developer",
+    "Software Engineer"
   ];
 
   if (typeEl) {

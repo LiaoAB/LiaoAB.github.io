@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LiaoAB — Software Engineer &amp; Builder</title>
+  <meta name="description" content="LiaoAB — software engineer and builder crafting fast, elegant products at the intersection of AI, data, and the web." />
+  <meta name="author" content="LiaoAB" />
+  <meta name="theme-color" content="#05060a" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="LiaoAB — Software Engineer & Builder" />
+  <meta property="og:description" content="Crafting fast, elegant products at the intersection of AI, data, and the web." />
+  <meta property="og:url" content="https://liaoab.github.io/" />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/69102457?v=4" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="LiaoAB — Software Engineer & Builder" />
+  <meta name="twitter:description" content="Crafting fast, elegant products at the intersection of AI, data, and the web." />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollBar"></span></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="spotlight" id="spotlight" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <div class="aurora" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+  </div>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#top" aria-label="LiaoAB — home">
+      <span class="brand-mark">AB</span>
+      <span class="brand-text">Liao<span class="accent">AB</span></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-sm nav-gh" href="https://github.com/LiaoAB" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.54 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.25 5.67.41.35.78 1.05.78 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.21.65.8.54A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+        <span>GitHub</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="badge reveal">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span>Open to new opportunities</span>
+          </div>
+
+          <h1 class="reveal">
+            Building things<br />
+            that <span class="gradient-text">think.</span>
+          </h1>
+
+          <p class="role-line reveal">
+            <span class="prompt" aria-hidden="true">&gt;</span>
+            <span id="typewriter" class="typewriter" aria-live="polite"></span><span class="caret" aria-hidden="true"></span>
+          </p>
+
+          <p class="hero-bio reveal">
+            I'm <strong>LiaoAB</strong> — a developer passionate about AI, data, and
+            crafting delightful products. I turn ambitious ideas into fast, elegant,
+            and reliable software.
+          </p>
+
+          <div class="hero-cta reveal">
+            <a class="btn btn-primary" href="#projects">
+              <span>Explore my work</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn-outline" href="https://github.com/LiaoAB" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.54 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.25 5.67.41.35.78 1.05.78 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.21.65.8.54A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+              <span>@LiaoAB</span>
+            </a>
+          </div>
+
+          <p class="hero-note reveal">Based on planet Earth · Building since 2020</p>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="orb">
+            <div class="orb-halo"></div>
+            <div class="orb-ring ring-a"></div>
+            <div class="orb-ring ring-b"></div>
+            <div class="orb-ring ring-c"></div>
+            <div class="avatar-frame">
+              <img class="avatar" src="https://avatars.githubusercontent.com/u/69102457?v=4" alt="" width="240" height="240" />
+            </div>
+            <span class="float-chip chip-1">Python</span>
+            <span class="float-chip chip-2">AI / ML</span>
+            <span class="float-chip chip-3">Data</span>
+            <span class="float-chip chip-4">Open Source</span>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-hint" href="#about" aria-label="Scroll to about section">
+        <span class="mouse"><span class="wheel"></span></span>
+        <span class="scroll-text">scroll</span>
+      </a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="eyebrow-line"></span>About me</span>
+        <h2>Curious by nature,<br /><span class="gradient-text">builder by choice.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass reveal">
+          <p>
+            I'm a software engineer who loves living at the intersection of
+            <strong>artificial intelligence</strong>, <strong>data</strong>, and
+            <strong>product design</strong>. Whether it's a Telegram bot, an
+            interactive web app, or an intelligent agent, I care about the details
+            that make software feel effortless.
+          </p>
+          <p>
+            My toolbox centers on <strong>Python</strong>, with a healthy obsession for
+            clean architecture, thoughtful UX, and shipping things that actually work.
+            When I'm not building, I'm exploring open source, tinkering with models,
+            and learning something new.
+          </p>
+          <div class="about-links">
+            <a class="link-arrow" href="https://github.com/LiaoAB" target="_blank" rel="noopener">
+              See what I'm building
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="stats reveal">
+          <div class="stat glass">
+            <span class="stat-num" data-count="5" data-suffix="+">0</span>
+            <span class="stat-label">Public repositories</span>
+          </div>
+          <div class="stat glass">
+            <span class="stat-num" data-count="3">0</span>
+            <span class="stat-label">Products shipped</span>
+          </div>
+          <div class="stat glass">
+            <span class="stat-num" data-count="2020" data-plain="true">0</span>
+            <span class="stat-label">Building since</span>
+          </div>
+          <div class="stat glass">
+            <span class="stat-num" data-count="100" data-suffix="%">0</span>
+            <span class="stat-label">Curiosity level</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="eyebrow-line"></span>Selected work</span>
+        <h2>Things I've <span class="gradient-text">built.</span></h2>
+        <p class="section-sub">A few projects where ideas became working software.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project glass tilt reveal">
+          <div class="project-glow" aria-hidden="true"></div>
+          <div class="project-top">
+            <span class="project-icon icon-pink">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 10h.01M15 10h.01M8.5 14.5a4.5 4.5 0 0 0 7 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </span>
+            <div class="project-links">
+              <a href="https://emoji-bot-iota.vercel.app" target="_blank" rel="noopener" aria-label="Live demo of EmojiBot">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M10 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a href="https://github.com/LiaoAB/CSE6242-EmojiBot" target="_blank" rel="noopener" aria-label="EmojiBot source code">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.54 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.25 5.67.41.35.78 1.05.78 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.21.65.8.54A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>EmojiBot</h3>
+          <p>An interactive, emoji-powered web experience built for CSE 6242. Playful interface, silky animations, and a live deployment.</p>
+          <ul class="tags">
+            <li>HTML</li><li>JavaScript</li><li>Vercel</li>
+          </ul>
+          <span class="project-status"><span class="status-dot"></span>Live</span>
+        </article>
+
+        <article class="project glass tilt reveal">
+          <div class="project-glow" aria-hidden="true"></div>
+          <div class="project-top">
+            <span class="project-icon icon-cyan">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 9h10M7 13h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </span>
+            <div class="project-links">
+              <a href="https://github.com/LiaoAB/Reversi-Telegram-Bot" target="_blank" rel="noopener" aria-label="Reversi Telegram Bot source code">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.54 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.25 5.67.41.35.78 1.05.78 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.21.65.8.54A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Reversi Telegram Bot</h3>
+          <p>A Telegram bot that plays Reversi (Othello) against users in real time, with game state handling and an AI opponent.</p>
+          <ul class="tags">
+            <li>Python</li><li>Telegram API</li><li>Game AI</li>
+          </ul>
+          <span class="project-status"><span class="status-dot"></span>Shipped</span>
+        </article>
+
+        <article class="project glass tilt reveal">
+          <div class="project-glow" aria-hidden="true"></div>
+          <div class="project-top">
+            <span class="project-icon icon-lime">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            </span>
+            <div class="project-links">
+              <a href="https://github.com/LiaoAB/Solvable-Sheep-Game-Agent" target="_blank" rel="noopener" aria-label="Solvable Sheep Game Agent source code">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.54 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.25 5.67.41.35.78 1.05.78 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.21.65.8.54A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Solvable Sheep Agent</h3>
+          <p>An intelligent agent that solves the Solvable Sheep puzzle using search strategies, heuristics, and efficient state exploration.</p>
+          <ul class="tags">
+            <li>Python</li><li>Algorithms</li><li>Search</li>
+          </ul>
+          <span class="project-status"><span class="status-dot"></span>Shipped</span>
+        </article>
+
+        <article class="project glass tilt reveal">
+          <div class="project-glow" aria-hidden="true"></div>
+          <div class="project-top">
+            <span class="project-icon icon-violet">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 9-3 3 3 3M16 9l3 3-3 3M13.5 6l-3 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div class="project-links">
+              <a href="https://github.com/LiaoAB/fastapi" target="_blank" rel="noopener" aria-label="FastAPI on GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a href="https://github.com/LiaoAB/airflow" target="_blank" rel="noopener" aria-label="Apache Airflow on GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Open Source</h3>
+          <p>Exploring and working with production-grade Python ecosystems — from the FastAPI web framework to Apache Airflow's orchestration engine.</p>
+          <ul class="tags">
+            <li>Open Source</li><li>Python</li><li>FastAPI</li><li>Airflow</li>
+          </ul>
+          <span class="project-status"><span class="status-dot"></span>Ongoing</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="eyebrow-line"></span>Toolbox</span>
+        <h2>Skills &amp; <span class="gradient-text">technologies.</span></h2>
+        <p class="section-sub">The tools I reach for to turn ideas into reality.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card glass reveal">
+          <h3><span class="skill-icon">01</span> Languages</h3>
+          <div class="skill-bars">
+            <div class="skill-row">
+              <div class="skill-meta"><span>Python</span><span class="skill-pct">92%</span></div>
+              <div class="bar"><span data-width="92"></span></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-meta"><span>HTML / CSS</span><span class="skill-pct">88%</span></div>
+              <div class="bar"><span data-width="88"></span></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-meta"><span>JavaScript</span><span class="skill-pct">80%</span></div>
+              <div class="bar"><span data-width="80"></span></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-meta"><span>SQL</span><span class="skill-pct">72%</span></div>
+              <div class="bar"><span data-width="72"></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card glass reveal">
+          <h3><span class="skill-icon">02</span> AI &amp; Data</h3>
+          <ul class="chip-list">
+            <li>PyTorch</li><li>TensorFlow</li><li>scikit-learn</li>
+            <li>Pandas</li><li>NumPy</li><li>Matplotlib</li>
+            <li>NLP</li><li>Data Viz</li>
+          </ul>
+          <p class="skill-note">From training models to turning raw data into decisions.</p>
+        </div>
+
+        <div class="skill-card glass reveal">
+          <h3><span class="skill-icon">03</span> Backend &amp; Tools</h3>
+          <ul class="chip-list">
+            <li>FastAPI</li><li>Apache Airflow</li><li>REST APIs</li>
+            <li>Docker</li><li>Git / GitHub</li><li>Linux</li>
+            <li>Vercel</li><li>Telegram API</li>
+          </ul>
+          <p class="skill-note">Building APIs, automating workflows, and shipping reliably.</p>
+        </div>
+
+        <div class="skill-card glass reveal">
+          <h3><span class="skill-icon">04</span> Strengths</h3>
+          <ul class="chip-list">
+            <li>Problem Solving</li><li>Product Thinking</li>
+            <li>Clean Code</li><li>UX Detail</li>
+            <li>Fast Learner</li><li>Collaboration</li>
+          </ul>
+          <p class="skill-note">Curiosity is the real superpower — everything else is practice.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card glass reveal">
+        <div class="contact-orb" aria-hidden="true"></div>
+        <span class="eyebrow centered"><span class="eyebrow-line"></span>Get in touch<span class="eyebrow-line"></span></span>
+        <h2>Let's build something<br /><span class="gradient-text">great together.</span></h2>
+        <p>
+          Have an idea, a project, or just want to say hi? I'm always up for an
+          interesting conversation and a new challenge.
+        </p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="https://github.com/LiaoAB" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.54 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.25 5.67.41.35.78 1.05.78 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.21.65.8.54A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+            <span>Connect on GitHub</span>
+          </a>
+          <a class="btn btn-outline" href="#projects">See my projects</a>
+        </div>
+        <p class="contact-note">Reach me on GitHub — the best place to find what I'm up to.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark">AB</span>
+        <span class="brand-text">Liao<span class="accent">AB</span></span>
+      </a>
+      <p>Built with <span class="heart" aria-hidden="true">♥</span>, vanilla HTML, CSS &amp; JS.</p>
+      <p class="copyright">© <span id="year"></span> LiaoAB · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

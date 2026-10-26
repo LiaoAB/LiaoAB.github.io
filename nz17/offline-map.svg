@@ -1,20 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">NZ 17 South Island offline route map</title>
-  <desc id="desc">A simplified local route map from Christchurch through the South Island and back.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+  <title id="title">紐西蘭南島自駕離線路線圖</title>
+  <desc id="desc">Christchurch、Hokitika、Fox Glacier、Wanaka、Queenstown、Te Anau、Milford Sound、Dunedin、Oamaru、Aoraki、Tekapo 的完整旅程路線。</desc>
   <defs>
-    <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07141d"/><stop offset="1" stop-color="#174851"/></linearGradient>
-    <linearGradient id="route" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#75dbd1"/><stop offset="1" stop-color="#f5e7c7"/></linearGradient>
-    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".2"/></filter>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07141d"/><stop offset="1" stop-color="#143f49"/></linearGradient>
+    <linearGradient id="route" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#78ddd2"/><stop offset=".55" stop-color="#ffffff"/><stop offset="1" stop-color="#f5d99d"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000" flood-opacity=".35"/></filter>
   </defs>
-  <rect width="1200" height="520" rx="36" fill="url(#ocean)"/>
-  <path d="M75 350 C170 310 210 215 330 252 S465 350 565 270 S710 130 805 184 S960 92 1120 155" fill="none" stroke="#ffffff10" stroke-width="150" stroke-linecap="round"/>
-  <path d="M96 386 C174 324 220 243 331 276 S469 365 570 288 S710 164 806 205 S962 118 1110 174" fill="none" stroke="url(#route)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <g fill="#f5e7c7" stroke="#23a7aa" stroke-width="5" filter="url(#shadow)">
-    <circle cx="96" cy="386" r="15"/><circle cx="331" cy="276" r="15"/><circle cx="570" cy="288" r="15"/><circle cx="806" cy="205" r="15"/><circle cx="962" cy="118" r="15"/><circle cx="1110" cy="174" r="15"/>
+  <rect width="1000" height="560" rx="30" fill="url(#night)"/>
+  <g opacity=".16" stroke="#b8e4df" stroke-width="1"><path d="M40 100H960M40 200H960M40 300H960M40 400H960M40 500H960"/><path d="M150 40V520M300 40V520M450 40V520M600 40V520M750 40V520M900 40V520"/></g>
+  <path d="M76 75 170 48 272 66 373 51 469 80 560 119 656 152 760 204 872 267 931 333 899 399 820 443 748 493 630 510 517 487 410 503 311 472 230 430 157 386 111 316 64 245 82 169Z" fill="#12343e" stroke="#6ba8a5" stroke-opacity=".6" stroke-width="3"/>
+  <path d="M123 107 188 82 259 98 350 83 450 106 533 141 625 177 728 220 838 278 891 330 858 376 785 414 716 458 625 476 523 454 421 470 326 440 249 403 181 360 139 298 100 238 117 172Z" fill="#18434b" opacity=".65"/>
+  <path d="M890 350 612 452 443 359 305 202 227 160 70 111 105 206 70 111 533 53 612 152 467 325 530 290 890 350" fill="none" stroke="#07141d" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+  <path d="M890 350 612 452 443 359 305 202 227 160 70 111 105 206 70 111 533 53 612 152 467 325 530 290 890 350" fill="none" stroke="url(#route)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#f5e7c7" stroke="#23a7aa" stroke-width="4" filter="url(#shadow)">
+    <circle cx="890" cy="350" r="11"/><circle cx="612" cy="452" r="11"/><circle cx="443" cy="359" r="11"/><circle cx="305" cy="202" r="11"/><circle cx="227" cy="160" r="11"/><circle cx="70" cy="111" r="11"/><circle cx="105" cy="206" r="11"/><circle cx="533" cy="53" r="11"/><circle cx="612" cy="152" r="11"/><circle cx="467" cy="325" r="11"/><circle cx="530" cy="290" r="11"/>
   </g>
-  <g fill="#d5f2f2" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle">
-    <text x="96" y="430">Christchurch</text><text x="331" y="230">Wanaka</text><text x="570" y="337">Queenstown</text><text x="806" y="158">Milford</text><text x="962" y="78">Aoraki</text><text x="1110" y="220">Tekapo</text>
+  <g fill="#e1f5f1" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="16" font-weight="700">
+    <text x="890" y="383" text-anchor="middle">Christchurch</text><text x="612" y="484" text-anchor="middle">Hokitika</text><text x="443" y="391" text-anchor="middle">Fox Glacier</text><text x="305" y="182" text-anchor="middle">Wanaka</text><text x="227" y="140" text-anchor="middle">Queenstown</text><text x="70" y="87" text-anchor="middle">Te Anau</text><text x="105" y="239" text-anchor="middle">Milford</text><text x="533" y="30" text-anchor="middle">Dunedin</text><text x="612" y="132" text-anchor="middle">Oamaru</text><text x="467" y="353" text-anchor="middle">Aoraki</text><text x="530" y="318" text-anchor="middle">Tekapo</text>
   </g>
-  <text x="60" y="70" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">NZ 17 · OFFLINE ROUTE</text>
-  <text x="60" y="102" fill="#a9d5d4" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="16">Local route overview · no network required</text>
+  <g fill="#a9d5d4" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif"><text x="42" y="42" font-size="18" font-weight="700" letter-spacing="3">NZ 17 · 離線路線</text><text x="42" y="68" font-size="13">完整自駕順序 · 先往西海岸，再往南島東側返回</text><text x="928" y="505" font-size="13" text-anchor="end">N ↑</text></g>
 </svg>

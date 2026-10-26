@@ -1,4 +1,4 @@
-const CACHE = 'nz17-v4';
+const CACHE = 'nz17-v5';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon.svg', './logo.svg', './offline-map.svg', './sw.js'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));

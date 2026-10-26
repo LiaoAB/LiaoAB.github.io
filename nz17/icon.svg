@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
-  <rect width="192" height="192" rx="42" fill="#07141d"/>
-  <path d="M20 139 67 63l28 45 18-27 59 58H20Z" fill="#23a7aa"/>
-  <path d="m68 63 27 45-13-12-11 11-12-17Z" fill="#f5e7c7"/>
-  <text x="96" y="164" fill="#fff" font-family="Arial,sans-serif" font-size="26" font-weight="700" text-anchor="middle">NZ 17</text>
+  <rect width="192" height="192" rx="48" fill="#EF8068"/>
+  <circle cx="140" cy="53" r="27" fill="#FFD58F"/>
+  <path d="M15 145 68 72l29 42 24-33 56 64H15Z" fill="#FFF8E9"/>
+  <path d="m68 72 29 42-17-13-12 13-13-18Z" fill="#75A66B"/>
+  <path d="M16 153c30-16 54-16 83 0 28-16 51-16 77 0" fill="none" stroke="#D9F1EE" stroke-width="10" stroke-linecap="round"/>
+  <text x="96" y="181" fill="#FFF8E9" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="2">NZ 17</text>
 </svg>

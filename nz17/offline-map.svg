@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">NZ 17 South Island offline route map</title>
+  <desc id="desc">A simplified local route map from Christchurch through the South Island and back.</desc>
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07141d"/><stop offset="1" stop-color="#174851"/></linearGradient>
+    <linearGradient id="route" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#75dbd1"/><stop offset="1" stop-color="#f5e7c7"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".2"/></filter>
+  </defs>
+  <rect width="1200" height="520" rx="36" fill="url(#ocean)"/>
+  <path d="M75 350 C170 310 210 215 330 252 S465 350 565 270 S710 130 805 184 S960 92 1120 155" fill="none" stroke="#ffffff10" stroke-width="150" stroke-linecap="round"/>
+  <path d="M96 386 C174 324 220 243 331 276 S469 365 570 288 S710 164 806 205 S962 118 1110 174" fill="none" stroke="url(#route)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#f5e7c7" stroke="#23a7aa" stroke-width="5" filter="url(#shadow)">
+    <circle cx="96" cy="386" r="15"/><circle cx="331" cy="276" r="15"/><circle cx="570" cy="288" r="15"/><circle cx="806" cy="205" r="15"/><circle cx="962" cy="118" r="15"/><circle cx="1110" cy="174" r="15"/>
+  </g>
+  <g fill="#d5f2f2" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle">
+    <text x="96" y="430">Christchurch</text><text x="331" y="230">Wanaka</text><text x="570" y="337">Queenstown</text><text x="806" y="158">Milford</text><text x="962" y="78">Aoraki</text><text x="1110" y="220">Tekapo</text>
+  </g>
+  <text x="60" y="70" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">NZ 17 · OFFLINE ROUTE</text>
+  <text x="60" y="102" fill="#a9d5d4" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="16">Local route overview · no network required</text>
+</svg>

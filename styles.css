@@ -208,6 +208,10 @@ h1, h2, h3 {
   animation: drift-c 27s ease-in-out infinite alternate;
 }
 
+.effects-paused .blob {
+  animation-play-state: paused;
+}
+
 @keyframes drift-a {
   to { transform: translate3d(8vw, 6vh, 0) scale(1.12); }
 }

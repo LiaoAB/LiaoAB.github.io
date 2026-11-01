@@ -1,0 +1,110 @@
+{
+  "roles": [
+    "Full-Stack Developer",
+    "Java / Node.js Engineer",
+    "React & GWT Developer",
+    "Software Engineer"
+  ],
+  "stats": [
+    { "count": 5, "suffix": "+", "label": "Public repositories" },
+    { "count": 3, "label": "Products shipped" },
+    { "count": 2020, "plain": true, "label": "Building since" },
+    { "count": 100, "suffix": "%", "label": "Curiosity level" }
+  ],
+  "projects": [
+    {
+      "id": "emojibot",
+      "featured": true,
+      "kind": "Featured project",
+      "iconSvg": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><path d=\"M9 10h.01M15 10h.01M8.5 14.5a4.5 4.5 0 0 0 7 0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"/>",
+      "iconClass": "icon-pink",
+      "title": "EmojiBot",
+      "description": "An emoji recommendation engine: a PyTorch / NLTK model trained on emoji-rich tweet data suggests the right emoji for any message, wrapped in a full-stack chat app and analytics dashboards.",
+      "highlights": [
+        "PyTorch model trained on tweet data to predict emojis from free text",
+        "Flask inference API paired with a Node.js chat interface",
+        "Dashboards exploring word frequencies and emoji similarity"
+      ],
+      "tags": ["PyTorch", "NLTK", "Flask", "Node.js", "Data Viz"],
+      "status": "Live demo",
+      "year": "2023",
+      "art": "assets/project-emoji.svg",
+      "links": [
+        { "url": "https://emoji-bot-iota.vercel.app", "label": "Live demo of EmojiBot", "type": "demo" },
+        { "url": "https://github.com/LiaoAB/CSE6242-EmojiBot", "label": "EmojiBot source code", "type": "github" }
+      ]
+    },
+    {
+      "id": "reversi",
+      "featured": false,
+      "kind": "Telegram bot",
+      "title": "Reversi Telegram Bot",
+      "description": "A Telegram bot that plays Reversi (Othello) in-chat with an 8×8 inline keyboard board, complete move validation, and a heuristic AI opponent.",
+      "highlights": [
+        "Compact base-3 encoding keeps board state inside callback data",
+        "Greedy move scoring: the bot picks the move that flips the most discs"
+      ],
+      "tags": ["Python", "Telegram API", "Game AI"],
+      "status": "Shipped",
+      "year": "2023",
+      "art": "assets/project-reversi.svg",
+      "links": [
+        { "url": "https://github.com/LiaoAB/Reversi-Telegram-Bot", "label": "Reversi Telegram Bot source code", "type": "github" }
+      ]
+    },
+    {
+      "id": "sheep",
+      "featured": false,
+      "kind": "Automation",
+      "title": "Solvable Sheep Agent",
+      "description": "A desktop automation agent that plays the Solvable Sheep puzzle by detecting tiles through template matching and clicking the best moves.",
+      "highlights": [
+        "Template matching across 10 tile types with confidence thresholds",
+        "Idle detection and fail-safe loop control for hands-off play"
+      ],
+      "tags": ["Python", "pyautogui", "Computer Vision"],
+      "status": "Experiment",
+      "year": "2023",
+      "art": "assets/project-sheep.svg",
+      "links": [
+        { "url": "https://github.com/LiaoAB/Solvable-Sheep-Game-Agent", "label": "Solvable Sheep Agent source code", "type": "github" }
+      ]
+    },
+    {
+      "id": "oss",
+      "featured": false,
+      "kind": "Open source",
+      "title": "Open Source",
+      "description": "Working hands-on with production-grade Python ecosystems — FastAPI for APIs and Apache Airflow for workflow orchestration.",
+      "highlights": [
+        "Exploring FastAPI internals, routing, and request handling",
+        "Experimenting with Airflow DAGs and pipeline orchestration"
+      ],
+      "tags": ["Open Source", "Python", "FastAPI", "Airflow"],
+      "status": "Ongoing",
+      "year": "Present",
+      "art": "assets/project-oss.svg",
+      "links": [
+        { "url": "https://github.com/LiaoAB/fastapi", "label": "FastAPI on GitHub", "type": "external" },
+        { "url": "https://github.com/LiaoAB/airflow", "label": "Apache Airflow on GitHub", "type": "external" }
+      ]
+    }
+  ],
+  "skills": {
+    "languages": [
+      { "name": "Java", "pct": 92 },
+      { "name": "JavaScript / TypeScript", "pct": 88 },
+      { "name": "Python", "pct": 80 },
+      { "name": "SQL", "pct": 75 }
+    ],
+    "frontend": [
+      "React", "GWT", "JavaScript", "TypeScript", "HTML / CSS", "Responsive UI", "Component Design", "Accessibility"
+    ],
+    "backend": [
+      "Java", "Node.js", "Maven", "REST APIs", "Docker", "Git / GitHub", "Linux", "CI / CD"
+    ],
+    "ai": [
+      "PyTorch", "TensorFlow", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "NLP", "Data Viz"
+    ]
+  }
+}

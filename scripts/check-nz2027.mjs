@@ -37,7 +37,8 @@ const requiredAssets = [
   "logo.svg",
   "offline-map.svg",
   "apple-touch-icon.png",
-  "sw.js"
+  "sw.js",
+  "remote-content.json"
 ];
 
 const missingAssets = requiredAssets.filter((asset) => !existsSync(join(targetRoot, asset)));

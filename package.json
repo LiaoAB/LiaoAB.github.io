@@ -7,6 +7,7 @@
     "dev": "vite",
     "check": "node --check src/js/main.js && node --check src/js/content.js && node --check src/js/navigation.js && node --check src/js/animations.js && node --check src/js/particles.js",
     "check:nz2027": "node scripts/check-nz2027.mjs",
+    "sync:nz2027": "node scripts/sync-nz2027.mjs",
     "check:site": "npm run check && npm run check:nz2027",
     "build": "node scripts/build-site.mjs",
     "build:portfolio": "vite build",

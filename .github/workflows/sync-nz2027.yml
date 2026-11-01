@@ -1,0 +1,36 @@
+name: Sync 2027NZ from Google Doc
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch and validate Google Doc content
+        run: node scripts/sync-nz2027.mjs
+
+      - name: Commit changed travel data
+        run: |
+          if git diff --quiet -- nz2027/remote-content.json; then
+            echo "No 2027NZ content changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add nz2027/remote-content.json
+          git commit -m "chore: sync nz2027 from Google Doc"
+          git push

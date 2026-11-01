@@ -81,6 +81,15 @@ a{text-decoration:none}
 .remote-alert-copy p{margin:0;color:var(--muted);font-size:12px;line-height:1.55}
 .remote-checks{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
 .remote-checks span{background:#fff;border:1px solid #d6ebe3;border-radius:999px;padding:5px 9px;color:#356f66;font-size:10px;font-weight:800}
+.sync-panel{margin-top:16px;background:linear-gradient(135deg,#fffdf8,#f1f8f4);border:1px solid #dfece5;border-radius:18px;padding:15px 16px;box-shadow:var(--shadow-sm)}
+.sync-panel-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.sync-panel h3{margin:0 0 4px;font-size:13px}
+.sync-panel p{margin:0;color:var(--muted);font-size:11.5px;line-height:1.6}
+.sync-badge{display:inline-flex;align-items:center;white-space:nowrap;background:#e6f6ec;color:#2f8156;border-radius:999px;padding:5px 9px;font-size:10px;font-weight:900}
+.sync-badge.warn{background:#fff1df;color:#a66d28}
+.sync-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:11px}
+.sync-actions button{background:var(--ink);color:#fff;border-radius:10px;padding:9px 12px;font-size:11px;font-weight:800}
+.sync-actions small{color:var(--muted);font-size:10.5px}
 .route-map{position:relative;background:linear-gradient(160deg,#3f8b84,#2f746e);border-radius:28px;padding:18px;color:#fff;overflow:hidden;box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 18px 40px rgba(47,116,110,.2)}
 .route-map-head{display:flex;justify-content:space-between;align-items:center;margin:2px 6px 12px}
 .route-map-head b{font-size:15px;letter-spacing:-.01em}
@@ -405,12 +414,12 @@ a{text-decoration:none}
 <div class="nav-note">下載後開飛航模式試算一次路線。Organic Maps 是整份紐西蘭一張圖，可補分區之間的縫隙；手機 GPS 誤差約 5–10 公尺，Milford、Haast、Mt Cook 等無訊號路段請先設好目的地再出發。</div>
 <div class="section-head"><div><h2>預約</h2><p>訂位編號、報到時間與取消期限</p></div></div><div id="bookingPanel"></div></section>
 
-    <section id="tools" class="view"><div class="section-head" style="margin-top:4px"><div><h2>旅途工具</h2><p>訊號不穩時也能打開的速查頁</p></div><button onclick="installPWA()">加入主畫面　＋</button></div><div id="routeMapTools"></div><div id="offlineStatus"></div><div id="destinationAudit"></div><div id="backupPanel"></div><div class="section-head"><div><h2>離線工具</h2><p>出發前在 Wi‑Fi 下準備好</p></div></div><div class="grid tool-grid"><a class="card tool" href="https://www.google.com/maps" target="_blank" rel="noopener"><div class="circle">⌖</div><div><h3>Google Maps</h3><p>下載紐西蘭區域離線地圖</p></div><span class="tool-arrow">↗</span></a><div class="card tool"><div class="circle">⌚</div><div><h3>離線地圖</h3><p>確認 Google Maps 與 Garmin 離線地圖已同步</p></div><span class="tool-arrow">›</span></div><a class="card tool" href="https://apps.apple.com/app/nz-traveller-declaration/id1539562955" target="_blank" rel="noopener"><div class="circle" style="color:var(--red);background:#ffe9e9">▣</div><div><h3>NZTD App</h3><p>出發前 24 小時完成填報</p></div><span class="tool-arrow">↗</span></a><div class="card tool"><div class="circle" style="color:var(--green);background:#e4f5eb">◒</div><div><h3>eSIM</h3><p>抵達後切換行動數據並測試</p></div><span class="tool-arrow">›</span></div></div><div class="section-head"><div><h2>旅途中速查</h2><p>把這些數字記住就很安心</p></div></div><div class="grid tool-grid"><div class="card"><div class="circle" style="background:#fff0db;color:var(--orange)">☼</div><h3>日照參考</h3><p style="color:var(--muted);font-size:12px">日出日落會依日期與城市更新<br>以行程時間軸為準</p></div><div class="card"><div class="circle" style="background:#e4f5eb;color:var(--green)">NZ$</div><h3>現金基準</h3><p style="color:var(--muted);font-size:12px">NZ$300／人<br>另備 $2 硬幣給 Deer Park</p></div><div class="card"><div class="circle" style="background:#e8ebff;color:#5868c5">▣</div><h3>租車文件</h3><p style="color:var(--muted);font-size:12px">護照・國際駕照・本國駕照<br>租車信用卡</p></div><div class="card"><div class="circle" style="background:#dcf4f6;color:#168a90">♒</div><h3>車上必備</h3><p style="color:var(--muted);font-size:12px">水・零食・保冰袋<br>沙蠅防蚊液</p></div></div><div class="section-head"><div><h2>緊急聯絡</h2><p>點擊電話可直接撥號</p></div></div><div class="card mini-list" id="contacts"></div></section>
+    <section id="tools" class="view"><div class="section-head" style="margin-top:4px"><div><h2>旅途工具</h2><p>訊號不穩時也能打開的速查頁</p></div><button onclick="installPWA()">加入主畫面　＋</button></div><div id="routeMapTools"></div><div id="syncStatus"></div><div id="offlineStatus"></div><div id="destinationAudit"></div><div id="backupPanel"></div><div class="section-head"><div><h2>離線工具</h2><p>出發前在 Wi‑Fi 下準備好</p></div></div><div class="grid tool-grid"><a class="card tool" href="https://www.google.com/maps" target="_blank" rel="noopener"><div class="circle">⌖</div><div><h3>Google Maps</h3><p>下載紐西蘭區域離線地圖</p></div><span class="tool-arrow">↗</span></a><div class="card tool"><div class="circle">⌚</div><div><h3>離線地圖</h3><p>確認 Google Maps 與 Garmin 離線地圖已同步</p></div><span class="tool-arrow">›</span></div><a class="card tool" href="https://apps.apple.com/app/nz-traveller-declaration/id1539562955" target="_blank" rel="noopener"><div class="circle" style="color:var(--red);background:#ffe9e9">▣</div><div><h3>NZTD App</h3><p>出發前 24 小時完成填報</p></div><span class="tool-arrow">↗</span></a><div class="card tool"><div class="circle" style="color:var(--green);background:#e4f5eb">◒</div><div><h3>eSIM</h3><p>抵達後切換行動數據並測試</p></div><span class="tool-arrow">›</span></div></div><div class="section-head"><div><h2>旅途中速查</h2><p>把這些數字記住就很安心</p></div></div><div class="grid tool-grid"><div class="card"><div class="circle" style="background:#fff0db;color:var(--orange)">☼</div><h3>日照參考</h3><p style="color:var(--muted);font-size:12px">日出日落會依日期與城市更新<br>以行程時間軸為準</p></div><div class="card"><div class="circle" style="background:#e4f5eb;color:var(--green)">NZ$</div><h3>現金基準</h3><p style="color:var(--muted);font-size:12px">NZ$300／人<br>另備 $2 硬幣給 Deer Park</p></div><div class="card"><div class="circle" style="background:#e8ebff;color:#5868c5">▣</div><h3>租車文件</h3><p style="color:var(--muted);font-size:12px">護照・國際駕照・本國駕照<br>租車信用卡</p></div><div class="card"><div class="circle" style="background:#dcf4f6;color:#168a90">♒</div><h3>車上必備</h3><p style="color:var(--muted);font-size:12px">水・零食・保冰袋<br>沙蠅防蚊液</p></div></div><div class="section-head"><div><h2>緊急聯絡</h2><p>點擊電話可直接撥號</p></div></div><div class="card mini-list" id="contacts"></div></section>
 
     <footer class="footer">自用旅程工具 · 所有勾選與備註只保存在你的裝置。</footer>
   </main><div class="toast" id="toast"></div>
   <script>
-    const days=[
+    let days=[
       [0,'12/31 (四)','啟程：台北 → 基督城','空中',null,null,['TPE 13:20 → HKG 15:25','HKG 20:40 → CHC 12:50 +1','Airbus A330-300'],['護照、登機證、信用卡與行動電源放隨身包。'],'flight'],
       [1,'1/1 (五)','抵達基督城・城市散步','Christchurch 基督城',null,null,['12:50 抵達，取車後回住宿放行李','河濱市場 → 追憶橋 → 植物園','新攝政街・市區 shopping'],['1/1 路邊停車通常免費；可參考 Lichfield Street Carpark。'],'city'],
       [2,'1/2 (六)','Castle Hill・Arthur’s Pass','Hokitika 霍基蒂卡','250 km','3.5 hr',['Castle Hill / Kura Tawhiti','Devil’s Punchbowl Waterfall','Otira Viaduct Lookout・Hokitika Beach','Glowworm Dell'],['Castle Hill 車內不要留任何物品，行李放後車廂。','Arthur’s Pass 下坡切低速檔；晚上看螢火蟲要噴沙蠅防蚊。'],'drive'],
@@ -429,8 +438,8 @@ a{text-decoration:none}
       [15,'1/15 (五)','羊駝・回到基督城','Christchurch 基督城','245 km','3.25 hr',['Fairlie Bakehouse・Alpine Alpacas 12:00','市區 shopping・Avon River dinner','New Brighton Pier 夜景','He Puna Taimoana 20:00 成人場'],['溫泉要選 Adults Only；泳衣、毛巾、拖鞋放隨身袋。'],'booking'],
       [16,'1/16 (六)','返程：基督城 → 台北','CHC 機場',null,null,['12:00 前抵達機場並還車','CHC 14:20 → HKG 20:55','HKG 20:55 → TPE 00:35 +1'],['提早檢查車內、行李與免稅店採買。'],'flight']
     ].map(x=>({id:x[0],date:x[1],title:x[2],city:x[3],distance:x[4],drive:x[5],highlights:x[6],notes:x[7],type:x[8]}));
-    const arrivalDay={id:17,date:'1/17 (日)',title:'抵達桃園・Sweet home',city:'桃園機場',distance:null,drive:null,highlights:['00:35 抵達桃園機場','入境、取行李、回家'],notes:['旅程完成；確認護照、行李與個人物品。'],type:'arrival'};
-    const drivePlans={
+    let arrivalDay={id:17,date:'1/17 (日)',title:'抵達桃園・Sweet home',city:'桃園機場',distance:null,drive:null,highlights:['00:35 抵達桃園機場','入境、取行李、回家'],notes:['旅程完成；確認護照、行李與個人物品。'],type:'arrival'};
+    let drivePlans={
       1:{pure:'市區移動',withStops:'約 2–3 hr',leave:'12:50 抵達後',level:'一般',note:'取車後先回住宿放行李，再用步行／大眾運輸逛市區。'},
       2:{pure:'3.5 hr',withStops:'約 6–7 hr',leave:'08:30',level:'長途',note:'Castle Hill、Arthur’s Pass 與晚間螢火蟲；車內不留物品，下坡用低速檔。'},
       3:{pure:'3.5 hr',withStops:'約 7–8 hr',leave:'07:30',level:'緊湊',note:'冰川活動受天候影響；先確認油量、背包限制與活動報到時間。'},
@@ -447,9 +456,9 @@ a{text-decoration:none}
       14:{pure:'1.25 hr',withStops:'約 6 hr＋深夜活動',leave:'07:45',level:'緊湊',note:'Sealy Tarns 後還有 Tekapo Springs 與 23:40 Dark Sky 報到，晚餐及休息要排好。'},
       15:{pure:'3.25 hr',withStops:'約 8–9 hr',leave:'09:30',level:'長途',note:'羊駝活動、回 Christchurch、購物與 20:00 溫泉連在一起，建議提早完成採買。'}
     };
-    const dayBackups={2:'若天候或體力不佳：縮短 Castle Hill，改為 Arthur’s Pass 小鎮與 Hokitika 市區。',3:'直升機停飛：以 Wildlife Centre、Lake Matheson 或 Gillespies Beach替代，確認隔日遞補。',4:'訊號或天候不佳：減少 Ship Creek，優先 Blue Pools 與 Wanaka 抵達。',5:'Roys Peak 不適合：改走 Rob Roy Glacier 或 Lake Wanaka 湖畔。',6:'跳傘延遲：刪減巧克力店與 Arrowtown 景點，保留主要預約。',7:'活動延誤：優先保留 TSS、Deer Park、Onsen 已預約項目。',8:'螢火蟲洞前塞車：縮短 Paradise，提早返回 Te Anau。',9:'Milford 天候或道路延誤：以 Te Anau 湖畔、Te Anau Glowworm Caves 或休息日替代。',10:'Tunnel Beach 漲潮：改看 Pilots Beach、Royal Albatross Centre 或 Dunedin 市區。',12:'高山天候不佳：以 Lake Pukaki、Visitor Centre 與附近補給為主。',13:'Hooker Valley 關閉：改走 Visitor Centre、Tasman Valley 或縮短 Tasman Lake 步道。',14:'Sealy Tarns 不適合：改為 Mt. John、教堂、Tekapo Springs 與 Dark Sky。',15:'長途延誤：優先保留 Alpine Alpacas 與 He Puna，購物可刪減。'};
-    const officialLinks={2:[['DOC 道路與步道公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],3:[['Fox Guides 官方','https://www.foxguides.co.nz/'],['DOC 公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],4:[['DOC 公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],5:[['DOC 步道公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],6:[['Wanaka Skydive 官方','https://zh.skydivewanaka.com/prices-and-packages/']],7:[['Deer Park 官方','https://deerparkheights.co.nz/'],['Onsen 官方','https://www.onsen.co.nz/']],8:[['RealNZ 螢火蟲洞','https://www.realnz.com/en/experiences/day-tours/te-anau-glowworm-caves/']],9:[['RealNZ Milford Sound','https://www.realnz.com/en/experiences/day-cruises/milford-sound/'],['DOC 公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],10:[['DOC Otago 公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],13:[['Glacier Explorers 官方','https://www.glacierexplorers.com/'],['DOC 公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],14:[['Dark Sky Project 官方','https://www.darkskyproject.co.nz/']],15:[['He Puna Taimoana 官方','https://www.hepunataimoana.co.nz/']]};
-    const tasks=[
+    let dayBackups={2:'若天候或體力不佳：縮短 Castle Hill，改為 Arthur’s Pass 小鎮與 Hokitika 市區。',3:'直升機停飛：以 Wildlife Centre、Lake Matheson 或 Gillespies Beach替代，確認隔日遞補。',4:'訊號或天候不佳：減少 Ship Creek，優先 Blue Pools 與 Wanaka 抵達。',5:'Roys Peak 不適合：改走 Rob Roy Glacier 或 Lake Wanaka 湖畔。',6:'跳傘延遲：刪減巧克力店與 Arrowtown 景點，保留主要預約。',7:'活動延誤：優先保留 TSS、Deer Park、Onsen 已預約項目。',8:'螢火蟲洞前塞車：縮短 Paradise，提早返回 Te Anau。',9:'Milford 天候或道路延誤：以 Te Anau 湖畔、Te Anau Glowworm Caves 或休息日替代。',10:'Tunnel Beach 漲潮：改看 Pilots Beach、Royal Albatross Centre 或 Dunedin 市區。',12:'高山天候不佳：以 Lake Pukaki、Visitor Centre 與附近補給為主。',13:'Hooker Valley 關閉：改走 Visitor Centre、Tasman Valley 或縮短 Tasman Lake 步道。',14:'Sealy Tarns 不適合：改為 Mt. John、教堂、Tekapo Springs 與 Dark Sky。',15:'長途延誤：優先保留 Alpine Alpacas 與 He Puna，購物可刪減。'};
+    let officialLinks={2:[['DOC 道路與步道公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],3:[['Fox Guides 官方','https://www.foxguides.co.nz/'],['DOC 公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],4:[['DOC 公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],5:[['DOC 步道公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],6:[['Wanaka Skydive 官方','https://zh.skydivewanaka.com/prices-and-packages/']],7:[['Deer Park 官方','https://deerparkheights.co.nz/'],['Onsen 官方','https://www.onsen.co.nz/']],8:[['RealNZ 螢火蟲洞','https://www.realnz.com/en/experiences/day-tours/te-anau-glowworm-caves/']],9:[['RealNZ Milford Sound','https://www.realnz.com/en/experiences/day-cruises/milford-sound/'],['DOC 公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],10:[['DOC Otago 公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],13:[['Glacier Explorers 官方','https://www.glacierexplorers.com/'],['DOC 公告','https://www.doc.govt.nz/parks-and-recreation/know-before-you-go/alerts/']],14:[['Dark Sky Project 官方','https://www.darkskyproject.co.nz/']],15:[['He Puna Taimoana 官方','https://www.hepunataimoana.co.nz/']]};
+    let tasks=[
       ['guideline','讀完紐西蘭旅遊 guideline','把入境、駕車與步道注意事項存成離線備忘。','文件','—',false,'https://timtingtravel.com/new-zealand-travel/'],
       ['esim','開通 eSIM','出發前測試啟用；抵達後再切換行動數據。','開車','12/28',true],
       ['cash','換紐幣 NZD 300／人','現金留給停車、私人土地與 Deer Park 硬幣。','行李','12/20',false],
@@ -465,7 +474,7 @@ a{text-decoration:none}
       ['supermarket','查進庫克山前的超市採買點','Lake Pukaki 一次補齊兩天早餐、飲水與零食。','開車','—',false],
       ['parking','查各景點停車場與付費方式','Milford Sound、Deer Park、Castle Hill 優先。','開車','—',true]
     ].map(x=>({id:x[0],title:x[1],detail:x[2],category:x[3],due:x[4],critical:x[5],url:x[6]}));
-    const bookings=[
+    let bookings=[
       {id:'glacier-hike',day:3,title:'Fox Glacier 直升機冰河健行',time:'11:50 開始',checkin:'11:20 報到',address:'Fox Glacier Guides, Fox Glacier',departure:'10:30 從 Hokitika／住宿出發',cancel:'依訂單與天候政策',url:'https://www.foxguides.co.nz/'},
       {id:'skydive',day:6,title:'Wanaka Skydive 跳傘',time:'活動約 3–3.5 hr',checkin:'07:00 i-SITE 報到',address:'Wanaka i-SITE Visitor Centre',departure:'06:40 從 Wanaka 住宿出發',cancel:'依供應商政策',url:'https://zh.skydivewanaka.com/prices-and-packages/'},
       {id:'ferg',day:7,title:'Fergburger 外帶電話預約',time:'11:00 前電話',checkin:'電話確認取餐時間',address:'Fergburger, Queenstown',departure:'依當日 Skyline 結束時間',cancel:'電話確認',url:'https://www.fergburger.com/'},
@@ -480,13 +489,13 @@ a{text-decoration:none}
       {id:'alpaca',day:15,title:'Alpine Alpacas Fairlie',time:'12:00 Guided Paddock Tour',checkin:'11:45 抵達農場',address:'Alpine Alpacas Fairlie',departure:'11:00 從 Fairlie 出發',cancel:'依訂單政策',url:'https://alpinealpacasfairlie.com/'},
       {id:'he-puna',day:15,title:'He Puna Taimoana Hot Pools',time:'20:00 成人場',checkin:'依票券入場時間',address:'He Puna Taimoana, New Brighton',departure:'19:30 從 Avon River dinner 出發',cancel:'依訂單政策',url:'https://www.hepunataimoana.co.nz/buy-now/entry-passes'}
     ];
-    const packs=[
+    let packs=[
       ['文件與錢包','▣','passport|護照、國際駕照、本國駕照|租車取車必備|各 1;card|租車信用卡與備用卡|AB 台灣訂車的那張卡|2 張;cash-pack|NZD 現金與 $2 硬幣|Clay Cliffs、Deer Park、停車|約 $300／人'],
       ['科技與離線','⌁','cable|iPhone 原廠傳輸線|CarPlay 專用，放隨身包|1 條;esim-pack|eSIM 啟用資訊|QR code 截圖＋啟用說明|1 份;offline|Google Maps／Garmin 離線地圖|出發前在 Wi‑Fi 測試|已下載'],
       ['戲水與保暖','♒','swimsuit|泳衣、毛巾、拖鞋|Tekapo Springs／溫泉|各 1;cooler|保冰袋|車上食物保鮮；沿途補冰|1 個;sandfly|沙蠅防蚊液|西海岸、Haast、Sandfly Bay|每車 1–2 瓶'],
       ['健行與活動','△','water|水袋／水瓶|Roys Peak 每人至少 2.5 L|每人;layers|防水外套、保暖層、健行鞋|冰河船與高山步道|每人;sunscreen|墨鏡、防曬、暈機藥|直升機冰河健行|每人']
     ].map(x=>({title:x[0],icon:x[1],items:x[2].split(';').map(y=>{const p=y.split('|');return{id:p[0],title:p[1],note:p[2],qty:p[3]}})}));
-    const stays=[
+    let stays=[
       {day:1,from:'1/1',to:'1/2',city:'Christchurch 基督城',name:'Family Friendly - Close to new stadium',url:'https://www.booking.com/hotel/nz/family-friendly-close-to-new-stadium.zh-tw.html'},
       {day:2,from:'1/2',to:'1/3',city:'Hokitika 霍基蒂卡',name:'On the Beach',url:'https://www.booking.com/hotel/nz/on-the-beach-hokitika.zh-tw.html'},
       {day:3,from:'1/3',to:'1/4',city:'Fox Glacier 福克斯冰河',name:'Rainforest Motel',url:'https://www.booking.com/hotel/nz/rainforest-motel.zh-tw.html'},
@@ -502,7 +511,7 @@ a{text-decoration:none}
     function stayAt(dayId){for(const s of stays){const n=s.nights||1;if(dayId>=s.day&&dayId<s.day+n)return {stay:s,index:dayId-s.day+1,nights:n}}return null}
     function stayFor(dayId){const hit=stayAt(dayId);return hit?hit.stay:null}
     function stayHTML(day){const hit=stayAt(day.id);if(!hit)return '';const s=hit.stay,n=hit.nights,label=hit.index===1?(n===1?'住一晚':n===2?'住兩晚':n===3?'住三晚':`住 ${n} 晚`):`續住 · 第 ${hit.index}／${n} 晚`;return `<div class="stay-panel stay-${n>=2?'yellow':'blue'}"><b>🏨 ${label} · ${s.from}–${s.to}</b><div class="stay-name">${escapeHTML(s.name)}</div><small>${escapeHTML(s.city)}</small>${s.url?`<a class="stay-link" href="${escapeHTML(s.url)}" target="_blank" rel="noopener">開啟訂房頁 ↗</a>`:''}</div>`}
-    const timelines={
+    let timelines={
       0:[['13:20','TPE 起飛','飛往香港，保管好護照與轉機資料'],['15:25','抵達 HKG','前往轉機登機門，補水與伸展'],['20:40','HKG 起飛','夜間航班前往 Christchurch']],
       1:[['12:50','抵達 Christchurch','入境、取車、確認租車文件'],['14:30','住宿 check-in','放行李，今天市區以步行／大眾運輸為主'],['15:30','河濱市場','午餐與補給'],['17:00','追憶橋・植物園','沿 Avon River 散步'],['19:00','新攝政街','晚餐與 shopping']],
       2:[['08:30','Christchurch 出發','車上確認油量與行李遮蔽'],['10:00','Castle Hill','Kura Tawhiti Access Track，停留 1–2 hr'],['12:30','午餐','Arthur’s Pass 前補充水與食物'],['14:00','Arthur’s Pass','Devil’s Punchbowl Waterfall'],['15:45','Otira Lookout','下坡切低速檔，欣賞高架橋'],['19:30','Glowworm Dell','天黑後進入，關閉螢幕與手電筒']],
@@ -521,14 +530,67 @@ a{text-decoration:none}
       15:[['09:30','Tekapo 出發','前往 Fairlie'],['10:30','Fairlie Bakehouse','營業至 16:30，先吃鹹派'],['12:00','Alpine Alpacas','Guided Paddock Tour 約 1 hr'],['15:30','Christchurch shopping','補買名產與 Icebreaker'],['18:30','Avon River dinner','晚餐後前往海邊'],['20:00','He Puna Taimoana','選 Adults Only；泡湯後看 New Brighton 夜景']],
       16:[['09:30','整理行李・退房','確認房間、車內與充電線'],['12:00','抵達 CHC 機場','還車、免稅店與登機'],['14:20','CHC 起飛','前往香港轉機'],['00:35 +1','抵達桃園','Sweet home']]
     };
-    const sunLocations={'空中':[-43.5321,172.5320],'Christchurch 基督城':[-43.5321,172.6362],'Hokitika 霍基蒂卡':[-42.7167,170.9667],'Fox Glacier 福克斯冰河':[-43.4634,169.9590],'Wanaka 瓦納卡':[-44.7000,169.1333],'Queenstown 皇后鎮':[-45.0312,168.6626],'Te Anau 蒂阿瑙':[-45.4167,167.7167],'Dunedin 但尼丁':[-45.8788,170.5028],'Oamaru 奧瑪魯':[-45.0975,170.9700],'Mt. Cook 庫克山':[-43.7347,170.0960],'Tekapo 蒂卡波':[-44.0046,170.4771],'CHC 機場':[-43.4894,172.5320]};
-    const places=[['Christchurch','抵達／返程／最後採買',-43.5321,172.6362],['Wanaka','Roys Peak・Lake Wanaka',-44.7000,169.1333],['Queenstown','Skyline・Deer Park・Onsen',-45.0312,168.6626],['Milford Sound','峽灣遊輪與停車提醒',-44.6719,167.9250],['Aoraki / Mt Cook','Hooker Valley・Tasman Glacier',-43.7347,170.0960],['Lake Tekapo','溫泉與 Dark Sky',-44.0046,170.4771]];
-    const contacts=[['紐西蘭緊急服務','111','警察・消防・救護，24/7','☎'],['Healthline','0800 611 116','免費健康諮詢，24/7','✚'],['AA Roadside Assistance','0800 500 222','道路救援（依會員資格）','▣'],['駐紐西蘭台北經濟文化辦事處','+64 4 473 6474','領務與急難協助','⌂']];
+    let sunLocations={'空中':[-43.5321,172.5320],'Christchurch 基督城':[-43.5321,172.6362],'Hokitika 霍基蒂卡':[-42.7167,170.9667],'Fox Glacier 福克斯冰河':[-43.4634,169.9590],'Wanaka 瓦納卡':[-44.7000,169.1333],'Queenstown 皇后鎮':[-45.0312,168.6626],'Te Anau 蒂阿瑙':[-45.4167,167.7167],'Dunedin 但尼丁':[-45.8788,170.5028],'Oamaru 奧瑪魯':[-45.0975,170.9700],'Mt. Cook 庫克山':[-43.7347,170.0960],'Tekapo 蒂卡波':[-44.0046,170.4771],'CHC 機場':[-43.4894,172.5320]};
+    let places=[['Christchurch','抵達／返程／最後採買',-43.5321,172.6362],['Wanaka','Roys Peak・Lake Wanaka',-44.7000,169.1333],['Queenstown','Skyline・Deer Park・Onsen',-45.0312,168.6626],['Milford Sound','峽灣遊輪與停車提醒',-44.6719,167.9250],['Aoraki / Mt Cook','Hooker Valley・Tasman Glacier',-43.7347,170.0960],['Lake Tekapo','溫泉與 Dark Sky',-44.0046,170.4771]];
+    let contacts=[['紐西蘭緊急服務','111','警察・消防・救護，24/7','☎'],['Healthline','0800 611 116','免費健康諮詢，24/7','✚'],['AA Roadside Assistance','0800 500 222','道路救援（依會員資格）','▣'],['駐紐西蘭台北經濟文化辦事處','+64 4 473 6474','領務與急難協助','⌂']];
     function safeGet(key){try{return localStorage.getItem(key)}catch(error){return null}}
     function readJSON(key,fallback){try{const value=safeGet(key);return value?JSON.parse(value):fallback}catch(error){return fallback}}
     const state={tasks:new Set(readJSON('nz17.tasks',[])),packs:new Set(readJSON('nz17.packs',[])),notes:readJSON('nz17.notes',{}),customTasks:readJSON('nz17.customTasks',[]),activities:new Set(readJSON('nz17.activities',[])),bookings:readJSON('nz17.bookings',{}),weather:readJSON('nz17.weather',{})};
     const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
     function safeSet(key,value){try{localStorage.setItem(key,value);return true}catch(error){console.warn('2027NZ local save failed',error);if(typeof toast==='function'&&!window.__storageWarning){window.__storageWarning=true;toast('無法保存本機資料，請立即匯出備份。');setTimeout(()=>{window.__storageWarning=false},3000)}return false}}
+    const REMOTE_CONTENT_URL='./remote-content.json';
+    const REMOTE_CONTENT_KEY='nz17.remoteContent';
+    function isObject(value){return value&&typeof value==='object'&&!Array.isArray(value)}
+    function validRemoteDays(value){return Array.isArray(value)&&value.length>0&&value.every(day=>isObject(day)&&Number.isInteger(day.id)&&typeof day.date==='string'&&typeof day.title==='string'&&typeof day.city==='string'&&Array.isArray(day.highlights)&&Array.isArray(day.notes))}
+    function validRemoteTasks(value){return Array.isArray(value)&&value.every(task=>isObject(task)&&typeof task.id==='string'&&typeof task.title==='string'&&typeof task.detail==='string'&&typeof task.category==='string')}
+    function validRemoteBookings(value){return Array.isArray(value)&&value.every(item=>isObject(item)&&typeof item.id==='string'&&Number.isInteger(item.day)&&typeof item.title==='string')}
+    function validRemotePacks(value){return Array.isArray(value)&&value.every(group=>isObject(group)&&typeof group.title==='string'&&Array.isArray(group.items)&&group.items.every(item=>isObject(item)&&typeof item.id==='string'&&typeof item.title==='string'))}
+    function applyRemoteContent(content){
+      if(!isObject(content))throw new Error('資料不是 JSON 物件');
+      const applied=[];
+      if(content.days!==undefined){if(!validRemoteDays(content.days))throw new Error('days 格式錯誤');days=content.days;applied.push('行程')}
+      if(content.arrivalDay!==undefined){if(!isObject(content.arrivalDay)||!Number.isInteger(content.arrivalDay.id))throw new Error('arrivalDay 格式錯誤');arrivalDay=content.arrivalDay;applied.push('抵達日')}
+      if(content.drivePlans!==undefined){if(!isObject(content.drivePlans))throw new Error('drivePlans 格式錯誤');drivePlans=content.drivePlans;applied.push('自駕規劃')}
+      if(content.dayBackups!==undefined){if(!isObject(content.dayBackups))throw new Error('dayBackups 格式錯誤');dayBackups=content.dayBackups;applied.push('備案')}
+      if(content.officialLinks!==undefined){if(!isObject(content.officialLinks))throw new Error('officialLinks 格式錯誤');officialLinks=content.officialLinks;applied.push('官方連結')}
+      if(content.tasks!==undefined){if(!validRemoteTasks(content.tasks))throw new Error('tasks 格式錯誤');tasks=content.tasks;applied.push('待辦')}
+      if(content.bookings!==undefined){if(!validRemoteBookings(content.bookings))throw new Error('bookings 格式錯誤');bookings=content.bookings;applied.push('預約')}
+      if(content.packs!==undefined){if(!validRemotePacks(content.packs))throw new Error('packs 格式錯誤');packs=content.packs;applied.push('行李')}
+      if(content.stays!==undefined){if(!Array.isArray(content.stays)||content.stays.some(item=>!isObject(item)||!Number.isInteger(item.day)))throw new Error('stays 格式錯誤');stays=content.stays;applied.push('住宿')}
+      if(content.timelines!==undefined){if(!isObject(content.timelines))throw new Error('timelines 格式錯誤');timelines=content.timelines;applied.push('時間軸')}
+      if(content.sunLocations!==undefined){if(!isObject(content.sunLocations))throw new Error('sunLocations 格式錯誤');sunLocations=content.sunLocations;applied.push('日照位置')}
+      if(content.places!==undefined){if(!Array.isArray(content.places))throw new Error('places 格式錯誤');places=content.places;applied.push('地點')}
+      if(content.contacts!==undefined){if(!Array.isArray(content.contacts))throw new Error('contacts 格式錯誤');contacts=content.contacts;applied.push('聯絡人')}
+      return applied;
+    }
+    function renderSyncStatus(message,ok=true,updatedAt=''){
+      const host=$('#syncStatus');if(!host)return;
+      host.innerHTML=`<div class="sync-panel"><div class="sync-panel-head"><div><h3>Google Doc 行程同步</h3><p>${escapeHTML(message)}</p></div><span class="sync-badge ${ok?'':'warn'}">${ok?'已同步':'使用內嵌備援'}</span></div><div class="sync-actions"><button onclick="syncRemoteContent()">立即檢查更新</button><small>${updatedAt?`資料時間：${escapeHTML(updatedAt)}`:'GitHub Actions 會定期更新這份資料'}</small></div></div>`;
+    }
+    function rerenderRemoteContent(){
+      renderDays($('#dayFilters .active')?.dataset.filter||'all');
+      renderTasks($('#taskFilters .active')?.dataset.filter||'全部');
+      renderPacks();renderProgress();renderNext();renderContacts();renderTodayMode();renderBookingPanel();renderDestinationAudit();renderSunsetSummary();
+      $('#routeMap').innerHTML=routeMap();$('#routeMapTools').innerHTML=realRouteMap();ensureMapPack();renderMapPackStatus();
+    }
+    async function syncRemoteContent(){
+      renderSyncStatus('正在檢查 Google Doc 的最新資料……',true);
+      try{
+        const response=await fetch(`${REMOTE_CONTENT_URL}?v=${Date.now()}`,{cache:'no-store'});
+        if(!response.ok)throw new Error(`HTTP ${response.status}`);
+        const content=await response.json();
+        const applied=applyRemoteContent(content);
+        if(!applied.length){renderSyncStatus('尚未有可套用的遠端資料，先使用目前內嵌的行程。',false);return}
+        rerenderRemoteContent();
+        const updatedAt=content._meta?.updatedAt||new Date().toLocaleString('zh-TW');
+        safeSet(REMOTE_CONTENT_KEY,JSON.stringify({updatedAt,applied}));
+        renderSyncStatus(`已從 Google Doc 套用：${applied.join('、')}。`,true,updatedAt);
+      }catch(error){
+        const saved=readJSON(REMOTE_CONTENT_KEY,null);
+        renderSyncStatus(saved?.updatedAt?`目前無法取得新資料，保留上次同步時間：${saved.updatedAt}。`:'目前無法取得遠端資料，使用網站內嵌的行程。',false,saved?.updatedAt||'');
+        console.warn('2027NZ remote content sync failed',error);
+      }
+    }
     function save(){const values=[['nz17.tasks',JSON.stringify([...state.tasks])],['nz17.packs',JSON.stringify([...state.packs])],['nz17.notes',JSON.stringify(state.notes)],['nz17.customTasks',JSON.stringify(state.customTasks)],['nz17.activities',JSON.stringify([...state.activities])],['nz17.bookings',JSON.stringify(state.bookings)],['nz17.weather',JSON.stringify(state.weather)]];const ok=values.every(([key,value])=>safeSet(key,value));if(ok)safeSet('nz17.lastSaved',new Date().toISOString());renderProgress();renderSaveStatus();return ok}
     function allTasks(){return [...tasks,...state.customTasks]}
     function toast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(window.__toast);window.__toast=setTimeout(()=>el.classList.remove('show'),2500)}
@@ -617,17 +679,17 @@ a{text-decoration:none}
     function validBackup(data){return Boolean(data&&['NZ17','SC17','2027NZ'].includes(data.app)&&data.version===1&&Array.isArray(data.tasks)&&data.tasks.every(value=>typeof value==='string')&&Array.isArray(data.packs)&&data.packs.every(value=>typeof value==='string')&&Array.isArray(data.customTasks)&&data.customTasks.every(item=>item&&typeof item==='object'&&typeof item.id==='string'&&typeof item.title==='string'&&typeof item.category==='string')&&Array.isArray(data.activities)&&data.activities.every(value=>typeof value==='string')&&data.notes&&typeof data.notes==='object'&&!Array.isArray(data.notes)&&data.bookings&&typeof data.bookings==='object'&&!Array.isArray(data.bookings)&&data.weather&&typeof data.weather==='object'&&!Array.isArray(data.weather))}
     async function importBackup(file){if(!file)return;try{const data=JSON.parse(await file.text());if(!validBackup(data)){toast('匯入失敗：檔案格式不是有效的 2027NZ 備份。');return}state.tasks=new Set(data.tasks.filter(value=>typeof value==='string'));state.packs=new Set(data.packs.filter(value=>typeof value==='string'));state.notes=data.notes;state.customTasks=data.customTasks;state.activities=new Set(data.activities.filter(value=>typeof value==='string'));state.bookings=data.bookings;state.weather=data.weather;safeSet('nz17.prepMode',data.prepMode==='packs'?'packs':'tasks');save();renderTasks($('#taskFilters .active').dataset.filter);renderPacks();renderNext();renderTodayMode();renderBookingPanel();toast('已驗證並還原 2027NZ 個人資料。')}catch(error){toast('匯入失敗：無法讀取這個 JSON 檔案。')}}
     function isStandalone(){return Boolean(window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches)||Boolean(navigator.standalone)}
-    const APP_CACHE='2027nz-v1';
-    async function renderOfflineStatus(){const host=$('#offlineStatus');if(!host)return;const required=['./index.html','./manifest.webmanifest','./icon.svg','./logo.svg','./offline-map.svg','./apple-touch-icon.png','./sw.js'];let cached=0;if('caches' in window){try{const cache=await caches.open(APP_CACHE);cached=(await Promise.all(required.map(asset=>cache.match(asset).then(Boolean).catch(()=>false)))).filter(Boolean).length}catch(error){cached=0}}const installed=isStandalone(),online=navigator.onLine;host.innerHTML=`<div class="offline-panel"><div class="utility-head"><div><h3>離線模式檢查</h3><p>${online?'目前已連線；可以檢查並更新離線資源。':'目前離線；只能使用已快取的內容。'}</p></div><span class="utility-badge ${cached===required.length?'ok':''}">${cached}/${required.length} 資源</span></div><div class="offline-checks"><div class="offline-check ${installed?'ok':''}"><i>${installed?'✓':'!'}</i><span>PWA 已安裝：${installed?'是':'否，請用瀏覽器加入主畫面'}</span></div><div class="offline-check ${cached===required.length?'ok':''}"><i>${cached===required.length?'✓':'!'}</i><span>2027NZ 離線資源：${cached}/${required.length} 已快取</span></div><div class="offline-check ok"><i>✓</i><span>行程、電話、預約與個人資料：內嵌／保存在本機</span></div></div><div class="offline-note"><strong>注意：</strong>離線可以查看資料與靜態路線圖，但 Google Maps 導航、互動地圖、官方網站與即時天氣仍需要網路。</div></div>`}
+    const APP_CACHE='2027nz-v3';
+    async function renderOfflineStatus(){const host=$('#offlineStatus');if(!host)return;const required=['./index.html','./manifest.webmanifest','./icon.svg','./logo.svg','./offline-map.svg','./apple-touch-icon.png','./sw.js','./remote-content.json'];let cached=0;if('caches' in window){try{const cache=await caches.open(APP_CACHE);cached=(await Promise.all(required.map(asset=>cache.match(asset).then(Boolean).catch(()=>false)))).filter(Boolean).length}catch(error){cached=0}}const installed=isStandalone(),online=navigator.onLine;host.innerHTML=`<div class="offline-panel"><div class="utility-head"><div><h3>離線模式檢查</h3><p>${online?'目前已連線；可以檢查並更新離線資源。':'目前離線；只能使用已快取的內容。'}</p></div><span class="utility-badge ${cached===required.length?'ok':''}">${cached}/${required.length} 資源</span></div><div class="offline-checks"><div class="offline-check ${installed?'ok':''}"><i>${installed?'✓':'!'}</i><span>PWA 已安裝：${installed?'是':'否，請用瀏覽器加入主畫面'}</span></div><div class="offline-check ${cached===required.length?'ok':''}"><i>${cached===required.length?'✓':'!'}</i><span>2027NZ 離線資源：${cached}/${required.length} 已快取</span></div><div class="offline-check ok"><i>✓</i><span>行程、電話、預約與個人資料：內嵌／保存在本機</span></div></div><div class="offline-note"><strong>注意：</strong>離線可以查看資料與靜態路線圖，但 Google Maps 導航、互動地圖、官方網站與即時天氣仍需要網路。</div></div>`}
     function ensureMapPack(){const host=$('#routeMapTools');if(!host||$('#mapPack'))return;host.insertAdjacentHTML('afterend',`<div class="map-pack" id="mapPack"><div><b>離線地圖包</b><span id="mapPackStatus">尚未保存；按右側按鈕下載本機路線資料。</span></div><button id="mapPackButton" onclick="saveOfflineMap()">保存地圖 ↓</button></div>`);renderMapPackStatus()}
     function renderMapPackStatus(){const button=$('#mapPackButton'),status=$('#mapPackStatus');if(!button||!status)return;const ready=safeGet('nz17.mapReady')==='true';button.textContent=ready?'已保存 ✓':'保存地圖 ↓';button.classList.toggle('ready',ready);status.textContent=ready?'路線圖、6 個主要地點與行程資料已保存在本機。':'尚未保存；按右側按鈕下載本機路線資料。'}
-    async function saveOfflineMap(){const button=$('#mapPackButton');if(button)button.disabled=true;try{if('caches' in window){const cache=await caches.open(APP_CACHE);await cache.addAll(['./','./index.html','./manifest.webmanifest','./icon.svg','./logo.svg','./offline-map.svg','./apple-touch-icon.png','./sw.js'])}safeSet('nz17.mapReady','true');toast('離線地圖包已保存，可以在沒有網路時查看。')}catch(error){toast('離線保存失敗：請在 Wi‑Fi 下重試。')}if(button)button.disabled=false;renderMapPackStatus();renderOfflineStatus()}
+    async function saveOfflineMap(){const button=$('#mapPackButton');if(button)button.disabled=true;try{if('caches' in window){const cache=await caches.open(APP_CACHE);await cache.addAll(['./','./index.html','./manifest.webmanifest','./icon.svg','./logo.svg','./offline-map.svg','./apple-touch-icon.png','./sw.js','./remote-content.json'])}safeSet('nz17.mapReady','true');toast('離線地圖包已保存，可以在沒有網路時查看。')}catch(error){toast('離線保存失敗：請在 Wi‑Fi 下重試。')}if(button)button.disabled=false;renderMapPackStatus();renderOfflineStatus()}
     function todayHasUnsaved(){const host=$('#todayMode');if(!host)return false;if(host.contains(document.activeElement))return true;const select=host.querySelector('[id^="weatherStatus-"]'),note=host.querySelector('[id^="weatherNote-"]');if(!select||!note)return false;const dayId=Number(note.id.split('-')[1]),saved=state.weather[dayId]||{status:'normal',note:''};return select.value!==saved.status||note.value.trim()!==(saved.note||'')}
     function installPWA(){toast('請使用瀏覽器的「加入主畫面」功能安裝 2027NZ。');}
     $('#notifyButton').onclick=async()=>{if(!('Notification' in window)){toast('此瀏覽器不支援通知，但待辦仍會保存在本機。');return}const p=await Notification.requestPermission();toast(p==='granted'?'通知權限已開啟；目前仍請以預約與待辦頁確認時間。':'通知未開啟，可稍後在瀏覽器設定允許。')};
     function renderConnectionState(){const online=navigator.onLine;$('#onlineText').textContent=online?'已連線 · 可開啟地圖':'離線模式 · 僅可查看快取';renderOfflineStatus()}
     window.addEventListener('online',renderConnectionState);window.addEventListener('offline',renderConnectionState);
-    simplifyCopy();styleRemoteAlert();renderTripProgress();$('#routeMap').innerHTML=realRouteMap();$('#routeMapTools').innerHTML=realRouteMap();ensureMapPack();renderDays();renderTasks();renderPacks();renderContacts();renderProgress();renderNext();renderTodayMode();renderBookingPanel();renderDestinationAudit();renderBackupPanel();renderOfflineStatus();countdown();setInterval(()=>{countdown();renderSunsetSummary();renderTripProgress();if(!todayHasUnsaved())renderTodayMode()},60000);if('serviceWorker' in navigator){navigator.serviceWorker.addEventListener('controllerchange',renderOfflineStatus);navigator.serviceWorker.register('sw.js').then(()=>{renderMapPackStatus();renderOfflineStatus()}).catch(()=>renderOfflineStatus())}
+    simplifyCopy();styleRemoteAlert();renderTripProgress();$('#routeMap').innerHTML=realRouteMap();$('#routeMapTools').innerHTML=realRouteMap();ensureMapPack();renderDays();renderTasks();renderPacks();renderContacts();renderProgress();renderNext();renderTodayMode();renderBookingPanel();renderDestinationAudit();renderBackupPanel();renderOfflineStatus();renderSyncStatus('正在檢查 Google Doc 的最新資料……');syncRemoteContent();countdown();setInterval(()=>{countdown();renderSunsetSummary();renderTripProgress();if(!todayHasUnsaved())renderTodayMode()},60000);if('serviceWorker' in navigator){navigator.serviceWorker.addEventListener('controllerchange',renderOfflineStatus);navigator.serviceWorker.register('sw.js').then(()=>{renderMapPackStatus();renderOfflineStatus()}).catch(()=>renderOfflineStatus())}
   </script>
 </body>
 </html>

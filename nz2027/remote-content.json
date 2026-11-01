@@ -1,0 +1,494 @@
+{
+  "days": [
+    {
+      "id": 0,
+      "date": "12/31 (四)",
+      "title": "啟程：台北 → 基督城",
+      "city": "空中",
+      "distance": null,
+      "drive": null,
+      "highlights": [
+        "TPE 13:20 -> HKG 15:25",
+        "HKG 20:40 -> CHC 12:50+1",
+        "Airbus",
+        "A330 - 300"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "flight"
+    },
+    {
+      "id": 1,
+      "date": "1/1 (五)",
+      "title": "抵達基督城・城市散步",
+      "city": "Christchurch 基督城",
+      "distance": null,
+      "drive": null,
+      "highlights": [
+        "下午 12:50 到達基督城",
+        "河濱市場",
+        "追憶橋",
+        "基督城植物園",
+        "新攝政街",
+        "shopping"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "drive"
+    },
+    {
+      "id": 2,
+      "date": "1/2 (六)",
+      "title": "Castle Hill・Hokitika",
+      "city": "Hokitika 霍基蒂卡",
+      "distance": "250 km",
+      "drive": "3.5 hr",
+      "highlights": [
+        "Castle Hill",
+        "亞瑟隘口",
+        "奧蒂拉瞭望台",
+        "霍基蒂卡海灘 & 日落海灘",
+        "螢火蟲幽谷小徑"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "booking"
+    },
+    {
+      "id": 3,
+      "date": "1/3 (日)",
+      "title": "馬希納普阿湖・Fox Glacier",
+      "city": "Fox Glacier 福克斯冰河小鎮",
+      "distance": "250 km",
+      "drive": "3.5 hr",
+      "highlights": [
+        "馬希納普阿湖",
+        "直升機冰河健行 (HJ)",
+        "梅普里卡湖 (AB)",
+        "西海岸野生動物保護中心 (AB)",
+        "彼得湖步道 (AB)",
+        "福克斯冰河景觀台",
+        "吉萊斯皮海灘"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "booking"
+    },
+    {
+      "id": 4,
+      "date": "1/4 (一)",
+      "title": "馬松森湖・Wanaka",
+      "city": "Wanaka 瓦納卡",
+      "distance": "275 km",
+      "drive": "4 hr",
+      "highlights": [
+        "馬松森湖",
+        "船溪",
+        "雷霆溪瀑布",
+        "藍池",
+        "內克半島",
+        "哈威亞湖觀景台"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "drive"
+    },
+    {
+      "id": 5,
+      "date": "1/5 (二)",
+      "title": "羅伊峰步道 or 羅伯羅伊冰河步道・Wanaka",
+      "city": "Wanaka 瓦納卡",
+      "distance": "30 km",
+      "drive": "45 min",
+      "highlights": [
+        "羅伊峰步道 or 羅伯羅伊冰河步道",
+        "孤獨樹",
+        "瓦納卡湖畔",
+        "遊湖之旅"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "hike"
+    },
+    {
+      "id": 6,
+      "date": "1/6 (三)",
+      "title": "Wanaka skydive 跳傘 (HJ)・Queenstown",
+      "city": "Queenstown 皇后鎮",
+      "distance": "90 km",
+      "drive": "1.5 hr",
+      "highlights": [
+        "Wanaka skydive 跳傘 (HJ)",
+        "皇冠山景觀台",
+        "箭鎮",
+        "亞瑟斯點",
+        "黑斯湖步道"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "booking"
+    },
+    {
+      "id": 7,
+      "date": "1/7 (四)",
+      "title": "天際纜車 & 溜溜車・Queenstown",
+      "city": "Queenstown 皇后鎮",
+      "distance": "35 km",
+      "drive": "1 hr",
+      "highlights": [
+        "天際纜車 & 溜溜車",
+        "Fergburger",
+        "TSS 蒸汽船遊湖觀光",
+        "Deer Park Heights Queenstown",
+        "Onsen Hot Pools"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "booking"
+    },
+    {
+      "id": 8,
+      "date": "1/8 (五)",
+      "title": "格萊諾基・Te Anau",
+      "city": "Te Anau 蒂阿瑙",
+      "distance": "250 km",
+      "drive": "3.5 hr",
+      "highlights": [
+        "格萊諾基",
+        "Glenorchy Lagoon Walkway",
+        "Paradise",
+        "惡魔的階梯觀景台",
+        "蒂阿瑙湖",
+        "螢火蟲洞"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "booking"
+    },
+    {
+      "id": 9,
+      "date": "1/9 (六)",
+      "title": "埃格林頓峽谷・Te Anau",
+      "city": "Te Anau 蒂阿瑙",
+      "distance": "250 km",
+      "drive": "4.5 hr",
+      "highlights": [
+        "埃格林頓峽谷",
+        "鏡湖",
+        "岡恩湖步道",
+        "猴溪",
+        "米佛峽灣遊輪體驗",
+        "赫默隧道",
+        "裂谷步道"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "booking"
+    },
+    {
+      "id": 10,
+      "date": "1/10 (日)",
+      "title": "曼德維爾・Dunedin",
+      "city": "Dunedin 但尼丁",
+      "distance": "360 km",
+      "drive": "4.5 hr",
+      "highlights": [
+        "曼德維爾",
+        "Sandfly bay",
+        "隧道海灘",
+        "奧塔哥半島(海豹",
+        "企鵝夜間歸巢)"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "booking"
+    },
+    {
+      "id": 11,
+      "date": "1/11 (一)",
+      "title": "八角廣場・Oamaru",
+      "city": "Oamaru 奧瑪魯",
+      "distance": "130 km",
+      "drive": "1.5 hr",
+      "highlights": [
+        "八角廣場",
+        "但尼丁火車站",
+        "奧塔哥大學",
+        "維多利亞風的白石小鎮",
+        "摩拉奇圓石"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "drive"
+    },
+    {
+      "id": 12,
+      "date": "1/12 (二)",
+      "title": "象石群・Mt. Cook",
+      "city": "Mt. Cook 庫克山",
+      "distance": "220 km",
+      "drive": "2.5 hr",
+      "highlights": [
+        "象石群",
+        "石灰石峭壁",
+        "Lake Pukaki Viewing Point",
+        "紐西蘭高山薰衣草農場",
+        "Aoraki Mt Cook Scenic Lookout",
+        "庫克山公路景觀台",
+        "Hermitage Hotel"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "drive"
+    },
+    {
+      "id": 13,
+      "date": "1/13 (三)",
+      "title": "胡克峽谷步道・Mt. Cook",
+      "city": "Mt. Cook 庫克山",
+      "distance": "25 km",
+      "drive": "0.5 hr",
+      "highlights": [
+        "胡克峽谷步道",
+        "塔斯曼冰河船",
+        "庫克山遊客中心",
+        "(塔斯曼湖步道)"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "booking"
+    },
+    {
+      "id": 14,
+      "date": "1/14 (四)",
+      "title": "希利塔恩斯步道・Tekapo",
+      "city": "Tekapo 蒂卡波",
+      "distance": "110 km",
+      "drive": "1.25 hr",
+      "highlights": [
+        "希利塔恩斯步道",
+        "約翰山天文台",
+        "善良牧羊人教堂",
+        "Tekapo Springs",
+        "約翰山天文台觀星團",
+        "教堂自行觀星"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "booking"
+    },
+    {
+      "id": 15,
+      "date": "1/15 (五)",
+      "title": "費爾利麵包房・Christchurch",
+      "city": "Christchurch 基督城",
+      "distance": "245 km",
+      "drive": "3.25 hr",
+      "highlights": [
+        "費爾利麵包房",
+        "羊駝農場",
+        "shopping",
+        "雅芳河 dinner",
+        "新布萊頓碼頭大橋 夕陽",
+        "He Puna Taimoana Hot Pools"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "booking"
+    },
+    {
+      "id": 16,
+      "date": "1/16 (六)",
+      "title": "返程：基督城 → 台北",
+      "city": "空中",
+      "distance": null,
+      "drive": null,
+      "highlights": [
+        "CHC 14:20 -> HKG 20:55",
+        "HKG 20:55 -> TPE 00:35+1",
+        "Airbus",
+        "A350 - 900"
+      ],
+      "notes": [
+        "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+      ],
+      "type": "flight"
+    }
+  ],
+  "arrivalDay": {
+    "id": 17,
+    "date": "1/17 (日)",
+    "title": "抵達桃園・Sweet home",
+    "city": "Sweet home",
+    "distance": null,
+    "drive": null,
+    "highlights": [
+      "00:35 到達桃園機場",
+      "Sweet home"
+    ],
+    "notes": [
+      "此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。"
+    ],
+    "type": "arrival"
+  },
+  "tasks": [
+    {
+      "id": "guideline",
+      "title": "guideline",
+      "detail": "Google Doc 待辦第 1 項",
+      "category": "文件",
+      "due": "—",
+      "critical": false,
+      "url": "https://timtingtravel.com/new-zealand-travel/"
+    },
+    {
+      "id": "doc-task-2",
+      "title": "日出日落時間: 6:00 a.m - 9:00 p.m",
+      "detail": "Google Doc 待辦第 2 項",
+      "category": "文件",
+      "due": "—",
+      "critical": false
+    },
+    {
+      "id": "esim",
+      "title": "開通eSIM, 旅平險",
+      "detail": "Google Doc 待辦第 3 項",
+      "category": "文件",
+      "due": "—",
+      "critical": false
+    },
+    {
+      "id": "cash",
+      "title": "換紐幣 一人 ~300紐幣",
+      "detail": "Google Doc 待辦第 4 項",
+      "category": "行李",
+      "due": "—",
+      "critical": false
+    },
+    {
+      "id": "school",
+      "title": "研替出國申請",
+      "detail": "Google Doc 待辦第 5 項",
+      "category": "文件",
+      "due": "—",
+      "critical": true
+    },
+    {
+      "id": "nztd-start",
+      "title": "紐西蘭旅遊伸報 (NZTD出發前一個月開放填寫)",
+      "detail": "Google Doc 待辦第 6 項",
+      "category": "文件",
+      "due": "—",
+      "critical": true
+    },
+    {
+      "id": "carplay",
+      "title": "帶iphone原廠傳輸線for carplay",
+      "detail": "Google Doc 待辦第 7 項",
+      "category": "行李",
+      "due": "—",
+      "critical": false
+    },
+    {
+      "id": "maps",
+      "title": "下載離線地圖(google map, AB 的 Garmin 手錶)",
+      "detail": "Google Doc 待辦第 8 項",
+      "category": "開車",
+      "due": "—",
+      "critical": true
+    },
+    {
+      "id": "doc-task-9",
+      "title": "帶泳衣、毛巾(一人一條)、拖鞋、保冰袋 (車上食物保鮮用)",
+      "detail": "Google Doc 待辦第 9 項",
+      "category": "行李",
+      "due": "—",
+      "critical": false
+    },
+    {
+      "id": "doc-task-10",
+      "title": "帶沙蠅防蚊液",
+      "detail": "Google Doc 待辦第 10 項",
+      "category": "行李",
+      "due": "—",
+      "critical": false
+    },
+    {
+      "id": "supermarket",
+      "title": "查進庫克山前的超市採買點",
+      "detail": "Google Doc 待辦第 11 項",
+      "category": "開車",
+      "due": "—",
+      "critical": false
+    },
+    {
+      "id": "parking",
+      "title": "查各景點的停車場",
+      "detail": "Google Doc 待辦第 12 項",
+      "category": "開車",
+      "due": "—",
+      "critical": true
+    },
+    {
+      "id": "glacier-form",
+      "title": "12/6 填寫冰川健行風險同意書",
+      "detail": "Google Doc 待辦第 13 項",
+      "category": "文件",
+      "due": "12/6",
+      "critical": true
+    },
+    {
+      "id": "ferg",
+      "title": "1/7 早上 打電話Fergburger 預約外帶",
+      "detail": "Google Doc 待辦第 14 項",
+      "category": "預約",
+      "due": "1/7",
+      "critical": false
+    },
+    {
+      "id": "deer",
+      "title": "12/8 皇后鎮Deer park heights預約 1/7（一個月前開放預約）",
+      "detail": "Google Doc 待辦第 15 項",
+      "category": "預約",
+      "due": "12/8",
+      "critical": true,
+      "url": "https://deerparkheights.co.nz/"
+    },
+    {
+      "id": "hotpools",
+      "title": "1/15 He Puna Taimoana Hot Pools 基督城溫泉預約 adults only 選項 8:00 pm 入場",
+      "detail": "Google Doc 待辦第 16 項",
+      "category": "預約",
+      "due": "1/15",
+      "critical": true
+    },
+    {
+      "id": "nztd-final",
+      "title": "出發前 24 小時下載 NZTD App 並填報完畢",
+      "detail": "Google Doc 待辦第 17 項",
+      "category": "文件",
+      "due": "—",
+      "critical": true
+    }
+  ],
+  "_meta": {
+    "source": "https://docs.google.com/document/d/1DliYnD_FpiU2wPb2cpuZdPl5L4AOvVVdCC-znfRWa5I/export?format=txt",
+    "updatedAt": "2026-11-01T15:09:24.764Z"
+  }
+}

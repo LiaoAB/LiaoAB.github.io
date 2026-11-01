@@ -57,3 +57,14 @@ Use `npm run build:portfolio` when you only want to build the personal portfolio
 - Projects, roles, statistics, and skills live in `src/data/portfolio.json`
 - Colors and layout live in `styles.css` (`:root` custom properties)
 - Interactions are split across `src/js/navigation.js`, `src/js/animations.js`, and `src/js/particles.js`
+
+## 2027NZ Google Doc sync
+
+The `/nz2027/` planner can sync content from the configured Google Doc. The document must be shared as
+“Anyone with the link — Viewer”. Its current Chinese itinerary/table format is parsed automatically;
+it can also contain JSON matching
+[`docs/nz2027-google-doc-format.md`](docs/nz2027-google-doc-format.md).
+
+GitHub Actions checks the document every 30 minutes, validates it, and commits changes to
+`nz2027/remote-content.json`. The app keeps its embedded itinerary as a fallback when the document is
+unavailable. Run `npm run sync:nz2027` locally to test a public document export.

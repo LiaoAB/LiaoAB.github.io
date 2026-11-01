@@ -47,6 +47,9 @@ npm run build
 The deployment bundle is written to `dist/`: the personal page is at the root and
 the 2027NZ app is at `dist/nz2027/`.
 
+The GitHub Pages root serves the personal page. The Vercel project publishes
+`dist/nz2027/` as its root, so `nz2027.vercel.app` opens the travel planner directly.
+
 Use `npm run build:portfolio` when you only want to build the personal portfolio.
 
 ## Editing content

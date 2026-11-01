@@ -38,6 +38,8 @@ npm run build
 
 The output is written to `dist/`.
 
+Vercel uses `npm run build:nz17` to publish the `nz17/` app at the deployment root.
+
 ## Editing content
 
 - Projects, roles, statistics, and skills live in `src/data/portfolio.json`

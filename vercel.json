@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run build:nz17",
   "outputDirectory": "dist",
   "framework": "vite"
 }

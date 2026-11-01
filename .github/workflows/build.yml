@@ -27,17 +27,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check JavaScript syntax
-        run: npm run check
+      - name: Validate site sources
+        run: npm run check:site
 
-      - name: Check NZ17 HTML and inline JavaScript
-        run: npm run check:nz17
-
-      - name: Build production bundle
-        run: npm run build:portfolio
-
-      - name: Build NZ17 deployment bundle
+      - name: Build deployment bundle
         run: npm run build
 
-      - name: Verify NZ17 deployment output
-        run: npm run check:nz17 -- --dist
+      - name: Verify 2027NZ deployment output
+        run: npm run check:nz2027 -- --dist

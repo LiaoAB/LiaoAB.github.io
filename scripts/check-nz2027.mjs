@@ -4,8 +4,8 @@ import { fileURLToPath } from "node:url";
 import vm from "node:vm";
 
 const repositoryRoot = join(fileURLToPath(new URL("..", import.meta.url)));
-const appRoot = join(repositoryRoot, "nz17");
-const targetRoot = process.argv.includes("--dist") ? join(repositoryRoot, "dist") : appRoot;
+const appRoot = join(repositoryRoot, "nz2027");
+const targetRoot = process.argv.includes("--dist") ? join(repositoryRoot, "dist", "nz2027") : appRoot;
 const htmlPath = join(targetRoot, "index.html");
 const html = readFileSync(htmlPath, "utf8");
 
@@ -14,7 +14,7 @@ const inlineScripts = [...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script
   .filter(Boolean);
 
 if (inlineScripts.length === 0) {
-  throw new Error("NZ17 index.html does not contain an inline application script");
+  throw new Error("2027NZ index.html does not contain an inline application script");
 }
 
 inlineScripts.forEach((source, index) => {
@@ -27,7 +27,7 @@ new vm.Script(readFileSync(serviceWorkerPath, "utf8"), { filename: serviceWorker
 const manifestPath = join(targetRoot, "manifest.webmanifest");
 const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
 if (manifest.start_url !== "./" || manifest.display !== "standalone") {
-  throw new Error("NZ17 manifest must use ./ as start_url and standalone display mode");
+  throw new Error("2027NZ manifest must use ./ as start_url and standalone display mode");
 }
 
 const requiredAssets = [
@@ -42,8 +42,8 @@ const requiredAssets = [
 
 const missingAssets = requiredAssets.filter((asset) => !existsSync(join(targetRoot, asset)));
 if (missingAssets.length > 0) {
-  throw new Error(`Missing NZ17 assets: ${missingAssets.join(", ")}`);
+  throw new Error(`Missing 2027NZ assets: ${missingAssets.join(", ")}`);
 }
 
 const location = process.argv.includes("--dist") ? "dist" : "source";
-console.log(`NZ17 ${location} checks passed: ${inlineScripts.length} inline script, ${requiredAssets.length} required assets`);
+console.log(`2027NZ ${location} checks passed: ${inlineScripts.length} inline script, ${requiredAssets.length} required assets`);

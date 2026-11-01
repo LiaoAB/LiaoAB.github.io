@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "vite",
     "check": "node --check src/js/main.js && node --check src/js/content.js && node --check src/js/navigation.js && node --check src/js/animations.js && node --check src/js/particles.js",
-    "check:nz17": "node scripts/check-nz17.mjs",
-    "build": "npm run build:nz17",
+    "check:nz2027": "node scripts/check-nz2027.mjs",
+    "check:site": "npm run check && npm run check:nz2027",
+    "build": "node scripts/build-site.mjs",
     "build:portfolio": "vite build",
-    "build:nz17": "node scripts/build-nz17.mjs",
     "preview": "vite preview"
   },
   "devDependencies": {

@@ -18,6 +18,14 @@ Live at **https://liaoab.github.io**
 - Interactive project cards with 3D tilt
 - Fully responsive and reduced-motion friendly
 
+## Site structure
+
+- `/` — personal portfolio
+- `/nz2027/` — standalone 2027NZ travel planner and PWA
+
+Both pages are published together, while the travel planner keeps its own assets,
+service worker, manifest, and local-storage namespace.
+
 ## Local preview
 
 Install dependencies and start the Vite development server:
@@ -29,17 +37,17 @@ npm run dev
 
 Then visit the URL printed by Vite (normally http://localhost:3000).
 
-Validate and build the portfolio bundle with:
+Validate the site and build both pages with:
 
 ```bash
-npm run check
-npm run build:portfolio
+npm run check:site
+npm run build
 ```
 
-The Vercel deployment bundle is built with `npm run build` and written to `dist/`.
-It publishes the `nz17/` app at the deployment root.
+The deployment bundle is written to `dist/`: the personal page is at the root and
+the 2027NZ app is at `dist/nz2027/`.
 
-Use `npm run build:portfolio` when you want to preview the main portfolio build locally.
+Use `npm run build:portfolio` when you only want to build the personal portfolio.
 
 ## Editing content
 

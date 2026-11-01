@@ -83,6 +83,20 @@ a{text-decoration:none}
 .route-map-head{display:flex;justify-content:space-between;align-items:center;margin:2px 6px 12px}
 .route-map-head b{font-size:15px;letter-spacing:-.01em}
 .route-map-head span{font-size:11px;color:#dff2ea;letter-spacing:.02em}.real-map .route-map-head b{letter-spacing:-.01em}
+.nav-offline{display:grid;grid-template-columns:1.1fr .9fr;gap:14px}
+.nav-card{padding:22px}
+.nav-card-head .tag{margin-bottom:10px}
+.nav-card-head h3{margin:0 0 6px;font-size:19px;letter-spacing:-.02em}
+.nav-card-head p{margin:0;color:var(--muted);font-size:12.5px;line-height:1.6}
+.nav-regions{list-style:none;margin:16px 0 14px;padding:0;display:grid;gap:8px}
+.nav-regions li{display:flex;align-items:baseline;gap:10px;font-size:12.5px;color:#4d6059;line-height:1.5}
+.nav-regions b{flex:none;font-size:10px;font-weight:800;letter-spacing:.04em;color:#2c7a70;background:#e9f5f0;border:1px solid #d6ece2;padding:3px 8px;border-radius:7px}
+.nav-steps{margin:0 0 14px;font-size:12px;color:var(--muted);line-height:1.7}
+.nav-steps b{color:#3f574f}
+.nav-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.nav-ghost{font-size:11.5px;font-weight:800;color:#2f7d75;padding:6px 2px;border-bottom:1px solid rgba(47,125,117,.32)}
+.nav-note{margin:14px 0 18px;font-size:11.5px;line-height:1.7;color:#7d8a84;background:#fffaf1;border:1px dashed #ecd9b8;border-radius:14px;padding:12px 14px}
+.tag.alt{color:#2f7d75;background:#e4f3ee}
 .route-svg{display:block;width:100%;height:270px}
 .place-pills{display:flex;gap:8px;overflow:auto;padding:14px 2px 2px;scrollbar-width:none}
 .place-pills::-webkit-scrollbar{display:none}
@@ -334,6 +348,7 @@ a{text-decoration:none}
   .drive-plan{grid-template-columns:repeat(2,1fr)}
   .route-svg{height:220px}
   .offline-route-img{min-width:700px}
+  .nav-offline{grid-template-columns:1fr}
   .today-grid{grid-template-columns:1fr}
   .today-card h3{font-size:23px}
   .booking-grid{grid-template-columns:1fr}
@@ -359,7 +374,33 @@ a{text-decoration:none}
     <section id="itinerary" class="view"><div class="section-head" style="margin-top:4px"><div><h2>行程</h2><p>以紐西蘭當地時間顯示今天的下一站與活動</p></div><button onclick="showView('overview')">回總覽 ↑</button></div><div id="todayMode"></div><div class="filterbar" id="dayFilters"><button class="active" data-filter="all">全部</button><button data-filter="drive">開車日</button><button data-filter="bookings">有預約</button></div>    <div class="day-list" id="dayList"></div>
     <div class="day-list" id="dayList"></div></section>
 
-    <section id="prep" class="view"><div class="section-head" style="margin-top:4px"><div><h2>準備出發</h2><p>把重要的事完成，再放心上路</p></div><button id="notifyButton">開啟提醒　♧</button></div><div class="prep-top" id="prepTop"><div class="ring" id="prepRing" style="--p:0%"><div><b id="prepPercent">0%</b><small>完成度</small></div></div><div><h2>出發前清單</h2><p id="prepSummary">你的勾選會保存在這台手機，離線也可以使用。</p></div></div><div class="section-head"><div><h2>待辦事項</h2><p>截止日期是提醒日，可依實際預約狀況調整</p></div></div><div class="filterbar" id="taskFilters"><button class="active" data-filter="全部">全部</button><button data-filter="文件">文件</button><button data-filter="預約">預約</button><button data-filter="行李">行李</button><button data-filter="開車">開車</button></div><div class="task-list" id="taskList"></div><div class="section-head"><div><h2>行李清單</h2><p>泳衣、毛巾、防蚊液與 CarPlay 線都在這裡</p></div></div><div class="pack-list" id="packList"></div><div class="section-head"><div><h2>預約</h2><p>訂位編號、報到時間與取消期限</p></div></div><div id="bookingPanel"></div></section>
+    <section id="prep" class="view"><div class="section-head" style="margin-top:4px"><div><h2>準備出發</h2><p>把重要的事完成，再放心上路</p></div><button id="notifyButton">開啟提醒　♧</button></div><div class="prep-top" id="prepTop"><div class="ring" id="prepRing" style="--p:0%"><div><b id="prepPercent">0%</b><small>完成度</small></div></div><div><h2>出發前清單</h2><p id="prepSummary">你的勾選會保存在這台手機，離線也可以使用。</p></div></div><div class="section-head"><div><h2>待辦事項</h2><p>截止日期是提醒日，可依實際預約狀況調整</p></div></div><div class="filterbar" id="taskFilters"><button class="active" data-filter="全部">全部</button><button data-filter="文件">文件</button><button data-filter="預約">預約</button><button data-filter="行李">行李</button><button data-filter="開車">開車</button></div><div class="task-list" id="taskList"></div><div class="section-head"><div><h2>行李清單</h2><p>泳衣、毛巾、防蚊液與 CarPlay 線都在這裡</p></div></div><div class="pack-list" id="packList"></div><div class="section-head"><div><h2>離線導航</h2><p>出發前在 Wi‑Fi 下載，山區沒有訊號也能用</p></div></div>
+<div class="nav-offline">
+  <div class="card nav-card">
+    <div class="nav-card-head"><span class="tag">主要導航</span><h3>Google Maps 離線區域</h3><p>先下載好，開車仍可導航與基本重新規劃；不提供即時路況。</p></div>
+    <ul class="nav-regions">
+      <li><b>D0–D2</b><span>基督城 · Castle Hill · Arthur's Pass · Hokitika</span></li>
+      <li><b>D2–D4</b><span>Hokitika · Fox Glacier · Lake Matheson · Haast · Blue Pools</span></li>
+      <li><b>D4–D8</b><span>Wanaka · Arrowtown · Queenstown · Glenorchy</span></li>
+      <li><b>D8–D9</b><span>Kingston · Te Anau · Milford Sound</span></li>
+      <li><b>D10–D12</b><span>Dunedin · Otago Peninsula · Moeraki · Oamaru</span></li>
+      <li><b>D12–D16</b><span>Omarama · Twizel · Lake Pukaki · Mt Cook · Tekapo · Fairlie · 基督城</span></li>
+    </ul>
+    <p class="nav-steps">App → 個人資料 → <b>離線地圖</b> → 選擇自己的地圖 → 下載；用每段路線的兩端當對角拉框。每區約 10–30MB，30 天內要連網更新一次。若顯示「區域太大」，把長路段再拆成兩塊。</p>
+    <div class="nav-actions"><a class="link-btn" target="_blank" rel="noopener" href="https://www.google.com/maps">↗ 開啟 Google Maps</a><a class="nav-ghost" target="_blank" rel="noopener" href="https://support.google.com/maps/answer/6291838">下載步驟說明</a></div>
+  </div>
+  <div class="card nav-card">
+    <div class="nav-card-head"><span class="tag alt">備援</span><h3>Organic Maps</h3><p>免費開源，整份紐西蘭一張圖、不用分區；離線語音導航與 DOC 步道。</p></div>
+    <ul class="nav-regions">
+      <li><b>約 250MB</b><span>一次下載整份紐西蘭圖資</span></li>
+      <li><b>可離線</b><span>語音導航、步行與登山路線</span></li><li><b>含步道</b><span>DOC 小屋、水源與登山口</span></li>
+    </ul>
+    <p class="nav-steps">出發前在 Wi‑Fi 下載圖資，先試導航一段確認語音正常。</p>
+    <div class="nav-actions"><a class="link-btn" target="_blank" rel="noopener" href="https://apps.apple.com/app/organic-maps-offline-maps/id1567437057">↗ App Store 下載</a></div>
+  </div>
+</div>
+<div class="nav-note">下載後開飛航模式試算一次路線。Organic Maps 是整份紐西蘭一張圖，可補分區之間的縫隙；手機 GPS 誤差約 5–10 公尺，Milford、Haast、Mt Cook 等無訊號路段請先設好目的地再出發。</div>
+<div class="section-head"><div><h2>預約</h2><p>訂位編號、報到時間與取消期限</p></div></div><div id="bookingPanel"></div></section>
 
     <section id="tools" class="view"><div class="section-head" style="margin-top:4px"><div><h2>旅途工具</h2><p>訊號不穩時也能打開的速查頁</p></div><button onclick="installPWA()">加入主畫面　＋</button></div><div id="routeMapTools"></div><div id="offlineStatus"></div><div id="destinationAudit"></div><div id="backupPanel"></div><div class="section-head"><div><h2>離線工具</h2><p>出發前在 Wi‑Fi 下準備好</p></div></div><div class="grid tool-grid"><a class="card tool" href="https://www.google.com/maps" target="_blank" rel="noopener"><div class="circle">⌖</div><div><h3>Google Maps</h3><p>下載紐西蘭區域離線地圖</p></div><span class="tool-arrow">↗</span></a><div class="card tool"><div class="circle">⌚</div><div><h3>離線地圖</h3><p>確認 Google Maps 與 Garmin 離線地圖已同步</p></div><span class="tool-arrow">›</span></div><a class="card tool" href="https://apps.apple.com/app/nz-traveller-declaration/id1539562955" target="_blank" rel="noopener"><div class="circle" style="color:var(--red);background:#ffe9e9">▣</div><div><h3>NZTD App</h3><p>出發前 24 小時完成填報</p></div><span class="tool-arrow">↗</span></a><div class="card tool"><div class="circle" style="color:var(--green);background:#e4f5eb">◒</div><div><h3>eSIM</h3><p>抵達後切換行動數據並測試</p></div><span class="tool-arrow">›</span></div></div><div class="section-head"><div><h2>旅途中速查</h2><p>把這些數字記住就很安心</p></div></div><div class="grid tool-grid"><div class="card"><div class="circle" style="background:#fff0db;color:var(--orange)">☼</div><h3>日照參考</h3><p style="color:var(--muted);font-size:12px">日出日落會依日期與城市更新<br>以行程時間軸為準</p></div><div class="card"><div class="circle" style="background:#e4f5eb;color:var(--green)">NZ$</div><h3>現金基準</h3><p style="color:var(--muted);font-size:12px">NZ$300／人<br>另備 $2 硬幣給 Deer Park</p></div><div class="card"><div class="circle" style="background:#e8ebff;color:#5868c5">▣</div><h3>租車文件</h3><p style="color:var(--muted);font-size:12px">護照・國際駕照・本國駕照<br>租車信用卡</p></div><div class="card"><div class="circle" style="background:#dcf4f6;color:#168a90">♒</div><h3>車上必備</h3><p style="color:var(--muted);font-size:12px">水・零食・保冰袋<br>沙蠅防蚊液</p></div></div><div class="section-head"><div><h2>緊急聯絡</h2><p>點擊電話可直接撥號</p></div></div><div class="card mini-list" id="contacts"></div></section>
 

@@ -29,16 +29,17 @@ npm run dev
 
 Then visit the URL printed by Vite (normally http://localhost:3000).
 
-Create a production bundle with:
+Validate and build the portfolio bundle with:
 
 ```bash
 npm run check
-npm run build
+npm run build:portfolio
 ```
 
-The output is written to `dist/`.
+The Vercel deployment bundle is built with `npm run build` and written to `dist/`.
+It publishes the `nz17/` app at the deployment root.
 
-Vercel uses `npm run build:nz17` to publish the `nz17/` app at the deployment root.
+Use `npm run build:portfolio` when you want to preview the main portfolio build locally.
 
 ## Editing content
 

@@ -27,4 +27,7 @@ jobs:
         run: npm run check
 
       - name: Build production bundle
-        run: npm run build
+        run: npm run build:portfolio
+
+      - name: Build NZ17 deployment bundle
+        run: npm run build:nz17

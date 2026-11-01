@@ -1,8 +1,12 @@
-name: Build portfolio
+name: Validate and build sites
 
 on:
-  push:
-  pull_request:
+  push: {}
+  pull_request: {}
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -26,8 +30,14 @@ jobs:
       - name: Check JavaScript syntax
         run: npm run check
 
+      - name: Check NZ17 HTML and inline JavaScript
+        run: npm run check:nz17
+
       - name: Build production bundle
         run: npm run build:portfolio
 
       - name: Build NZ17 deployment bundle
-        run: npm run build:nz17
+        run: npm run build
+
+      - name: Verify NZ17 deployment output
+        run: npm run check:nz17 -- --dist

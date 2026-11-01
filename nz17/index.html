@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="zh-Hant" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -12,7 +12,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="2027NZ">
   <title>2027NZ · South Island Escape</title>
-  <style>
+<style>
+:root{color-scheme:light}
 :root{--ink:#1d2b28;--ink-2:#29403b;--muted:#7d8b84;--line:#e8e1d6;--canvas:#f7f3ec;--card:#fffdf9;--glacier:#2f8f86;--glacier-2:#e3f4f1;--sand:#f6d9a8;--sky:#d9f1ee;--accent:#e2705a;--accent-2:#f0a35e;--gold:#d99a3c;--red:#d3594c;--orange:#e08a3c;--green:#4f9a6f;--shadow-sm:0 1px 2px rgba(29,43,40,.04),0 6px 18px rgba(29,43,40,.05);--shadow:0 2px 4px rgba(29,43,40,.04),0 18px 40px rgba(29,43,40,.10);--shadow-lg:0 30px 70px rgba(29,43,40,.16)}
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -357,6 +358,7 @@ a{text-decoration:none}
   .activity-row{grid-template-columns:22px 50px 1fr auto}
 }
 @media(max-width:420px){.booking-edit input{min-width:100%}.weather-edit input{min-width:100%}.today-kicker{font-size:9.5px}}
+@media(max-width:760px){body{background-attachment:scroll}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
   </style>
 </head>

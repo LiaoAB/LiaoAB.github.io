@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "check": "node --check src/js/main.js && node --check src/js/content.js && node --check src/js/navigation.js && node --check src/js/animations.js && node --check src/js/particles.js",
+    "check:nz17": "node scripts/check-nz17.mjs",
     "build": "npm run build:nz17",
     "build:portfolio": "vite build",
     "build:nz17": "node scripts/build-nz17.mjs",

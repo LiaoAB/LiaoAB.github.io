@@ -1,33 +1,75 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
   <title id="title">紐西蘭南島自駕離線路線圖</title>
-  <desc id="desc">依照實際經緯度排列 Christchurch、Hokitika、Fox Glacier、Wanaka、Queenstown、Te Anau、Milford Sound、Dunedin、Oamaru、Aoraki 與 Tekapo 的旅程路線。</desc>
+  <desc id="desc">Christchurch、Hokitika、Fox Glacier、Wanaka、Queenstown、Te Anau、Milford Sound、Dunedin、Oamaru、Aoraki / Mt Cook 與 Tekapo 的自駕路線示意圖。</desc>
   <defs>
-    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5b9f98"/><stop offset="1" stop-color="#a9d7c5"/></linearGradient>
-    <linearGradient id="route" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ef8068"/><stop offset=".5" stop-color="#f7b65f"/><stop offset="1" stop-color="#e36c5d"/></linearGradient>
-    <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#315f5a" flood-opacity=".22"/></filter>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2f7a73"/><stop offset=".55" stop-color="#3d8d84"/><stop offset="1" stop-color="#5aa79b"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#fdf3df"/><stop offset="1" stop-color="#f3e5c8"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ef8068"/><stop offset=".5" stop-color="#f7b65f"/><stop offset="1" stop-color="#e36c5d"/>
+    </linearGradient>
+    <pattern id="grain" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#fff8e9" opacity=".16"/>
+    </pattern>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1d4f4b" flood-opacity=".28"/>
+    </filter>
+    <filter id="nodeShadow" x="-120%" y="-120%" width="340%" height="340%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#20443f" flood-opacity=".35"/>
+    </filter>
   </defs>
-  <rect width="1000" height="580" rx="30" fill="url(#night)"/>
-  <g fill="#fff8e9" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif">
-    <text x="42" y="42" font-size="19" font-weight="800" letter-spacing="2.5">NZ 17 · 南島自駕路線</text>
-    <text x="42" y="68" font-size="13">依實際經緯度排列 · 西海岸 → 峽灣 → 東岸 → Aoraki → Tekapo</text>
-    <text x="944" y="68" font-size="12" text-anchor="end">N ↑</text>
+
+  <rect width="1000" height="580" rx="30" fill="url(#sea)"/>
+  <rect width="1000" height="580" rx="30" fill="url(#grain)"/>
+  <g opacity=".22" stroke="#fff8e9" stroke-width="1">
+    <path d="M0 140H1000M0 250H1000M0 360H1000M0 470H1000"/>
+    <path d="M140 0V580M300 0V580M460 0V580M620 0V580M780 0V580M940 0V580"/>
   </g>
-  <g opacity=".18" stroke="#fff8e9" stroke-width="1">
-    <path d="M54 132H946M54 220H946M54 308H946M54 396H946M54 484H946"/>
-    <path d="M150 100V540M300 100V540M450 100V540M600 100V540M750 100V540M900 100V540"/>
+
+  <path d="M270 112 C222 132 188 169 166 218 C143 266 126 325 105 382 C91 421 103 468 145 505 C195 545 267 558 337 548 C393 540 448 558 500 540 C553 520 599 503 635 472 C674 440 711 416 750 387 C802 349 855 338 884 302 C906 275 889 235 862 203 C820 157 778 133 728 123 C663 108 591 110 521 112 C452 105 386 111 330 125 Z" fill="#fff8e9" opacity=".35"/>
+  <path d="M284 139 C239 158 211 191 191 233 C169 279 151 332 132 388 C121 420 132 454 168 482 C216 520 276 533 338 524 C396 516 446 537 494 520 C540 501 581 484 614 455 C652 423 691 397 730 370 C779 337 831 325 858 296 C875 276 861 245 838 218 C801 178 761 153 715 143 C652 128 588 130 520 131 C451 123 389 130 337 143 Z" fill="url(#land)" stroke="#8bb5a2" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M284 139 C239 158 211 191 191 233 C169 279 151 332 132 388" fill="none" stroke="#e6cf9f" stroke-opacity=".8" stroke-width="2"/>
+
+  <g filter="url(#soft)">
+    <polyline points="845,301 598,250 450,297 328,374 258,394 119,418 149,372 119,418 530,447 599,399 470,314 526,330 845,301" fill="none" stroke="#fff8e9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+    <polyline points="845,301 598,250 450,297 328,374 258,394 119,418 149,372 119,418 530,447 599,399 470,314 526,330 845,301" fill="none" stroke="url(#glow)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
-  <path d="M270 112 C222 132 188 169 166 218 C143 266 126 325 105 382 C91 421 103 468 145 505 C195 545 267 558 337 548 C393 540 448 558 500 540 C553 520 599 503 635 472 C674 440 711 416 750 387 C802 349 855 338 884 302 C906 275 889 235 862 203 C820 157 778 133 728 123 C663 108 591 110 521 112 C452 105 386 111 330 125 Z" fill="#fff0d7" stroke="#6c9c89" stroke-opacity=".85" stroke-width="3"/>
-  <path d="M284 139 C239 158 211 191 191 233 C169 279 151 332 132 388 C121 420 132 454 168 482 C216 520 276 533 338 524 C396 516 446 537 494 520 C540 501 581 484 614 455 C652 423 691 397 730 370 C779 337 831 325 858 296 C875 276 861 245 838 218 C801 178 761 153 715 143 C652 128 588 130 520 131 C451 123 389 130 337 143 Z" fill="#dcefcf" opacity=".86"/>
-  <polyline points="845,301 598,250 450,297 328,374 258,394 119,418 149,372 119,418 530,447 599,399 470,314 526,330 845,301" fill="none" stroke="#fff8e9" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity=".82"/>
-  <polyline points="845,301 598,250 450,297 328,374 258,394 119,418 149,372 119,418 530,447 599,399 470,314 526,330 845,301" fill="none" stroke="url(#route)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <g fill="#f5e7c7" stroke="#e36c5d" stroke-width="4" filter="url(#shadow)">
-    <circle cx="845" cy="301" r="11"/><circle cx="598" cy="250" r="11"/><circle cx="450" cy="297" r="11"/><circle cx="328" cy="374" r="11"/><circle cx="258" cy="394" r="11"/><circle cx="119" cy="418" r="11"/><circle cx="149" cy="372" r="11"/><circle cx="530" cy="447" r="11"/><circle cx="599" cy="399" r="11"/><circle cx="470" cy="314" r="11"/><circle cx="526" cy="330" r="11"/>
+
+  <g fill="#fffdf8" stroke="#e36c5d" stroke-width="4" filter="url(#nodeShadow)">
+    <circle cx="845" cy="301" r="9"/><circle cx="598" cy="250" r="9"/><circle cx="450" cy="297" r="9"/>
+    <circle cx="328" cy="374" r="9"/><circle cx="258" cy="394" r="9"/><circle cx="119" cy="418" r="9"/>
+    <circle cx="149" cy="372" r="9"/><circle cx="530" cy="447" r="9"/><circle cx="599" cy="399" r="9"/>
+    <circle cx="470" cy="314" r="9"/><circle cx="526" cy="330" r="9"/>
   </g>
-  <g fill="#405e5a" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="15" font-weight="800">
-    <text x="845" y="278" text-anchor="middle">Christchurch</text><text x="598" y="227" text-anchor="middle">Hokitika</text><text x="428" y="321" text-anchor="end">Fox Glacier</text><text x="328" y="401" text-anchor="middle">Wanaka</text><text x="258" y="421" text-anchor="middle">Queenstown</text><text x="119" y="446" text-anchor="middle">Te Anau</text><text x="178" y="368" text-anchor="start">Milford</text><text x="530" y="476" text-anchor="middle">Dunedin</text><text x="625" y="394" text-anchor="start">Oamaru</text><text x="438" y="302" text-anchor="end">Aoraki</text><text x="548" y="352" text-anchor="start">Tekapo</text>
+  <g fill="#e36c5d">
+    <circle cx="845" cy="301" r="3.4"/><circle cx="598" cy="250" r="3.4"/><circle cx="450" cy="297" r="3.4"/>
+    <circle cx="328" cy="374" r="3.4"/><circle cx="258" cy="394" r="3.4"/><circle cx="119" cy="418" r="3.4"/>
+    <circle cx="149" cy="372" r="3.4"/><circle cx="530" cy="447" r="3.4"/><circle cx="599" cy="399" r="3.4"/>
+    <circle cx="470" cy="314" r="3.4"/><circle cx="526" cy="330" r="3.4"/>
   </g>
-  <g fill="#fff8e9" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="11" font-weight="800">
-    <text x="845" y="324" text-anchor="middle">1 / 12</text><text x="598" y="273" text-anchor="middle">2</text><text x="450" y="320" text-anchor="middle">3</text><text x="328" y="397" text-anchor="middle">4</text><text x="258" y="417" text-anchor="middle">5</text><text x="119" y="441" text-anchor="middle">6 / 8</text><text x="149" y="395" text-anchor="middle">7</text><text x="530" y="470" text-anchor="middle">9</text><text x="599" y="422" text-anchor="middle">10</text><text x="470" y="337" text-anchor="middle">11</text><text x="526" y="353" text-anchor="middle">12</text>
+
+  <g fill="#34554f" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC',Arial,sans-serif" font-size="14" font-weight="800" paint-order="stroke" stroke="#fff8e9" stroke-width="4.5" stroke-linejoin="round">
+    <text x="860" y="306">Christchurch</text>
+    <text x="598" y="232" text-anchor="middle">Hokitika</text>
+    <text x="434" y="303" text-anchor="end">Fox Glacier</text>
+    <text x="330" y="356" text-anchor="middle">Wanaka</text>
+    <text x="258" y="378" text-anchor="middle">Queenstown</text>
+    <text x="119" y="446" text-anchor="middle">Te Anau</text>
+    <text x="132" y="356" text-anchor="end">Milford Sound</text>
+    <text x="530" y="475" text-anchor="middle">Dunedin</text>
+    <text x="620" y="404">Oamaru</text>
+    <text x="488" y="300">Aoraki / Mt Cook</text>
+    <text x="546" y="335">Tekapo</text>
   </g>
-  <text x="42" y="550" fill="#fff8e9" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="12">路線節點依實際座標投影；線段代表本次自駕順序，不代表精確道路。</text>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'PingFang TC',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#f4f8f2" opacity=".78">
+    <text x="46" y="540">路線節點依實際座標示意</text>
+    <text x="46" y="558">線段代表自駕順序，不代表精確道路</text>
+  </g>
+  <g font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="12" font-weight="800" fill="#f4f8f2" opacity=".8">
+    <text x="954" y="536" text-anchor="end">N ↑</text>
+  </g>
 </svg>

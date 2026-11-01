@@ -1,4 +1,4 @@
-const CACHE = 'nz17-v9';
+const CACHE = 'nz17-v10';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon.svg', './logo.svg', './offline-map.svg', './apple-touch-icon.png', './sw.js'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));

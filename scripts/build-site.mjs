@@ -16,5 +16,11 @@ const travelOutputDirectory = join(outputDirectory, "nz2027");
 rmSync(travelOutputDirectory, { recursive: true, force: true });
 cpSync(sourceDirectory, travelOutputDirectory, { recursive: true });
 
+const legacyDirectory = join(repositoryRoot, "nz17");
+const legacyOutputDirectory = join(outputDirectory, "nz17");
+rmSync(legacyOutputDirectory, { recursive: true, force: true });
+cpSync(legacyDirectory, legacyOutputDirectory, { recursive: true });
+
 console.log(`Published portfolio to ${outputDirectory}`);
 console.log(`Published ${sourceDirectory} to ${travelOutputDirectory}`);
+console.log(`Published legacy redirect to ${legacyOutputDirectory}`);

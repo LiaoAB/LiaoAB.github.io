@@ -374,25 +374,17 @@
       "critical": false
     },
     {
-      "id": "cash",
-      "title": "換紐幣 一人 ~300紐幣",
-      "detail": "Google Doc 待辦第 4 項",
-      "category": "行李",
-      "due": "—",
-      "critical": false
-    },
-    {
       "id": "school",
       "title": "研替出國申請",
-      "detail": "Google Doc 待辦第 5 項",
+      "detail": "Google Doc 待辦第 4 項",
       "category": "文件",
       "due": "—",
       "critical": true
     },
     {
-      "id": "nztd-start",
+      "id": "nztd-final",
       "title": "紐西蘭旅遊伸報 (NZTD出發前一個月開放填寫)",
-      "detail": "Google Doc 待辦第 6 項",
+      "detail": "Google Doc 待辦第 5 項",
       "category": "文件",
       "due": "—",
       "critical": true
@@ -400,7 +392,7 @@
     {
       "id": "carplay",
       "title": "帶iphone原廠傳輸線for carplay",
-      "detail": "Google Doc 待辦第 7 項",
+      "detail": "Google Doc 待辦第 6 項",
       "category": "行李",
       "due": "—",
       "critical": false
@@ -408,23 +400,23 @@
     {
       "id": "maps",
       "title": "下載離線地圖(google map, AB 的 Garmin 手錶)",
-      "detail": "Google Doc 待辦第 8 項",
+      "detail": "Google Doc 待辦第 7 項",
       "category": "開車",
       "due": "—",
       "critical": true
     },
     {
-      "id": "doc-task-9",
+      "id": "doc-task-8",
       "title": "帶泳衣、毛巾(一人一條)、拖鞋、保冰袋 (車上食物保鮮用)",
-      "detail": "Google Doc 待辦第 9 項",
+      "detail": "Google Doc 待辦第 8 項",
       "category": "行李",
       "due": "—",
       "critical": false
     },
     {
-      "id": "doc-task-10",
+      "id": "doc-task-9",
       "title": "帶沙蠅防蚊液",
-      "detail": "Google Doc 待辦第 10 項",
+      "detail": "Google Doc 待辦第 9 項",
       "category": "行李",
       "due": "—",
       "critical": false
@@ -432,7 +424,7 @@
     {
       "id": "supermarket",
       "title": "查進庫克山前的超市採買點",
-      "detail": "Google Doc 待辦第 11 項",
+      "detail": "Google Doc 待辦第 10 項",
       "category": "開車",
       "due": "—",
       "critical": false
@@ -440,7 +432,7 @@
     {
       "id": "parking",
       "title": "查各景點的停車場",
-      "detail": "Google Doc 待辦第 12 項",
+      "detail": "Google Doc 待辦第 11 項",
       "category": "開車",
       "due": "—",
       "critical": true
@@ -448,7 +440,7 @@
     {
       "id": "glacier-form",
       "title": "12/6 填寫冰川健行風險同意書",
-      "detail": "Google Doc 待辦第 13 項",
+      "detail": "Google Doc 待辦第 12 項",
       "category": "文件",
       "due": "12/6",
       "critical": true
@@ -456,7 +448,7 @@
     {
       "id": "ferg",
       "title": "1/7 早上 打電話Fergburger 預約外帶",
-      "detail": "Google Doc 待辦第 14 項",
+      "detail": "Google Doc 待辦第 13 項",
       "category": "預約",
       "due": "1/7",
       "critical": false
@@ -464,7 +456,7 @@
     {
       "id": "deer",
       "title": "12/8 皇后鎮Deer park heights預約 1/7（一個月前開放預約）",
-      "detail": "Google Doc 待辦第 15 項",
+      "detail": "Google Doc 待辦第 14 項",
       "category": "預約",
       "due": "12/8",
       "critical": true,
@@ -472,16 +464,16 @@
     },
     {
       "id": "hotpools",
-      "title": "1/15 He Puna Taimoana Hot Pools 基督城溫泉預約 adults only 選項 8:00 pm 入場",
-      "detail": "Google Doc 待辦第 16 項",
+      "title": "12/18 預約 1/15 的 He Puna Taimoana Hot Pools 基督城溫泉預約 adults only 選項 8:00 pm 入場",
+      "detail": "Google Doc 待辦第 15 項",
       "category": "預約",
-      "due": "1/15",
+      "due": "12/18",
       "critical": true
     },
     {
       "id": "nztd-final",
       "title": "出發前 24 小時下載 NZTD App 並填報完畢",
-      "detail": "Google Doc 待辦第 17 項",
+      "detail": "Google Doc 待辦第 16 項",
       "category": "文件",
       "due": "—",
       "critical": true
@@ -489,6 +481,6 @@
   ],
   "_meta": {
     "source": "https://docs.google.com/document/d/1DliYnD_FpiU2wPb2cpuZdPl5L4AOvVVdCC-znfRWa5I/export?format=txt",
-    "updatedAt": "2026-11-01T15:09:24.764Z"
+    "updatedAt": "2026-11-14T17:13:46.416Z"
   }
 }

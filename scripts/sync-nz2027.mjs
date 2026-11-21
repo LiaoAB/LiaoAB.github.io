@@ -101,7 +101,13 @@ function parseDays(text) {
   const starts = [];
   lines.forEach((line, index) => {
     const match = line.match(/^Day\s*(\d+)(?:\s+(\d{1,2}\s*\/\s*\d{1,2})(?:\s*\([^)]*\))?(?:\s+.*)?)?$/i);
-    if (match) starts.push({ id: Number(match[1]), index, heading: line, hasInlineDate: Boolean(match[2]) });
+    if (match) starts.push({
+      id: Number(match[1]),
+      index,
+      heading: line,
+      inlineDate: match[2]?.replace(/\s+/g, ''),
+      hasInlineDate: Boolean(match[2]),
+    });
   });
   // The summary uses a bare "Day N" heading with its date on the next line.
   // Detailed sections use "Day N M/D (weekday) [departure time]" inline.
@@ -112,8 +118,8 @@ function parseDays(text) {
     const end = detailedStarts[position + 1]?.index ?? lines.length;
     const block = lines.slice(start.index + 1, end).filter(line => line && !/^2026\s+12\/31/.test(line));
     const dateIndex = block.findIndex(line => /^\d{1,2}\/\d{1,2}/.test(line));
-    if (dateIndex < 0) continue;
-    const date = block[dateIndex];
+    if (dateIndex < 0 && !start.inlineDate) continue;
+    const date = start.inlineDate || block[dateIndex];
     const distanceIndex = block.findIndex((line, index) => index > dateIndex && /^\d+\s*km$/i.test(line));
     const beforeLocation = distanceIndex >= 0 ? block.slice(dateIndex + 1, distanceIndex) : block.slice(dateIndex + 1);
     const cityPairIndex = beforeLocation.findIndex(line => /^\(.+\)$/.test(line));

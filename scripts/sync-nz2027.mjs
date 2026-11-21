@@ -184,7 +184,7 @@ function parseDocument(text) {
   };
 }
 
-function validate(content) {
+function validate(content, sourceText = '') {
   if (!isObject(content)) throw new Error('同步資料必須是 JSON 物件');
   if (content.days && (!Array.isArray(content.days) || content.days.some(day => !day || typeof day !== 'object' || !Number.isInteger(day.id)))) {
     throw new Error('days 必須是包含 id 的陣列');
@@ -196,14 +196,26 @@ function validate(content) {
     throw new Error('timelines 必須是每日詳細行程陣列');
   }
   if (!content.timelines || Object.keys(content.timelines).length < 10) {
-    throw new Error('Google Doc 詳細行程解析不足，拒絕覆蓋既有網站資料');
+    const timelineDays = content.timelines && isObject(content.timelines)
+      ? Object.keys(content.timelines).sort((a, b) => Number(a) - Number(b))
+      : [];
+    const dayHeadings = [...sourceText.matchAll(/^Day\s+(\d+)(?:\s+\d{1,2}\/\d{1,2})?/gim)]
+      .map(match => match[0].trim());
+    const diagnostics = [
+      `解析到詳細行程：${timelineDays.length} 天（至少需要 10 天）`,
+      `解析到的 Day 編號：${timelineDays.length ? timelineDays.join(', ') : '無'}`,
+      `文件中的 Day 標題：${dayHeadings.length ? dayHeadings.join(' | ') : '無'}`,
+      `Google Doc 匯出文字長度：${sourceText.length} 字元`,
+    ];
+    throw new Error(`Google Doc 詳細行程解析不足，拒絕覆蓋既有網站資料。\n${diagnostics.join('\n')}`);
   }
 }
 
 const response = await fetch(exportURL, { headers: { 'User-Agent': '2027NZ-sync/1.0' } });
 if (!response.ok) throw new Error(`Google Doc 匯出失敗：HTTP ${response.status}`);
-const content = parseDocument(await response.text());
-validate(content);
+const sourceText = await response.text();
+const content = parseDocument(sourceText);
+validate(content, sourceText);
 content._meta = { source: exportURL, updatedAt: new Date().toISOString() };
 
 let previous = null;

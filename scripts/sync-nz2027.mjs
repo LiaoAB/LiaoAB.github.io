@@ -96,20 +96,24 @@ function titleForDay(id, highlights, city) {
 
 function parseDays(text) {
   const scheduleStart = text.indexOf('日期');
-  const detailStart = text.indexOf('________________', scheduleStart);
-  if (scheduleStart < 0 || detailStart < 0) return [];
-  const lines = text.slice(scheduleStart, detailStart).split(/\r?\n/).map(clean);
+  if (scheduleStart < 0) return [];
+  const lines = text.slice(scheduleStart).split(/\r?\n/).map(clean);
   const starts = [];
   lines.forEach((line, index) => {
-    const match = line.match(/^Day\s+(\d+)$/i);
+    const match = line.match(/^Day\s+(\d+)(?:\s+\d{1,2}\/\d{1,2})?$/i);
     if (match) starts.push({ id: Number(match[1]), index });
   });
+  const occurrences = new Map();
+  const detailedStarts = starts.filter(start => {
+    const count = occurrences.get(start.id) || 0;
+    occurrences.set(start.id, count + 1);
+    return count > 0;
+  });
+  if (!detailedStarts.length) return [];
   const parsed = [];
-  for (const [position, start] of starts.entries()) {
-    const end = starts[position + 1]?.index ?? lines.length;
-    const rawBlock = lines.slice(start.index + 1, end).filter(line => line && !/^2026\s+12\/31/.test(line));
-    const detailSeparator = rawBlock.findIndex(line => /^Day\s+\d+\s+\d{1,2}\/\d{1,2}/i.test(line));
-    const block = rawBlock.slice(0, detailSeparator < 0 ? rawBlock.length : detailSeparator);
+  for (const [position, start] of detailedStarts.entries()) {
+    const end = detailedStarts[position + 1]?.index ?? lines.length;
+    const block = lines.slice(start.index + 1, end).filter(line => line && !/^2026\s+12\/31/.test(line));
     const dateIndex = block.findIndex(line => /^\d{1,2}\/\d{1,2}/.test(line));
     if (dateIndex < 0) continue;
     const date = block[dateIndex];
@@ -132,7 +136,7 @@ function parseDays(text) {
       .filter(line => line && !/^\d{4}\s+\d/.test(line));
     const distance = distanceIndex >= 0 ? block[distanceIndex] : null;
     const drive = distanceIndex >= 0 && block[distanceIndex + 1] && /^(?:\d+(?:\.\d+)?\s*(?:hr|min)|\d+\.\d+\s*hr)$/i.test(block[distanceIndex + 1]) ? block[distanceIndex + 1] : null;
-    const detailedLines = detailSeparator < 0 ? [] : rawBlock.slice(detailSeparator);
+    const detailedLines = block;
     const timeline = [];
     let current = null;
     const ignored = /^(?:Day\s+\d+\s+\d{1,2}\/\d{1,2}|Lunch time|Dinner time|Quick lunch time|shopping\s*!*|\d{1,2}\/\d{1,2}\s+\d{1,2}:\d{2},?\s*|住宿地址[:：]?\s*)$/i;

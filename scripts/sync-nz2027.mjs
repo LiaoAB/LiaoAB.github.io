@@ -100,8 +100,8 @@ function parseDays(text) {
   const lines = text.slice(scheduleStart).split(/\r?\n/).map(clean);
   const starts = [];
   lines.forEach((line, index) => {
-    const match = line.match(/^Day\s+(\d+)(?:\s+(\d{1,2}\/\d{1,2})(?:\s*\([^)]*\))?(?:\s+.*)?)?$/i);
-    if (match) starts.push({ id: Number(match[1]), index, hasInlineDate: Boolean(match[2]) });
+    const match = line.match(/^Day\s*(\d+)(?:\s+(\d{1,2}\s*\/\s*\d{1,2})(?:\s*\([^)]*\))?(?:\s+.*)?)?$/i);
+    if (match) starts.push({ id: Number(match[1]), index, heading: line, hasInlineDate: Boolean(match[2]) });
   });
   // The summary uses a bare "Day N" heading with its date on the next line.
   // Detailed sections use "Day N M/D (weekday) [departure time]" inline.
@@ -200,12 +200,16 @@ function validate(content, sourceText = '') {
     const timelineDays = content.timelines && isObject(content.timelines)
       ? Object.keys(content.timelines).sort((a, b) => Number(a) - Number(b))
       : [];
-    const dayHeadings = [...sourceText.matchAll(/^Day\s+(\d+)(?:\s+\d{1,2}\/\d{1,2})?/gim)]
+    const detailHeadings = [...sourceText.matchAll(/^\s*Day\s*(\d+)\s+(\d{1,2}\s*\/\s*\d{1,2})[^\r\n]*/gim)]
       .map(match => match[0].trim());
+    const unparsedDetailDays = detailHeadings
+      .map(heading => heading.match(/^Day\s*(\d+)/i)?.[1])
+      .filter(id => id && !timelineDays.includes(id));
     const diagnostics = [
       `解析到詳細行程：${timelineDays.length} 天（至少需要 10 天）`,
       `解析到的 Day 編號：${timelineDays.length ? timelineDays.join(', ') : '無'}`,
-      `文件中的 Day 標題：${dayHeadings.length ? dayHeadings.join(' | ') : '無'}`,
+      `詳細區標題（${detailHeadings.length}）：${detailHeadings.length ? detailHeadings.join(' | ') : '無'}`,
+      `有標題但未解析出行程的 Day：${unparsedDetailDays.length ? [...new Set(unparsedDetailDays)].join(', ') : '無'}`,
       `Google Doc 匯出文字長度：${sourceText.length} 字元`,
     ];
     throw new Error(`Google Doc 詳細行程解析不足，拒絕覆蓋既有網站資料。\n${diagnostics.join('\n')}`);

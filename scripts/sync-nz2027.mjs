@@ -100,15 +100,12 @@ function parseDays(text) {
   const lines = text.slice(scheduleStart).split(/\r?\n/).map(clean);
   const starts = [];
   lines.forEach((line, index) => {
-    const match = line.match(/^Day\s+(\d+)(?:\s+\d{1,2}\/\d{1,2})?$/i);
-    if (match) starts.push({ id: Number(match[1]), index });
+    const match = line.match(/^Day\s+(\d+)(?:\s+(\d{1,2}\/\d{1,2})(?:\s*\([^)]*\))?(?:\s+.*)?)?$/i);
+    if (match) starts.push({ id: Number(match[1]), index, hasInlineDate: Boolean(match[2]) });
   });
-  const occurrences = new Map();
-  const detailedStarts = starts.filter(start => {
-    const count = occurrences.get(start.id) || 0;
-    occurrences.set(start.id, count + 1);
-    return count > 0;
-  });
+  // The summary uses a bare "Day N" heading with its date on the next line.
+  // Detailed sections use "Day N M/D (weekday) [departure time]" inline.
+  const detailedStarts = starts.filter(start => start.hasInlineDate);
   if (!detailedStarts.length) return [];
   const parsed = [];
   for (const [position, start] of detailedStarts.entries()) {

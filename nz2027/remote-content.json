@@ -4,38 +4,16 @@
       "id": 1,
       "date": "1/1",
       "title": "抵達基督城・城市散步",
-      "city": "未設定",
+      "city": "Christchurch 基督城",
       "distance": null,
       "drive": null,
       "highlights": [
-        "機場租車帶國際駕照",
-        "本國駕照",
-        "護照",
-        "信用卡(AB 在台灣訂車的那張)",
-        "先去住宿check in 停車, 今天搭大眾運輸, 若住的比較遠可參考以下停車場",
-        "1. Lichfield Street Carpark (市中心最新的大型立體停車塔, 車位大)",
-        "2. The Art Gallery Carpark (藝廊地下停車場)",
-        "3. 路邊停車 (1/1免費停車)",
-        "住宿地址:",
-        "1. 河濱市場 https://maps.app.goo.gl/nxbNfPbQ8uMctWYo6",
-        "當地最新鮮的農產品",
-        "肉類",
-        "海鮮, 獨特的藝術品",
-        "紀念品",
-        "或是各式各樣的服飾店 (可吃點午餐)",
-        "2. 追憶橋 https://maps.app.goo.gl/mKXTsvY8Ps99Wusx8",
-        "基督城內最主要的戰爭紀念館之一",
-        "主要用來追憶那些在第一次世界大戰中不幸犧牲的士兵們",
-        "3. 基督城植物園 https://maps.app.goo.gl/QHS1pKjPf37m3ke18",
-        "植物園遊客中心",
-        "雅芳河貢都拉撐船",
-        "4. 新攝政街 https://maps.app.goo.gl/Cjn1SNkobqS5igLcA",
-        "紐西蘭最美的街道, 約100 m, 街道兩旁林立著 40 多間西班牙風格的特色商店",
-        "餐廳",
-        "咖啡廳",
-        "5. DF Souvenirs / NZ Shoponline 逛羊毛",
-        "袋貂毛產品 (不確定1/1有沒有開門)",
-        "________________"
+        "下午 12:50 到達基督城",
+        "河濱市場",
+        "追憶橋",
+        "基督城植物園",
+        "新攝政街",
+        "shopping"
       ],
       "notes": [
         "詳細行程與景點說明已由 Google Doc 同步。"
@@ -43,113 +21,65 @@
       "type": "drive",
       "timeline": [
         [
-          "08:00",
+          "",
           "機場租車帶國際駕照、本國駕照、護照、信用卡(AB 在台灣訂車的那張)",
-          "詳情請見 Google Doc 原文"
+          "先去住宿check in 停車, 今天搭大眾運輸, 若住的比較遠可參考以下停車場"
         ],
         [
-          "09:00",
-          "先去住宿check in 停車, 今天搭大眾運輸, 若住的比較遠可參考以下停車場",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "10:00",
+          "",
           "1. Lichfield Street Carpark (市中心最新的大型立體停車塔, 車位大)",
-          "詳情請見 Google Doc 原文"
+          ""
         ],
         [
-          "11:00",
+          "",
           "2. The Art Gallery Carpark (藝廊地下停車場)",
-          "詳情請見 Google Doc 原文"
+          ""
         ],
         [
-          "12:00",
+          "",
           "3. 路邊停車 (1/1免費停車)",
-          "詳情請見 Google Doc 原文"
+          ""
         ],
         [
-          "14:00",
+          "",
           "1. 河濱市場",
-          "詳情請見 Google Doc 原文"
+          "當地最新鮮的農產品、肉類、海鮮, 獨特的藝術品、紀念品、或是各式各樣的服飾店 (可吃點午餐)"
         ],
         [
-          "15:00",
-          "當地最新鮮的農產品、肉類、海鮮, 獨特的藝術品、紀念品、或是各式各樣的服飾店 (可吃點午餐)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "16:00",
+          "",
           "2. 追憶橋",
-          "詳情請見 Google Doc 原文"
+          "基督城內最主要的戰爭紀念館之一，主要用來追憶那些在第一次世界大戰中不幸犧牲的士兵們"
         ],
         [
-          "17:00",
-          "基督城內最主要的戰爭紀念館之一，主要用來追憶那些在第一次世界大戰中不幸犧牲的士兵們",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "18:00",
+          "",
           "3. 基督城植物園",
-          "詳情請見 Google Doc 原文"
+          "植物園遊客中心、雅芳河貢都拉撐船"
         ],
         [
-          "20:00",
-          "植物園遊客中心、雅芳河貢都拉撐船",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "21:00",
+          "",
           "4. 新攝政街",
-          "詳情請見 Google Doc 原文"
+          "紐西蘭最美的街道, 約100 m, 街道兩旁林立著 40 多間西班牙風格的特色商店、餐廳、咖啡廳"
         ],
         [
-          "22:00",
-          "紐西蘭最美的街道, 約100 m, 街道兩旁林立著 40 多間西班牙風格的特色商店、餐廳、咖啡廳",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "23:00",
+          "",
           "5. DF Souvenirs / NZ Shoponline 逛羊毛、袋貂毛產品 (不確定1/1有沒有開門)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "24:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
+          ""
         ]
       ]
     },
     {
       "id": 2,
       "date": "1/2",
-      "title": "1. Castle Hill (停留時間：1-2 小時) https://maps.app.goo.gl/eNwaeipBEob4GSmY8・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
+      "title": "Castle Hill・Hokitika",
+      "city": "Hokitika 霍基蒂卡",
+      "distance": "250 km",
+      "drive": "3.5 hr",
       "highlights": [
-        "1. Castle Hill (停留時間：1-2 小時) https://maps.app.goo.gl/eNwaeipBEob4GSmY8",
-        "紐西蘭巨石陣 (魔戒在這兒拍的), 從基督城啟程約 1 - 1.5 小時, 需小心砸窗小偷, 請確保所有行李都放在後車廂, 遮物簾拉好, 不要在座位上留下任何包包",
-        "零錢或電子產品",
-        "步道名稱：Kura Tawhiti Access Track 繞行一圈只要 1.5 公里",
-        "需要約 45 分鐘",
-        "步道整體簡單好爬 (垂直爬升約 50 公尺)",
-        "2. Lunch time",
-        "3. 亞瑟隘口 (1-1.5 小時) https://maps.app.goo.gl/YKjjAenc1qqgJDic6",
-        "Devil’s Punchbowl Waterfall Track (惡魔的高腳杯瀑布步道): 起點自停車場開始1.8 公里",
-        "來回約 1 小時, 垂直爬升高度約 105 公尺",
-        "這裡最容易遇到 Kea (高山鸚鵡)。但小心牠們會咬車窗膠條",
-        "走完後可去隔壁的 Arthur's Pass 小鎮咖啡廳 (如 The Wobbly Kea) 喝杯咖啡",
-        "吃個派休息一下",
-        "4. 奧蒂拉瞭望台 (約 10 分鐘) https://maps.app.goo.gl/U6VVvVkHCxzsvfMp8",
-        "Otira Viaduct Lookout 後面有有一段極陡的下坡 (斜率達 16%), 記得切換到手排模式/低速檔位 (L 或 S) 使用引擎煞車, 避免長時間踩煞車導致過熱失靈。",
-        "5. 霍基蒂卡海灘 & 日落海灘 https://maps.app.goo.gl/eZNzbmp9tNQMPbx18",
-        "經典的日落景點, 除了Hokitika 樹枝標誌, 沙灘最南邊還有個值得一訪的 Sunset Point (日落點)",
-        "6. 螢火蟲幽谷小徑 https://maps.app.goo.gl/gt4y2KDfRY5nEeti9",
-        "(在住宿等到天色全黑才出發) 入口處有停車場, 大約 50 公尺長的小徑, 記得關閉手機螢幕",
-        "手電筒",
-        "閃光燈",
-        "1 月份沙蠅 (Sandfly) 極多, 去看螢火蟲時一定要全身噴好防蚊液",
-        "________________"
+        "Castle Hill",
+        "亞瑟隘口",
+        "奧蒂拉瞭望台",
+        "霍基蒂卡海灘 & 日落海灘",
+        "螢火蟲幽谷小徑"
       ],
       "notes": [
         "詳細行程與景點說明已由 Google Doc 同步。"
@@ -157,79 +87,57 @@
       "type": "booking",
       "timeline": [
         [
-          "08:00",
+          "",
           "1. Castle Hill (停留時間：1-2 小時)",
           "紐西蘭巨石陣 (魔戒在這兒拍的), 從基督城啟程約 1 - 1.5 小時, 需小心砸窗小偷, 請確保所有行李都放在後車廂, 遮物簾拉好, 不要在座位上留下任何包包、零錢或電子產品 步道名稱：Kura Tawhiti Access Track 繞行一圈只要 1.5 公里、需要約 45 分鐘，步道整體簡單好爬 (垂直爬升約 50 公尺)"
         ],
         [
-          "09:00",
+          "",
           "2. Lunch time",
-          "3. 亞瑟隘口 (1-1.5 小時) https://maps.app.goo.gl/YKjjAenc1qqgJDic6 Devil’s Punchbowl Waterfall Track (惡魔的高腳杯瀑布步道): 起點自停車場開始1.8 公里、來回約 1 小時, 垂直爬升高度約 105 公尺"
+          ""
         ],
         [
-          "10:00",
-          "這裡最容易遇到 Kea (高山鸚鵡)。但小心牠們會咬車窗膠條",
-          "走完後可去隔壁的 Arthur's Pass 小鎮咖啡廳 (如 The Wobbly Kea) 喝杯咖啡、吃個派休息一下 4. 奧蒂拉瞭望台 (約 10 分鐘) https://maps.app.goo.gl/U6VVvVkHCxzsvfMp8 Otira Viaduct Lookout 後面有有一段極陡的下坡 (斜率達 16%), 記得切換到手排模式/低速檔位 (L 或 S) 使用引擎煞車, 避免長時間踩煞車導致過熱失靈。 5. 霍基蒂卡海灘 & 日落海灘 https://maps.app.goo.gl/eZNzbmp9tNQMPbx18 經典的日落景點, 除了Hokitika 樹枝標誌, 沙灘最南邊還有個值得一訪的 Sunset Point (日落點)"
+          "",
+          "3. 亞瑟隘口 (1-1.5 小時)",
+          "Devil’s Punchbowl Waterfall Track (惡魔的高腳杯瀑布步道): 起點自停車場開始1.8 公里、來回約 1 小時, 垂直爬升高度約 105 公尺 這裡最容易遇到 Kea (高山鸚鵡)。但小心牠們會咬車窗膠條 走完後可去隔壁的 Arthur's Pass 小鎮咖啡廳 (如 The Wobbly Kea) 喝杯咖啡、吃個派休息一下"
         ],
         [
-          "11:00",
+          "",
+          "4. 奧蒂拉瞭望台 (約 10 分鐘)",
+          "Otira Viaduct Lookout 後面有有一段極陡的下坡 (斜率達 16%), 記得切換到手排模式/低速檔位 (L 或 S) 使用引擎煞車, 避免長時間踩煞車導致過熱失靈。"
+        ],
+        [
+          "",
+          "5. 霍基蒂卡海灘 & 日落海灘",
+          "經典的日落景點, 除了Hokitika 樹枝標誌, 沙灘最南邊還有個值得一訪的 Sunset Point (日落點)"
+        ],
+        [
+          "",
           "6. 螢火蟲幽谷小徑",
-          "詳情請見 Google Doc 原文"
+          "(在住宿等到天色全黑才出發) 入口處有停車場, 大約 50 公尺長的小徑, 記得關閉手機螢幕、手電筒、閃光燈"
         ],
         [
-          "12:00",
-          "(在住宿等到天色全黑才出發) 入口處有停車場, 大約 50 公尺長的小徑, 記得關閉手機螢幕、手電筒、閃光燈",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "14:00",
+          "",
           "1 月份沙蠅 (Sandfly) 極多, 去看螢火蟲時一定要全身噴好防蚊液",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "15:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
+          ""
         ]
       ]
     },
     {
       "id": 3,
       "date": "1/3",
-      "title": "1. 馬希納普阿湖 https://maps.app.goo.gl/29gGFgc9bLcFJsMx8 (together)・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
+      "title": "馬希納普阿湖・Fox Glacier",
+      "city": "Fox Glacier 福克斯冰河小鎮",
+      "distance": "250 km",
+      "drive": "3.5 hr",
       "highlights": [
-        "1. 馬希納普阿湖 https://maps.app.goo.gl/29gGFgc9bLcFJsMx8 (together)",
-        "Hokitika 往南駛約 10 分鐘即會抵達, 可選擇清晨前來 (非必要XD)",
-        "2. Quick lunch time (YAO)",
-        "3. Fox Glacier 直升機冰河健行 11:50 開始, 11:20 報到 ! (YAO)",
-        "https://maps.app.goo.gl/DSgx6pH6eTRXvc1D6",
-        "11:40會宣佈是否可起飛, 若停飛將遞補至隔天早上, 背包限重3 kg",
-        "冰川健行活動大約要 3-4 小時 (包含行前解說",
-        "領取裝備",
-        "飛行時間), 但實際在冰上活動時間約 3 小時, 需準備護照, 預訂時刷的信用卡",
-        "攜帶物品: 墨鏡, 防曬乳液, 簡易食物, 水, 暈機藥, 不要穿裙子和牛仔褲",
-        "官網: https://www.foxguides.co.nz/?_gl=1%2Azc3sv9%2A_gcl_au%2AMTUxMjI2NjYzLjE3NzY4NzQxODY.%2A_ga%2AMTAyODM4MjA5MS4xNzc2ODc0MTg2%2A_ga_MP8VW8WMXN%2AczE3NzY5NTIyMjQkbzIkZzEkdDE3NzY5NTMxMjEkajU3JGwwJGgw",
-        "4. 梅普里卡湖 https://maps.app.goo.gl/1YDu9oejHVm96eqP6 (for AB)",
-        "離開 Hokitika 小鎮後約 2 小時, 在 Franz Josef 冰河小鎮北方約 10 分鐘車程的位置, 鏡湖",
-        "5. 西海岸野生動物保護中心 https://maps.app.goo.gl/Yb2pjp9zTVENvKb88 (AB)",
-        "Kiwi 為主題的保護中心, 保證 100% 可以親眼觀賞到奇異鳥, 還可以升級成 VIP 套票, 進到該保護中心後台的孵化室, 還有紐西蘭鱷蜥, 在 2.5 億年前的三疊紀時期就存在於地球上了",
-        "普通門票：成人 $38 NZD；兒童 $20 NZD ( 48 小時入場通行)",
-        "VIP後台通行票：成人 $70 NZD；兒童 $30 NZD (48 小時入場通行＋後台梯次導覽",
-        "點此看梯次)",
-        "6. 彼得湖步道 https://maps.app.goo.gl/kMomTtMdVYS9emQYA (AB)",
-        "全長 1.1 公里",
-        "來回約 30 分鐘",
-        "200 多年前於冰河融化時所形成的, 看倒影,",
-        "停車場: https://maps.app.goo.gl/5sjQ42bmYEkz2zKt5",
-        "7. 福克斯冰河景觀台 https://maps.app.goo.gl/oV5xYGKZjY9qcEVE8 (together)",
-        "於 Lake Matheson 西方約 5-10 分鐘車程, 有簡單造景也有幾個座位區, 適合坐在這裡邊吃東西邊欣賞風景",
-        "8. 吉萊斯皮海灘 https://maps.app.goo.gl/uh2fPqhaiL7mRvBH6 (together)",
-        "離小鎮約半小時的車程, 礫石海灘看日落, 運氣好的話",
-        "還有機會能直接在岸邊見到海豹與海豚, 這需要開碎石路段, 請小心",
-        "________________"
+        "馬希納普阿湖",
+        "直升機冰河健行 (HJ)",
+        "梅普里卡湖 (AB)",
+        "西海岸野生動物保護中心 (AB)",
+        "彼得湖步道 (AB)",
+        "福克斯冰河景觀台",
+        "吉萊斯皮海灘"
       ],
       "notes": [
         "詳細行程與景點說明已由 Google Doc 同步。"
@@ -237,1061 +145,141 @@
       "type": "booking",
       "timeline": [
         [
-          "08:00",
+          "",
           "1. 馬希納普阿湖",
-          "詳情請見 Google Doc 原文"
+          "Hokitika 往南駛約 10 分鐘即會抵達, 可選擇清晨前來 (非必要XD)"
         ],
         [
-          "09:00",
-          "Hokitika 往南駛約 10 分鐘即會抵達, 可選擇清晨前來 (非必要XD)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "10:00",
+          "",
           "2. Quick lunch time (YAO)",
-          "詳情請見 Google Doc 原文"
+          ""
         ],
         [
-          "11:00",
+          "",
           "3. Fox Glacier 直升機冰河健行 11:50 開始, 11:20 報到 ! (YAO)",
           "https://maps.app.goo.gl/DSgx6pH6eTRXvc1D6"
         ],
         [
-          "12:00",
+          "",
           "11:40會宣佈是否可起飛, 若停飛將遞補至隔天早上, 背包限重3 kg",
-          "冰川健行活動大約要 3-4 小時 (包含行前解說、領取裝備、飛行時間), 但實際在冰上活動時間約 3 小時, 需準備護照, 預訂時刷的信用卡"
+          "冰川健行活動大約要 3-4 小時 (包含行前解說、領取裝備、飛行時間), 但實際在冰上活動時間約 3 小時, 需準備護照, 預訂時刷的信用卡 攜帶物品: 墨鏡, 防曬乳液, 簡易食物, 水, 暈機藥, 不要穿裙子和牛仔褲 官網: https://www.foxguides.co.nz/?_gl=1%2Azc3sv9%2A_gcl_au%2AMTUxMjI2NjYzLjE3NzY4NzQxODY.%2A_ga%2AMTAyODM4MjA5MS4xNzc2ODc0MTg2%2A_ga_MP8VW8WMXN%2AczE3NzY5NTIyMjQkbzIkZzEkdDE3NzY5NTMxMjEkajU3JGwwJGgw"
         ],
         [
-          "14:00",
-          "攜帶物品: 墨鏡, 防曬乳液, 簡易食物, 水, 暈機藥, 不要穿裙子和牛仔褲",
-          "官網: https://www.foxguides.co.nz/?_gl=1%2Azc3sv9%2A_gcl_au%2AMTUxMjI2NjYzLjE3NzY4NzQxODY.%2A_ga%2AMTAyODM4MjA5MS4xNzc2ODc0MTg2%2A_ga_MP8VW8WMXN%2AczE3NzY5NTIyMjQkbzIkZzEkdDE3NzY5NTMxMjEkajU3JGwwJGgw 4. 梅普里卡湖 https://maps.app.goo.gl/1YDu9oejHVm96eqP6 (for AB) 離開 Hokitika 小鎮後約 2 小時, 在 Franz Josef 冰河小鎮北方約 10 分鐘車程的位置, 鏡湖 5. 西海岸野生動物保護中心 https://maps.app.goo.gl/Yb2pjp9zTVENvKb88 (AB) Kiwi 為主題的保護中心, 保證 100% 可以親眼觀賞到奇異鳥, 還可以升級成 VIP 套票, 進到該保護中心後台的孵化室, 還有紐西蘭鱷蜥, 在 2.5 億年前的三疊紀時期就存在於地球上了"
+          "",
+          "4. 梅普里卡湖",
+          "離開 Hokitika 小鎮後約 2 小時, 在 Franz Josef 冰河小鎮北方約 10 分鐘車程的位置, 鏡湖"
         ],
         [
-          "15:00",
-          "普通門票：成人 $38 NZD；兒童 $20 NZD ( 48 小時入場通行)",
-          "詳情請見 Google Doc 原文"
+          "",
+          "5. 西海岸野生動物保護中心",
+          "Kiwi 為主題的保護中心, 保證 100% 可以親眼觀賞到奇異鳥, 還可以升級成 VIP 套票, 進到該保護中心後台的孵化室, 還有紐西蘭鱷蜥, 在 2.5 億年前的三疊紀時期就存在於地球上了 普通門票：成人 $38 NZD；兒童 $20 NZD ( 48 小時入場通行) VIP後台通行票：成人 $70 NZD；兒童 $30 NZD (48 小時入場通行＋後台梯次導覽，點此看梯次)"
         ],
         [
-          "16:00",
-          "VIP後台通行票：成人 $70 NZD；兒童 $30 NZD (48 小時入場通行＋後台梯次導覽，點此看梯次)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "17:00",
+          "",
           "6. 彼得湖步道",
-          "詳情請見 Google Doc 原文"
+          "全長 1.1 公里、來回約 30 分鐘"
         ],
         [
-          "18:00",
-          "全長 1.1 公里、來回約 30 分鐘",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "20:00",
+          "",
           "200 多年前於冰河融化時所形成的, 看倒影,",
-          "詳情請見 Google Doc 原文"
+          "停車場: https://maps.app.goo.gl/5sjQ42bmYEkz2zKt5"
         ],
         [
-          "21:00",
-          "停車場:",
-          "7. 福克斯冰河景觀台 https://maps.app.goo.gl/oV5xYGKZjY9qcEVE8 (together) 於 Lake Matheson 西方約 5-10 分鐘車程, 有簡單造景也有幾個座位區, 適合坐在這裡邊吃東西邊欣賞風景 8. 吉萊斯皮海灘 https://maps.app.goo.gl/uh2fPqhaiL7mRvBH6 (together) 離小鎮約半小時的車程, 礫石海灘看日落, 運氣好的話，還有機會能直接在岸邊見到海豹與海豚, 這需要開碎石路段, 請小心"
+          "",
+          "7. 福克斯冰河景觀台",
+          "於 Lake Matheson 西方約 5-10 分鐘車程, 有簡單造景也有幾個座位區, 適合坐在這裡邊吃東西邊欣賞風景"
         ],
         [
-          "22:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
+          "",
+          "8. 吉萊斯皮海灘",
+          "離小鎮約半小時的車程, 礫石海灘看日落, 運氣好的話，還有機會能直接在岸邊見到海豹與海豚, 這需要開碎石路段, 請小心"
         ]
       ]
     },
     {
       "id": 4,
       "date": "1/4",
-      "title": "若是 Day 3 直升機停飛・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
+      "title": "馬松森湖・Wanaka",
+      "city": "Wanaka 瓦納卡",
+      "distance": "275 km",
+      "drive": "4 hr",
       "highlights": [
-        "若是 Day 3 直升機停飛, 將遞補至今天早上, 若要跳傘,需放掉1,2 or Day 4 先玩",
-        "記得先加滿油, 今天路程無加油站和訊號, 帶上午餐, 路程無餐廳補給",
-        "記得防蚊液, 今天是沙蠅重災區",
-        "1. 馬松森湖 (2.5 hr) https://maps.app.goo.gl/wch5yWG7GpUM7fbf7",
-        "位於小鎮西北邊, 開車約 10 分鐘可抵達, 步道環湖而造, 繞行一圈大約要 2 小時, 無顯著的高低起伏, 適合看日出",
-        "結束後在門口馬松森咖啡廳吃早餐",
-        "2. 船溪 (1.5 hr) https://maps.app.goo.gl/4oRXsZVgnYu4fCLs9",
-        "有兩條小型步道, 無需搭船, 7-12 月可看赫克託海豚, 以及紐西蘭最高樹木－羅漢松",
-        "3. 雷霆溪瀑布 https://maps.app.goo.gl/tR9oeUWR88knjSsi7",
-        "僅需步行 250 公尺即可抵達 Haast River 岸邊的瀑布, 可直接於觀景台上欣賞 96 公尺高的馬尾型瀑布, 是 Haast Pass 三大瀑布中最高及最容易抵達的一個",
-        "4. 藍池 https://maps.app.goo.gl/zGtL4pCMxeY5RnDe6",
-        "屬於簡單路線",
-        "單趟約 30 分鐘, 小徑始於原始的苔癬雨林小徑, 途經兩座吊橋後景色漸漸轉為開闊的山谷地形。去看第二座吊橋下 Tiffany 藍的 Makarora River",
-        "5. 內克半島 (45 min) https://maps.app.goo.gl/T1re2FB4q3aqg8QPA",
-        "到以下點看Lake Wanaka, 一個點大約停留15 min:",
-        "1. Lake Wanaka Lookout 位置：(-44.430854, 169.182741)",
-        "2. The Neck 停車位置：(-44.437556, 169.194722)",
-        "3. Lake Hawea 岸邊停車位置：(-44.439803, 169.197667)",
-        "6. 哈威亞湖觀景台 (10 min) https://maps.app.goo.gl/oanWMZBSCeYxoCo67",
-        "________________"
+        "馬松森湖",
+        "船溪",
+        "雷霆溪瀑布",
+        "藍池",
+        "內克半島",
+        "哈威亞湖觀景台"
       ],
       "notes": [
         "詳細行程與景點說明已由 Google Doc 同步。"
       ],
-      "type": "booking",
+      "type": "drive",
       "timeline": [
         [
-          "08:00",
+          "",
           "若是 Day 3 直升機停飛, 將遞補至今天早上, 若要跳傘,需放掉1,2 or Day 4 先玩",
-          "詳情請見 Google Doc 原文"
+          "記得先加滿油, 今天路程無加油站和訊號, 帶上午餐, 路程無餐廳補給 記得防蚊液, 今天是沙蠅重災區"
         ],
         [
-          "09:00",
-          "記得先加滿油, 今天路程無加油站和訊號, 帶上午餐, 路程無餐廳補給",
-          "詳情請見 Google Doc 原文"
+          "",
+          "1. 馬松森湖 (2.5 hr)",
+          "位於小鎮西北邊, 開車約 10 分鐘可抵達, 步道環湖而造, 繞行一圈大約要 2 小時, 無顯著的高低起伏, 適合看日出 結束後在門口馬松森咖啡廳吃早餐"
         ],
         [
-          "10:00",
-          "記得防蚊液, 今天是沙蠅重災區",
-          "1. 馬松森湖 (2.5 hr) https://maps.app.goo.gl/wch5yWG7GpUM7fbf7 位於小鎮西北邊, 開車約 10 分鐘可抵達, 步道環湖而造, 繞行一圈大約要 2 小時, 無顯著的高低起伏, 適合看日出"
+          "",
+          "2. 船溪 (1.5 hr)",
+          "有兩條小型步道, 無需搭船, 7-12 月可看赫克託海豚, 以及紐西蘭最高樹木－羅漢松"
         ],
         [
-          "11:00",
-          "結束後在門口馬松森咖啡廳吃早餐",
-          "2. 船溪 (1.5 hr) https://maps.app.goo.gl/4oRXsZVgnYu4fCLs9"
-        ],
-        [
-          "12:00",
-          "有兩條小型步道, 無需搭船, 7-12 月可看赫克託海豚, 以及紐西蘭最高樹木－羅漢松",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "14:00",
+          "",
           "3. 雷霆溪瀑布",
           "僅需步行 250 公尺即可抵達 Haast River 岸邊的瀑布, 可直接於觀景台上欣賞 96 公尺高的馬尾型瀑布, 是 Haast Pass 三大瀑布中最高及最容易抵達的一個"
         ],
         [
-          "15:00",
+          "",
           "4. 藍池",
-          "屬於簡單路線、單趟約 30 分鐘, 小徑始於原始的苔癬雨林小徑, 途經兩座吊橋後景色漸漸轉為開闊的山谷地形。去看第二座吊橋下 Tiffany 藍的 Makarora River 5. 內克半島 (45 min) https://maps.app.goo.gl/T1re2FB4q3aqg8QPA"
+          "屬於簡單路線、單趟約 30 分鐘, 小徑始於原始的苔癬雨林小徑, 途經兩座吊橋後景色漸漸轉為開闊的山谷地形。去看第二座吊橋下 Tiffany 藍的 Makarora River"
         ],
         [
-          "16:00",
-          "到以下點看Lake Wanaka, 一個點大約停留15 min:",
-          "詳情請見 Google Doc 原文"
+          "",
+          "5. 內克半島 (45 min)",
+          "到以下點看Lake Wanaka, 一個點大約停留15 min:"
         ],
         [
-          "17:00",
+          "",
           "1. Lake Wanaka Lookout 位置：(-44.430854, 169.182741)",
-          "詳情請見 Google Doc 原文"
+          ""
         ],
         [
-          "18:00",
+          "",
           "2. The Neck 停車位置：(-44.437556, 169.194722)",
-          "詳情請見 Google Doc 原文"
+          ""
         ],
         [
-          "20:00",
+          "",
           "3. Lake Hawea 岸邊停車位置：(-44.439803, 169.197667)",
-          "6. 哈威亞湖觀景台 (10 min) https://maps.app.goo.gl/oanWMZBSCeYxoCo67"
+          ""
         ],
         [
-          "21:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
+          "",
+          "6. 哈威亞湖觀景台 (10 min)",
+          ""
         ]
       ]
     },
     {
       "id": 5,
       "date": "1/5",
-      "title": "建議每人帶2.5L的水・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
+      "title": "羅伊峰步道 or 羅伯羅伊冰河步道・Wanaka",
+      "city": "Wanaka 瓦納卡",
+      "distance": "30 km",
+      "drive": "45 min",
       "highlights": [
-        "建議每人帶2.5L的水",
-        "1. 羅伊峰步道 https://maps.app.goo.gl/6ZCyaMQ1peJuCZ4HA",
-        "全紐西蘭最熱門登山步道之一, 一路之字形陡坡上升且全程無遮蔽物, 15.6公里",
-        "來回約 7-8 小時, 爬升高度約 1250 公尺, 早點出門",
-        "否則停車場一位難求, 距 Wanaka 小鎮約 10 分鐘車程",
-        "2. 羅伯羅伊冰河步道 https://maps.app.goo.gl/LjWMZmMiZCcEbSJx6",
-        "若是體力不足以登上羅伊峰, 可考慮這個, 7:30前出發",
-        "開車需要開碎石路, 有機會需要涉水",
-        "10 公里",
-        "來回約 4 小時, 爬升高度約 460 公尺, 距 Wanaka 小鎮約1.5 hr",
-        "步道終點可以同時欣賞雪原",
-        "冰川",
-        "陡峭的岩石懸崖和冰河融化所形成的瀑布",
-        "3. Lunch time and 回住宿洗澡 (如果爬完山流汗想要洗)",
-        "4. 孤獨樹 and 瓦納卡湖畔 https://maps.app.goo.gl/KMmDwzomsFd9F4hYA",
-        "Wanaka Sequoia 抱大樹 (在 Wanaka Station Park 內)",
-        "乳白色沙灘",
-        "雪山",
-        "孤獨樹 with sunset, 看時間需求可看啊遊湖對調",
-        "5. Lake Wanaka Cruise (遊湖之旅)",
-        "Happy Hour Cruise (歡樂時光) (1 hr): 在17:30 出發, 1 hr可以享受日落, 近距離欣賞 Lake Wanaka 湖中最上鏡的小島 － Ruby Island (紅寶石島), 遊輪上提供點心美食和飲料",
-        "報到找沙灘上的 Wanaka Cruises 告示牌",
-        "船隻通常是大型白色雙體船「Dual Image」",
-        "停車點: Lakefront Car Park, Wanaka Tree 方向的路邊停車"
-      ],
-      "notes": [
-        "詳細行程與景點說明已由 Google Doc 同步。"
-      ],
-      "type": "booking",
-      "timeline": [
-        [
-          "08:00",
-          "建議每人帶2.5L的水",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "09:00",
-          "1. 羅伊峰步道",
-          "全紐西蘭最熱門登山步道之一, 一路之字形陡坡上升且全程無遮蔽物, 15.6公里、來回約 7-8 小時, 爬升高度約 1250 公尺, 早點出門，否則停車場一位難求, 距 Wanaka 小鎮約 10 分鐘車程"
-        ],
-        [
-          "10:00",
-          "2. 羅伯羅伊冰河步道",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "11:00",
-          "若是體力不足以登上羅伊峰, 可考慮這個, 7:30前出發",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "12:00",
-          "開車需要開碎石路, 有機會需要涉水",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "14:00",
-          "10 公里、來回約 4 小時, 爬升高度約 460 公尺, 距 Wanaka 小鎮約1.5 hr",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "15:00",
-          "步道終點可以同時欣賞雪原、冰川、陡峭的岩石懸崖和冰河融化所形成的瀑布",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "16:00",
-          "3. Lunch time and 回住宿洗澡 (如果爬完山流汗想要洗)",
-          "4. 孤獨樹 and 瓦納卡湖畔 https://maps.app.goo.gl/KMmDwzomsFd9F4hYA Wanaka Sequoia 抱大樹 (在 Wanaka Station Park 內)、乳白色沙灘、雪山、孤獨樹 with sunset, 看時間需求可看啊遊湖對調"
-        ],
-        [
-          "17:00",
-          "5. Lake Wanaka Cruise (遊湖之旅)",
-          "Happy Hour Cruise (歡樂時光) (1 hr): 在17:30 出發, 1 hr可以享受日落, 近距離欣賞 Lake Wanaka 湖中最上鏡的小島 － Ruby Island (紅寶石島), 遊輪上提供點心美食和飲料"
-        ],
-        [
-          "18:00",
-          "報到找沙灘上的 Wanaka Cruises 告示牌，船隻通常是大型白色雙體船「Dual Image」",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "20:00",
-          "停車點: Lakefront Car Park, Wanaka Tree 方向的路邊停車",
-          "詳情請見 Google Doc 原文"
-        ]
-      ]
-    },
-    {
-      "id": 6,
-      "date": "1/6",
-      "title": "1. Wanaka Skydive (跳傘)・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
-      "highlights": [
-        "1. Wanaka Skydive (跳傘)",
-        "7:00 至 Wanaka i-SITE Visitor Information Centre Check in",
-        "https://maps.app.goo.gl/FnvXgj49RLyL3qxJ6",
-        "6:30 打 +64 3 443 7207 or 0800 786 877 (NZ only) 去確認天氣是否可飛",
-        "從 Check-in 報到開始一直到結束, 一般需要 3-3.5 hr",
-        "不要穿有領子",
-        "合身的衣服, 將所有飾品拆下, 請勿穿著裙子或短褲, 感冒建議取消跳傘",
-        "官網: https://zh.skydivewanaka.com/prices-and-packages/",
-        "2. 皇冠山景觀台 https://maps.app.goo.gl/CamaSaunSmn6XUWM9",
-        "停留時間: 20 min, 紐西蘭最高海拔的主幹道公路",
-        "3. 箭鎮 (Lunch time)",
-        "2-1 箭鎮郵局 https://maps.app.goo.gl/MGKWwC3iE6AQ8FXC8",
-        "2-2 箭鎮烘焙房 吃鹹派 https://maps.app.goo.gl/wMfJPYjMaTEZmxNs7",
-        "2-3 巴塔哥尼亞巧克力 店員態度差 高級巧克力",
-        "冰淇淋",
-        "https://maps.app.goo.gl/4gKsnzdqnQSyn4jW9",
-        "2-4 Golden Fleece: 羊毛",
-        "袋貂毛產品",
-        "若是跳傘延遲過久, 跳過2-3, 若延遲更久, 跳過整個箭鎮只買午餐",
-        "4. 亞瑟斯點 https://maps.app.goo.gl/rT9CekHNQfiLzur89",
-        "集合地點: https://maps.app.goo.gl/r1MJM9sDF2yg1wKn9",
-        "體驗噴射快艇, Shotover Jet, 整趟體驗約 25 分鐘, 過程中駕駛會以飛快的速度穿越重重峽谷, 會被淋濕, 多帶一件備用衣服放在車上, 10:00 – 16:00 (每小時一班), 預約16:00 開始的 15:30 報到",
-        "5. Tobin’s Track https://maps.app.goo.gl/nPgGKkA1XymL65Vv7",
-        "小鎮一旁較熱門的登山步道, 步道終點可以遠眺整個箭鎮以及附近的群山",
-        "湖泊",
-        "來回距離 & 所需時間：4.5 km, 來回約 1 hr",
-        "步道難度：易 (垂直爬升高度約 240 m)",
-        "停車場座標位置: -44.940518, 168.839620",
-        "6. Rātā Restaurant https://maps.app.goo.gl/YAD8K3DDCVd8kZMfA",
-        "預定 20:00 的位子",
-        "________________"
-      ],
-      "notes": [
-        "詳細行程與景點說明已由 Google Doc 同步。"
-      ],
-      "type": "booking",
-      "timeline": [
-        [
-          "08:00",
-          "1. Wanaka Skydive (跳傘)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "7:00",
-          "至 Wanaka i-SITE Visitor Information Centre Check in",
-          "https://maps.app.goo.gl/FnvXgj49RLyL3qxJ6"
-        ],
-        [
-          "6:30",
-          "打 +64 3 443 7207 or 0800 786 877 (NZ only) 去確認天氣是否可飛",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "11:00",
-          "從 Check-in 報到開始一直到結束, 一般需要 3-3.5 hr",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "12:00",
-          "不要穿有領子、合身的衣服, 將所有飾品拆下, 請勿穿著裙子或短褲, 感冒建議取消跳傘",
-          "官網: https://zh.skydivewanaka.com/prices-and-packages/"
-        ],
-        [
-          "14:00",
-          "2. 皇冠山景觀台",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "15:00",
-          "停留時間: 20 min, 紐西蘭最高海拔的主幹道公路",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "16:00",
-          "3. 箭鎮 (Lunch time)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "17:00",
-          "2-1 箭鎮郵局",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "18:00",
-          "2-2 箭鎮烘焙房 吃鹹派",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "20:00",
-          "2-3 巴塔哥尼亞巧克力 店員態度差 高級巧克力、冰淇淋",
-          "https://maps.app.goo.gl/4gKsnzdqnQSyn4jW9"
-        ],
-        [
-          "21:00",
-          "2-4 Golden Fleece: 羊毛、袋貂毛產品",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "22:00",
-          "若是跳傘延遲過久, 跳過2-3, 若延遲更久, 跳過整個箭鎮只買午餐",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "23:00",
-          "4. 亞瑟斯點",
-          "集合地點: https://maps.app.goo.gl/r1MJM9sDF2yg1wKn9 體驗噴射快艇, Shotover Jet, 整趟體驗約 25 分鐘, 過程中駕駛會以飛快的速度穿越重重峽谷, 會被淋濕, 多帶一件備用衣服放在車上, 10:00 – 16:00 (每小時一班), 預約16:00 開始的 15:30 報到 5. Tobin’s Track https://maps.app.goo.gl/nPgGKkA1XymL65Vv7"
-        ],
-        [
-          "24:00",
-          "小鎮一旁較熱門的登山步道, 步道終點可以遠眺整個箭鎮以及附近的群山、湖泊",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "26:00",
-          "來回距離 & 所需時間：4.5 km, 來回約 1 hr",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "27:00",
-          "步道難度：易 (垂直爬升高度約 240 m)",
-          "停車場座標位置: -44.940518, 168.839620 6. Rātā Restaurant https://maps.app.goo.gl/YAD8K3DDCVd8kZMfA"
-        ],
-        [
-          "28:00",
-          "預定 20:00 的位子",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "29:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
-        ]
-      ]
-    },
-    {
-      "id": 7,
-      "date": "1/7",
-      "title": "車子停在住宿 or Skyline 纜車站附近的收費停車場・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
-      "highlights": [
-        "車子停在住宿 or Skyline 纜車站附近的收費停車場, 用走的",
-        "1. 皇后鎮 (天際纜車 & 溜溜車)",
-        "1-1 纜車 9:30 - 21:00 https://maps.app.goo.gl/dr2E3pGfv4qiLRVU8",
-        "建議 9:00 前就先前往 Skyline, 否則晚些時候排隊人潮會多的嚇人",
-        "1-2 溜溜車 10:00 - 19:00 (我們的票可以玩3趟)",
-        "利用本身重力作為驅動, 在長達 800 公尺的跑道上盡情衝刺, 跑道有分初學和進階兩類型, 每結束一趟行程後, 還可以搭乘滑雪纜車再次上山",
-        "2. Fergburger https://maps.app.goo.gl/rZva7CXr3sJEWM6v5",
-        "CNN評比全世界最好吃的漢堡, 巨無霸的尺寸, 評價寫說勝過shake shake",
-        "請11.前打電話過去預訂",
-        "3. TSS 蒸汽船遊湖 https://maps.app.goo.gl/r3MmaSP8sbZeNkru6",
-        "預約 15:00 的班次, 14:30於 RealNZ皇后鎮游客中心辦理登船手續以及領取船票 https://maps.app.goo.gl/iga5WGDreC2RCZBi9 , 完工於 1912 年, 和鐵達尼號是同一年出廠, 連部分設備和組件甚至還是相同廠商所製造, 上去可飽覽 1.5 小時的 Lake Wakatipu 湖上風光",
-        "4. Dinner time 16:30 - 17:30",
-        "5. 開車前往 Deer Park Heights Queenstown https://maps.app.goo.gl/dCCA9Hr9PvbgDSLC9",
-        "預計 18:00 開始玩, 現場只收 2 紐幣硬幣, 建議一個人帶 5 顆",
-        "可以近距離跟動物們互動, 有羊駝",
-        "小鹿",
-        "羊",
-        "驢子, 一定要自駕, $75 NZD 每車的入場費, 一定要預約, 出發前一個月開放預約, 小心車子被鹿括傷, 保險可能不會賠, 無廁所",
-        "無餐廳",
-        "營業時間: 7:00 - 21:00",
-        "官網, 預約網址: https://deerparkheights.co.nz/",
-        "6. Onsen Hot Pools https://maps.app.goo.gl/LmYJ8PL6qFrvTW2S9",
-        "預約21:00 的夕陽至晚上梯次, 有接駁車接送, 20:15於 43 camp street上的Marmolda Cafe (Otautahi Tattoo刺青店對面)上車, 千萬不可遲到! 建議提前5-10 min到點等車, 22:45從溫泉搭車回市區, 預估23:00到達, 泡完溫泉後可回皇后鎮冰bar 喝一杯",
-        "7. 皇后鎮shopping (填補時間用, 有空才去)",
-        "5-1 Shotover Street, Fergburger附近, 逛運動裝備, 運動用品",
-        "5-2 Mall Street, 零售店",
-        "精品店及紀念品店組成的街道",
-        "5-3 Beach Street, 酒吧及餐廳, 適合吃飯休息",
-        "5-4 Merino Frank",
-        "NZ Shoponline (店內有著名的 McDonald Knitwear",
-        "Lothlorian) 買羊毛",
-        "袋貂毛製品",
-        "________________"
-      ],
-      "notes": [
-        "詳細行程與景點說明已由 Google Doc 同步。"
-      ],
-      "type": "booking",
-      "timeline": [
-        [
-          "08:00",
-          "車子停在住宿 or Skyline 纜車站附近的收費停車場, 用走的",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "09:00",
-          "1. 皇后鎮 (天際纜車 & 溜溜車)",
-          "1-1 纜車 9:30 - 21:00 https://maps.app.goo.gl/dr2E3pGfv4qiLRVU8"
-        ],
-        [
-          "10:00",
-          "建議 9:00 前就先前往 Skyline, 否則晚些時候排隊人潮會多的嚇人",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "11:00",
-          "1-2 溜溜車 10:00 - 19:00 (我們的票可以玩3趟)",
-          "利用本身重力作為驅動, 在長達 800 公尺的跑道上盡情衝刺, 跑道有分初學和進階兩類型, 每結束一趟行程後, 還可以搭乘滑雪纜車再次上山"
-        ],
-        [
-          "12:00",
-          "2. Fergburger",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "14:00",
-          "CNN評比全世界最好吃的漢堡, 巨無霸的尺寸, 評價寫說勝過shake shake",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "15:00",
-          "請11.前打電話過去預訂",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "16:00",
-          "3. TSS 蒸汽船遊湖",
-          "預約 15:00 的班次, 14:30於 RealNZ皇后鎮游客中心辦理登船手續以及領取船票 https://maps.app.goo.gl/iga5WGDreC2RCZBi9 , 完工於 1912 年, 和鐵達尼號是同一年出廠, 連部分設備和組件甚至還是相同廠商所製造, 上去可飽覽 1.5 小時的 Lake Wakatipu 湖上風光"
-        ],
-        [
-          "17:00",
-          "4. Dinner time 16:30 - 17:30",
-          "5. 開車前往 Deer Park Heights Queenstown https://maps.app.goo.gl/dCCA9Hr9PvbgDSLC9"
-        ],
-        [
-          "18:00",
-          "預計 18:00 開始玩, 現場只收 2 紐幣硬幣, 建議一個人帶 5 顆",
-          "可以近距離跟動物們互動, 有羊駝、小鹿、羊、驢子, 一定要自駕, $75 NZD 每車的入場費, 一定要預約, 出發前一個月開放預約, 小心車子被鹿括傷, 保險可能不會賠, 無廁所、無餐廳 營業時間: 7:00 - 21:00"
-        ],
-        [
-          "20:00",
-          "官網, 預約網址:",
-          "6. Onsen Hot Pools https://maps.app.goo.gl/LmYJ8PL6qFrvTW2S9 預約21:00 的夕陽至晚上梯次, 有接駁車接送, 20:15於 43 camp street上的Marmolda Cafe (Otautahi Tattoo刺青店對面)上車, 千萬不可遲到! 建議提前5-10 min到點等車, 22:45從溫泉搭車回市區, 預估23:00到達, 泡完溫泉後可回皇后鎮冰bar 喝一杯"
-        ],
-        [
-          "21:00",
-          "7. 皇后鎮shopping (填補時間用, 有空才去)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "22:00",
-          "5-1 Shotover Street, Fergburger附近, 逛運動裝備, 運動用品",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "23:00",
-          "5-2 Mall Street, 零售店、精品店及紀念品店組成的街道",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "24:00",
-          "5-3 Beach Street, 酒吧及餐廳, 適合吃飯休息",
-          "5-4 Merino Frank、NZ Shoponline (店內有著名的 McDonald Knitwear、Lothlorian) 買羊毛、袋貂毛製品"
-        ],
-        [
-          "26:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
-        ]
-      ]
-    },
-    {
-      "id": 8,
-      "date": "1/8",
-      "title": "1. Glenorchy (格萊諾基) https://maps.app.goo.gl/W1GWHuyhbfUxWAzN8・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
-      "highlights": [
-        "1. Glenorchy (格萊諾基) https://maps.app.goo.gl/W1GWHuyhbfUxWAzN8",
-        "1-1 Glenorchy Wharf (格萊諾基碼頭)",
-        "1-2 Steamship Depot (紅色蒸汽船倉庫)",
-        "1-3 Glenorchy Waterfront Reserve (海濱保護區)",
-        "2. Glenorchy Lagoon Walkway https://maps.app.goo.gl/XdmaRT46YAqi7dzh6",
-        "風平浪靜的好天氣下, 靜止的湖面宛如亮面鏡子一樣, 將Glenorchy 風景鏡射於湖面上",
-        "步道幾乎是平面無顯著爬升, 步道全長約1.5 hr可完成",
-        "3. Paradise (天堂) https://maps.app.goo.gl/E8xMqxgXcD5SivQUA",
-        "開到Dart River Bridge拍照, 看到「Gravel Road Next XX km」的標誌或柏油路消失時, 就地迴轉",
-        "4. Lunch time",
-        "5. 惡魔的階梯觀景台 https://maps.app.goo.gl/xXhpv6BNN13aWNyM6",
-        "停留時間: 約15 min, 皇后鎮南下約 40 分鐘車程處, 視野極佳的觀景台。可將整片 Lake Wakatipu (瓦卡蒂普湖) 盡收眼底, 搭配曲折且無限蔓延的特色公路, 中繼的小景點",
-        "6. 蒂阿瑙湖 https://maps.app.goo.gl/EoRvSXPMxwYHgqQo6",
-        "南島最大的冰川湖泊, 全紐西蘭第二大湖泊。湖岸一旁有著石磚砌成的行人專用道, 從小鎮南端一路延伸至北端",
-        "蒂阿瑙湖濱公園 (Ivory Park / Lions Park), 1 月份湖邊會有魯冰花",
-        "7. 螢火蟲洞 https://maps.app.goo.gl/p196ARKDJeBvzopq5",
-        "預約 19:00 開始的梯次, 18:40報到, 總活動時間大約 2 hr 15 min, 流程為: 乘船前往螢火蟲洞 → 講解藍光螢火蟲生態 → 深入地底+螢火蟲探險 → 乘船回到小鎮",
-        "為保護藍光螢火蟲生態, 洞穴內嚴禁拍照與攝影",
-        "________________"
-      ],
-      "notes": [
-        "詳細行程與景點說明已由 Google Doc 同步。"
-      ],
-      "type": "booking",
-      "timeline": [
-        [
-          "08:00",
-          "1. Glenorchy (格萊諾基)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "09:00",
-          "1-1 Glenorchy Wharf (格萊諾基碼頭)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "10:00",
-          "1-2 Steamship Depot (紅色蒸汽船倉庫)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "11:00",
-          "1-3 Glenorchy Waterfront Reserve (海濱保護區)",
-          "2. Glenorchy Lagoon Walkway https://maps.app.goo.gl/XdmaRT46YAqi7dzh6"
-        ],
-        [
-          "12:00",
-          "風平浪靜的好天氣下, 靜止的湖面宛如亮面鏡子一樣, 將Glenorchy 風景鏡射於湖面上",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "14:00",
-          "步道幾乎是平面無顯著爬升, 步道全長約1.5 hr可完成",
-          "3. Paradise (天堂) https://maps.app.goo.gl/E8xMqxgXcD5SivQUA 開到Dart River Bridge拍照, 看到「Gravel Road Next XX km」的標誌或柏油路消失時, 就地迴轉"
-        ],
-        [
-          "15:00",
-          "4. Lunch time",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "16:00",
-          "5. 惡魔的階梯觀景台",
-          "停留時間: 約15 min, 皇后鎮南下約 40 分鐘車程處, 視野極佳的觀景台。可將整片 Lake Wakatipu (瓦卡蒂普湖) 盡收眼底, 搭配曲折且無限蔓延的特色公路, 中繼的小景點"
-        ],
-        [
-          "17:00",
-          "6. 蒂阿瑙湖",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "18:00",
-          "南島最大的冰川湖泊, 全紐西蘭第二大湖泊。湖岸一旁有著石磚砌成的行人專用道, 從小鎮南端一路延伸至北端",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "20:00",
-          "蒂阿瑙湖濱公園 (Ivory Park / Lions Park), 1 月份湖邊會有魯冰花",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "21:00",
-          "7. 螢火蟲洞",
-          "預約 19:00 開始的梯次, 18:40報到, 總活動時間大約 2 hr 15 min, 流程為: 乘船前往螢火蟲洞 → 講解藍光螢火蟲生態 → 深入地底+螢火蟲探險 → 乘船回到小鎮"
-        ],
-        [
-          "22:00",
-          "為保護藍光螢火蟲生態, 洞穴內嚴禁拍照與攝影",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "23:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
-        ]
-      ]
-    },
-    {
-      "id": 9,
-      "date": "1/9",
-      "title": "確認油箱已加滿・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
-      "highlights": [
-        "確認油箱已加滿",
-        "車上有水和零食 (在遊船上吃的午餐)",
-        "離線地圖已下載",
-        "早上先看天氣, 若天氣陰雨, 不去埃格林頓峽谷, 鏡湖, 岡恩湖步道",
-        "若來不及早上可以只去埃格林頓峽谷",
-        "鏡湖, 剩下回程再玩",
-        "1. 埃格林頓峽谷 https://maps.app.goo.gl/1GAiS3na1ZEaPvAQA",
-        "停留時間: 約30 min, 蒂阿瑙向北行駛約 45 min, 山壁被山毛櫸森林覆蓋, 谷底是金色閃閃的大草原, 魔戒的拍攝景點",
-        "2. 鏡湖 https://maps.app.goo.gl/tMSticb1XDEbiRy98",
-        "停留時間: 約20 min, 早上來, 下午大逆光, 埃格林頓峽谷北上約 5 min, 停車場旁的木棧步道開始, 步行 3 min即可見到靜謐且高雅的反射湖, 湖面上有一字樣顛倒的「Mirror Lakes」告示牌, 透過湖水反射看",
-        "3. 岡恩湖步道 https://maps.app.goo.gl/cSRuiuutNYwpB3xf6",
-        "從鏡湖北行約 25 min, 停留時間: 約15 min",
-        "3-3 岡恩湖觀景台: 若是無太多時間走岡恩湖步道可選擇, 視角略差但不大 (推)",
-        "Lake Gunn Nature Walk 步道入口：(-44.894584, 168.082570)",
-        "Cascade Creek Campsite 露營區：(-44.894463, 168.075180)",
-        "Lake Gunn Viewpoint 景觀台：(-44.882857, 168.095044)",
-        "4. Monkey Creek (猴溪) https://maps.app.goo.gl/tNWyNtNkfnFPrm6v7",
-        "10:45 前一定要離開, 否則有機會趕不上船班, 約11:15開車抵達Homer Tunnel排隊進隧道",
-        "停留時間: 約10 min, 溪水源自附近的高山融雪, 四周是標高 2000 m的雪山, 有極高機率遇上紐西蘭特有的啄羊鸚鵡 Kea",
-        "其名為猴溪並非這裡容易遇上猴子, 而是先前開墾 Homer Tunnel (赫默隧道)時, 有一開拓者的狗狗名為 Monkey, 因為 Monkey 時常會跑來此飲用溪水, 故以此命名。",
-        "5. 米佛峽灣遊輪體驗 (11:15前需要在赫默隧道前排隊, 注意綠燈計時器, 綠燈亮起之前需坐回車上, 停車預繳4 hr)",
-        "https://maps.app.goo.gl/NnrymZojZ7tANwVVA",
-        "世界八大奇景之一, 搭RealNZ 遊輪, 遊輪時間 2 hr, 辛巴達小船方案 13:05-15:05, 12:45前check in, 大門進入後左手邊即為報到櫃台",
-        "Milford Sound 停車場: 主停車場 (Milford Sound Public Carpark)距乘船碼頭 15 min步行距離, 收費方式為每hr $10 NZD (超黑…)。將車輛停妥後必須先算好「預計停車時間」(抓 4 hr), 然後先到繳費機刷卡繳費 (僅能刷卡)。若無先繳錢會收到 $65 NZD 的罰單；而且停車超過時間也會被罰錢",
-        "第二停車場 (Deepwater Basin Parking): 此處為免費停車場, 但是距離乘船碼頭要 30 min 步行距離, 停這裡的話要估好時間",
-        "注意: 通常中午 12 點前後會有大量遊客湧入, 因此停車場常常一位難求, 建議前往碼頭要多抓一些緩衝時間, 以避免趕不上遊輪。至少要提早1 hr以上 (30 min步行前往碼頭 & 提前 30 min報到) 抵達停車場。",
-        "7-2 Milford Sound Breakwater Walkway (米佛峽灣防波堤小路): 走出遊輪航廈來到戶外碼頭後, 左手邊有一條碎石砌成的石舖小路, 直挺挺的向前延伸進入 Milford Sound, 可以輕易地捕捉到 Milford Sound 最經典的視角, 在等待乘船的空檔時, 可以花個 10 min停留",
-        "7-3 Milford Foreshore Walk (前灘步道): 一個簡易的環形步道, 起始於 Milford Sound 的主停車場旁, 沿途有風光明媚的石子沙灘, 還會步入高聳蓊鬱的山毛櫸森林, 終點是 Milford Sound Lookout, 步道還有個隱藏景點 Milford Sound Swing (米佛峽灣鞦韆), 是個位在沙灘邊",
-        "且半對著米佛峽灣的小鞦韆",
-        "6. 赫默隧道",
-        "停留時間: 約10 min, 一條長達 1.2 km的公路隧道, 在猴溪後約 5 min車程處, 歷時 19 年",
-        "全人工開挖, 隧道從東向西有 1:10 的坡度, 僅有去程的隧道入口有停車場",
-        "隧道出口處則僅能於 1855 lookout 停車欣賞",
-        "會實施交通管制, 每次僅允許單邊車輛通行, 每次等待時間約 15-20 min",
-        "需預留等待時間",
-        "位置：(-44.764889, 167.989277)",
-        "7. 裂谷步道 https://maps.app.goo.gl/6TyNd2d5CfzPp1Qj8",
-        "停留時間: 約30 min, 赫默隧道出發後大約 15 min 到達, 步道始於停車場, 步行 10 min的林間小徑便能來到有著湍急水流聲的觀景橋上,來回約 800 m",
-        "約 20 分鐘, 無顯著上下坡",
-        "這裡到 Milford Sound 僅 15 min 車程",
-        "________________"
-      ],
-      "notes": [
-        "詳細行程與景點說明已由 Google Doc 同步。"
-      ],
-      "type": "booking",
-      "timeline": [
-        [
-          "08:00",
-          "確認油箱已加滿、車上有水和零食 (在遊船上吃的午餐)、離線地圖已下載",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "09:00",
-          "早上先看天氣, 若天氣陰雨, 不去埃格林頓峽谷, 鏡湖, 岡恩湖步道",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "10:00",
-          "若來不及早上可以只去埃格林頓峽谷、鏡湖, 剩下回程再玩",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "11:00",
-          "1. 埃格林頓峽谷",
-          "停留時間: 約30 min, 蒂阿瑙向北行駛約 45 min, 山壁被山毛櫸森林覆蓋, 谷底是金色閃閃的大草原, 魔戒的拍攝景點"
-        ],
-        [
-          "12:00",
-          "2. 鏡湖",
-          "停留時間: 約20 min, 早上來, 下午大逆光, 埃格林頓峽谷北上約 5 min, 停車場旁的木棧步道開始, 步行 3 min即可見到靜謐且高雅的反射湖, 湖面上有一字樣顛倒的「Mirror Lakes」告示牌, 透過湖水反射看"
-        ],
-        [
-          "14:00",
-          "3. 岡恩湖步道",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "15:00",
-          "從鏡湖北行約 25 min, 停留時間: 約15 min",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "16:00",
-          "3-3 岡恩湖觀景台: 若是無太多時間走岡恩湖步道可選擇, 視角略差但不大 (推)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "17:00",
-          "Lake Gunn Nature Walk 步道入口：(-44.894584, 168.082570)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "18:00",
-          "Cascade Creek Campsite 露營區：(-44.894463, 168.075180)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "20:00",
-          "Lake Gunn Viewpoint 景觀台：(-44.882857, 168.095044)",
-          "4. Monkey Creek (猴溪) https://maps.app.goo.gl/tNWyNtNkfnFPrm6v7"
-        ],
-        [
-          "10:45",
-          "前一定要離開, 否則有機會趕不上船班, 約11:15開車抵達Homer Tunnel排隊進隧道",
-          "停留時間: 約10 min, 溪水源自附近的高山融雪, 四周是標高 2000 m的雪山, 有極高機率遇上紐西蘭特有的啄羊鸚鵡 Kea 其名為猴溪並非這裡容易遇上猴子, 而是先前開墾 Homer Tunnel (赫默隧道)時, 有一開拓者的狗狗名為 Monkey, 因為 Monkey 時常會跑來此飲用溪水, 故以此命名。 5. 米佛峽灣遊輪體驗 (11:15前需要在赫默隧道前排隊, 注意綠燈計時器, 綠燈亮起之前需坐回車上, 停車預繳4 hr) https://maps.app.goo.gl/NnrymZojZ7tANwVVA 世界八大奇景之一, 搭RealNZ 遊輪, 遊輪時間 2 hr, 辛巴達小船方案 13:05-15:05, 12:45前check in, 大門進入後左手邊即為報到櫃台 Milford Sound 停車場: 主停車場 (Milford Sound Public Carpark)距乘船碼頭 15 min步行距離, 收費方式為每hr $10 NZD (超黑…)。將車輛停妥後必須先算好「預計停車時間」(抓 4 hr), 然後先到繳費機刷卡繳費 (僅能刷卡)。若無先繳錢會收到 $65 NZD 的罰單；而且停車超過時間也會被罰錢 第二停車場 (Deepwater Basin Parking): 此處為免費停車場, 但是距離乘船碼頭要 30 min 步行距離, 停這裡的話要估好時間 注意: 通常中午 12 點前後會有大量遊客湧入, 因此停車場常常一位難求, 建議前往碼頭要多抓一些緩衝時間, 以避免趕不上遊輪。至少要提早1 hr以上 (30 min步行前往碼頭 & 提前 30 min報到) 抵達停車場。 7-2 Milford Sound Breakwater Walkway (米佛峽灣防波堤小路): 走出遊輪航廈來到戶外碼頭後, 左手邊有一條碎石砌成的石舖小路, 直挺挺的向前延伸進入 Milford Sound, 可以輕易地捕捉到 Milford Sound 最經典的視角, 在等待乘船的空檔時, 可以花個 10 min停留 7-3 Milford Foreshore Walk (前灘步道): 一個簡易的環形步道, 起始於 Milford Sound 的主停車場旁, 沿途有風光明媚的石子沙灘, 還會步入高聳蓊鬱的山毛櫸森林, 終點是 Milford Sound Lookout, 步道還有個隱藏景點 Milford Sound Swing (米佛峽灣鞦韆), 是個位在沙灘邊、且半對著米佛峽灣的小鞦韆"
-        ],
-        [
-          "22:00",
-          "6. 赫默隧道",
-          "停留時間: 約10 min, 一條長達 1.2 km的公路隧道, 在猴溪後約 5 min車程處, 歷時 19 年、全人工開挖, 隧道從東向西有 1:10 的坡度, 僅有去程的隧道入口有停車場、隧道出口處則僅能於 1855 lookout 停車欣賞"
-        ],
-        [
-          "23:00",
-          "會實施交通管制, 每次僅允許單邊車輛通行, 每次等待時間約 15-20 min，需預留等待時間",
-          "位置：(-44.764889, 167.989277)"
-        ],
-        [
-          "24:00",
-          "7. 裂谷步道",
-          "停留時間: 約30 min, 赫默隧道出發後大約 15 min 到達, 步道始於停車場, 步行 10 min的林間小徑便能來到有著湍急水流聲的觀景橋上,來回約 800 m、約 20 分鐘, 無顯著上下坡"
-        ],
-        [
-          "26:00",
-          "這裡到 Milford Sound 僅 15 min 車程",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "27:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
-        ]
-      ]
-    },
-    {
-      "id": 10,
-      "date": "1/10",
-      "title": "1. Mandeville (曼德維爾) https://maps.app.goo.gl/35PwhdSizXw9zLTL9・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
-      "highlights": [
-        "1. Mandeville (曼德維爾) https://maps.app.goo.gl/35PwhdSizXw9zLTL9",
-        "Lunch time",
-        "停留時間: 1hr, 開車中繼站, 吃午餐, 補給一下",
-        "1-1 Miss Cocoa, 早茶",
-        "手工蛋糕",
-        "司康 (Scone), 有室外花園",
-        "2. Sandfly Bay (Nina AR)",
-        "3. 隧道海灘 https://maps.app.goo.gl/P3Fa7F8mrQoo28WF8",
-        "預計 17:15-19:10 在這裡停留 (18:45 前開始往回走), 但還需在一個月前確認潮汐, 查詢網址: https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/dunedin-area/things-to-do/tunnel-beach-track/",
-        "位於 Dunedin 西南邊, 若要前往沙灘, 必須從停車場步行約 20 min才能到, 來回距離 2 km, 散步玩水, or 坐著發呆",
-        "注意:",
-        "1. 返回路段是連續上坡：結束行程要返回停車場時, 是整路上坡, 來回步行時間要抓 1 hr",
-        "2. 務必避開漲潮時段, 在海水退潮時前往, 否則除了看不到沙灘",
-        "只能看到一片汪洋海水之外, 也可能會有危險",
-        "4. 奧塔哥半島",
-        "3-1 皇家信天翁中心: 長達 3 公尺巨大翼展的信天翁 https://maps.app.goo.gl/Bq2pPbvpjHUNufPc9",
-        "3-2 小藍企鵝保護區: 欣賞小藍企鵝夜間歸巢的畫面 (保證看到, 沒看到退費)",
-        "預約 21:00 的小藍企鵝夜間歸巢行程 20:40 至皇家信天翁中心報到",
-        "3-3 看海豹的地方: 建議去Pilots beach (在皇家信天翁中心附近), 不滿意再加碼",
-        "Allans Beach (最多, 有海獅",
-        "海豹",
-        "黃眼企鵝), Pilots Beach (最方便, 有海豹",
-        "信天翁",
-        "紅嘴鷗), Sandfly Bay (最美, 但是需要爬20 min 的沙地爬坡, 沙蠅賊多, 若當天體力不佳建議 Allans beach)",
-        "https://maps.app.goo.gl/CEpJCaxRxLpDm2QTA",
-        "https://maps.app.goo.gl/gRZPqBCUPXGDbkr78",
-        "https://maps.app.goo.gl/baNYEYCLrCK4uF126",
-        "________________"
-      ],
-      "notes": [
-        "詳細行程與景點說明已由 Google Doc 同步。"
-      ],
-      "type": "booking",
-      "timeline": [
-        [
-          "08:00",
-          "1. Mandeville (曼德維爾)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "09:00",
-          "停留時間: 1hr, 開車中繼站, 吃午餐, 補給一下",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "10:00",
-          "1-1 Miss Cocoa, 早茶、手工蛋糕、司康 (Scone), 有室外花園",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "11:00",
-          "2. Sandfly Bay (Nina AR)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "12:00",
-          "3. 隧道海灘",
-          "預計 17:15-19:10 在這裡停留 (18:45 前開始往回走), 但還需在一個月前確認潮汐, 查詢網址: https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/dunedin-area/things-to-do/tunnel-beach-track/ 位於 Dunedin 西南邊, 若要前往沙灘, 必須從停車場步行約 20 min才能到, 來回距離 2 km, 散步玩水, or 坐著發呆"
-        ],
-        [
-          "14:00",
-          "注意:",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "15:00",
-          "1. 返回路段是連續上坡：結束行程要返回停車場時, 是整路上坡, 來回步行時間要抓 1 hr",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "16:00",
-          "2. 務必避開漲潮時段, 在海水退潮時前往, 否則除了看不到沙灘、只能看到一片汪洋海水之外, 也可能會有危險",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "17:00",
-          "4. 奧塔哥半島",
-          "3-1 皇家信天翁中心: 長達 3 公尺巨大翼展的信天翁 https://maps.app.goo.gl/Bq2pPbvpjHUNufPc9"
-        ],
-        [
-          "18:00",
-          "3-2 小藍企鵝保護區: 欣賞小藍企鵝夜間歸巢的畫面 (保證看到, 沒看到退費)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "20:00",
-          "預約 21:00 的小藍企鵝夜間歸巢行程 20:40 至皇家信天翁中心報到",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "21:00",
-          "3-3 看海豹的地方: 建議去Pilots beach (在皇家信天翁中心附近), 不滿意再加碼",
-          "Allans Beach (最多, 有海獅、海豹、黃眼企鵝), Pilots Beach (最方便, 有海豹、信天翁、紅嘴鷗), Sandfly Bay (最美, 但是需要爬20 min 的沙地爬坡, 沙蠅賊多, 若當天體力不佳建議 Allans beach) https://maps.app.goo.gl/CEpJCaxRxLpDm2QTA https://maps.app.goo.gl/gRZPqBCUPXGDbkr78 https://maps.app.goo.gl/baNYEYCLrCK4uF126"
-        ],
-        [
-          "22:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
-        ]
-      ]
-    },
-    {
-      "id": 11,
-      "date": "1/11",
-      "title": "1. 八角廣場・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
-      "highlights": [
-        "1. 八角廣場",
-        "位於市中心, 是大眾運輸的主要樞紐, 這裡有個特別規劃的行人保護區, 不僅重點級的歷史建築物和機構容納於此 (如聖保羅教堂",
-        "市政廳), 還有商店街和餐廳",
-        "1. 奧塔哥第一教堂: 開放時間 8:00-13:00, 上百年的哥德式教堂, 位於八角廣場東南方的草地上, 還有彩色玻璃窗",
-        "2. 聖保羅大教堂: 開放時間 10:00-15:00, 位於八角廣場西北方, 紐西蘭的建築設計大獎",
-        "3. 但尼丁市政廳: 開放時間 8:00-17:00, 緊鄰聖保羅大教堂, 面對廣場中央的南門面是至今紐西蘭僅存的維多利亞建築",
-        "4. 但尼丁美術館: 開放時間 10:00-17:00, 有上百年的歷史, 還是全紐西蘭第一家美術館, 免費參觀",
-        "2. 但尼丁火車站 (必看)",
-        "正對著八角廣場, 文藝復興的巴洛克建築風格, 被人譽為世界上最宏偉的薑餅屋",
-        "一樓是飯店餐廳區",
-        "二樓是展覽區, 每年的 Dunedin 時裝周會在此舉辦, 利用長達一公里的月台作為時裝秀伸展台",
-        "3. 奧塔哥大學 https://maps.app.goo.gl/e4g1EcNNTHswvU749",
-        "常被列為全球最美麗的大學之一, 醫學專業聞名全球, 學術研究品質為全紐西蘭第一。校園內有許多宏偉精緻的維多利亞式建築, 以標誌建築鐘樓 (ClockTower) 最引人注目",
-        "4. Lunch time",
-        "5. 維多利亞風的白石小鎮 https://maps.app.goo.gl/byT2GxPV3zzTPbyP7",
-        "停留時間: 2 hr, 歐洲人打造的維多利亞風文化遺產區, 以下的景點順序是由北至南依序排列",
-        "1. Oamaru Opera House 奧瑪魯歌劇院",
-        "2. Waitaki Museum 懷塔基博物館: 除了作為博物館之外, 曾經是機械學院",
-        "3. Waitaki District Council 懷塔基區議會: 原本是首席郵局",
-        "4. The Last Post 餐廳: 原先是 Oamaru 的第一座郵局, 現在是餐廳",
-        "5. Forrester Gallery 福里斯特畫廊: 免費入場",
-        "6. St Luke’s Anglican Church 聖公會教堂: 超過150年的哥德式教堂",
-        "7. Steampunk HQ 蒸汽朋克總部: 原先是穀糧倉庫, 於2011年改建為現代工業風格的博物館",
-        "8. Victorian Heritage Centre 舊城區: Oamaru 最古老的街道, 有咖啡廳和文青小店",
-        "9. Whitestone City 白石小鎮: 位於舊城區內, 為互動式的展覽館, 也是遊客中心。除法欣賞舊時代的街道",
-        "商店, 也可以體驗穿上維多利亞服飾",
-        "6. 摩拉奇圓石",
-        "Oamaru 除了小藍企鵝之外, 最受歡迎的景點, 圓石群所在的沙灘位置距停車場約有 600 m, 下車後得走一小段路才會抵達, 若覺得 600 m太遠的話, 也可選擇停於較近的 Moeraki Boulders Café (圓石咖啡廳), 但經由咖啡廳通往海灘的道路則須付過路費, 每人 $2 NZD",
-        "得注意潮汐時間, 於退潮時前來才能完整看見石頭的輪廓及形狀, 必要時可看白石小鎮對調順序, 當天落潮時間: 18:55 (待確認)",
-        "________________"
-      ],
-      "notes": [
-        "詳細行程與景點說明已由 Google Doc 同步。"
-      ],
-      "type": "booking",
-      "timeline": [
-        [
-          "08:00",
-          "1. 八角廣場",
-          "位於市中心, 是大眾運輸的主要樞紐, 這裡有個特別規劃的行人保護區, 不僅重點級的歷史建築物和機構容納於此 (如聖保羅教堂、市政廳), 還有商店街和餐廳 1. 奧塔哥第一教堂: 開放時間 8:00-13:00, 上百年的哥德式教堂, 位於八角廣場東南方的草地上, 還有彩色玻璃窗"
-        ],
-        [
-          "09:00",
-          "2. 聖保羅大教堂: 開放時間 10:00-15:00, 位於八角廣場西北方, 紐西蘭的建築設計大獎",
-          "3. 但尼丁市政廳: 開放時間 8:00-17:00, 緊鄰聖保羅大教堂, 面對廣場中央的南門面是至今紐西蘭僅存的維多利亞建築 4. 但尼丁美術館: 開放時間 10:00-17:00, 有上百年的歷史, 還是全紐西蘭第一家美術館, 免費參觀"
-        ],
-        [
-          "10:00",
-          "2. 但尼丁火車站 (必看)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "11:00",
-          "正對著八角廣場, 文藝復興的巴洛克建築風格, 被人譽為世界上最宏偉的薑餅屋",
-          "一樓是飯店餐廳區、二樓是展覽區, 每年的 Dunedin 時裝周會在此舉辦, 利用長達一公里的月台作為時裝秀伸展台"
-        ],
-        [
-          "12:00",
-          "3. 奧塔哥大學",
-          "常被列為全球最美麗的大學之一, 醫學專業聞名全球, 學術研究品質為全紐西蘭第一。校園內有許多宏偉精緻的維多利亞式建築, 以標誌建築鐘樓 (ClockTower) 最引人注目"
-        ],
-        [
-          "14:00",
-          "4. Lunch time",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "15:00",
-          "5. 維多利亞風的白石小鎮",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "16:00",
-          "停留時間: 2 hr, 歐洲人打造的維多利亞風文化遺產區, 以下的景點順序是由北至南依序排列",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "17:00",
-          "1. Oamaru Opera House 奧瑪魯歌劇院",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "18:00",
-          "2. Waitaki Museum 懷塔基博物館: 除了作為博物館之外, 曾經是機械學院",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "20:00",
-          "3. Waitaki District Council 懷塔基區議會: 原本是首席郵局",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "21:00",
-          "4. The Last Post 餐廳: 原先是 Oamaru 的第一座郵局, 現在是餐廳",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "22:00",
-          "5. Forrester Gallery 福里斯特畫廊: 免費入場",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "23:00",
-          "6. St Luke’s Anglican Church 聖公會教堂: 超過150年的哥德式教堂",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "24:00",
-          "7. Steampunk HQ 蒸汽朋克總部: 原先是穀糧倉庫, 於2011年改建為現代工業風格的博物館",
-          "8. Victorian Heritage Centre 舊城區: Oamaru 最古老的街道, 有咖啡廳和文青小店 9. Whitestone City 白石小鎮: 位於舊城區內, 為互動式的展覽館, 也是遊客中心。除法欣賞舊時代的街道、商店, 也可以體驗穿上維多利亞服飾"
-        ],
-        [
-          "26:00",
-          "6. 摩拉奇圓石",
-          "Oamaru 除了小藍企鵝之外, 最受歡迎的景點, 圓石群所在的沙灘位置距停車場約有 600 m, 下車後得走一小段路才會抵達, 若覺得 600 m太遠的話, 也可選擇停於較近的 Moeraki Boulders Café (圓石咖啡廳), 但經由咖啡廳通往海灘的道路則須付過路費, 每人 $2 NZD 得注意潮汐時間, 於退潮時前來才能完整看見石頭的輪廓及形狀, 必要時可看白石小鎮對調順序, 當天落潮時間: 18:55 (待確認)"
-        ],
-        [
-          "27:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
-        ]
-      ]
-    },
-    {
-      "id": 12,
-      "date": "1/12",
-      "title": "1. 象石群 https://maps.app.goo.gl/jt7Jwtvw9faf7wTe9・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
-      "highlights": [
-        "1. 象石群 https://maps.app.goo.gl/jt7Jwtvw9faf7wTe9",
-        "停留時間: 1.5 hr",
-        "象石岩的寬度和高度約 1-10 m不等, 無規則的散落於 200 m寬的山坡草地上, 象石成因主要是上千年前沉積的石灰岩地層被風雨侵蝕後, 遺留下來的風化殘餘物, 外觀形似大象。這也是「納尼亞傳奇」的拍攝地。",
-        "2. 石灰石峭壁 (Clay Cliffs) https://maps.app.goo.gl/MpmMBXMJmS9HLQsE6",
-        "停留時間: 1.5 hr",
-        "(Lunch time), 位於 8 號公路旁的小路上, 需從 8 號公路進入 Quailburn Rd, 再左彎進入無鋪柏油的小碎石路段 Henburn Rd, 最後再沿著碎石路段前進 20 min才會到達",
-        "步道盡頭是一個天然狹縫入口, 可以看到一個被高聳峭壁重重包圍的風景",
-        "注意:",
-        "1. 位於私人土地, 入內需支付車輛入場費 $5 NZD, 將現金投入箱子後再自行推開柵欄進入, 車子入內後須將柵欄推回",
-        "2. 前往途中會經過塵土飛揚的碎石路段, 請減速慢行以避免危險 (30km/h)",
-        "3. Lake Pukaki Viewing Point (遊客中心) https://maps.app.goo.gl/tDFyu1M4TTgKgiK8A",
-        "停留時間: 1 hr, 需完成物資補給, 包含兩天早餐 (晚上的 Mt.Cook 便利商店超貴)",
-        "位於庫克山脈南邊, 是上游塔斯曼冰河的融水所形成的冰河堰塞湖。該湖泊有著極度夢幻的藍色湖面, 遊客中心位於整座湖泊的最南端, 有著極度開闊的視野, 因此是欣賞浪漫湖景 & 遠方南阿爾卑斯山脈的絕佳位置",
-        "該遊客中心旁還有一家鮭魚專賣店 Mount Cook Alpine Salmon, 可買到南阿爾卑斯山雪水養殖的鮭魚, 不同於一般養殖場鮭魚, 這裡飼養的鮭魚因為在不斷流動的冰涼海流中游泳, 造就鮭魚細膩的口感及乾淨鮮甜的味道 (外帶到外面看風景吃)",
-        "4. 紐西蘭高山薰衣草農場 https://maps.app.goo.gl/uDdJtNzLF2G61cuX6",
-        "停留時間: 30 min",
-        "離開 Punatahu 遊客中心後大約 10 分鐘車程處, 是整個南半球最大的唯一認證的有機薰衣草農場, 有出多種有機的薰衣草產品, 最推薦薰衣草冰淇淋",
-        "5. Aoraki Mt Cook Scenic Lookout",
-        "位置: (-43.98274, 170.13448)",
-        "停留時間: 20 min",
-        "地勢較高, 除了可以眺望遠方的 Mt. Cook 山峰外, 前景蜿蜒的道路和湛藍的 Lake Pukaki 也替畫面增添許多漂亮的元素",
-        "6. 庫克山公路景觀台",
-        "位置: (-43.745220, 170.114240)",
-        "停留時間: 15 min",
-        "位於 Mt. Cook Rd 接近庫克山國家公園的 80 號公路旁, 有個可簡易路邊停車位置的觀景平台, 該景觀台並非一個正式景觀台",
-        "高聳入天的庫克山群",
-        "搭配白淨潔暇的山頂殘雪",
-        "7. 夜生活: Hermitage Hotel 露台喝一杯",
-        "建議在 20:00-21:00 之間前往",
-        "就算沒住這間飯店, 也可以去他們的 Snowline Bar, 1 月份的「殘霞」會持續到晚上 10 點左右, 您可以點一杯紐西蘭當地的 Pinot Noir 紅酒, 看著庫克山從金黃色轉為深藍色, 再到星光滿天",
-        "隔天若 6:00 起床, 可看到日照金山",
-        "________________"
+        "羅伊峰步道 or 羅伯羅伊冰河步道",
+        "孤獨樹",
+        "瓦納卡湖畔",
+        "遊湖之旅"
       ],
       "notes": [
         "詳細行程與景點說明已由 Google Doc 同步。"
@@ -1299,130 +287,521 @@
       "type": "hike",
       "timeline": [
         [
-          "08:00",
+          "",
+          "建議每人帶2.5L的水",
+          ""
+        ],
+        [
+          "",
+          "1. 羅伊峰步道",
+          "全紐西蘭最熱門登山步道之一, 一路之字形陡坡上升且全程無遮蔽物, 15.6公里、來回約 7-8 小時, 爬升高度約 1250 公尺, 早點出門，否則停車場一位難求, 距 Wanaka 小鎮約 10 分鐘車程"
+        ],
+        [
+          "",
+          "2. 羅伯羅伊冰河步道",
+          "若是體力不足以登上羅伊峰, 可考慮這個, 7:30前出發 開車需要開碎石路, 有機會需要涉水"
+        ],
+        [
+          "",
+          "10 公里、來回約 4 小時, 爬升高度約 460 公尺, 距 Wanaka 小鎮約1.5 hr",
+          "步道終點可以同時欣賞雪原、冰川、陡峭的岩石懸崖和冰河融化所形成的瀑布"
+        ],
+        [
+          "",
+          "3. Lunch time and 回住宿洗澡 (如果爬完山流汗想要洗)",
+          ""
+        ],
+        [
+          "",
+          "4. 孤獨樹 and 瓦納卡湖畔",
+          "Wanaka Sequoia 抱大樹 (在 Wanaka Station Park 內)、乳白色沙灘、雪山、孤獨樹 with sunset, 看時間需求可看啊遊湖對調"
+        ],
+        [
+          "",
+          "5. Lake Wanaka Cruise (遊湖之旅)",
+          "Happy Hour Cruise (歡樂時光) (1 hr): 在17:30 出發, 1 hr可以享受日落, 近距離欣賞 Lake Wanaka 湖中最上鏡的小島 － Ruby Island (紅寶石島), 遊輪上提供點心美食和飲料 報到找沙灘上的 Wanaka Cruises 告示牌，船隻通常是大型白色雙體船「Dual Image」 停車點: Lakefront Car Park, Wanaka Tree 方向的路邊停車"
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "date": "1/6",
+      "title": "Wanaka skydive 跳傘 (HJ)・Queenstown",
+      "city": "Queenstown 皇后鎮",
+      "distance": "90 km",
+      "drive": "1.5 hr",
+      "highlights": [
+        "Wanaka skydive 跳傘 (HJ)",
+        "皇冠山景觀台",
+        "箭鎮",
+        "亞瑟斯點",
+        "黑斯湖步道"
+      ],
+      "notes": [
+        "詳細行程與景點說明已由 Google Doc 同步。"
+      ],
+      "type": "booking",
+      "timeline": [
+        [
+          "",
+          "1. Wanaka Skydive (跳傘)",
+          "至 Wanaka i-SITE Visitor Information Centre Check in https://maps.app.goo.gl/FnvXgj49RLyL3qxJ6 打 +64 3 443 7207 or 0800 786 877 (NZ only) 去確認天氣是否可飛 從 Check-in 報到開始一直到結束, 一般需要 3-3.5 hr 不要穿有領子、合身的衣服, 將所有飾品拆下, 請勿穿著裙子或短褲, 感冒建議取消跳傘 官網: https://zh.skydivewanaka.com/prices-and-packages/"
+        ],
+        [
+          "",
+          "2. 皇冠山景觀台",
+          "停留時間: 20 min, 紐西蘭最高海拔的主幹道公路"
+        ],
+        [
+          "",
+          "3. 箭鎮 (Lunch time)",
+          "2-1 箭鎮郵局 https://maps.app.goo.gl/MGKWwC3iE6AQ8FXC8 2-2 箭鎮烘焙房 吃鹹派 https://maps.app.goo.gl/wMfJPYjMaTEZmxNs7 2-3 巴塔哥尼亞巧克力 店員態度差 高級巧克力、冰淇淋 https://maps.app.goo.gl/4gKsnzdqnQSyn4jW9 2-4 Golden Fleece: 羊毛、袋貂毛產品 若是跳傘延遲過久, 跳過2-3, 若延遲更久, 跳過整個箭鎮只買午餐"
+        ],
+        [
+          "",
+          "4. 亞瑟斯點",
+          "集合地點: https://maps.app.goo.gl/r1MJM9sDF2yg1wKn9 體驗噴射快艇, Shotover Jet, 整趟體驗約 25 分鐘, 過程中駕駛會以飛快的速度穿越重重峽谷, 會被淋濕, 多帶一件備用衣服放在車上, 10:00 – 16:00 (每小時一班), 預約16:00 開始的 15:30 報到"
+        ],
+        [
+          "",
+          "5. Tobin’s Track",
+          "小鎮一旁較熱門的登山步道, 步道終點可以遠眺整個箭鎮以及附近的群山、湖泊 來回距離 & 所需時間：4.5 km, 來回約 1 hr 步道難度：易 (垂直爬升高度約 240 m) 停車場座標位置: -44.940518, 168.839620"
+        ],
+        [
+          "",
+          "6. Rātā Restaurant",
+          "預定 20:00 的位子"
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "date": "1/7",
+      "title": "天際纜車 & 溜溜車・Queenstown",
+      "city": "Queenstown 皇后鎮",
+      "distance": "35 km",
+      "drive": "1 hr",
+      "highlights": [
+        "天際纜車 & 溜溜車",
+        "Fergburger",
+        "TSS 蒸汽船遊湖觀光",
+        "Deer Park Heights Queenstown",
+        "Onsen Hot Pools"
+      ],
+      "notes": [
+        "詳細行程與景點說明已由 Google Doc 同步。"
+      ],
+      "type": "booking",
+      "timeline": [
+        [
+          "",
+          "車子停在住宿 or Skyline 纜車站附近的收費停車場, 用走的",
+          ""
+        ],
+        [
+          "",
+          "1. 皇后鎮 (天際纜車 & 溜溜車)",
+          "1-1 纜車 9:30 - 21:00 https://maps.app.goo.gl/dr2E3pGfv4qiLRVU8 建議 9:00 前就先前往 Skyline, 否則晚些時候排隊人潮會多的嚇人 1-2 溜溜車 10:00 - 19:00 (我們的票可以玩3趟) 利用本身重力作為驅動, 在長達 800 公尺的跑道上盡情衝刺, 跑道有分初學和進階兩類型, 每結束一趟行程後, 還可以搭乘滑雪纜車再次上山"
+        ],
+        [
+          "",
+          "2. Fergburger",
+          "CNN評比全世界最好吃的漢堡, 巨無霸的尺寸, 評價寫說勝過shake shake 請11.前打電話過去預訂"
+        ],
+        [
+          "",
+          "3. TSS 蒸汽船遊湖",
+          "預約 15:00 的班次, 14:30於 RealNZ皇后鎮游客中心辦理登船手續以及領取船票 https://maps.app.goo.gl/iga5WGDreC2RCZBi9 , 完工於 1912 年, 和鐵達尼號是同一年出廠, 連部分設備和組件甚至還是相同廠商所製造, 上去可飽覽 1.5 小時的 Lake Wakatipu 湖上風光"
+        ],
+        [
+          "",
+          "4. Dinner time 16:30 - 17:30",
+          ""
+        ],
+        [
+          "",
+          "5. 開車前往 Deer Park Heights Queenstown",
+          "預計 18:00 開始玩, 現場只收 2 紐幣硬幣, 建議一個人帶 5 顆 可以近距離跟動物們互動, 有羊駝、小鹿、羊、驢子, 一定要自駕, $75 NZD 每車的入場費, 一定要預約, 出發前一個月開放預約, 小心車子被鹿括傷, 保險可能不會賠, 無廁所、無餐廳 營業時間: 7:00 - 21:00 官網, 預約網址: https://deerparkheights.co.nz/"
+        ],
+        [
+          "",
+          "6. Onsen Hot Pools",
+          "預約21:00 的夕陽至晚上梯次, 有接駁車接送, 20:15於 43 camp street上的Marmolda Cafe (Otautahi Tattoo刺青店對面)上車, 千萬不可遲到! 建議提前5-10 min到點等車, 22:45從溫泉搭車回市區, 預估23:00到達, 泡完溫泉後可回皇后鎮冰bar 喝一杯"
+        ],
+        [
+          "",
+          "7. 皇后鎮shopping (填補時間用, 有空才去)",
+          "5-1 Shotover Street, Fergburger附近, 逛運動裝備, 運動用品 5-2 Mall Street, 零售店、精品店及紀念品店組成的街道 5-3 Beach Street, 酒吧及餐廳, 適合吃飯休息 5-4 Merino Frank、NZ Shoponline (店內有著名的 McDonald Knitwear、Lothlorian) 買羊毛、袋貂毛製品"
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "date": "1/8",
+      "title": "格萊諾基・Te Anau",
+      "city": "Te Anau 蒂阿瑙",
+      "distance": "250 km",
+      "drive": "3.5 hr",
+      "highlights": [
+        "格萊諾基",
+        "Glenorchy Lagoon Walkway",
+        "Paradise",
+        "惡魔的階梯觀景台",
+        "蒂阿瑙湖",
+        "螢火蟲洞"
+      ],
+      "notes": [
+        "詳細行程與景點說明已由 Google Doc 同步。"
+      ],
+      "type": "booking",
+      "timeline": [
+        [
+          "",
+          "1. Glenorchy (格萊諾基)",
+          "1-1 Glenorchy Wharf (格萊諾基碼頭) 1-2 Steamship Depot (紅色蒸汽船倉庫) 1-3 Glenorchy Waterfront Reserve (海濱保護區)"
+        ],
+        [
+          "",
+          "2. Glenorchy Lagoon Walkway",
+          "風平浪靜的好天氣下, 靜止的湖面宛如亮面鏡子一樣, 將Glenorchy 風景鏡射於湖面上 步道幾乎是平面無顯著爬升, 步道全長約1.5 hr可完成"
+        ],
+        [
+          "",
+          "3. Paradise (天堂)",
+          "開到Dart River Bridge拍照, 看到「Gravel Road Next XX km」的標誌或柏油路消失時, 就地迴轉"
+        ],
+        [
+          "",
+          "4. Lunch time",
+          ""
+        ],
+        [
+          "",
+          "5. 惡魔的階梯觀景台",
+          "停留時間: 約15 min, 皇后鎮南下約 40 分鐘車程處, 視野極佳的觀景台。可將整片 Lake Wakatipu (瓦卡蒂普湖) 盡收眼底, 搭配曲折且無限蔓延的特色公路, 中繼的小景點"
+        ],
+        [
+          "",
+          "6. 蒂阿瑙湖",
+          "南島最大的冰川湖泊, 全紐西蘭第二大湖泊。湖岸一旁有著石磚砌成的行人專用道, 從小鎮南端一路延伸至北端 蒂阿瑙湖濱公園 (Ivory Park / Lions Park), 1 月份湖邊會有魯冰花"
+        ],
+        [
+          "",
+          "7. 螢火蟲洞",
+          "預約 19:00 開始的梯次, 18:40報到, 總活動時間大約 2 hr 15 min, 流程為: 乘船前往螢火蟲洞 → 講解藍光螢火蟲生態 → 深入地底+螢火蟲探險 → 乘船回到小鎮 為保護藍光螢火蟲生態, 洞穴內嚴禁拍照與攝影"
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "date": "1/9",
+      "title": "埃格林頓峽谷・Te Anau",
+      "city": "Te Anau 蒂阿瑙",
+      "distance": "250 km",
+      "drive": "4.5 hr",
+      "highlights": [
+        "埃格林頓峽谷",
+        "鏡湖",
+        "岡恩湖步道",
+        "猴溪",
+        "米佛峽灣遊輪體驗",
+        "赫默隧道",
+        "裂谷步道"
+      ],
+      "notes": [
+        "詳細行程與景點說明已由 Google Doc 同步。"
+      ],
+      "type": "booking",
+      "timeline": [
+        [
+          "",
+          "確認油箱已加滿、車上有水和零食 (在遊船上吃的午餐)、離線地圖已下載",
+          "早上先看天氣, 若天氣陰雨, 不去埃格林頓峽谷, 鏡湖, 岡恩湖步道 若來不及早上可以只去埃格林頓峽谷、鏡湖, 剩下回程再玩"
+        ],
+        [
+          "",
+          "1. 埃格林頓峽谷",
+          "停留時間: 約30 min, 蒂阿瑙向北行駛約 45 min, 山壁被山毛櫸森林覆蓋, 谷底是金色閃閃的大草原, 魔戒的拍攝景點"
+        ],
+        [
+          "",
+          "2. 鏡湖",
+          "停留時間: 約20 min, 早上來, 下午大逆光, 埃格林頓峽谷北上約 5 min, 停車場旁的木棧步道開始, 步行 3 min即可見到靜謐且高雅的反射湖, 湖面上有一字樣顛倒的「Mirror Lakes」告示牌, 透過湖水反射看"
+        ],
+        [
+          "",
+          "3. 岡恩湖步道",
+          "從鏡湖北行約 25 min, 停留時間: 約15 min 3-3 岡恩湖觀景台: 若是無太多時間走岡恩湖步道可選擇, 視角略差但不大 (推) Lake Gunn Nature Walk 步道入口：(-44.894584, 168.082570) Cascade Creek Campsite 露營區：(-44.894463, 168.075180) Lake Gunn Viewpoint 景觀台：(-44.882857, 168.095044)"
+        ],
+        [
+          "",
+          "4. Monkey Creek (猴溪)",
+          "前一定要離開, 否則有機會趕不上船班, 約11:15開車抵達Homer Tunnel排隊進隧道 停留時間: 約10 min, 溪水源自附近的高山融雪, 四周是標高 2000 m的雪山, 有極高機率遇上紐西蘭特有的啄羊鸚鵡 Kea 其名為猴溪並非這裡容易遇上猴子, 而是先前開墾 Homer Tunnel (赫默隧道)時, 有一開拓者的狗狗名為 Monkey, 因為 Monkey 時常會跑來此飲用溪水, 故以此命名。"
+        ],
+        [
+          "",
+          "5. 米佛峽灣遊輪體驗 (11:15前需要在赫默隧道前排隊, 注意綠燈計時器, 綠燈亮起之前需坐回車上, 停車預繳4 hr)",
+          "https://maps.app.goo.gl/NnrymZojZ7tANwVVA 世界八大奇景之一, 搭RealNZ 遊輪, 遊輪時間 2 hr, 辛巴達小船方案 13:05-15:05, 12:45前check in, 大門進入後左手邊即為報到櫃台 Milford Sound 停車場: 主停車場 (Milford Sound Public Carpark)距乘船碼頭 15 min步行距離, 收費方式為每hr $10 NZD (超黑…)。將車輛停妥後必須先算好「預計停車時間」(抓 4 hr), 然後先到繳費機刷卡繳費 (僅能刷卡)。若無先繳錢會收到 $65 NZD 的罰單；而且停車超過時間也會被罰錢 第二停車場 (Deepwater Basin Parking): 此處為免費停車場, 但是距離乘船碼頭要 30 min 步行距離, 停這裡的話要估好時間 注意: 通常中午 12 點前後會有大量遊客湧入, 因此停車場常常一位難求, 建議前往碼頭要多抓一些緩衝時間, 以避免趕不上遊輪。至少要提早1 hr以上 (30 min步行前往碼頭 & 提前 30 min報到) 抵達停車場。 7-2 Milford Sound Breakwater Walkway (米佛峽灣防波堤小路): 走出遊輪航廈來到戶外碼頭後, 左手邊有一條碎石砌成的石舖小路, 直挺挺的向前延伸進入 Milford Sound, 可以輕易地捕捉到 Milford Sound 最經典的視角, 在等待乘船的空檔時, 可以花個 10 min停留 7-3 Milford Foreshore Walk (前灘步道): 一個簡易的環形步道, 起始於 Milford Sound 的主停車場旁, 沿途有風光明媚的石子沙灘, 還會步入高聳蓊鬱的山毛櫸森林, 終點是 Milford Sound Lookout, 步道還有個隱藏景點 Milford Sound Swing (米佛峽灣鞦韆), 是個位在沙灘邊、且半對著米佛峽灣的小鞦韆"
+        ],
+        [
+          "",
+          "6. 赫默隧道",
+          "停留時間: 約10 min, 一條長達 1.2 km的公路隧道, 在猴溪後約 5 min車程處, 歷時 19 年、全人工開挖, 隧道從東向西有 1:10 的坡度, 僅有去程的隧道入口有停車場、隧道出口處則僅能於 1855 lookout 停車欣賞 會實施交通管制, 每次僅允許單邊車輛通行, 每次等待時間約 15-20 min，需預留等待時間 位置：(-44.764889, 167.989277)"
+        ],
+        [
+          "",
+          "7. 裂谷步道",
+          "停留時間: 約30 min, 赫默隧道出發後大約 15 min 到達, 步道始於停車場, 步行 10 min的林間小徑便能來到有著湍急水流聲的觀景橋上,來回約 800 m、約 20 分鐘, 無顯著上下坡 這裡到 Milford Sound 僅 15 min 車程"
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "date": "1/10",
+      "title": "曼德維爾・Dunedin",
+      "city": "Dunedin 但尼丁",
+      "distance": "360 km",
+      "drive": "4.5 hr",
+      "highlights": [
+        "曼德維爾",
+        "Sandfly bay",
+        "隧道海灘",
+        "奧塔哥半島(海豹",
+        "企鵝夜間歸巢)"
+      ],
+      "notes": [
+        "詳細行程與景點說明已由 Google Doc 同步。"
+      ],
+      "type": "booking",
+      "timeline": [
+        [
+          "",
+          "1. Mandeville (曼德維爾)",
+          "停留時間: 1hr, 開車中繼站, 吃午餐, 補給一下 1-1 Miss Cocoa, 早茶、手工蛋糕、司康 (Scone), 有室外花園"
+        ],
+        [
+          "",
+          "2. Sandfly Bay (Nina AR)",
+          ""
+        ],
+        [
+          "",
+          "3. 隧道海灘",
+          "預計 17:15-19:10 在這裡停留 (18:45 前開始往回走), 但還需在一個月前確認潮汐, 查詢網址: https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/dunedin-area/things-to-do/tunnel-beach-track/ 位於 Dunedin 西南邊, 若要前往沙灘, 必須從停車場步行約 20 min才能到, 來回距離 2 km, 散步玩水, or 坐著發呆 注意:"
+        ],
+        [
+          "",
+          "1. 返回路段是連續上坡：結束行程要返回停車場時, 是整路上坡, 來回步行時間要抓 1 hr",
+          ""
+        ],
+        [
+          "",
+          "2. 務必避開漲潮時段, 在海水退潮時前往, 否則除了看不到沙灘、只能看到一片汪洋海水之外, 也可能會有危險",
+          ""
+        ],
+        [
+          "",
+          "4. 奧塔哥半島",
+          "3-1 皇家信天翁中心: 長達 3 公尺巨大翼展的信天翁 https://maps.app.goo.gl/Bq2pPbvpjHUNufPc9 3-2 小藍企鵝保護區: 欣賞小藍企鵝夜間歸巢的畫面 (保證看到, 沒看到退費) 預約 21:00 的小藍企鵝夜間歸巢行程 20:40 至皇家信天翁中心報到 3-3 看海豹的地方: 建議去Pilots beach (在皇家信天翁中心附近), 不滿意再加碼 Allans Beach (最多, 有海獅、海豹、黃眼企鵝), Pilots Beach (最方便, 有海豹、信天翁、紅嘴鷗), Sandfly Bay (最美, 但是需要爬20 min 的沙地爬坡, 沙蠅賊多, 若當天體力不佳建議 Allans beach) https://maps.app.goo.gl/CEpJCaxRxLpDm2QTA https://maps.app.goo.gl/gRZPqBCUPXGDbkr78 https://maps.app.goo.gl/baNYEYCLrCK4uF126"
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "date": "1/11",
+      "title": "八角廣場・Oamaru",
+      "city": "Oamaru 奧瑪魯",
+      "distance": "130 km",
+      "drive": "1.5 hr",
+      "highlights": [
+        "八角廣場",
+        "但尼丁火車站",
+        "奧塔哥大學",
+        "維多利亞風的白石小鎮",
+        "摩拉奇圓石"
+      ],
+      "notes": [
+        "詳細行程與景點說明已由 Google Doc 同步。"
+      ],
+      "type": "drive",
+      "timeline": [
+        [
+          "",
+          "1. 八角廣場",
+          "位於市中心, 是大眾運輸的主要樞紐, 這裡有個特別規劃的行人保護區, 不僅重點級的歷史建築物和機構容納於此 (如聖保羅教堂、市政廳), 還有商店街和餐廳"
+        ],
+        [
+          "",
+          "1. 奧塔哥第一教堂: 開放時間 8:00-13:00, 上百年的哥德式教堂, 位於八角廣場東南方的草地上, 還有彩色玻璃窗",
+          ""
+        ],
+        [
+          "",
+          "2. 聖保羅大教堂: 開放時間 10:00-15:00, 位於八角廣場西北方, 紐西蘭的建築設計大獎",
+          ""
+        ],
+        [
+          "",
+          "3. 但尼丁市政廳: 開放時間 8:00-17:00, 緊鄰聖保羅大教堂, 面對廣場中央的南門面是至今紐西蘭僅存的維多利亞建築",
+          ""
+        ],
+        [
+          "",
+          "4. 但尼丁美術館: 開放時間 10:00-17:00, 有上百年的歷史, 還是全紐西蘭第一家美術館, 免費參觀",
+          ""
+        ],
+        [
+          "",
+          "2. 但尼丁火車站 (必看)",
+          "正對著八角廣場, 文藝復興的巴洛克建築風格, 被人譽為世界上最宏偉的薑餅屋 一樓是飯店餐廳區、二樓是展覽區, 每年的 Dunedin 時裝周會在此舉辦, 利用長達一公里的月台作為時裝秀伸展台"
+        ],
+        [
+          "",
+          "3. 奧塔哥大學",
+          "常被列為全球最美麗的大學之一, 醫學專業聞名全球, 學術研究品質為全紐西蘭第一。校園內有許多宏偉精緻的維多利亞式建築, 以標誌建築鐘樓 (ClockTower) 最引人注目"
+        ],
+        [
+          "",
+          "4. Lunch time",
+          ""
+        ],
+        [
+          "",
+          "5. 維多利亞風的白石小鎮",
+          "停留時間: 2 hr, 歐洲人打造的維多利亞風文化遺產區, 以下的景點順序是由北至南依序排列"
+        ],
+        [
+          "",
+          "1. Oamaru Opera House 奧瑪魯歌劇院",
+          ""
+        ],
+        [
+          "",
+          "2. Waitaki Museum 懷塔基博物館: 除了作為博物館之外, 曾經是機械學院",
+          ""
+        ],
+        [
+          "",
+          "3. Waitaki District Council 懷塔基區議會: 原本是首席郵局",
+          ""
+        ],
+        [
+          "",
+          "4. The Last Post 餐廳: 原先是 Oamaru 的第一座郵局, 現在是餐廳",
+          ""
+        ],
+        [
+          "",
+          "5. Forrester Gallery 福里斯特畫廊: 免費入場",
+          ""
+        ],
+        [
+          "",
+          "6. St Luke’s Anglican Church 聖公會教堂: 超過150年的哥德式教堂",
+          ""
+        ],
+        [
+          "",
+          "7. Steampunk HQ 蒸汽朋克總部: 原先是穀糧倉庫, 於2011年改建為現代工業風格的博物館",
+          ""
+        ],
+        [
+          "",
+          "8. Victorian Heritage Centre 舊城區: Oamaru 最古老的街道, 有咖啡廳和文青小店",
+          ""
+        ],
+        [
+          "",
+          "9. Whitestone City 白石小鎮: 位於舊城區內, 為互動式的展覽館, 也是遊客中心。除法欣賞舊時代的街道、商店, 也可以體驗穿上維多利亞服飾",
+          ""
+        ],
+        [
+          "",
+          "6. 摩拉奇圓石",
+          "Oamaru 除了小藍企鵝之外, 最受歡迎的景點, 圓石群所在的沙灘位置距停車場約有 600 m, 下車後得走一小段路才會抵達, 若覺得 600 m太遠的話, 也可選擇停於較近的 Moeraki Boulders Café (圓石咖啡廳), 但經由咖啡廳通往海灘的道路則須付過路費, 每人 $2 NZD 得注意潮汐時間, 於退潮時前來才能完整看見石頭的輪廓及形狀, 必要時可看白石小鎮對調順序, 當天落潮時間: 18:55 (待確認)"
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "date": "1/12",
+      "title": "象石群・Mt. Cook",
+      "city": "Mt. Cook 庫克山",
+      "distance": "220 km",
+      "drive": "2.5 hr",
+      "highlights": [
+        "象石群",
+        "石灰石峭壁",
+        "Lake Pukaki Viewing Point",
+        "紐西蘭高山薰衣草農場",
+        "Aoraki Mt Cook Scenic Lookout",
+        "庫克山公路景觀台",
+        "Hermitage Hotel"
+      ],
+      "notes": [
+        "詳細行程與景點說明已由 Google Doc 同步。"
+      ],
+      "type": "drive",
+      "timeline": [
+        [
+          "",
           "1. 象石群",
-          "詳情請見 Google Doc 原文"
+          "停留時間: 1.5 hr 象石岩的寬度和高度約 1-10 m不等, 無規則的散落於 200 m寬的山坡草地上, 象石成因主要是上千年前沉積的石灰岩地層被風雨侵蝕後, 遺留下來的風化殘餘物, 外觀形似大象。這也是「納尼亞傳奇」的拍攝地。"
         ],
         [
-          "09:00",
-          "停留時間: 1.5 hr",
-          "象石岩的寬度和高度約 1-10 m不等, 無規則的散落於 200 m寬的山坡草地上, 象石成因主要是上千年前沉積的石灰岩地層被風雨侵蝕後, 遺留下來的風化殘餘物, 外觀形似大象。這也是「納尼亞傳奇」的拍攝地。 2. 石灰石峭壁 (Clay Cliffs) https://maps.app.goo.gl/MpmMBXMJmS9HLQsE6"
+          "",
+          "2. 石灰石峭壁 (Clay Cliffs)",
+          "停留時間: 1.5 hr (Lunch time), 位於 8 號公路旁的小路上, 需從 8 號公路進入 Quailburn Rd, 再左彎進入無鋪柏油的小碎石路段 Henburn Rd, 最後再沿著碎石路段前進 20 min才會到達 步道盡頭是一個天然狹縫入口, 可以看到一個被高聳峭壁重重包圍的風景 注意:"
         ],
         [
-          "10:00",
-          "停留時間: 1.5 hr",
-          "(Lunch time), 位於 8 號公路旁的小路上, 需從 8 號公路進入 Quailburn Rd, 再左彎進入無鋪柏油的小碎石路段 Henburn Rd, 最後再沿著碎石路段前進 20 min才會到達"
+          "",
+          "1. 位於私人土地, 入內需支付車輛入場費 $5 NZD, 將現金投入箱子後再自行推開柵欄進入, 車子入內後須將柵欄推回",
+          ""
         ],
         [
-          "11:00",
-          "步道盡頭是一個天然狹縫入口, 可以看到一個被高聳峭壁重重包圍的風景",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "12:00",
-          "注意:",
-          "1. 位於私人土地, 入內需支付車輛入場費 $5 NZD, 將現金投入箱子後再自行推開柵欄進入, 車子入內後須將柵欄推回"
-        ],
-        [
-          "14:00",
+          "",
           "2. 前往途中會經過塵土飛揚的碎石路段, 請減速慢行以避免危險 (30km/h)",
-          "3. Lake Pukaki Viewing Point (遊客中心) https://maps.app.goo.gl/tDFyu1M4TTgKgiK8A"
+          ""
         ],
         [
-          "15:00",
-          "停留時間: 1 hr, 需完成物資補給, 包含兩天早餐 (晚上的 Mt.Cook 便利商店超貴)",
-          "位於庫克山脈南邊, 是上游塔斯曼冰河的融水所形成的冰河堰塞湖。該湖泊有著極度夢幻的藍色湖面, 遊客中心位於整座湖泊的最南端, 有著極度開闊的視野, 因此是欣賞浪漫湖景 & 遠方南阿爾卑斯山脈的絕佳位置 該遊客中心旁還有一家鮭魚專賣店 Mount Cook Alpine Salmon, 可買到南阿爾卑斯山雪水養殖的鮭魚, 不同於一般養殖場鮭魚, 這裡飼養的鮭魚因為在不斷流動的冰涼海流中游泳, 造就鮭魚細膩的口感及乾淨鮮甜的味道 (外帶到外面看風景吃)"
+          "",
+          "3. Lake Pukaki Viewing Point (遊客中心)",
+          "停留時間: 1 hr, 需完成物資補給, 包含兩天早餐 (晚上的 Mt.Cook 便利商店超貴) 位於庫克山脈南邊, 是上游塔斯曼冰河的融水所形成的冰河堰塞湖。該湖泊有著極度夢幻的藍色湖面, 遊客中心位於整座湖泊的最南端, 有著極度開闊的視野, 因此是欣賞浪漫湖景 & 遠方南阿爾卑斯山脈的絕佳位置 該遊客中心旁還有一家鮭魚專賣店 Mount Cook Alpine Salmon, 可買到南阿爾卑斯山雪水養殖的鮭魚, 不同於一般養殖場鮭魚, 這裡飼養的鮭魚因為在不斷流動的冰涼海流中游泳, 造就鮭魚細膩的口感及乾淨鮮甜的味道 (外帶到外面看風景吃)"
         ],
         [
-          "16:00",
+          "",
           "4. 紐西蘭高山薰衣草農場",
-          "詳情請見 Google Doc 原文"
+          "停留時間: 30 min 離開 Punatahu 遊客中心後大約 10 分鐘車程處, 是整個南半球最大的唯一認證的有機薰衣草農場, 有出多種有機的薰衣草產品, 最推薦薰衣草冰淇淋"
         ],
         [
-          "17:00",
-          "停留時間: 30 min",
-          "離開 Punatahu 遊客中心後大約 10 分鐘車程處, 是整個南半球最大的唯一認證的有機薰衣草農場, 有出多種有機的薰衣草產品, 最推薦薰衣草冰淇淋"
-        ],
-        [
-          "18:00",
+          "",
           "5. Aoraki Mt Cook Scenic Lookout",
-          "位置: (-43.98274, 170.13448)"
+          "位置: (-43.98274, 170.13448) 停留時間: 20 min 地勢較高, 除了可以眺望遠方的 Mt. Cook 山峰外, 前景蜿蜒的道路和湛藍的 Lake Pukaki 也替畫面增添許多漂亮的元素"
         ],
         [
-          "20:00",
-          "停留時間: 20 min",
-          "地勢較高, 除了可以眺望遠方的 Mt. Cook 山峰外, 前景蜿蜒的道路和湛藍的 Lake Pukaki 也替畫面增添許多漂亮的元素"
-        ],
-        [
-          "21:00",
+          "",
           "6. 庫克山公路景觀台",
-          "位置: (-43.745220, 170.114240)"
+          "位置: (-43.745220, 170.114240) 停留時間: 15 min 位於 Mt. Cook Rd 接近庫克山國家公園的 80 號公路旁, 有個可簡易路邊停車位置的觀景平台, 該景觀台並非一個正式景觀台 高聳入天的庫克山群、搭配白淨潔暇的山頂殘雪"
         ],
         [
-          "22:00",
-          "停留時間: 15 min",
-          "位於 Mt. Cook Rd 接近庫克山國家公園的 80 號公路旁, 有個可簡易路邊停車位置的觀景平台, 該景觀台並非一個正式景觀台"
-        ],
-        [
-          "23:00",
-          "高聳入天的庫克山群、搭配白淨潔暇的山頂殘雪",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "24:00",
+          "",
           "7. 夜生活: Hermitage Hotel 露台喝一杯",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "26:00",
-          "建議在 20:00-21:00 之間前往",
-          "就算沒住這間飯店, 也可以去他們的 Snowline Bar, 1 月份的「殘霞」會持續到晚上 10 點左右, 您可以點一杯紐西蘭當地的 Pinot Noir 紅酒, 看著庫克山從金黃色轉為深藍色, 再到星光滿天"
-        ],
-        [
-          "27:00",
-          "隔天若 6:00 起床, 可看到日照金山",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "28:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
+          "建議在 20:00-21:00 之間前往 就算沒住這間飯店, 也可以去他們的 Snowline Bar, 1 月份的「殘霞」會持續到晚上 10 點左右, 您可以點一杯紐西蘭當地的 Pinot Noir 紅酒, 看著庫克山從金黃色轉為深藍色, 再到星光滿天 隔天若 6:00 起床, 可看到日照金山"
         ]
       ]
     },
     {
       "id": 13,
       "date": "1/13",
-      "title": "1. 胡克峽谷步道 https://maps.app.goo.gl/fHY9n7jRBNS4EVM77・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
+      "title": "胡克峽谷步道・Mt. Cook",
+      "city": "Mt. Cook 庫克山",
+      "distance": "25 km",
+      "drive": "0.5 hr",
       "highlights": [
-        "1. 胡克峽谷步道 https://maps.app.goo.gl/fHY9n7jRBNS4EVM77",
-        "7:30-8:00 前開始走 (網路建議 7:30), 不然回程會很曬, 目前在施工, 預計 2026 / 7 月完工, 不影響",
-        "步道起點: 露營區及停車場 (White Horse Hill Campsite)",
-        "注意: 若於強降風",
-        "強降雨情況下, 此步道會於第一座吊橋處關閉",
-        "全長約 10 km, 來回約需 3-4 hr, 沿途無顯著爬升路段, 總共會經過三座吊橋, 步道終點是 Hooker Lake (胡克湖), 搭配庫克山及南阿爾卑斯山脈",
-        "2. Lunch time 可在冰河船報到飯店吃輕食 or 自備",
-        "3. 塔斯曼冰河船 https://maps.app.goo.gl/Krtm4VXSsCwHxEbh6",
-        "冰河船體驗時, 不但會從冰山中取下一小塊冰解說, 也有機會親自觸摸甚至飲用冰山水, 整個冰河船活動總時間約 3 hr, 包含徒步行走約 30 min 左右的 Tasman Velly, 於湖上體驗的時間約 60 min",
-        "預約 13:45 - 16:30 梯次",
-        "13:15 於 Hermitage hotel lobby 報到, 此行程需走約1.5 km (25 min)",
-        "攜帶物品: 防水外套",
-        "保暖衣物",
-        "防曬",
-        "水",
-        "健行鞋",
-        "4. 庫克山遊客中心 https://maps.app.goo.gl/4rAvJ8Md8GwyWDU99",
-        "營業時間: 8:30 – 17:00",
-        "5. back up 1, 塔斯曼湖步道 https://maps.app.goo.gl/x2F85gY4j38kEPR77",
-        "若還有體力可以走(1), 能看紐西蘭最長冰河, 並欣賞這些載浮載沉於堰塞湖中的大小冰山最佳步道。步道來回總長 3.5 km, 共有以下兩個景觀台可停留和欣賞",
-        "1. 藍湖 & 塔斯曼冰河景觀台: 來回約 40 分鐘, 坡度相對較陡, 可以由至高點同時欣賞 Blue Lakes",
-        "Tasman Lake 以及 Tasman Glacier",
-        "2. 塔斯曼湖: 來回約 1 hr, 坡度平緩, 可以抵達 Tasman Lake 湖畔, 近距離欣賞冰河湖和大大小小的冰山 (有參加冰河船的話不用走這個)",
-        "若兩個觀景台都會前往, 則來回所需時間約 1.5 hr",
-        "________________"
+        "胡克峽谷步道",
+        "塔斯曼冰河船",
+        "庫克山遊客中心",
+        "(塔斯曼湖步道)"
       ],
       "notes": [
         "詳細行程與景點說明已由 Google Doc 同步。"
@@ -1430,102 +809,56 @@
       "type": "booking",
       "timeline": [
         [
-          "08:00",
+          "",
           "1. 胡克峽谷步道",
-          "詳情請見 Google Doc 原文"
+          "前開始走 (網路建議 7:30), 不然回程會很曬, 目前在施工, 預計 2026 / 7 月完工, 不影響 步道起點: 露營區及停車場 (White Horse Hill Campsite) 注意: 若於強降風、強降雨情況下, 此步道會於第一座吊橋處關閉 全長約 10 km, 來回約需 3-4 hr, 沿途無顯著爬升路段, 總共會經過三座吊橋, 步道終點是 Hooker Lake (胡克湖), 搭配庫克山及南阿爾卑斯山脈"
         ],
         [
-          "7:30-8:00",
-          "前開始走 (網路建議 7:30), 不然回程會很曬, 目前在施工, 預計 2026 / 7 月完工, 不影響",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "10:00",
-          "步道起點: 露營區及停車場 (White Horse Hill Campsite)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "11:00",
-          "注意: 若於強降風、強降雨情況下, 此步道會於第一座吊橋處關閉",
-          "全長約 10 km, 來回約需 3-4 hr, 沿途無顯著爬升路段, 總共會經過三座吊橋, 步道終點是 Hooker Lake (胡克湖), 搭配庫克山及南阿爾卑斯山脈"
-        ],
-        [
-          "12:00",
+          "",
           "2. Lunch time 可在冰河船報到飯店吃輕食 or 自備",
-          "詳情請見 Google Doc 原文"
+          ""
         ],
         [
-          "14:00",
+          "",
           "3. 塔斯曼冰河船",
-          "冰河船體驗時, 不但會從冰山中取下一小塊冰解說, 也有機會親自觸摸甚至飲用冰山水, 整個冰河船活動總時間約 3 hr, 包含徒步行走約 30 min 左右的 Tasman Velly, 於湖上體驗的時間約 60 min"
+          "冰河船體驗時, 不但會從冰山中取下一小塊冰解說, 也有機會親自觸摸甚至飲用冰山水, 整個冰河船活動總時間約 3 hr, 包含徒步行走約 30 min 左右的 Tasman Velly, 於湖上體驗的時間約 60 min 預約 13:45 - 16:30 梯次 於 Hermitage hotel lobby 報到, 此行程需走約1.5 km (25 min) 攜帶物品: 防水外套、保暖衣物、防曬、水、健行鞋"
         ],
         [
-          "15:00",
-          "預約 13:45 - 16:30 梯次",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "13:15",
-          "於 Hermitage hotel lobby 報到, 此行程需走約1.5 km (25 min)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "17:00",
-          "攜帶物品: 防水外套、保暖衣物、防曬、水、健行鞋",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "18:00",
+          "",
           "4. 庫克山遊客中心",
-          "營業時間: 8:30 – 17:00 5. back up 1, 塔斯曼湖步道 https://maps.app.goo.gl/x2F85gY4j38kEPR77 若還有體力可以走(1), 能看紐西蘭最長冰河, 並欣賞這些載浮載沉於堰塞湖中的大小冰山最佳步道。步道來回總長 3.5 km, 共有以下兩個景觀台可停留和欣賞 1. 藍湖 & 塔斯曼冰河景觀台: 來回約 40 分鐘, 坡度相對較陡, 可以由至高點同時欣賞 Blue Lakes、Tasman Lake 以及 Tasman Glacier 2. 塔斯曼湖: 來回約 1 hr, 坡度平緩, 可以抵達 Tasman Lake 湖畔, 近距離欣賞冰河湖和大大小小的冰山 (有參加冰河船的話不用走這個)"
+          "營業時間: 8:30 – 17:00"
         ],
         [
-          "20:00",
-          "若兩個觀景台都會前往, 則來回所需時間約 1.5 hr",
-          "詳情請見 Google Doc 原文"
+          "",
+          "5. back up 1, 塔斯曼湖步道",
+          "若還有體力可以走(1), 能看紐西蘭最長冰河, 並欣賞這些載浮載沉於堰塞湖中的大小冰山最佳步道。步道來回總長 3.5 km, 共有以下兩個景觀台可停留和欣賞"
         ],
         [
-          "21:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
+          "",
+          "1. 藍湖 & 塔斯曼冰河景觀台: 來回約 40 分鐘, 坡度相對較陡, 可以由至高點同時欣賞 Blue Lakes、Tasman Lake 以及 Tasman Glacier",
+          ""
+        ],
+        [
+          "",
+          "2. 塔斯曼湖: 來回約 1 hr, 坡度平緩, 可以抵達 Tasman Lake 湖畔, 近距離欣賞冰河湖和大大小小的冰山 (有參加冰河船的話不用走這個)",
+          "若兩個觀景台都會前往, 則來回所需時間約 1.5 hr"
         ]
       ]
     },
     {
       "id": 14,
       "date": "1/14",
-      "title": "1. 希利塔恩斯步道 https://maps.app.goo.gl/LW5KebPNgCM1WWmJA・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
+      "title": "希利塔恩斯步道・Tekapo",
+      "city": "Tekapo 蒂卡波",
+      "distance": "110 km",
+      "drive": "1.25 hr",
       "highlights": [
-        "1. 希利塔恩斯步道 https://maps.app.goo.gl/LW5KebPNgCM1WWmJA",
-        "8:00 開爬, 有著「通往天堂的階梯」美稱, 步道終點的高山淡水湖 Sealy Tarns Lake超美, 而 Sealy Tarns Viewpoint 還能居高臨下, Hooker Valley 的兩大冰河湖 (Muller Lake & Hooker Lake) 盡收眼底, 以不一樣的角度遠眺遠處的南阿爾卑斯山脈和庫克山",
-        "該步道共需爬升超過 2200 個階梯, 沿途不但為連續陡坡上升, 步道還很狹窄和陡峭, 且部分區域的路況不好又臨崖無扶手",
-        "來回距離 & 所需時間：4.5 km",
-        "來回約 4 hr, 垂直爬升高度約 600 m",
-        "步道起點: 露營區及停車場 (White Horse Hill Campsite)",
-        "2. Lunch time in Tekapo",
-        "3. 約翰山天文台 https://maps.app.goo.gl/pcz1mf8tWWBjSbYu5",
-        "開車上天文台所在的Mt. John (約翰山) 標高約 1029 m, 若在白天親臨約翰山天文台, 可以居高俯瞰擁有 Tiffany 藍的 Tekapo 湖景, 也可以零死角的遠眺四周壯麗的群山美景",
-        "1. Astro Café: 營業時間: 09:00 - 14:00 (最後點餐時間 13:30), 咖啡廳的戶外座位區視野佳, 風景優美, 孤獨星球旅遊書(Lonely Planet) 曾經這樣評論 Astro Café 這間咖啡廳:「It's quite possibly one of the planet's best locations for a cafe. 」",
-        "2. Summit Loop 步道: 一段環繞山頂的平緩步道 (走一圈約 15 min)。這裡是拍「Tiffany 藍」湖水全景的最佳角度, 比坐在咖啡廳裡拍出的照片更震撼",
-        "更無死角",
-        "4. 善良牧羊人教堂 https://maps.app.goo.gl/N1rEEvTiw5ovgUYEA",
-        "營業時間: 9:00 – 20:00, 教堂內禁止拍攝",
-        "超過 90 年歷史, 小鎮內唯一的教堂。教堂的設計宗旨乃是為了帶給人們安靜",
-        "婉約以及堅毅的精神, 並頌揚早期那些勇於前來 Mackenzie (麥肯齊) 開墾的拓荒者",
-        "教堂內部可以免費參觀, 通常週三至週日的 10:00–15:00 這段期間會開放, 不過並不保證一定開放 (只有志工在 or 沒有活動的情況下才開放)。",
-        "1. 牧羊犬雕像: 教堂往東約 100 m 處, 它於 1968 年設立",
-        "5. Dinner time",
-        "6. Tekapo Springs https://maps.app.goo.gl/LgMBTWp2EMbgRvsH6",
-        "自備毛巾與泳衣, 租借要錢, 泳池區 - 熱水池 & 水上樂園 方案: 並非提供真正溫泉水(溫度也並不是非常高), 但水質純淨",
-        "風景優美",
-        "7. 回住宿小睡",
-        "8. 約翰山天文台觀星團 https://maps.app.goo.gl/TiS3K1qWMhkJk3RX9",
-        "Dark Sky Project summit experiment: 預約 23:59 開始的行程, 23:40 至Dark Sky Project Base, 1 Motuariki Lane 報到",
-        "總活動時間 2 hr, 包含 30 min 的接駁車程",
-        "________________"
+        "希利塔恩斯步道",
+        "約翰山天文台",
+        "善良牧羊人教堂",
+        "Tekapo Springs",
+        "約翰山天文台觀星團",
+        "教堂自行觀星"
       ],
       "notes": [
         "詳細行程與景點說明已由 Google Doc 同步。"
@@ -1533,119 +866,76 @@
       "type": "booking",
       "timeline": [
         [
-          "08:00",
+          "",
           "1. 希利塔恩斯步道",
-          "開爬, 有著「通往天堂的階梯」美稱, 步道終點的高山淡水湖 Sealy Tarns Lake超美, 而 Sealy Tarns Viewpoint 還能居高臨下, Hooker Valley 的兩大冰河湖 (Muller Lake & Hooker Lake) 盡收眼底, 以不一樣的角度遠眺遠處的南阿爾卑斯山脈和庫克山 該步道共需爬升超過 2200 個階梯, 沿途不但為連續陡坡上升, 步道還很狹窄和陡峭, 且部分區域的路況不好又臨崖無扶手"
+          "開爬, 有著「通往天堂的階梯」美稱, 步道終點的高山淡水湖 Sealy Tarns Lake超美, 而 Sealy Tarns Viewpoint 還能居高臨下, Hooker Valley 的兩大冰河湖 (Muller Lake & Hooker Lake) 盡收眼底, 以不一樣的角度遠眺遠處的南阿爾卑斯山脈和庫克山 該步道共需爬升超過 2200 個階梯, 沿途不但為連續陡坡上升, 步道還很狹窄和陡峭, 且部分區域的路況不好又臨崖無扶手 來回距離 & 所需時間：4.5 km、來回約 4 hr, 垂直爬升高度約 600 m 步道起點: 露營區及停車場 (White Horse Hill Campsite)"
         ],
         [
-          "09:00",
-          "來回距離 & 所需時間：4.5 km、來回約 4 hr, 垂直爬升高度約 600 m",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "10:00",
-          "步道起點: 露營區及停車場 (White Horse Hill Campsite)",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "11:00",
+          "",
           "2. Lunch time in Tekapo",
-          "詳情請見 Google Doc 原文"
+          ""
         ],
         [
-          "12:00",
+          "",
           "3. 約翰山天文台",
-          "開車上天文台所在的Mt. John (約翰山) 標高約 1029 m, 若在白天親臨約翰山天文台, 可以居高俯瞰擁有 Tiffany 藍的 Tekapo 湖景, 也可以零死角的遠眺四周壯麗的群山美景 1. Astro Café: 營業時間: 09:00 - 14:00 (最後點餐時間 13:30), 咖啡廳的戶外座位區視野佳, 風景優美, 孤獨星球旅遊書(Lonely Planet) 曾經這樣評論 Astro Café 這間咖啡廳:「It's quite possibly one of the planet's best locations for a cafe. 」 2. Summit Loop 步道: 一段環繞山頂的平緩步道 (走一圈約 15 min)。這裡是拍「Tiffany 藍」湖水全景的最佳角度, 比坐在咖啡廳裡拍出的照片更震撼、更無死角"
+          "開車上天文台所在的Mt. John (約翰山) 標高約 1029 m, 若在白天親臨約翰山天文台, 可以居高俯瞰擁有 Tiffany 藍的 Tekapo 湖景, 也可以零死角的遠眺四周壯麗的群山美景"
         ],
         [
-          "14:00",
+          "",
+          "1. Astro Café: 營業時間: 09:00 - 14:00 (最後點餐時間 13:30), 咖啡廳的戶外座位區視野佳, 風景優美, 孤獨星球旅遊書(Lonely Planet) 曾經這樣評論 Astro Café 這間咖啡廳:「It's quite possibly one of the planet's best locations for a cafe. 」",
+          ""
+        ],
+        [
+          "",
+          "2. Summit Loop 步道: 一段環繞山頂的平緩步道 (走一圈約 15 min)。這裡是拍「Tiffany 藍」湖水全景的最佳角度, 比坐在咖啡廳裡拍出的照片更震撼、更無死角",
+          ""
+        ],
+        [
+          "",
           "4. 善良牧羊人教堂",
           "營業時間: 9:00 – 20:00, 教堂內禁止拍攝 超過 90 年歷史, 小鎮內唯一的教堂。教堂的設計宗旨乃是為了帶給人們安靜、婉約以及堅毅的精神, 並頌揚早期那些勇於前來 Mackenzie (麥肯齊) 開墾的拓荒者 教堂內部可以免費參觀, 通常週三至週日的 10:00–15:00 這段期間會開放, 不過並不保證一定開放 (只有志工在 or 沒有活動的情況下才開放)。"
         ],
         [
-          "15:00",
+          "",
           "1. 牧羊犬雕像: 教堂往東約 100 m 處, 它於 1968 年設立",
-          "詳情請見 Google Doc 原文"
+          ""
         ],
         [
-          "16:00",
+          "",
           "5. Dinner time",
-          "6. Tekapo Springs https://maps.app.goo.gl/LgMBTWp2EMbgRvsH6 自備毛巾與泳衣, 租借要錢, 泳池區 - 熱水池 & 水上樂園 方案: 並非提供真正溫泉水(溫度也並不是非常高), 但水質純淨、風景優美"
+          ""
         ],
         [
-          "17:00",
+          "",
+          "6. Tekapo Springs",
+          "自備毛巾與泳衣, 租借要錢, 泳池區 - 熱水池 & 水上樂園 方案: 並非提供真正溫泉水(溫度也並不是非常高), 但水質純淨、風景優美"
+        ],
+        [
+          "",
           "7. 回住宿小睡",
-          "詳情請見 Google Doc 原文"
+          ""
         ],
         [
-          "18:00",
+          "",
           "8. 約翰山天文台觀星團",
-          "Dark Sky Project summit experiment: 預約 23:59 開始的行程, 23:40 至Dark Sky Project Base, 1 Motuariki Lane 報到"
-        ],
-        [
-          "20:00",
-          "總活動時間 2 hr, 包含 30 min 的接駁車程",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "21:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
+          "Dark Sky Project summit experiment: 預約 23:59 開始的行程, 23:40 至Dark Sky Project Base, 1 Motuariki Lane 報到 總活動時間 2 hr, 包含 30 min 的接駁車程"
         ]
       ]
     },
     {
       "id": 15,
       "date": "1/15",
-      "title": "網址: https://alpinealpacasfairlie.com/?fbclid=IwY2xjawRe_KhleHRuA2FlbQIxMABicmlkETJGaDNEWGVKRjdnbHAzUTY4c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHlJ6TpDaljDjxB-IhCX8oQDI-TTeasQwJpcDS4uWMq4JXyVLtXWyNufyfcYe_aem_yi6mX454eRVxfmsCo82T7Q・旅程",
-      "city": "未設定",
-      "distance": null,
-      "drive": null,
+      "title": "費爾利麵包房・Christchurch",
+      "city": "Christchurch 基督城",
+      "distance": "245 km",
+      "drive": "3.25 hr",
       "highlights": [
-        "網址: https://alpinealpacasfairlie.com/?fbclid=IwY2xjawRe_KhleHRuA2FlbQIxMABicmlkETJGaDNEWGVKRjdnbHAzUTY4c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHlJ6TpDaljDjxB-IhCX8oQDI-TTeasQwJpcDS4uWMq4JXyVLtXWyNufyfcYe_aem_yi6mX454eRVxfmsCo82T7Q",
-        "3. shopping !!!",
-        "4. 雅芳河 (Avon River) 附近吃晚餐",
-        "5. 溫泉 (He Puna Taimoana Hot Pools, 在大橋旁邊)",
-        "需提早預約 預計 20:00 or 20:30 - 22:00 去泡, 預約 20:00 or 20:30 的梯次",
-        "預約網址: https://www.hepunataimoana.co.nz/buy-now/entry-passes",
-        "選擇 adult only 場次",
-        "6. 新布萊頓碼頭大橋 夜景 https://maps.app.goo.gl/WUayDdoF96oUKbsq8",
-        "圖書館開放時間: 9:00 - 18:00",
-        "看點燈後的大橋, 吹海風",
-        "地標「碼頭大橋」長達 300 m",
-        "直挺挺地延伸到太平洋中, 橋面寬達 6 m, 可以在橋面上漫步小憩, 適合看夕陽",
-        "這個碼頭旁邊還有座造型獨特的圖書館, 可以進到圖書館內部一邊瀏覽書籍",
-        "一邊欣賞遠方的壯麗海景",
-        "1. 購買 Icebreaker 與專業登山用品",
-        "Icebreaker 是紐西蘭的羊毛之光",
-        "基督城有兩處最佳購買點：",
-        "* Icebreaker Outlet (機場附近 - Antares Place)：",
-        "* 優點： 這是 Outlet 店！價格通常比市區專櫃便宜不少",
-        "非常適合一次掃貨多件底層衣。",
-        "* 位置： 就在機場附近",
-        "開著 KIA Carnival 過去停車非常方便。",
-        "* Bivouac Outdoor 或 Macpac (市區 Cashel Street)：",
-        "* 優點： 這兩家是紐西蘭最強的戶外用品店。Bivouac 代理非常多 Icebreaker 的款式；而 Macpac 是紐西蘭本土品牌（類似 Icebreaker 但更平價一點）",
-        "其羽絨衣和羊毛衣也非常出色。",
-        "* 位置： 位於市中心的 Cashel Street (步行街)",
-        "可以順便逛街。",
-        "2. 購買紐西蘭名產（蜂蜜",
-        "巧克力",
-        "綿羊油）",
-        "* Riverside Market (市中心)：",
-        "* 特點： 這裡有非常多精緻的小店",
-        "販售高品質的 Manuka 蜂蜜",
-        "手工巧克力和紐西蘭文創商品。",
-        "* 氛圍： 這裡適合買「送人」的精緻禮品",
-        "環境非常有設計感。",
-        "* Pak'nSave 或 Countdown (大型超市)：",
-        "* 特點： 這是買 Whittaker's 巧克力",
-        "Cookie Time 餅乾",
-        "紅標紅茶最便宜的地方。",
-        "* 建議： 推薦去 Pak'nSave Riccarton 或 Tower Junction",
-        "那裡的規模很大",
-        "貨源最齊。",
-        "________________"
+        "費爾利麵包房",
+        "羊駝農場",
+        "shopping",
+        "雅芳河 dinner",
+        "新布萊頓碼頭大橋 夕陽",
+        "He Puna Taimoana Hot Pools"
       ],
       "notes": [
         "詳細行程與景點說明已由 Google Doc 同步。"
@@ -1653,89 +943,44 @@
       "type": "booking",
       "timeline": [
         [
-          "08:00",
+          "",
           "1. Fairlie Bakehouse (費爾利麵包房)",
-          "營業時間: 6:00-16:30"
+          "營業時間: 6:00-16:30 位於 Fairlie 的市鎮中心, 推薦所有旅客一定要來訪的經典鹹派專賣店"
         ],
         [
-          "09:00",
-          "位於 Fairlie 的市鎮中心, 推薦所有旅客一定要來訪的經典鹹派專賣店",
-          "2. Alpine Alpacas Fairlie (羊駝農場) https://maps.app.goo.gl/mAzoDjaBbAE74MqKA 停留時間: 1.5 hr, 距 Tekapo 小鎮約 40 min 車程, 農場內飼養了許多可愛的羊駝, 還有少數的綿羊、美洲駝、馬, 可以進入圍欄內近距離接觸及餵養羊駝"
+          "",
+          "2. Alpine Alpacas Fairlie (羊駝農場)",
+          "停留時間: 1.5 hr, 距 Tekapo 小鎮約 40 min 車程, 農場內飼養了許多可愛的羊駝, 還有少數的綿羊、美洲駝、馬, 可以進入圍欄內近距離接觸及餵養羊駝 1/15 12:00, Guided Alpaca Paddock Tour (1 hr) 網址: https://alpinealpacasfairlie.com/?fbclid=IwY2xjawRe_KhleHRuA2FlbQIxMABicmlkETJGaDNEWGVKRjdnbHAzUTY4c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHlJ6TpDaljDjxB-IhCX8oQDI-TTeasQwJpcDS4uWMq4JXyVLtXWyNufyfcYe_aem_yi6mX454eRVxfmsCo82T7Q"
         ],
         [
-          "10:00",
-          "1/15 12:00, Guided Alpaca Paddock Tour (1 hr)",
-          "網址: https://alpinealpacasfairlie.com/?fbclid=IwY2xjawRe_KhleHRuA2FlbQIxMABicmlkETJGaDNEWGVKRjdnbHAzUTY4c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHlJ6TpDaljDjxB-IhCX8oQDI-TTeasQwJpcDS4uWMq4JXyVLtXWyNufyfcYe_aem_yi6mX454eRVxfmsCo82T7Q 3. shopping !!!"
+          "",
+          "3. shopping !!!",
+          ""
         ],
         [
-          "11:00",
+          "",
           "4. 雅芳河 (Avon River) 附近吃晚餐",
-          "詳情請見 Google Doc 原文"
+          ""
         ],
         [
-          "12:00",
+          "",
           "5. 溫泉 (He Puna Taimoana Hot Pools, 在大橋旁邊)",
-          "需提早預約 預計 20:00 or 20:30 - 22:00 去泡, 預約 20:00 or 20:30 的梯次 預約網址: https://www.hepunataimoana.co.nz/buy-now/entry-passes"
+          "需提早預約 預計 20:00 or 20:30 - 22:00 去泡, 預約 20:00 or 20:30 的梯次 預約網址: https://www.hepunataimoana.co.nz/buy-now/entry-passes 選擇 adult only 場次"
         ],
         [
-          "14:00",
-          "選擇 adult only 場次",
-          "6. 新布萊頓碼頭大橋 夜景 https://maps.app.goo.gl/WUayDdoF96oUKbsq8"
+          "",
+          "6. 新布萊頓碼頭大橋 夜景",
+          "圖書館開放時間: 9:00 - 18:00 看點燈後的大橋, 吹海風 地標「碼頭大橋」長達 300 m、直挺挺地延伸到太平洋中, 橋面寬達 6 m, 可以在橋面上漫步小憩, 適合看夕陽 這個碼頭旁邊還有座造型獨特的圖書館, 可以進到圖書館內部一邊瀏覽書籍、一邊欣賞遠方的壯麗海景"
         ],
         [
-          "15:00",
-          "圖書館開放時間: 9:00 - 18:00",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "16:00",
-          "看點燈後的大橋, 吹海風",
-          "地標「碼頭大橋」長達 300 m、直挺挺地延伸到太平洋中, 橋面寬達 6 m, 可以在橋面上漫步小憩, 適合看夕陽"
-        ],
-        [
-          "17:00",
-          "這個碼頭旁邊還有座造型獨特的圖書館, 可以進到圖書館內部一邊瀏覽書籍、一邊欣賞遠方的壯麗海景",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "18:00",
+          "",
           "1. 購買 Icebreaker 與專業登山用品",
-          "詳情請見 Google Doc 原文"
+          "Icebreaker 是紐西蘭的羊毛之光，基督城有兩處最佳購買點： * Icebreaker Outlet (機場附近 - Antares Place)： * 優點： 這是 Outlet 店！價格通常比市區專櫃便宜不少，非常適合一次掃貨多件底層衣。 * 位置： 就在機場附近，開著 KIA Carnival 過去停車非常方便。 * Bivouac Outdoor 或 Macpac (市區 Cashel Street)： * 優點： 這兩家是紐西蘭最強的戶外用品店。Bivouac 代理非常多 Icebreaker 的款式；而 Macpac 是紐西蘭本土品牌（類似 Icebreaker 但更平價一點），其羽絨衣和羊毛衣也非常出色。 * 位置： 位於市中心的 Cashel Street (步行街)，可以順便逛街。"
         ],
         [
-          "20:00",
-          "Icebreaker 是紐西蘭的羊毛之光，基督城有兩處最佳購買點：",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "21:00",
-          "* Icebreaker Outlet (機場附近 - Antares Place)：",
-          "* 優點： 這是 Outlet 店！價格通常比市區專櫃便宜不少，非常適合一次掃貨多件底層衣。 * 位置： 就在機場附近，開著 KIA Carnival 過去停車非常方便。"
-        ],
-        [
-          "22:00",
-          "* Bivouac Outdoor 或 Macpac (市區 Cashel Street)：",
-          "* 優點： 這兩家是紐西蘭最強的戶外用品店。Bivouac 代理非常多 Icebreaker 的款式；而 Macpac 是紐西蘭本土品牌（類似 Icebreaker 但更平價一點），其羽絨衣和羊毛衣也非常出色。 * 位置： 位於市中心的 Cashel Street (步行街)，可以順便逛街。"
-        ],
-        [
-          "23:00",
+          "",
           "2. 購買紐西蘭名產（蜂蜜、巧克力、綿羊油）",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "24:00",
-          "* Riverside Market (市中心)：",
-          "* 特點： 這裡有非常多精緻的小店，販售高品質的 Manuka 蜂蜜、手工巧克力和紐西蘭文創商品。 * 氛圍： 這裡適合買「送人」的精緻禮品，環境非常有設計感。"
-        ],
-        [
-          "26:00",
-          "* Pak'nSave 或 Countdown (大型超市)：",
-          "* 特點： 這是買 Whittaker's 巧克力、Cookie Time 餅乾、紅標紅茶最便宜的地方。 * 建議： 推薦去 Pak'nSave Riccarton 或 Tower Junction，那裡的規模很大，貨源最齊。"
-        ],
-        [
-          "27:00",
-          "________________",
-          "詳情請見 Google Doc 原文"
+          "* Riverside Market (市中心)： * 特點： 這裡有非常多精緻的小店，販售高品質的 Manuka 蜂蜜、手工巧克力和紐西蘭文創商品。 * 氛圍： 這裡適合買「送人」的精緻禮品，環境非常有設計感。 * Pak'nSave 或 Countdown (大型超市)： * 特點： 這是買 Whittaker's 巧克力、Cookie Time 餅乾、紅標紅茶最便宜的地方。 * 建議： 推薦去 Pak'nSave Riccarton 或 Tower Junction，那裡的規模很大，貨源最齊。"
         ]
       ]
     },
@@ -1747,31 +992,10 @@
       "distance": null,
       "drive": null,
       "highlights": [
-        "https://www.booking.com/hotel/nz/family-friendly-close-to-new-stadium.zh-tw.html",
-        "1/2 - 1/3",
-        "https://www.booking.com/hotel/nz/on-the-beach-hokitika.zh-tw.html",
-        "1/3 - 1/4",
-        "https://www.booking.com/hotel/nz/rainforest-motel.zh-tw.html",
-        "1/4 - 1/5",
-        "https://www.booking.com/hotel/nz/tenby-apartments.zh-tw.html",
-        "1/5 - 1/6",
-        "1/6 - 1/7",
-        "https://www.booking.com/hotel/nz/luxe-suites-and-apartments.zh-tw.html",
-        "1/7 - 1/8",
-        "1/8 - 1/9",
-        "https://www.booking.com/hotel/nz/lakeside-motel-amp-apartments.zh-tw.html",
-        "1/9 - 1/10",
-        "1/10 - 1/11",
-        "https://www.booking.com/hotel/nz/lux-home-close-to-beach.zh-tw.html",
-        "1/11 - 1/12",
-        "https://www.booking.com/hotel/nz/the-old-confectionery.zh-tw.html",
-        "1/12 - 1/13",
-        "https://maps.app.goo.gl/JSV3aC7fpvADW1Jv8",
-        "1/13 - 1/14",
-        "1/14 - 1/15",
-        "https://www.booking.com/hotel/nz/roto-cottage-lake-tekapo-lake-tekapo.zh-tw.html",
-        "1/15 - 1/16",
-        "https://www.booking.com/hotel/nz/2-bedroom-with-carpark-overlooks-central-east-frame.zh-tw.html"
+        "CHC 14:20 -> HKG 20:55",
+        "HKG 20:55 -> TPE 00:35+1",
+        "Airbus",
+        "A350 - 900"
       ],
       "notes": [
         "詳細行程與景點說明已由 Google Doc 同步。"
@@ -1779,99 +1003,9 @@
       "type": "flight",
       "timeline": [
         [
-          "08:00",
+          "",
           "直接去機場還車, 逛免稅店, 預計12:00 前需到達基督城機場",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "09:00",
-          "CHC 14:20 -> HKG 20:55, HKG 23:10 -> TPE 00:35+1",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "10:00",
-          "藍格子: 住單日",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "11:00",
-          "黃格子: 住雙日",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "12:00",
-          "1/1 - 1/2",
-          "https://www.booking.com/hotel/nz/family-friendly-close-to-new-stadium.zh-tw.html"
-        ],
-        [
-          "14:00",
-          "1/2 - 1/3",
-          "https://www.booking.com/hotel/nz/on-the-beach-hokitika.zh-tw.html"
-        ],
-        [
-          "15:00",
-          "1/3 - 1/4",
-          "https://www.booking.com/hotel/nz/rainforest-motel.zh-tw.html"
-        ],
-        [
-          "16:00",
-          "1/4 - 1/5",
-          "https://www.booking.com/hotel/nz/tenby-apartments.zh-tw.html"
-        ],
-        [
-          "17:00",
-          "1/5 - 1/6",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "18:00",
-          "1/6 - 1/7",
-          "https://www.booking.com/hotel/nz/luxe-suites-and-apartments.zh-tw.html"
-        ],
-        [
-          "20:00",
-          "1/7 - 1/8",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "21:00",
-          "1/8 - 1/9",
-          "https://www.booking.com/hotel/nz/lakeside-motel-amp-apartments.zh-tw.html"
-        ],
-        [
-          "22:00",
-          "1/9 - 1/10",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "23:00",
-          "1/10 - 1/11",
-          "https://www.booking.com/hotel/nz/lux-home-close-to-beach.zh-tw.html"
-        ],
-        [
-          "24:00",
-          "1/11 - 1/12",
-          "https://www.booking.com/hotel/nz/the-old-confectionery.zh-tw.html"
-        ],
-        [
-          "26:00",
-          "1/12 - 1/13",
-          "https://maps.app.goo.gl/JSV3aC7fpvADW1Jv8"
-        ],
-        [
-          "27:00",
-          "1/13 - 1/14",
-          "詳情請見 Google Doc 原文"
-        ],
-        [
-          "28:00",
-          "1/14 - 1/15",
-          "https://www.booking.com/hotel/nz/roto-cottage-lake-tekapo-lake-tekapo.zh-tw.html"
-        ],
-        [
-          "29:00",
-          "1/15 - 1/16",
-          "https://www.booking.com/hotel/nz/2-bedroom-with-carpark-overlooks-central-east-frame.zh-tw.html"
+          "CHC 14:20 -> HKG 20:55, HKG 23:10 -> TPE 00:35+1 藍格子: 住單日 黃格子: 住雙日 1/1 - 1/2 https://www.booking.com/hotel/nz/family-friendly-close-to-new-stadium.zh-tw.html 1/2 - 1/3 https://www.booking.com/hotel/nz/on-the-beach-hokitika.zh-tw.html 1/3 - 1/4 https://www.booking.com/hotel/nz/rainforest-motel.zh-tw.html 1/4 - 1/5 https://www.booking.com/hotel/nz/tenby-apartments.zh-tw.html 1/5 - 1/6 1/6 - 1/7 https://www.booking.com/hotel/nz/luxe-suites-and-apartments.zh-tw.html 1/7 - 1/8 1/8 - 1/9 https://www.booking.com/hotel/nz/lakeside-motel-amp-apartments.zh-tw.html 1/9 - 1/10 1/10 - 1/11 https://www.booking.com/hotel/nz/lux-home-close-to-beach.zh-tw.html 1/11 - 1/12 https://www.booking.com/hotel/nz/the-old-confectionery.zh-tw.html 1/12 - 1/13 https://maps.app.goo.gl/JSV3aC7fpvADW1Jv8 1/13 - 1/14 1/14 - 1/15 https://www.booking.com/hotel/nz/roto-cottage-lake-tekapo-lake-tekapo.zh-tw.html 1/15 - 1/16 https://www.booking.com/hotel/nz/2-bedroom-with-carpark-overlooks-central-east-frame.zh-tw.html"
         ]
       ]
     }
@@ -2011,1199 +1145,704 @@
   "timelines": {
     "1": [
       [
-        "08:00",
+        "",
         "機場租車帶國際駕照、本國駕照、護照、信用卡(AB 在台灣訂車的那張)",
-        "詳情請見 Google Doc 原文"
+        "先去住宿check in 停車, 今天搭大眾運輸, 若住的比較遠可參考以下停車場"
       ],
       [
-        "09:00",
-        "先去住宿check in 停車, 今天搭大眾運輸, 若住的比較遠可參考以下停車場",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "10:00",
+        "",
         "1. Lichfield Street Carpark (市中心最新的大型立體停車塔, 車位大)",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "11:00",
+        "",
         "2. The Art Gallery Carpark (藝廊地下停車場)",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "12:00",
+        "",
         "3. 路邊停車 (1/1免費停車)",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "14:00",
+        "",
         "1. 河濱市場",
-        "詳情請見 Google Doc 原文"
+        "當地最新鮮的農產品、肉類、海鮮, 獨特的藝術品、紀念品、或是各式各樣的服飾店 (可吃點午餐)"
       ],
       [
-        "15:00",
-        "當地最新鮮的農產品、肉類、海鮮, 獨特的藝術品、紀念品、或是各式各樣的服飾店 (可吃點午餐)",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "16:00",
+        "",
         "2. 追憶橋",
-        "詳情請見 Google Doc 原文"
+        "基督城內最主要的戰爭紀念館之一，主要用來追憶那些在第一次世界大戰中不幸犧牲的士兵們"
       ],
       [
-        "17:00",
-        "基督城內最主要的戰爭紀念館之一，主要用來追憶那些在第一次世界大戰中不幸犧牲的士兵們",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "18:00",
+        "",
         "3. 基督城植物園",
-        "詳情請見 Google Doc 原文"
+        "植物園遊客中心、雅芳河貢都拉撐船"
       ],
       [
-        "20:00",
-        "植物園遊客中心、雅芳河貢都拉撐船",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "21:00",
+        "",
         "4. 新攝政街",
-        "詳情請見 Google Doc 原文"
+        "紐西蘭最美的街道, 約100 m, 街道兩旁林立著 40 多間西班牙風格的特色商店、餐廳、咖啡廳"
       ],
       [
-        "22:00",
-        "紐西蘭最美的街道, 約100 m, 街道兩旁林立著 40 多間西班牙風格的特色商店、餐廳、咖啡廳",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "23:00",
+        "",
         "5. DF Souvenirs / NZ Shoponline 逛羊毛、袋貂毛產品 (不確定1/1有沒有開門)",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "24:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        ""
       ]
     ],
     "2": [
       [
-        "08:00",
+        "",
         "1. Castle Hill (停留時間：1-2 小時)",
         "紐西蘭巨石陣 (魔戒在這兒拍的), 從基督城啟程約 1 - 1.5 小時, 需小心砸窗小偷, 請確保所有行李都放在後車廂, 遮物簾拉好, 不要在座位上留下任何包包、零錢或電子產品 步道名稱：Kura Tawhiti Access Track 繞行一圈只要 1.5 公里、需要約 45 分鐘，步道整體簡單好爬 (垂直爬升約 50 公尺)"
       ],
       [
-        "09:00",
+        "",
         "2. Lunch time",
-        "3. 亞瑟隘口 (1-1.5 小時) https://maps.app.goo.gl/YKjjAenc1qqgJDic6 Devil’s Punchbowl Waterfall Track (惡魔的高腳杯瀑布步道): 起點自停車場開始1.8 公里、來回約 1 小時, 垂直爬升高度約 105 公尺"
+        ""
       ],
       [
-        "10:00",
-        "這裡最容易遇到 Kea (高山鸚鵡)。但小心牠們會咬車窗膠條",
-        "走完後可去隔壁的 Arthur's Pass 小鎮咖啡廳 (如 The Wobbly Kea) 喝杯咖啡、吃個派休息一下 4. 奧蒂拉瞭望台 (約 10 分鐘) https://maps.app.goo.gl/U6VVvVkHCxzsvfMp8 Otira Viaduct Lookout 後面有有一段極陡的下坡 (斜率達 16%), 記得切換到手排模式/低速檔位 (L 或 S) 使用引擎煞車, 避免長時間踩煞車導致過熱失靈。 5. 霍基蒂卡海灘 & 日落海灘 https://maps.app.goo.gl/eZNzbmp9tNQMPbx18 經典的日落景點, 除了Hokitika 樹枝標誌, 沙灘最南邊還有個值得一訪的 Sunset Point (日落點)"
+        "",
+        "3. 亞瑟隘口 (1-1.5 小時)",
+        "Devil’s Punchbowl Waterfall Track (惡魔的高腳杯瀑布步道): 起點自停車場開始1.8 公里、來回約 1 小時, 垂直爬升高度約 105 公尺 這裡最容易遇到 Kea (高山鸚鵡)。但小心牠們會咬車窗膠條 走完後可去隔壁的 Arthur's Pass 小鎮咖啡廳 (如 The Wobbly Kea) 喝杯咖啡、吃個派休息一下"
       ],
       [
-        "11:00",
+        "",
+        "4. 奧蒂拉瞭望台 (約 10 分鐘)",
+        "Otira Viaduct Lookout 後面有有一段極陡的下坡 (斜率達 16%), 記得切換到手排模式/低速檔位 (L 或 S) 使用引擎煞車, 避免長時間踩煞車導致過熱失靈。"
+      ],
+      [
+        "",
+        "5. 霍基蒂卡海灘 & 日落海灘",
+        "經典的日落景點, 除了Hokitika 樹枝標誌, 沙灘最南邊還有個值得一訪的 Sunset Point (日落點)"
+      ],
+      [
+        "",
         "6. 螢火蟲幽谷小徑",
-        "詳情請見 Google Doc 原文"
+        "(在住宿等到天色全黑才出發) 入口處有停車場, 大約 50 公尺長的小徑, 記得關閉手機螢幕、手電筒、閃光燈"
       ],
       [
-        "12:00",
-        "(在住宿等到天色全黑才出發) 入口處有停車場, 大約 50 公尺長的小徑, 記得關閉手機螢幕、手電筒、閃光燈",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "14:00",
+        "",
         "1 月份沙蠅 (Sandfly) 極多, 去看螢火蟲時一定要全身噴好防蚊液",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "15:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        ""
       ]
     ],
     "3": [
       [
-        "08:00",
+        "",
         "1. 馬希納普阿湖",
-        "詳情請見 Google Doc 原文"
+        "Hokitika 往南駛約 10 分鐘即會抵達, 可選擇清晨前來 (非必要XD)"
       ],
       [
-        "09:00",
-        "Hokitika 往南駛約 10 分鐘即會抵達, 可選擇清晨前來 (非必要XD)",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "10:00",
+        "",
         "2. Quick lunch time (YAO)",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "11:00",
+        "",
         "3. Fox Glacier 直升機冰河健行 11:50 開始, 11:20 報到 ! (YAO)",
         "https://maps.app.goo.gl/DSgx6pH6eTRXvc1D6"
       ],
       [
-        "12:00",
+        "",
         "11:40會宣佈是否可起飛, 若停飛將遞補至隔天早上, 背包限重3 kg",
-        "冰川健行活動大約要 3-4 小時 (包含行前解說、領取裝備、飛行時間), 但實際在冰上活動時間約 3 小時, 需準備護照, 預訂時刷的信用卡"
+        "冰川健行活動大約要 3-4 小時 (包含行前解說、領取裝備、飛行時間), 但實際在冰上活動時間約 3 小時, 需準備護照, 預訂時刷的信用卡 攜帶物品: 墨鏡, 防曬乳液, 簡易食物, 水, 暈機藥, 不要穿裙子和牛仔褲 官網: https://www.foxguides.co.nz/?_gl=1%2Azc3sv9%2A_gcl_au%2AMTUxMjI2NjYzLjE3NzY4NzQxODY.%2A_ga%2AMTAyODM4MjA5MS4xNzc2ODc0MTg2%2A_ga_MP8VW8WMXN%2AczE3NzY5NTIyMjQkbzIkZzEkdDE3NzY5NTMxMjEkajU3JGwwJGgw"
       ],
       [
-        "14:00",
-        "攜帶物品: 墨鏡, 防曬乳液, 簡易食物, 水, 暈機藥, 不要穿裙子和牛仔褲",
-        "官網: https://www.foxguides.co.nz/?_gl=1%2Azc3sv9%2A_gcl_au%2AMTUxMjI2NjYzLjE3NzY4NzQxODY.%2A_ga%2AMTAyODM4MjA5MS4xNzc2ODc0MTg2%2A_ga_MP8VW8WMXN%2AczE3NzY5NTIyMjQkbzIkZzEkdDE3NzY5NTMxMjEkajU3JGwwJGgw 4. 梅普里卡湖 https://maps.app.goo.gl/1YDu9oejHVm96eqP6 (for AB) 離開 Hokitika 小鎮後約 2 小時, 在 Franz Josef 冰河小鎮北方約 10 分鐘車程的位置, 鏡湖 5. 西海岸野生動物保護中心 https://maps.app.goo.gl/Yb2pjp9zTVENvKb88 (AB) Kiwi 為主題的保護中心, 保證 100% 可以親眼觀賞到奇異鳥, 還可以升級成 VIP 套票, 進到該保護中心後台的孵化室, 還有紐西蘭鱷蜥, 在 2.5 億年前的三疊紀時期就存在於地球上了"
+        "",
+        "4. 梅普里卡湖",
+        "離開 Hokitika 小鎮後約 2 小時, 在 Franz Josef 冰河小鎮北方約 10 分鐘車程的位置, 鏡湖"
       ],
       [
-        "15:00",
-        "普通門票：成人 $38 NZD；兒童 $20 NZD ( 48 小時入場通行)",
-        "詳情請見 Google Doc 原文"
+        "",
+        "5. 西海岸野生動物保護中心",
+        "Kiwi 為主題的保護中心, 保證 100% 可以親眼觀賞到奇異鳥, 還可以升級成 VIP 套票, 進到該保護中心後台的孵化室, 還有紐西蘭鱷蜥, 在 2.5 億年前的三疊紀時期就存在於地球上了 普通門票：成人 $38 NZD；兒童 $20 NZD ( 48 小時入場通行) VIP後台通行票：成人 $70 NZD；兒童 $30 NZD (48 小時入場通行＋後台梯次導覽，點此看梯次)"
       ],
       [
-        "16:00",
-        "VIP後台通行票：成人 $70 NZD；兒童 $30 NZD (48 小時入場通行＋後台梯次導覽，點此看梯次)",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "17:00",
+        "",
         "6. 彼得湖步道",
-        "詳情請見 Google Doc 原文"
+        "全長 1.1 公里、來回約 30 分鐘"
       ],
       [
-        "18:00",
-        "全長 1.1 公里、來回約 30 分鐘",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "20:00",
+        "",
         "200 多年前於冰河融化時所形成的, 看倒影,",
-        "詳情請見 Google Doc 原文"
+        "停車場: https://maps.app.goo.gl/5sjQ42bmYEkz2zKt5"
       ],
       [
-        "21:00",
-        "停車場:",
-        "7. 福克斯冰河景觀台 https://maps.app.goo.gl/oV5xYGKZjY9qcEVE8 (together) 於 Lake Matheson 西方約 5-10 分鐘車程, 有簡單造景也有幾個座位區, 適合坐在這裡邊吃東西邊欣賞風景 8. 吉萊斯皮海灘 https://maps.app.goo.gl/uh2fPqhaiL7mRvBH6 (together) 離小鎮約半小時的車程, 礫石海灘看日落, 運氣好的話，還有機會能直接在岸邊見到海豹與海豚, 這需要開碎石路段, 請小心"
+        "",
+        "7. 福克斯冰河景觀台",
+        "於 Lake Matheson 西方約 5-10 分鐘車程, 有簡單造景也有幾個座位區, 適合坐在這裡邊吃東西邊欣賞風景"
       ],
       [
-        "22:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        "",
+        "8. 吉萊斯皮海灘",
+        "離小鎮約半小時的車程, 礫石海灘看日落, 運氣好的話，還有機會能直接在岸邊見到海豹與海豚, 這需要開碎石路段, 請小心"
       ]
     ],
     "4": [
       [
-        "08:00",
+        "",
         "若是 Day 3 直升機停飛, 將遞補至今天早上, 若要跳傘,需放掉1,2 or Day 4 先玩",
-        "詳情請見 Google Doc 原文"
+        "記得先加滿油, 今天路程無加油站和訊號, 帶上午餐, 路程無餐廳補給 記得防蚊液, 今天是沙蠅重災區"
       ],
       [
-        "09:00",
-        "記得先加滿油, 今天路程無加油站和訊號, 帶上午餐, 路程無餐廳補給",
-        "詳情請見 Google Doc 原文"
+        "",
+        "1. 馬松森湖 (2.5 hr)",
+        "位於小鎮西北邊, 開車約 10 分鐘可抵達, 步道環湖而造, 繞行一圈大約要 2 小時, 無顯著的高低起伏, 適合看日出 結束後在門口馬松森咖啡廳吃早餐"
       ],
       [
-        "10:00",
-        "記得防蚊液, 今天是沙蠅重災區",
-        "1. 馬松森湖 (2.5 hr) https://maps.app.goo.gl/wch5yWG7GpUM7fbf7 位於小鎮西北邊, 開車約 10 分鐘可抵達, 步道環湖而造, 繞行一圈大約要 2 小時, 無顯著的高低起伏, 適合看日出"
+        "",
+        "2. 船溪 (1.5 hr)",
+        "有兩條小型步道, 無需搭船, 7-12 月可看赫克託海豚, 以及紐西蘭最高樹木－羅漢松"
       ],
       [
-        "11:00",
-        "結束後在門口馬松森咖啡廳吃早餐",
-        "2. 船溪 (1.5 hr) https://maps.app.goo.gl/4oRXsZVgnYu4fCLs9"
-      ],
-      [
-        "12:00",
-        "有兩條小型步道, 無需搭船, 7-12 月可看赫克託海豚, 以及紐西蘭最高樹木－羅漢松",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "14:00",
+        "",
         "3. 雷霆溪瀑布",
         "僅需步行 250 公尺即可抵達 Haast River 岸邊的瀑布, 可直接於觀景台上欣賞 96 公尺高的馬尾型瀑布, 是 Haast Pass 三大瀑布中最高及最容易抵達的一個"
       ],
       [
-        "15:00",
+        "",
         "4. 藍池",
-        "屬於簡單路線、單趟約 30 分鐘, 小徑始於原始的苔癬雨林小徑, 途經兩座吊橋後景色漸漸轉為開闊的山谷地形。去看第二座吊橋下 Tiffany 藍的 Makarora River 5. 內克半島 (45 min) https://maps.app.goo.gl/T1re2FB4q3aqg8QPA"
+        "屬於簡單路線、單趟約 30 分鐘, 小徑始於原始的苔癬雨林小徑, 途經兩座吊橋後景色漸漸轉為開闊的山谷地形。去看第二座吊橋下 Tiffany 藍的 Makarora River"
       ],
       [
-        "16:00",
-        "到以下點看Lake Wanaka, 一個點大約停留15 min:",
-        "詳情請見 Google Doc 原文"
+        "",
+        "5. 內克半島 (45 min)",
+        "到以下點看Lake Wanaka, 一個點大約停留15 min:"
       ],
       [
-        "17:00",
+        "",
         "1. Lake Wanaka Lookout 位置：(-44.430854, 169.182741)",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "18:00",
+        "",
         "2. The Neck 停車位置：(-44.437556, 169.194722)",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "20:00",
+        "",
         "3. Lake Hawea 岸邊停車位置：(-44.439803, 169.197667)",
-        "6. 哈威亞湖觀景台 (10 min) https://maps.app.goo.gl/oanWMZBSCeYxoCo67"
+        ""
       ],
       [
-        "21:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        "",
+        "6. 哈威亞湖觀景台 (10 min)",
+        ""
       ]
     ],
     "5": [
       [
-        "08:00",
+        "",
         "建議每人帶2.5L的水",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "09:00",
+        "",
         "1. 羅伊峰步道",
         "全紐西蘭最熱門登山步道之一, 一路之字形陡坡上升且全程無遮蔽物, 15.6公里、來回約 7-8 小時, 爬升高度約 1250 公尺, 早點出門，否則停車場一位難求, 距 Wanaka 小鎮約 10 分鐘車程"
       ],
       [
-        "10:00",
+        "",
         "2. 羅伯羅伊冰河步道",
-        "詳情請見 Google Doc 原文"
+        "若是體力不足以登上羅伊峰, 可考慮這個, 7:30前出發 開車需要開碎石路, 有機會需要涉水"
       ],
       [
-        "11:00",
-        "若是體力不足以登上羅伊峰, 可考慮這個, 7:30前出發",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "12:00",
-        "開車需要開碎石路, 有機會需要涉水",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "14:00",
+        "",
         "10 公里、來回約 4 小時, 爬升高度約 460 公尺, 距 Wanaka 小鎮約1.5 hr",
-        "詳情請見 Google Doc 原文"
+        "步道終點可以同時欣賞雪原、冰川、陡峭的岩石懸崖和冰河融化所形成的瀑布"
       ],
       [
-        "15:00",
-        "步道終點可以同時欣賞雪原、冰川、陡峭的岩石懸崖和冰河融化所形成的瀑布",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "16:00",
+        "",
         "3. Lunch time and 回住宿洗澡 (如果爬完山流汗想要洗)",
-        "4. 孤獨樹 and 瓦納卡湖畔 https://maps.app.goo.gl/KMmDwzomsFd9F4hYA Wanaka Sequoia 抱大樹 (在 Wanaka Station Park 內)、乳白色沙灘、雪山、孤獨樹 with sunset, 看時間需求可看啊遊湖對調"
+        ""
       ],
       [
-        "17:00",
+        "",
+        "4. 孤獨樹 and 瓦納卡湖畔",
+        "Wanaka Sequoia 抱大樹 (在 Wanaka Station Park 內)、乳白色沙灘、雪山、孤獨樹 with sunset, 看時間需求可看啊遊湖對調"
+      ],
+      [
+        "",
         "5. Lake Wanaka Cruise (遊湖之旅)",
-        "Happy Hour Cruise (歡樂時光) (1 hr): 在17:30 出發, 1 hr可以享受日落, 近距離欣賞 Lake Wanaka 湖中最上鏡的小島 － Ruby Island (紅寶石島), 遊輪上提供點心美食和飲料"
-      ],
-      [
-        "18:00",
-        "報到找沙灘上的 Wanaka Cruises 告示牌，船隻通常是大型白色雙體船「Dual Image」",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "20:00",
-        "停車點: Lakefront Car Park, Wanaka Tree 方向的路邊停車",
-        "詳情請見 Google Doc 原文"
+        "Happy Hour Cruise (歡樂時光) (1 hr): 在17:30 出發, 1 hr可以享受日落, 近距離欣賞 Lake Wanaka 湖中最上鏡的小島 － Ruby Island (紅寶石島), 遊輪上提供點心美食和飲料 報到找沙灘上的 Wanaka Cruises 告示牌，船隻通常是大型白色雙體船「Dual Image」 停車點: Lakefront Car Park, Wanaka Tree 方向的路邊停車"
       ]
     ],
     "6": [
       [
-        "08:00",
+        "",
         "1. Wanaka Skydive (跳傘)",
-        "詳情請見 Google Doc 原文"
+        "至 Wanaka i-SITE Visitor Information Centre Check in https://maps.app.goo.gl/FnvXgj49RLyL3qxJ6 打 +64 3 443 7207 or 0800 786 877 (NZ only) 去確認天氣是否可飛 從 Check-in 報到開始一直到結束, 一般需要 3-3.5 hr 不要穿有領子、合身的衣服, 將所有飾品拆下, 請勿穿著裙子或短褲, 感冒建議取消跳傘 官網: https://zh.skydivewanaka.com/prices-and-packages/"
       ],
       [
-        "7:00",
-        "至 Wanaka i-SITE Visitor Information Centre Check in",
-        "https://maps.app.goo.gl/FnvXgj49RLyL3qxJ6"
-      ],
-      [
-        "6:30",
-        "打 +64 3 443 7207 or 0800 786 877 (NZ only) 去確認天氣是否可飛",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "11:00",
-        "從 Check-in 報到開始一直到結束, 一般需要 3-3.5 hr",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "12:00",
-        "不要穿有領子、合身的衣服, 將所有飾品拆下, 請勿穿著裙子或短褲, 感冒建議取消跳傘",
-        "官網: https://zh.skydivewanaka.com/prices-and-packages/"
-      ],
-      [
-        "14:00",
+        "",
         "2. 皇冠山景觀台",
-        "詳情請見 Google Doc 原文"
+        "停留時間: 20 min, 紐西蘭最高海拔的主幹道公路"
       ],
       [
-        "15:00",
-        "停留時間: 20 min, 紐西蘭最高海拔的主幹道公路",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "16:00",
+        "",
         "3. 箭鎮 (Lunch time)",
-        "詳情請見 Google Doc 原文"
+        "2-1 箭鎮郵局 https://maps.app.goo.gl/MGKWwC3iE6AQ8FXC8 2-2 箭鎮烘焙房 吃鹹派 https://maps.app.goo.gl/wMfJPYjMaTEZmxNs7 2-3 巴塔哥尼亞巧克力 店員態度差 高級巧克力、冰淇淋 https://maps.app.goo.gl/4gKsnzdqnQSyn4jW9 2-4 Golden Fleece: 羊毛、袋貂毛產品 若是跳傘延遲過久, 跳過2-3, 若延遲更久, 跳過整個箭鎮只買午餐"
       ],
       [
-        "17:00",
-        "2-1 箭鎮郵局",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "18:00",
-        "2-2 箭鎮烘焙房 吃鹹派",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "20:00",
-        "2-3 巴塔哥尼亞巧克力 店員態度差 高級巧克力、冰淇淋",
-        "https://maps.app.goo.gl/4gKsnzdqnQSyn4jW9"
-      ],
-      [
-        "21:00",
-        "2-4 Golden Fleece: 羊毛、袋貂毛產品",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "22:00",
-        "若是跳傘延遲過久, 跳過2-3, 若延遲更久, 跳過整個箭鎮只買午餐",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "23:00",
+        "",
         "4. 亞瑟斯點",
-        "集合地點: https://maps.app.goo.gl/r1MJM9sDF2yg1wKn9 體驗噴射快艇, Shotover Jet, 整趟體驗約 25 分鐘, 過程中駕駛會以飛快的速度穿越重重峽谷, 會被淋濕, 多帶一件備用衣服放在車上, 10:00 – 16:00 (每小時一班), 預約16:00 開始的 15:30 報到 5. Tobin’s Track https://maps.app.goo.gl/nPgGKkA1XymL65Vv7"
+        "集合地點: https://maps.app.goo.gl/r1MJM9sDF2yg1wKn9 體驗噴射快艇, Shotover Jet, 整趟體驗約 25 分鐘, 過程中駕駛會以飛快的速度穿越重重峽谷, 會被淋濕, 多帶一件備用衣服放在車上, 10:00 – 16:00 (每小時一班), 預約16:00 開始的 15:30 報到"
       ],
       [
-        "24:00",
-        "小鎮一旁較熱門的登山步道, 步道終點可以遠眺整個箭鎮以及附近的群山、湖泊",
-        "詳情請見 Google Doc 原文"
+        "",
+        "5. Tobin’s Track",
+        "小鎮一旁較熱門的登山步道, 步道終點可以遠眺整個箭鎮以及附近的群山、湖泊 來回距離 & 所需時間：4.5 km, 來回約 1 hr 步道難度：易 (垂直爬升高度約 240 m) 停車場座標位置: -44.940518, 168.839620"
       ],
       [
-        "26:00",
-        "來回距離 & 所需時間：4.5 km, 來回約 1 hr",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "27:00",
-        "步道難度：易 (垂直爬升高度約 240 m)",
-        "停車場座標位置: -44.940518, 168.839620 6. Rātā Restaurant https://maps.app.goo.gl/YAD8K3DDCVd8kZMfA"
-      ],
-      [
-        "28:00",
-        "預定 20:00 的位子",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "29:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        "",
+        "6. Rātā Restaurant",
+        "預定 20:00 的位子"
       ]
     ],
     "7": [
       [
-        "08:00",
+        "",
         "車子停在住宿 or Skyline 纜車站附近的收費停車場, 用走的",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "09:00",
+        "",
         "1. 皇后鎮 (天際纜車 & 溜溜車)",
-        "1-1 纜車 9:30 - 21:00 https://maps.app.goo.gl/dr2E3pGfv4qiLRVU8"
+        "1-1 纜車 9:30 - 21:00 https://maps.app.goo.gl/dr2E3pGfv4qiLRVU8 建議 9:00 前就先前往 Skyline, 否則晚些時候排隊人潮會多的嚇人 1-2 溜溜車 10:00 - 19:00 (我們的票可以玩3趟) 利用本身重力作為驅動, 在長達 800 公尺的跑道上盡情衝刺, 跑道有分初學和進階兩類型, 每結束一趟行程後, 還可以搭乘滑雪纜車再次上山"
       ],
       [
-        "10:00",
-        "建議 9:00 前就先前往 Skyline, 否則晚些時候排隊人潮會多的嚇人",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "11:00",
-        "1-2 溜溜車 10:00 - 19:00 (我們的票可以玩3趟)",
-        "利用本身重力作為驅動, 在長達 800 公尺的跑道上盡情衝刺, 跑道有分初學和進階兩類型, 每結束一趟行程後, 還可以搭乘滑雪纜車再次上山"
-      ],
-      [
-        "12:00",
+        "",
         "2. Fergburger",
-        "詳情請見 Google Doc 原文"
+        "CNN評比全世界最好吃的漢堡, 巨無霸的尺寸, 評價寫說勝過shake shake 請11.前打電話過去預訂"
       ],
       [
-        "14:00",
-        "CNN評比全世界最好吃的漢堡, 巨無霸的尺寸, 評價寫說勝過shake shake",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "15:00",
-        "請11.前打電話過去預訂",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "16:00",
+        "",
         "3. TSS 蒸汽船遊湖",
         "預約 15:00 的班次, 14:30於 RealNZ皇后鎮游客中心辦理登船手續以及領取船票 https://maps.app.goo.gl/iga5WGDreC2RCZBi9 , 完工於 1912 年, 和鐵達尼號是同一年出廠, 連部分設備和組件甚至還是相同廠商所製造, 上去可飽覽 1.5 小時的 Lake Wakatipu 湖上風光"
       ],
       [
-        "17:00",
+        "",
         "4. Dinner time 16:30 - 17:30",
-        "5. 開車前往 Deer Park Heights Queenstown https://maps.app.goo.gl/dCCA9Hr9PvbgDSLC9"
+        ""
       ],
       [
-        "18:00",
-        "預計 18:00 開始玩, 現場只收 2 紐幣硬幣, 建議一個人帶 5 顆",
-        "可以近距離跟動物們互動, 有羊駝、小鹿、羊、驢子, 一定要自駕, $75 NZD 每車的入場費, 一定要預約, 出發前一個月開放預約, 小心車子被鹿括傷, 保險可能不會賠, 無廁所、無餐廳 營業時間: 7:00 - 21:00"
+        "",
+        "5. 開車前往 Deer Park Heights Queenstown",
+        "預計 18:00 開始玩, 現場只收 2 紐幣硬幣, 建議一個人帶 5 顆 可以近距離跟動物們互動, 有羊駝、小鹿、羊、驢子, 一定要自駕, $75 NZD 每車的入場費, 一定要預約, 出發前一個月開放預約, 小心車子被鹿括傷, 保險可能不會賠, 無廁所、無餐廳 營業時間: 7:00 - 21:00 官網, 預約網址: https://deerparkheights.co.nz/"
       ],
       [
-        "20:00",
-        "官網, 預約網址:",
-        "6. Onsen Hot Pools https://maps.app.goo.gl/LmYJ8PL6qFrvTW2S9 預約21:00 的夕陽至晚上梯次, 有接駁車接送, 20:15於 43 camp street上的Marmolda Cafe (Otautahi Tattoo刺青店對面)上車, 千萬不可遲到! 建議提前5-10 min到點等車, 22:45從溫泉搭車回市區, 預估23:00到達, 泡完溫泉後可回皇后鎮冰bar 喝一杯"
+        "",
+        "6. Onsen Hot Pools",
+        "預約21:00 的夕陽至晚上梯次, 有接駁車接送, 20:15於 43 camp street上的Marmolda Cafe (Otautahi Tattoo刺青店對面)上車, 千萬不可遲到! 建議提前5-10 min到點等車, 22:45從溫泉搭車回市區, 預估23:00到達, 泡完溫泉後可回皇后鎮冰bar 喝一杯"
       ],
       [
-        "21:00",
+        "",
         "7. 皇后鎮shopping (填補時間用, 有空才去)",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "22:00",
-        "5-1 Shotover Street, Fergburger附近, 逛運動裝備, 運動用品",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "23:00",
-        "5-2 Mall Street, 零售店、精品店及紀念品店組成的街道",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "24:00",
-        "5-3 Beach Street, 酒吧及餐廳, 適合吃飯休息",
-        "5-4 Merino Frank、NZ Shoponline (店內有著名的 McDonald Knitwear、Lothlorian) 買羊毛、袋貂毛製品"
-      ],
-      [
-        "26:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        "5-1 Shotover Street, Fergburger附近, 逛運動裝備, 運動用品 5-2 Mall Street, 零售店、精品店及紀念品店組成的街道 5-3 Beach Street, 酒吧及餐廳, 適合吃飯休息 5-4 Merino Frank、NZ Shoponline (店內有著名的 McDonald Knitwear、Lothlorian) 買羊毛、袋貂毛製品"
       ]
     ],
     "8": [
       [
-        "08:00",
+        "",
         "1. Glenorchy (格萊諾基)",
-        "詳情請見 Google Doc 原文"
+        "1-1 Glenorchy Wharf (格萊諾基碼頭) 1-2 Steamship Depot (紅色蒸汽船倉庫) 1-3 Glenorchy Waterfront Reserve (海濱保護區)"
       ],
       [
-        "09:00",
-        "1-1 Glenorchy Wharf (格萊諾基碼頭)",
-        "詳情請見 Google Doc 原文"
+        "",
+        "2. Glenorchy Lagoon Walkway",
+        "風平浪靜的好天氣下, 靜止的湖面宛如亮面鏡子一樣, 將Glenorchy 風景鏡射於湖面上 步道幾乎是平面無顯著爬升, 步道全長約1.5 hr可完成"
       ],
       [
-        "10:00",
-        "1-2 Steamship Depot (紅色蒸汽船倉庫)",
-        "詳情請見 Google Doc 原文"
+        "",
+        "3. Paradise (天堂)",
+        "開到Dart River Bridge拍照, 看到「Gravel Road Next XX km」的標誌或柏油路消失時, 就地迴轉"
       ],
       [
-        "11:00",
-        "1-3 Glenorchy Waterfront Reserve (海濱保護區)",
-        "2. Glenorchy Lagoon Walkway https://maps.app.goo.gl/XdmaRT46YAqi7dzh6"
-      ],
-      [
-        "12:00",
-        "風平浪靜的好天氣下, 靜止的湖面宛如亮面鏡子一樣, 將Glenorchy 風景鏡射於湖面上",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "14:00",
-        "步道幾乎是平面無顯著爬升, 步道全長約1.5 hr可完成",
-        "3. Paradise (天堂) https://maps.app.goo.gl/E8xMqxgXcD5SivQUA 開到Dart River Bridge拍照, 看到「Gravel Road Next XX km」的標誌或柏油路消失時, 就地迴轉"
-      ],
-      [
-        "15:00",
+        "",
         "4. Lunch time",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "16:00",
+        "",
         "5. 惡魔的階梯觀景台",
         "停留時間: 約15 min, 皇后鎮南下約 40 分鐘車程處, 視野極佳的觀景台。可將整片 Lake Wakatipu (瓦卡蒂普湖) 盡收眼底, 搭配曲折且無限蔓延的特色公路, 中繼的小景點"
       ],
       [
-        "17:00",
+        "",
         "6. 蒂阿瑙湖",
-        "詳情請見 Google Doc 原文"
+        "南島最大的冰川湖泊, 全紐西蘭第二大湖泊。湖岸一旁有著石磚砌成的行人專用道, 從小鎮南端一路延伸至北端 蒂阿瑙湖濱公園 (Ivory Park / Lions Park), 1 月份湖邊會有魯冰花"
       ],
       [
-        "18:00",
-        "南島最大的冰川湖泊, 全紐西蘭第二大湖泊。湖岸一旁有著石磚砌成的行人專用道, 從小鎮南端一路延伸至北端",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "20:00",
-        "蒂阿瑙湖濱公園 (Ivory Park / Lions Park), 1 月份湖邊會有魯冰花",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "21:00",
+        "",
         "7. 螢火蟲洞",
-        "預約 19:00 開始的梯次, 18:40報到, 總活動時間大約 2 hr 15 min, 流程為: 乘船前往螢火蟲洞 → 講解藍光螢火蟲生態 → 深入地底+螢火蟲探險 → 乘船回到小鎮"
-      ],
-      [
-        "22:00",
-        "為保護藍光螢火蟲生態, 洞穴內嚴禁拍照與攝影",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "23:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        "預約 19:00 開始的梯次, 18:40報到, 總活動時間大約 2 hr 15 min, 流程為: 乘船前往螢火蟲洞 → 講解藍光螢火蟲生態 → 深入地底+螢火蟲探險 → 乘船回到小鎮 為保護藍光螢火蟲生態, 洞穴內嚴禁拍照與攝影"
       ]
     ],
     "9": [
       [
-        "08:00",
+        "",
         "確認油箱已加滿、車上有水和零食 (在遊船上吃的午餐)、離線地圖已下載",
-        "詳情請見 Google Doc 原文"
+        "早上先看天氣, 若天氣陰雨, 不去埃格林頓峽谷, 鏡湖, 岡恩湖步道 若來不及早上可以只去埃格林頓峽谷、鏡湖, 剩下回程再玩"
       ],
       [
-        "09:00",
-        "早上先看天氣, 若天氣陰雨, 不去埃格林頓峽谷, 鏡湖, 岡恩湖步道",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "10:00",
-        "若來不及早上可以只去埃格林頓峽谷、鏡湖, 剩下回程再玩",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "11:00",
+        "",
         "1. 埃格林頓峽谷",
         "停留時間: 約30 min, 蒂阿瑙向北行駛約 45 min, 山壁被山毛櫸森林覆蓋, 谷底是金色閃閃的大草原, 魔戒的拍攝景點"
       ],
       [
-        "12:00",
+        "",
         "2. 鏡湖",
         "停留時間: 約20 min, 早上來, 下午大逆光, 埃格林頓峽谷北上約 5 min, 停車場旁的木棧步道開始, 步行 3 min即可見到靜謐且高雅的反射湖, 湖面上有一字樣顛倒的「Mirror Lakes」告示牌, 透過湖水反射看"
       ],
       [
-        "14:00",
+        "",
         "3. 岡恩湖步道",
-        "詳情請見 Google Doc 原文"
+        "從鏡湖北行約 25 min, 停留時間: 約15 min 3-3 岡恩湖觀景台: 若是無太多時間走岡恩湖步道可選擇, 視角略差但不大 (推) Lake Gunn Nature Walk 步道入口：(-44.894584, 168.082570) Cascade Creek Campsite 露營區：(-44.894463, 168.075180) Lake Gunn Viewpoint 景觀台：(-44.882857, 168.095044)"
       ],
       [
-        "15:00",
-        "從鏡湖北行約 25 min, 停留時間: 約15 min",
-        "詳情請見 Google Doc 原文"
+        "",
+        "4. Monkey Creek (猴溪)",
+        "前一定要離開, 否則有機會趕不上船班, 約11:15開車抵達Homer Tunnel排隊進隧道 停留時間: 約10 min, 溪水源自附近的高山融雪, 四周是標高 2000 m的雪山, 有極高機率遇上紐西蘭特有的啄羊鸚鵡 Kea 其名為猴溪並非這裡容易遇上猴子, 而是先前開墾 Homer Tunnel (赫默隧道)時, 有一開拓者的狗狗名為 Monkey, 因為 Monkey 時常會跑來此飲用溪水, 故以此命名。"
       ],
       [
-        "16:00",
-        "3-3 岡恩湖觀景台: 若是無太多時間走岡恩湖步道可選擇, 視角略差但不大 (推)",
-        "詳情請見 Google Doc 原文"
+        "",
+        "5. 米佛峽灣遊輪體驗 (11:15前需要在赫默隧道前排隊, 注意綠燈計時器, 綠燈亮起之前需坐回車上, 停車預繳4 hr)",
+        "https://maps.app.goo.gl/NnrymZojZ7tANwVVA 世界八大奇景之一, 搭RealNZ 遊輪, 遊輪時間 2 hr, 辛巴達小船方案 13:05-15:05, 12:45前check in, 大門進入後左手邊即為報到櫃台 Milford Sound 停車場: 主停車場 (Milford Sound Public Carpark)距乘船碼頭 15 min步行距離, 收費方式為每hr $10 NZD (超黑…)。將車輛停妥後必須先算好「預計停車時間」(抓 4 hr), 然後先到繳費機刷卡繳費 (僅能刷卡)。若無先繳錢會收到 $65 NZD 的罰單；而且停車超過時間也會被罰錢 第二停車場 (Deepwater Basin Parking): 此處為免費停車場, 但是距離乘船碼頭要 30 min 步行距離, 停這裡的話要估好時間 注意: 通常中午 12 點前後會有大量遊客湧入, 因此停車場常常一位難求, 建議前往碼頭要多抓一些緩衝時間, 以避免趕不上遊輪。至少要提早1 hr以上 (30 min步行前往碼頭 & 提前 30 min報到) 抵達停車場。 7-2 Milford Sound Breakwater Walkway (米佛峽灣防波堤小路): 走出遊輪航廈來到戶外碼頭後, 左手邊有一條碎石砌成的石舖小路, 直挺挺的向前延伸進入 Milford Sound, 可以輕易地捕捉到 Milford Sound 最經典的視角, 在等待乘船的空檔時, 可以花個 10 min停留 7-3 Milford Foreshore Walk (前灘步道): 一個簡易的環形步道, 起始於 Milford Sound 的主停車場旁, 沿途有風光明媚的石子沙灘, 還會步入高聳蓊鬱的山毛櫸森林, 終點是 Milford Sound Lookout, 步道還有個隱藏景點 Milford Sound Swing (米佛峽灣鞦韆), 是個位在沙灘邊、且半對著米佛峽灣的小鞦韆"
       ],
       [
-        "17:00",
-        "Lake Gunn Nature Walk 步道入口：(-44.894584, 168.082570)",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "18:00",
-        "Cascade Creek Campsite 露營區：(-44.894463, 168.075180)",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "20:00",
-        "Lake Gunn Viewpoint 景觀台：(-44.882857, 168.095044)",
-        "4. Monkey Creek (猴溪) https://maps.app.goo.gl/tNWyNtNkfnFPrm6v7"
-      ],
-      [
-        "10:45",
-        "前一定要離開, 否則有機會趕不上船班, 約11:15開車抵達Homer Tunnel排隊進隧道",
-        "停留時間: 約10 min, 溪水源自附近的高山融雪, 四周是標高 2000 m的雪山, 有極高機率遇上紐西蘭特有的啄羊鸚鵡 Kea 其名為猴溪並非這裡容易遇上猴子, 而是先前開墾 Homer Tunnel (赫默隧道)時, 有一開拓者的狗狗名為 Monkey, 因為 Monkey 時常會跑來此飲用溪水, 故以此命名。 5. 米佛峽灣遊輪體驗 (11:15前需要在赫默隧道前排隊, 注意綠燈計時器, 綠燈亮起之前需坐回車上, 停車預繳4 hr) https://maps.app.goo.gl/NnrymZojZ7tANwVVA 世界八大奇景之一, 搭RealNZ 遊輪, 遊輪時間 2 hr, 辛巴達小船方案 13:05-15:05, 12:45前check in, 大門進入後左手邊即為報到櫃台 Milford Sound 停車場: 主停車場 (Milford Sound Public Carpark)距乘船碼頭 15 min步行距離, 收費方式為每hr $10 NZD (超黑…)。將車輛停妥後必須先算好「預計停車時間」(抓 4 hr), 然後先到繳費機刷卡繳費 (僅能刷卡)。若無先繳錢會收到 $65 NZD 的罰單；而且停車超過時間也會被罰錢 第二停車場 (Deepwater Basin Parking): 此處為免費停車場, 但是距離乘船碼頭要 30 min 步行距離, 停這裡的話要估好時間 注意: 通常中午 12 點前後會有大量遊客湧入, 因此停車場常常一位難求, 建議前往碼頭要多抓一些緩衝時間, 以避免趕不上遊輪。至少要提早1 hr以上 (30 min步行前往碼頭 & 提前 30 min報到) 抵達停車場。 7-2 Milford Sound Breakwater Walkway (米佛峽灣防波堤小路): 走出遊輪航廈來到戶外碼頭後, 左手邊有一條碎石砌成的石舖小路, 直挺挺的向前延伸進入 Milford Sound, 可以輕易地捕捉到 Milford Sound 最經典的視角, 在等待乘船的空檔時, 可以花個 10 min停留 7-3 Milford Foreshore Walk (前灘步道): 一個簡易的環形步道, 起始於 Milford Sound 的主停車場旁, 沿途有風光明媚的石子沙灘, 還會步入高聳蓊鬱的山毛櫸森林, 終點是 Milford Sound Lookout, 步道還有個隱藏景點 Milford Sound Swing (米佛峽灣鞦韆), 是個位在沙灘邊、且半對著米佛峽灣的小鞦韆"
-      ],
-      [
-        "22:00",
+        "",
         "6. 赫默隧道",
-        "停留時間: 約10 min, 一條長達 1.2 km的公路隧道, 在猴溪後約 5 min車程處, 歷時 19 年、全人工開挖, 隧道從東向西有 1:10 的坡度, 僅有去程的隧道入口有停車場、隧道出口處則僅能於 1855 lookout 停車欣賞"
+        "停留時間: 約10 min, 一條長達 1.2 km的公路隧道, 在猴溪後約 5 min車程處, 歷時 19 年、全人工開挖, 隧道從東向西有 1:10 的坡度, 僅有去程的隧道入口有停車場、隧道出口處則僅能於 1855 lookout 停車欣賞 會實施交通管制, 每次僅允許單邊車輛通行, 每次等待時間約 15-20 min，需預留等待時間 位置：(-44.764889, 167.989277)"
       ],
       [
-        "23:00",
-        "會實施交通管制, 每次僅允許單邊車輛通行, 每次等待時間約 15-20 min，需預留等待時間",
-        "位置：(-44.764889, 167.989277)"
-      ],
-      [
-        "24:00",
+        "",
         "7. 裂谷步道",
-        "停留時間: 約30 min, 赫默隧道出發後大約 15 min 到達, 步道始於停車場, 步行 10 min的林間小徑便能來到有著湍急水流聲的觀景橋上,來回約 800 m、約 20 分鐘, 無顯著上下坡"
-      ],
-      [
-        "26:00",
-        "這裡到 Milford Sound 僅 15 min 車程",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "27:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        "停留時間: 約30 min, 赫默隧道出發後大約 15 min 到達, 步道始於停車場, 步行 10 min的林間小徑便能來到有著湍急水流聲的觀景橋上,來回約 800 m、約 20 分鐘, 無顯著上下坡 這裡到 Milford Sound 僅 15 min 車程"
       ]
     ],
     "10": [
       [
-        "08:00",
+        "",
         "1. Mandeville (曼德維爾)",
-        "詳情請見 Google Doc 原文"
+        "停留時間: 1hr, 開車中繼站, 吃午餐, 補給一下 1-1 Miss Cocoa, 早茶、手工蛋糕、司康 (Scone), 有室外花園"
       ],
       [
-        "09:00",
-        "停留時間: 1hr, 開車中繼站, 吃午餐, 補給一下",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "10:00",
-        "1-1 Miss Cocoa, 早茶、手工蛋糕、司康 (Scone), 有室外花園",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "11:00",
+        "",
         "2. Sandfly Bay (Nina AR)",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "12:00",
+        "",
         "3. 隧道海灘",
-        "預計 17:15-19:10 在這裡停留 (18:45 前開始往回走), 但還需在一個月前確認潮汐, 查詢網址: https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/dunedin-area/things-to-do/tunnel-beach-track/ 位於 Dunedin 西南邊, 若要前往沙灘, 必須從停車場步行約 20 min才能到, 來回距離 2 km, 散步玩水, or 坐著發呆"
+        "預計 17:15-19:10 在這裡停留 (18:45 前開始往回走), 但還需在一個月前確認潮汐, 查詢網址: https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/dunedin-area/things-to-do/tunnel-beach-track/ 位於 Dunedin 西南邊, 若要前往沙灘, 必須從停車場步行約 20 min才能到, 來回距離 2 km, 散步玩水, or 坐著發呆 注意:"
       ],
       [
-        "14:00",
-        "注意:",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "15:00",
+        "",
         "1. 返回路段是連續上坡：結束行程要返回停車場時, 是整路上坡, 來回步行時間要抓 1 hr",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "16:00",
+        "",
         "2. 務必避開漲潮時段, 在海水退潮時前往, 否則除了看不到沙灘、只能看到一片汪洋海水之外, 也可能會有危險",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "17:00",
+        "",
         "4. 奧塔哥半島",
-        "3-1 皇家信天翁中心: 長達 3 公尺巨大翼展的信天翁 https://maps.app.goo.gl/Bq2pPbvpjHUNufPc9"
-      ],
-      [
-        "18:00",
-        "3-2 小藍企鵝保護區: 欣賞小藍企鵝夜間歸巢的畫面 (保證看到, 沒看到退費)",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "20:00",
-        "預約 21:00 的小藍企鵝夜間歸巢行程 20:40 至皇家信天翁中心報到",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "21:00",
-        "3-3 看海豹的地方: 建議去Pilots beach (在皇家信天翁中心附近), 不滿意再加碼",
-        "Allans Beach (最多, 有海獅、海豹、黃眼企鵝), Pilots Beach (最方便, 有海豹、信天翁、紅嘴鷗), Sandfly Bay (最美, 但是需要爬20 min 的沙地爬坡, 沙蠅賊多, 若當天體力不佳建議 Allans beach) https://maps.app.goo.gl/CEpJCaxRxLpDm2QTA https://maps.app.goo.gl/gRZPqBCUPXGDbkr78 https://maps.app.goo.gl/baNYEYCLrCK4uF126"
-      ],
-      [
-        "22:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        "3-1 皇家信天翁中心: 長達 3 公尺巨大翼展的信天翁 https://maps.app.goo.gl/Bq2pPbvpjHUNufPc9 3-2 小藍企鵝保護區: 欣賞小藍企鵝夜間歸巢的畫面 (保證看到, 沒看到退費) 預約 21:00 的小藍企鵝夜間歸巢行程 20:40 至皇家信天翁中心報到 3-3 看海豹的地方: 建議去Pilots beach (在皇家信天翁中心附近), 不滿意再加碼 Allans Beach (最多, 有海獅、海豹、黃眼企鵝), Pilots Beach (最方便, 有海豹、信天翁、紅嘴鷗), Sandfly Bay (最美, 但是需要爬20 min 的沙地爬坡, 沙蠅賊多, 若當天體力不佳建議 Allans beach) https://maps.app.goo.gl/CEpJCaxRxLpDm2QTA https://maps.app.goo.gl/gRZPqBCUPXGDbkr78 https://maps.app.goo.gl/baNYEYCLrCK4uF126"
       ]
     ],
     "11": [
       [
-        "08:00",
+        "",
         "1. 八角廣場",
-        "位於市中心, 是大眾運輸的主要樞紐, 這裡有個特別規劃的行人保護區, 不僅重點級的歷史建築物和機構容納於此 (如聖保羅教堂、市政廳), 還有商店街和餐廳 1. 奧塔哥第一教堂: 開放時間 8:00-13:00, 上百年的哥德式教堂, 位於八角廣場東南方的草地上, 還有彩色玻璃窗"
+        "位於市中心, 是大眾運輸的主要樞紐, 這裡有個特別規劃的行人保護區, 不僅重點級的歷史建築物和機構容納於此 (如聖保羅教堂、市政廳), 還有商店街和餐廳"
       ],
       [
-        "09:00",
+        "",
+        "1. 奧塔哥第一教堂: 開放時間 8:00-13:00, 上百年的哥德式教堂, 位於八角廣場東南方的草地上, 還有彩色玻璃窗",
+        ""
+      ],
+      [
+        "",
         "2. 聖保羅大教堂: 開放時間 10:00-15:00, 位於八角廣場西北方, 紐西蘭的建築設計大獎",
-        "3. 但尼丁市政廳: 開放時間 8:00-17:00, 緊鄰聖保羅大教堂, 面對廣場中央的南門面是至今紐西蘭僅存的維多利亞建築 4. 但尼丁美術館: 開放時間 10:00-17:00, 有上百年的歷史, 還是全紐西蘭第一家美術館, 免費參觀"
+        ""
       ],
       [
-        "10:00",
+        "",
+        "3. 但尼丁市政廳: 開放時間 8:00-17:00, 緊鄰聖保羅大教堂, 面對廣場中央的南門面是至今紐西蘭僅存的維多利亞建築",
+        ""
+      ],
+      [
+        "",
+        "4. 但尼丁美術館: 開放時間 10:00-17:00, 有上百年的歷史, 還是全紐西蘭第一家美術館, 免費參觀",
+        ""
+      ],
+      [
+        "",
         "2. 但尼丁火車站 (必看)",
-        "詳情請見 Google Doc 原文"
+        "正對著八角廣場, 文藝復興的巴洛克建築風格, 被人譽為世界上最宏偉的薑餅屋 一樓是飯店餐廳區、二樓是展覽區, 每年的 Dunedin 時裝周會在此舉辦, 利用長達一公里的月台作為時裝秀伸展台"
       ],
       [
-        "11:00",
-        "正對著八角廣場, 文藝復興的巴洛克建築風格, 被人譽為世界上最宏偉的薑餅屋",
-        "一樓是飯店餐廳區、二樓是展覽區, 每年的 Dunedin 時裝周會在此舉辦, 利用長達一公里的月台作為時裝秀伸展台"
-      ],
-      [
-        "12:00",
+        "",
         "3. 奧塔哥大學",
         "常被列為全球最美麗的大學之一, 醫學專業聞名全球, 學術研究品質為全紐西蘭第一。校園內有許多宏偉精緻的維多利亞式建築, 以標誌建築鐘樓 (ClockTower) 最引人注目"
       ],
       [
-        "14:00",
+        "",
         "4. Lunch time",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "15:00",
+        "",
         "5. 維多利亞風的白石小鎮",
-        "詳情請見 Google Doc 原文"
+        "停留時間: 2 hr, 歐洲人打造的維多利亞風文化遺產區, 以下的景點順序是由北至南依序排列"
       ],
       [
-        "16:00",
-        "停留時間: 2 hr, 歐洲人打造的維多利亞風文化遺產區, 以下的景點順序是由北至南依序排列",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "17:00",
+        "",
         "1. Oamaru Opera House 奧瑪魯歌劇院",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "18:00",
+        "",
         "2. Waitaki Museum 懷塔基博物館: 除了作為博物館之外, 曾經是機械學院",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "20:00",
+        "",
         "3. Waitaki District Council 懷塔基區議會: 原本是首席郵局",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "21:00",
+        "",
         "4. The Last Post 餐廳: 原先是 Oamaru 的第一座郵局, 現在是餐廳",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "22:00",
+        "",
         "5. Forrester Gallery 福里斯特畫廊: 免費入場",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "23:00",
+        "",
         "6. St Luke’s Anglican Church 聖公會教堂: 超過150年的哥德式教堂",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "24:00",
+        "",
         "7. Steampunk HQ 蒸汽朋克總部: 原先是穀糧倉庫, 於2011年改建為現代工業風格的博物館",
-        "8. Victorian Heritage Centre 舊城區: Oamaru 最古老的街道, 有咖啡廳和文青小店 9. Whitestone City 白石小鎮: 位於舊城區內, 為互動式的展覽館, 也是遊客中心。除法欣賞舊時代的街道、商店, 也可以體驗穿上維多利亞服飾"
+        ""
       ],
       [
-        "26:00",
+        "",
+        "8. Victorian Heritage Centre 舊城區: Oamaru 最古老的街道, 有咖啡廳和文青小店",
+        ""
+      ],
+      [
+        "",
+        "9. Whitestone City 白石小鎮: 位於舊城區內, 為互動式的展覽館, 也是遊客中心。除法欣賞舊時代的街道、商店, 也可以體驗穿上維多利亞服飾",
+        ""
+      ],
+      [
+        "",
         "6. 摩拉奇圓石",
         "Oamaru 除了小藍企鵝之外, 最受歡迎的景點, 圓石群所在的沙灘位置距停車場約有 600 m, 下車後得走一小段路才會抵達, 若覺得 600 m太遠的話, 也可選擇停於較近的 Moeraki Boulders Café (圓石咖啡廳), 但經由咖啡廳通往海灘的道路則須付過路費, 每人 $2 NZD 得注意潮汐時間, 於退潮時前來才能完整看見石頭的輪廓及形狀, 必要時可看白石小鎮對調順序, 當天落潮時間: 18:55 (待確認)"
-      ],
-      [
-        "27:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
       ]
     ],
     "12": [
       [
-        "08:00",
+        "",
         "1. 象石群",
-        "詳情請見 Google Doc 原文"
+        "停留時間: 1.5 hr 象石岩的寬度和高度約 1-10 m不等, 無規則的散落於 200 m寬的山坡草地上, 象石成因主要是上千年前沉積的石灰岩地層被風雨侵蝕後, 遺留下來的風化殘餘物, 外觀形似大象。這也是「納尼亞傳奇」的拍攝地。"
       ],
       [
-        "09:00",
-        "停留時間: 1.5 hr",
-        "象石岩的寬度和高度約 1-10 m不等, 無規則的散落於 200 m寬的山坡草地上, 象石成因主要是上千年前沉積的石灰岩地層被風雨侵蝕後, 遺留下來的風化殘餘物, 外觀形似大象。這也是「納尼亞傳奇」的拍攝地。 2. 石灰石峭壁 (Clay Cliffs) https://maps.app.goo.gl/MpmMBXMJmS9HLQsE6"
+        "",
+        "2. 石灰石峭壁 (Clay Cliffs)",
+        "停留時間: 1.5 hr (Lunch time), 位於 8 號公路旁的小路上, 需從 8 號公路進入 Quailburn Rd, 再左彎進入無鋪柏油的小碎石路段 Henburn Rd, 最後再沿著碎石路段前進 20 min才會到達 步道盡頭是一個天然狹縫入口, 可以看到一個被高聳峭壁重重包圍的風景 注意:"
       ],
       [
-        "10:00",
-        "停留時間: 1.5 hr",
-        "(Lunch time), 位於 8 號公路旁的小路上, 需從 8 號公路進入 Quailburn Rd, 再左彎進入無鋪柏油的小碎石路段 Henburn Rd, 最後再沿著碎石路段前進 20 min才會到達"
+        "",
+        "1. 位於私人土地, 入內需支付車輛入場費 $5 NZD, 將現金投入箱子後再自行推開柵欄進入, 車子入內後須將柵欄推回",
+        ""
       ],
       [
-        "11:00",
-        "步道盡頭是一個天然狹縫入口, 可以看到一個被高聳峭壁重重包圍的風景",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "12:00",
-        "注意:",
-        "1. 位於私人土地, 入內需支付車輛入場費 $5 NZD, 將現金投入箱子後再自行推開柵欄進入, 車子入內後須將柵欄推回"
-      ],
-      [
-        "14:00",
+        "",
         "2. 前往途中會經過塵土飛揚的碎石路段, 請減速慢行以避免危險 (30km/h)",
-        "3. Lake Pukaki Viewing Point (遊客中心) https://maps.app.goo.gl/tDFyu1M4TTgKgiK8A"
+        ""
       ],
       [
-        "15:00",
-        "停留時間: 1 hr, 需完成物資補給, 包含兩天早餐 (晚上的 Mt.Cook 便利商店超貴)",
-        "位於庫克山脈南邊, 是上游塔斯曼冰河的融水所形成的冰河堰塞湖。該湖泊有著極度夢幻的藍色湖面, 遊客中心位於整座湖泊的最南端, 有著極度開闊的視野, 因此是欣賞浪漫湖景 & 遠方南阿爾卑斯山脈的絕佳位置 該遊客中心旁還有一家鮭魚專賣店 Mount Cook Alpine Salmon, 可買到南阿爾卑斯山雪水養殖的鮭魚, 不同於一般養殖場鮭魚, 這裡飼養的鮭魚因為在不斷流動的冰涼海流中游泳, 造就鮭魚細膩的口感及乾淨鮮甜的味道 (外帶到外面看風景吃)"
+        "",
+        "3. Lake Pukaki Viewing Point (遊客中心)",
+        "停留時間: 1 hr, 需完成物資補給, 包含兩天早餐 (晚上的 Mt.Cook 便利商店超貴) 位於庫克山脈南邊, 是上游塔斯曼冰河的融水所形成的冰河堰塞湖。該湖泊有著極度夢幻的藍色湖面, 遊客中心位於整座湖泊的最南端, 有著極度開闊的視野, 因此是欣賞浪漫湖景 & 遠方南阿爾卑斯山脈的絕佳位置 該遊客中心旁還有一家鮭魚專賣店 Mount Cook Alpine Salmon, 可買到南阿爾卑斯山雪水養殖的鮭魚, 不同於一般養殖場鮭魚, 這裡飼養的鮭魚因為在不斷流動的冰涼海流中游泳, 造就鮭魚細膩的口感及乾淨鮮甜的味道 (外帶到外面看風景吃)"
       ],
       [
-        "16:00",
+        "",
         "4. 紐西蘭高山薰衣草農場",
-        "詳情請見 Google Doc 原文"
+        "停留時間: 30 min 離開 Punatahu 遊客中心後大約 10 分鐘車程處, 是整個南半球最大的唯一認證的有機薰衣草農場, 有出多種有機的薰衣草產品, 最推薦薰衣草冰淇淋"
       ],
       [
-        "17:00",
-        "停留時間: 30 min",
-        "離開 Punatahu 遊客中心後大約 10 分鐘車程處, 是整個南半球最大的唯一認證的有機薰衣草農場, 有出多種有機的薰衣草產品, 最推薦薰衣草冰淇淋"
-      ],
-      [
-        "18:00",
+        "",
         "5. Aoraki Mt Cook Scenic Lookout",
-        "位置: (-43.98274, 170.13448)"
+        "位置: (-43.98274, 170.13448) 停留時間: 20 min 地勢較高, 除了可以眺望遠方的 Mt. Cook 山峰外, 前景蜿蜒的道路和湛藍的 Lake Pukaki 也替畫面增添許多漂亮的元素"
       ],
       [
-        "20:00",
-        "停留時間: 20 min",
-        "地勢較高, 除了可以眺望遠方的 Mt. Cook 山峰外, 前景蜿蜒的道路和湛藍的 Lake Pukaki 也替畫面增添許多漂亮的元素"
-      ],
-      [
-        "21:00",
+        "",
         "6. 庫克山公路景觀台",
-        "位置: (-43.745220, 170.114240)"
+        "位置: (-43.745220, 170.114240) 停留時間: 15 min 位於 Mt. Cook Rd 接近庫克山國家公園的 80 號公路旁, 有個可簡易路邊停車位置的觀景平台, 該景觀台並非一個正式景觀台 高聳入天的庫克山群、搭配白淨潔暇的山頂殘雪"
       ],
       [
-        "22:00",
-        "停留時間: 15 min",
-        "位於 Mt. Cook Rd 接近庫克山國家公園的 80 號公路旁, 有個可簡易路邊停車位置的觀景平台, 該景觀台並非一個正式景觀台"
-      ],
-      [
-        "23:00",
-        "高聳入天的庫克山群、搭配白淨潔暇的山頂殘雪",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "24:00",
+        "",
         "7. 夜生活: Hermitage Hotel 露台喝一杯",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "26:00",
-        "建議在 20:00-21:00 之間前往",
-        "就算沒住這間飯店, 也可以去他們的 Snowline Bar, 1 月份的「殘霞」會持續到晚上 10 點左右, 您可以點一杯紐西蘭當地的 Pinot Noir 紅酒, 看著庫克山從金黃色轉為深藍色, 再到星光滿天"
-      ],
-      [
-        "27:00",
-        "隔天若 6:00 起床, 可看到日照金山",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "28:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        "建議在 20:00-21:00 之間前往 就算沒住這間飯店, 也可以去他們的 Snowline Bar, 1 月份的「殘霞」會持續到晚上 10 點左右, 您可以點一杯紐西蘭當地的 Pinot Noir 紅酒, 看著庫克山從金黃色轉為深藍色, 再到星光滿天 隔天若 6:00 起床, 可看到日照金山"
       ]
     ],
     "13": [
       [
-        "08:00",
+        "",
         "1. 胡克峽谷步道",
-        "詳情請見 Google Doc 原文"
+        "前開始走 (網路建議 7:30), 不然回程會很曬, 目前在施工, 預計 2026 / 7 月完工, 不影響 步道起點: 露營區及停車場 (White Horse Hill Campsite) 注意: 若於強降風、強降雨情況下, 此步道會於第一座吊橋處關閉 全長約 10 km, 來回約需 3-4 hr, 沿途無顯著爬升路段, 總共會經過三座吊橋, 步道終點是 Hooker Lake (胡克湖), 搭配庫克山及南阿爾卑斯山脈"
       ],
       [
-        "7:30-8:00",
-        "前開始走 (網路建議 7:30), 不然回程會很曬, 目前在施工, 預計 2026 / 7 月完工, 不影響",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "10:00",
-        "步道起點: 露營區及停車場 (White Horse Hill Campsite)",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "11:00",
-        "注意: 若於強降風、強降雨情況下, 此步道會於第一座吊橋處關閉",
-        "全長約 10 km, 來回約需 3-4 hr, 沿途無顯著爬升路段, 總共會經過三座吊橋, 步道終點是 Hooker Lake (胡克湖), 搭配庫克山及南阿爾卑斯山脈"
-      ],
-      [
-        "12:00",
+        "",
         "2. Lunch time 可在冰河船報到飯店吃輕食 or 自備",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "14:00",
+        "",
         "3. 塔斯曼冰河船",
-        "冰河船體驗時, 不但會從冰山中取下一小塊冰解說, 也有機會親自觸摸甚至飲用冰山水, 整個冰河船活動總時間約 3 hr, 包含徒步行走約 30 min 左右的 Tasman Velly, 於湖上體驗的時間約 60 min"
+        "冰河船體驗時, 不但會從冰山中取下一小塊冰解說, 也有機會親自觸摸甚至飲用冰山水, 整個冰河船活動總時間約 3 hr, 包含徒步行走約 30 min 左右的 Tasman Velly, 於湖上體驗的時間約 60 min 預約 13:45 - 16:30 梯次 於 Hermitage hotel lobby 報到, 此行程需走約1.5 km (25 min) 攜帶物品: 防水外套、保暖衣物、防曬、水、健行鞋"
       ],
       [
-        "15:00",
-        "預約 13:45 - 16:30 梯次",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "13:15",
-        "於 Hermitage hotel lobby 報到, 此行程需走約1.5 km (25 min)",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "17:00",
-        "攜帶物品: 防水外套、保暖衣物、防曬、水、健行鞋",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "18:00",
+        "",
         "4. 庫克山遊客中心",
-        "營業時間: 8:30 – 17:00 5. back up 1, 塔斯曼湖步道 https://maps.app.goo.gl/x2F85gY4j38kEPR77 若還有體力可以走(1), 能看紐西蘭最長冰河, 並欣賞這些載浮載沉於堰塞湖中的大小冰山最佳步道。步道來回總長 3.5 km, 共有以下兩個景觀台可停留和欣賞 1. 藍湖 & 塔斯曼冰河景觀台: 來回約 40 分鐘, 坡度相對較陡, 可以由至高點同時欣賞 Blue Lakes、Tasman Lake 以及 Tasman Glacier 2. 塔斯曼湖: 來回約 1 hr, 坡度平緩, 可以抵達 Tasman Lake 湖畔, 近距離欣賞冰河湖和大大小小的冰山 (有參加冰河船的話不用走這個)"
+        "營業時間: 8:30 – 17:00"
       ],
       [
-        "20:00",
-        "若兩個觀景台都會前往, 則來回所需時間約 1.5 hr",
-        "詳情請見 Google Doc 原文"
+        "",
+        "5. back up 1, 塔斯曼湖步道",
+        "若還有體力可以走(1), 能看紐西蘭最長冰河, 並欣賞這些載浮載沉於堰塞湖中的大小冰山最佳步道。步道來回總長 3.5 km, 共有以下兩個景觀台可停留和欣賞"
       ],
       [
-        "21:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        "",
+        "1. 藍湖 & 塔斯曼冰河景觀台: 來回約 40 分鐘, 坡度相對較陡, 可以由至高點同時欣賞 Blue Lakes、Tasman Lake 以及 Tasman Glacier",
+        ""
+      ],
+      [
+        "",
+        "2. 塔斯曼湖: 來回約 1 hr, 坡度平緩, 可以抵達 Tasman Lake 湖畔, 近距離欣賞冰河湖和大大小小的冰山 (有參加冰河船的話不用走這個)",
+        "若兩個觀景台都會前往, 則來回所需時間約 1.5 hr"
       ]
     ],
     "14": [
       [
-        "08:00",
+        "",
         "1. 希利塔恩斯步道",
-        "開爬, 有著「通往天堂的階梯」美稱, 步道終點的高山淡水湖 Sealy Tarns Lake超美, 而 Sealy Tarns Viewpoint 還能居高臨下, Hooker Valley 的兩大冰河湖 (Muller Lake & Hooker Lake) 盡收眼底, 以不一樣的角度遠眺遠處的南阿爾卑斯山脈和庫克山 該步道共需爬升超過 2200 個階梯, 沿途不但為連續陡坡上升, 步道還很狹窄和陡峭, 且部分區域的路況不好又臨崖無扶手"
+        "開爬, 有著「通往天堂的階梯」美稱, 步道終點的高山淡水湖 Sealy Tarns Lake超美, 而 Sealy Tarns Viewpoint 還能居高臨下, Hooker Valley 的兩大冰河湖 (Muller Lake & Hooker Lake) 盡收眼底, 以不一樣的角度遠眺遠處的南阿爾卑斯山脈和庫克山 該步道共需爬升超過 2200 個階梯, 沿途不但為連續陡坡上升, 步道還很狹窄和陡峭, 且部分區域的路況不好又臨崖無扶手 來回距離 & 所需時間：4.5 km、來回約 4 hr, 垂直爬升高度約 600 m 步道起點: 露營區及停車場 (White Horse Hill Campsite)"
       ],
       [
-        "09:00",
-        "來回距離 & 所需時間：4.5 km、來回約 4 hr, 垂直爬升高度約 600 m",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "10:00",
-        "步道起點: 露營區及停車場 (White Horse Hill Campsite)",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "11:00",
+        "",
         "2. Lunch time in Tekapo",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "12:00",
+        "",
         "3. 約翰山天文台",
-        "開車上天文台所在的Mt. John (約翰山) 標高約 1029 m, 若在白天親臨約翰山天文台, 可以居高俯瞰擁有 Tiffany 藍的 Tekapo 湖景, 也可以零死角的遠眺四周壯麗的群山美景 1. Astro Café: 營業時間: 09:00 - 14:00 (最後點餐時間 13:30), 咖啡廳的戶外座位區視野佳, 風景優美, 孤獨星球旅遊書(Lonely Planet) 曾經這樣評論 Astro Café 這間咖啡廳:「It's quite possibly one of the planet's best locations for a cafe. 」 2. Summit Loop 步道: 一段環繞山頂的平緩步道 (走一圈約 15 min)。這裡是拍「Tiffany 藍」湖水全景的最佳角度, 比坐在咖啡廳裡拍出的照片更震撼、更無死角"
+        "開車上天文台所在的Mt. John (約翰山) 標高約 1029 m, 若在白天親臨約翰山天文台, 可以居高俯瞰擁有 Tiffany 藍的 Tekapo 湖景, 也可以零死角的遠眺四周壯麗的群山美景"
       ],
       [
-        "14:00",
+        "",
+        "1. Astro Café: 營業時間: 09:00 - 14:00 (最後點餐時間 13:30), 咖啡廳的戶外座位區視野佳, 風景優美, 孤獨星球旅遊書(Lonely Planet) 曾經這樣評論 Astro Café 這間咖啡廳:「It's quite possibly one of the planet's best locations for a cafe. 」",
+        ""
+      ],
+      [
+        "",
+        "2. Summit Loop 步道: 一段環繞山頂的平緩步道 (走一圈約 15 min)。這裡是拍「Tiffany 藍」湖水全景的最佳角度, 比坐在咖啡廳裡拍出的照片更震撼、更無死角",
+        ""
+      ],
+      [
+        "",
         "4. 善良牧羊人教堂",
         "營業時間: 9:00 – 20:00, 教堂內禁止拍攝 超過 90 年歷史, 小鎮內唯一的教堂。教堂的設計宗旨乃是為了帶給人們安靜、婉約以及堅毅的精神, 並頌揚早期那些勇於前來 Mackenzie (麥肯齊) 開墾的拓荒者 教堂內部可以免費參觀, 通常週三至週日的 10:00–15:00 這段期間會開放, 不過並不保證一定開放 (只有志工在 or 沒有活動的情況下才開放)。"
       ],
       [
-        "15:00",
+        "",
         "1. 牧羊犬雕像: 教堂往東約 100 m 處, 它於 1968 年設立",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "16:00",
+        "",
         "5. Dinner time",
-        "6. Tekapo Springs https://maps.app.goo.gl/LgMBTWp2EMbgRvsH6 自備毛巾與泳衣, 租借要錢, 泳池區 - 熱水池 & 水上樂園 方案: 並非提供真正溫泉水(溫度也並不是非常高), 但水質純淨、風景優美"
+        ""
       ],
       [
-        "17:00",
+        "",
+        "6. Tekapo Springs",
+        "自備毛巾與泳衣, 租借要錢, 泳池區 - 熱水池 & 水上樂園 方案: 並非提供真正溫泉水(溫度也並不是非常高), 但水質純淨、風景優美"
+      ],
+      [
+        "",
         "7. 回住宿小睡",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "18:00",
+        "",
         "8. 約翰山天文台觀星團",
-        "Dark Sky Project summit experiment: 預約 23:59 開始的行程, 23:40 至Dark Sky Project Base, 1 Motuariki Lane 報到"
-      ],
-      [
-        "20:00",
-        "總活動時間 2 hr, 包含 30 min 的接駁車程",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "21:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        "Dark Sky Project summit experiment: 預約 23:59 開始的行程, 23:40 至Dark Sky Project Base, 1 Motuariki Lane 報到 總活動時間 2 hr, 包含 30 min 的接駁車程"
       ]
     ],
     "15": [
       [
-        "08:00",
+        "",
         "1. Fairlie Bakehouse (費爾利麵包房)",
-        "營業時間: 6:00-16:30"
+        "營業時間: 6:00-16:30 位於 Fairlie 的市鎮中心, 推薦所有旅客一定要來訪的經典鹹派專賣店"
       ],
       [
-        "09:00",
-        "位於 Fairlie 的市鎮中心, 推薦所有旅客一定要來訪的經典鹹派專賣店",
-        "2. Alpine Alpacas Fairlie (羊駝農場) https://maps.app.goo.gl/mAzoDjaBbAE74MqKA 停留時間: 1.5 hr, 距 Tekapo 小鎮約 40 min 車程, 農場內飼養了許多可愛的羊駝, 還有少數的綿羊、美洲駝、馬, 可以進入圍欄內近距離接觸及餵養羊駝"
+        "",
+        "2. Alpine Alpacas Fairlie (羊駝農場)",
+        "停留時間: 1.5 hr, 距 Tekapo 小鎮約 40 min 車程, 農場內飼養了許多可愛的羊駝, 還有少數的綿羊、美洲駝、馬, 可以進入圍欄內近距離接觸及餵養羊駝 1/15 12:00, Guided Alpaca Paddock Tour (1 hr) 網址: https://alpinealpacasfairlie.com/?fbclid=IwY2xjawRe_KhleHRuA2FlbQIxMABicmlkETJGaDNEWGVKRjdnbHAzUTY4c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHlJ6TpDaljDjxB-IhCX8oQDI-TTeasQwJpcDS4uWMq4JXyVLtXWyNufyfcYe_aem_yi6mX454eRVxfmsCo82T7Q"
       ],
       [
-        "10:00",
-        "1/15 12:00, Guided Alpaca Paddock Tour (1 hr)",
-        "網址: https://alpinealpacasfairlie.com/?fbclid=IwY2xjawRe_KhleHRuA2FlbQIxMABicmlkETJGaDNEWGVKRjdnbHAzUTY4c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHlJ6TpDaljDjxB-IhCX8oQDI-TTeasQwJpcDS4uWMq4JXyVLtXWyNufyfcYe_aem_yi6mX454eRVxfmsCo82T7Q 3. shopping !!!"
+        "",
+        "3. shopping !!!",
+        ""
       ],
       [
-        "11:00",
+        "",
         "4. 雅芳河 (Avon River) 附近吃晚餐",
-        "詳情請見 Google Doc 原文"
+        ""
       ],
       [
-        "12:00",
+        "",
         "5. 溫泉 (He Puna Taimoana Hot Pools, 在大橋旁邊)",
-        "需提早預約 預計 20:00 or 20:30 - 22:00 去泡, 預約 20:00 or 20:30 的梯次 預約網址: https://www.hepunataimoana.co.nz/buy-now/entry-passes"
+        "需提早預約 預計 20:00 or 20:30 - 22:00 去泡, 預約 20:00 or 20:30 的梯次 預約網址: https://www.hepunataimoana.co.nz/buy-now/entry-passes 選擇 adult only 場次"
       ],
       [
-        "14:00",
-        "選擇 adult only 場次",
-        "6. 新布萊頓碼頭大橋 夜景 https://maps.app.goo.gl/WUayDdoF96oUKbsq8"
+        "",
+        "6. 新布萊頓碼頭大橋 夜景",
+        "圖書館開放時間: 9:00 - 18:00 看點燈後的大橋, 吹海風 地標「碼頭大橋」長達 300 m、直挺挺地延伸到太平洋中, 橋面寬達 6 m, 可以在橋面上漫步小憩, 適合看夕陽 這個碼頭旁邊還有座造型獨特的圖書館, 可以進到圖書館內部一邊瀏覽書籍、一邊欣賞遠方的壯麗海景"
       ],
       [
-        "15:00",
-        "圖書館開放時間: 9:00 - 18:00",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "16:00",
-        "看點燈後的大橋, 吹海風",
-        "地標「碼頭大橋」長達 300 m、直挺挺地延伸到太平洋中, 橋面寬達 6 m, 可以在橋面上漫步小憩, 適合看夕陽"
-      ],
-      [
-        "17:00",
-        "這個碼頭旁邊還有座造型獨特的圖書館, 可以進到圖書館內部一邊瀏覽書籍、一邊欣賞遠方的壯麗海景",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "18:00",
+        "",
         "1. 購買 Icebreaker 與專業登山用品",
-        "詳情請見 Google Doc 原文"
+        "Icebreaker 是紐西蘭的羊毛之光，基督城有兩處最佳購買點： * Icebreaker Outlet (機場附近 - Antares Place)： * 優點： 這是 Outlet 店！價格通常比市區專櫃便宜不少，非常適合一次掃貨多件底層衣。 * 位置： 就在機場附近，開著 KIA Carnival 過去停車非常方便。 * Bivouac Outdoor 或 Macpac (市區 Cashel Street)： * 優點： 這兩家是紐西蘭最強的戶外用品店。Bivouac 代理非常多 Icebreaker 的款式；而 Macpac 是紐西蘭本土品牌（類似 Icebreaker 但更平價一點），其羽絨衣和羊毛衣也非常出色。 * 位置： 位於市中心的 Cashel Street (步行街)，可以順便逛街。"
       ],
       [
-        "20:00",
-        "Icebreaker 是紐西蘭的羊毛之光，基督城有兩處最佳購買點：",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "21:00",
-        "* Icebreaker Outlet (機場附近 - Antares Place)：",
-        "* 優點： 這是 Outlet 店！價格通常比市區專櫃便宜不少，非常適合一次掃貨多件底層衣。 * 位置： 就在機場附近，開著 KIA Carnival 過去停車非常方便。"
-      ],
-      [
-        "22:00",
-        "* Bivouac Outdoor 或 Macpac (市區 Cashel Street)：",
-        "* 優點： 這兩家是紐西蘭最強的戶外用品店。Bivouac 代理非常多 Icebreaker 的款式；而 Macpac 是紐西蘭本土品牌（類似 Icebreaker 但更平價一點），其羽絨衣和羊毛衣也非常出色。 * 位置： 位於市中心的 Cashel Street (步行街)，可以順便逛街。"
-      ],
-      [
-        "23:00",
+        "",
         "2. 購買紐西蘭名產（蜂蜜、巧克力、綿羊油）",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "24:00",
-        "* Riverside Market (市中心)：",
-        "* 特點： 這裡有非常多精緻的小店，販售高品質的 Manuka 蜂蜜、手工巧克力和紐西蘭文創商品。 * 氛圍： 這裡適合買「送人」的精緻禮品，環境非常有設計感。"
-      ],
-      [
-        "26:00",
-        "* Pak'nSave 或 Countdown (大型超市)：",
-        "* 特點： 這是買 Whittaker's 巧克力、Cookie Time 餅乾、紅標紅茶最便宜的地方。 * 建議： 推薦去 Pak'nSave Riccarton 或 Tower Junction，那裡的規模很大，貨源最齊。"
-      ],
-      [
-        "27:00",
-        "________________",
-        "詳情請見 Google Doc 原文"
+        "* Riverside Market (市中心)： * 特點： 這裡有非常多精緻的小店，販售高品質的 Manuka 蜂蜜、手工巧克力和紐西蘭文創商品。 * 氛圍： 這裡適合買「送人」的精緻禮品，環境非常有設計感。 * Pak'nSave 或 Countdown (大型超市)： * 特點： 這是買 Whittaker's 巧克力、Cookie Time 餅乾、紅標紅茶最便宜的地方。 * 建議： 推薦去 Pak'nSave Riccarton 或 Tower Junction，那裡的規模很大，貨源最齊。"
       ]
     ],
     "16": [
       [
-        "08:00",
+        "",
         "直接去機場還車, 逛免稅店, 預計12:00 前需到達基督城機場",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "09:00",
-        "CHC 14:20 -> HKG 20:55, HKG 23:10 -> TPE 00:35+1",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "10:00",
-        "藍格子: 住單日",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "11:00",
-        "黃格子: 住雙日",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "12:00",
-        "1/1 - 1/2",
-        "https://www.booking.com/hotel/nz/family-friendly-close-to-new-stadium.zh-tw.html"
-      ],
-      [
-        "14:00",
-        "1/2 - 1/3",
-        "https://www.booking.com/hotel/nz/on-the-beach-hokitika.zh-tw.html"
-      ],
-      [
-        "15:00",
-        "1/3 - 1/4",
-        "https://www.booking.com/hotel/nz/rainforest-motel.zh-tw.html"
-      ],
-      [
-        "16:00",
-        "1/4 - 1/5",
-        "https://www.booking.com/hotel/nz/tenby-apartments.zh-tw.html"
-      ],
-      [
-        "17:00",
-        "1/5 - 1/6",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "18:00",
-        "1/6 - 1/7",
-        "https://www.booking.com/hotel/nz/luxe-suites-and-apartments.zh-tw.html"
-      ],
-      [
-        "20:00",
-        "1/7 - 1/8",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "21:00",
-        "1/8 - 1/9",
-        "https://www.booking.com/hotel/nz/lakeside-motel-amp-apartments.zh-tw.html"
-      ],
-      [
-        "22:00",
-        "1/9 - 1/10",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "23:00",
-        "1/10 - 1/11",
-        "https://www.booking.com/hotel/nz/lux-home-close-to-beach.zh-tw.html"
-      ],
-      [
-        "24:00",
-        "1/11 - 1/12",
-        "https://www.booking.com/hotel/nz/the-old-confectionery.zh-tw.html"
-      ],
-      [
-        "26:00",
-        "1/12 - 1/13",
-        "https://maps.app.goo.gl/JSV3aC7fpvADW1Jv8"
-      ],
-      [
-        "27:00",
-        "1/13 - 1/14",
-        "詳情請見 Google Doc 原文"
-      ],
-      [
-        "28:00",
-        "1/14 - 1/15",
-        "https://www.booking.com/hotel/nz/roto-cottage-lake-tekapo-lake-tekapo.zh-tw.html"
-      ],
-      [
-        "29:00",
-        "1/15 - 1/16",
-        "https://www.booking.com/hotel/nz/2-bedroom-with-carpark-overlooks-central-east-frame.zh-tw.html"
+        "CHC 14:20 -> HKG 20:55, HKG 23:10 -> TPE 00:35+1 藍格子: 住單日 黃格子: 住雙日 1/1 - 1/2 https://www.booking.com/hotel/nz/family-friendly-close-to-new-stadium.zh-tw.html 1/2 - 1/3 https://www.booking.com/hotel/nz/on-the-beach-hokitika.zh-tw.html 1/3 - 1/4 https://www.booking.com/hotel/nz/rainforest-motel.zh-tw.html 1/4 - 1/5 https://www.booking.com/hotel/nz/tenby-apartments.zh-tw.html 1/5 - 1/6 1/6 - 1/7 https://www.booking.com/hotel/nz/luxe-suites-and-apartments.zh-tw.html 1/7 - 1/8 1/8 - 1/9 https://www.booking.com/hotel/nz/lakeside-motel-amp-apartments.zh-tw.html 1/9 - 1/10 1/10 - 1/11 https://www.booking.com/hotel/nz/lux-home-close-to-beach.zh-tw.html 1/11 - 1/12 https://www.booking.com/hotel/nz/the-old-confectionery.zh-tw.html 1/12 - 1/13 https://maps.app.goo.gl/JSV3aC7fpvADW1Jv8 1/13 - 1/14 1/14 - 1/15 https://www.booking.com/hotel/nz/roto-cottage-lake-tekapo-lake-tekapo.zh-tw.html 1/15 - 1/16 https://www.booking.com/hotel/nz/2-bedroom-with-carpark-overlooks-central-east-frame.zh-tw.html"
       ]
     ]
   },
   "_meta": {
     "source": "https://docs.google.com/document/d/1DliYnD_FpiU2wPb2cpuZdPl5L4AOvVVdCC-znfRWa5I/export?format=txt",
-    "updatedAt": "2026-11-21T06:15:36.439Z"
+    "updatedAt": "2026-11-21T06:21:51.646Z"
   }
 }

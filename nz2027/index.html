@@ -565,7 +565,7 @@ a{text-decoration:none}
     }
     function renderSyncStatus(message,ok=true,updatedAt=''){
       const host=$('#syncStatus');if(!host)return;
-      host.innerHTML=`<div class="sync-panel"><div class="sync-panel-head"><div><h3>Google Doc 行程同步</h3><p>${escapeHTML(message)}</p></div><span class="sync-badge ${ok?'':'warn'}">${ok?'已同步':'使用內嵌備援'}</span></div><div class="sync-actions"><button onclick="syncRemoteContent()">立即檢查更新</button><small>${updatedAt?`資料時間：${escapeHTML(updatedAt)}`:'GitHub Actions 會定期更新這份資料'}</small></div></div>`;
+      host.innerHTML=`<div class="sync-panel"><div class="sync-panel-head"><div><h3>固定行程版本</h3><p>${escapeHTML(message)}</p></div><span class="sync-badge">內建資料</span></div></div>`;
     }
     function rerenderRemoteContent(){
       renderDays($('#dayFilters .active')?.dataset.filter||'all');
@@ -689,7 +689,7 @@ a{text-decoration:none}
     $('#notifyButton').onclick=async()=>{if(!('Notification' in window)){toast('此瀏覽器不支援通知，但待辦仍會保存在本機。');return}const p=await Notification.requestPermission();toast(p==='granted'?'通知權限已開啟；目前仍請以預約與待辦頁確認時間。':'通知未開啟，可稍後在瀏覽器設定允許。')};
     function renderConnectionState(){const online=navigator.onLine;$('#onlineText').textContent=online?'已連線 · 可開啟地圖':'離線模式 · 僅可查看快取';renderOfflineStatus()}
     window.addEventListener('online',renderConnectionState);window.addEventListener('offline',renderConnectionState);
-    simplifyCopy();styleRemoteAlert();renderTripProgress();$('#routeMap').innerHTML=realRouteMap();$('#routeMapTools').innerHTML=realRouteMap();ensureMapPack();renderDays();renderTasks();renderPacks();renderContacts();renderProgress();renderNext();renderTodayMode();renderBookingPanel();renderDestinationAudit();renderBackupPanel();renderOfflineStatus();renderSyncStatus('正在檢查 Google Doc 的最新資料……');syncRemoteContent();countdown();setInterval(()=>{countdown();renderSunsetSummary();renderTripProgress();if(!todayHasUnsaved())renderTodayMode()},60000);if('serviceWorker' in navigator){navigator.serviceWorker.addEventListener('controllerchange',renderOfflineStatus);navigator.serviceWorker.register('sw.js').then(()=>{renderMapPackStatus();renderOfflineStatus()}).catch(()=>renderOfflineStatus())}
+    simplifyCopy();styleRemoteAlert();renderTripProgress();$('#routeMap').innerHTML=realRouteMap();$('#routeMapTools').innerHTML=realRouteMap();ensureMapPack();renderDays();renderTasks();renderPacks();renderContacts();renderProgress();renderNext();renderTodayMode();renderBookingPanel();renderDestinationAudit();renderBackupPanel();renderOfflineStatus();renderSyncStatus('目前使用網站內建行程，不套用 Google Doc 遠端資料。');countdown();setInterval(()=>{countdown();renderSunsetSummary();renderTripProgress();if(!todayHasUnsaved())renderTodayMode()},60000);if('serviceWorker' in navigator){navigator.serviceWorker.addEventListener('controllerchange',renderOfflineStatus);navigator.serviceWorker.register('sw.js').then(()=>{renderMapPackStatus();renderOfflineStatus()}).catch(()=>renderOfflineStatus())}
   </script>
 </body>
 </html>

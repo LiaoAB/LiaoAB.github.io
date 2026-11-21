@@ -107,7 +107,9 @@ function parseDays(text) {
   const parsed = [];
   for (const [position, start] of starts.entries()) {
     const end = starts[position + 1]?.index ?? lines.length;
-    const block = lines.slice(start.index + 1, end).filter(line => line && !/^2026\s+12\/31/.test(line));
+    const rawBlock = lines.slice(start.index + 1, end).filter(line => line && !/^2026\s+12\/31/.test(line));
+    const detailSeparator = rawBlock.findIndex(line => /^Day\s+\d+\s+\d{1,2}\/\d{1,2}/i.test(line));
+    const block = rawBlock.slice(0, detailSeparator < 0 ? rawBlock.length : detailSeparator);
     const dateIndex = block.findIndex(line => /^\d{1,2}\/\d{1,2}/.test(line));
     if (dateIndex < 0) continue;
     const date = block[dateIndex];
@@ -130,6 +132,26 @@ function parseDays(text) {
       .filter(line => line && !/^\d{4}\s+\d/.test(line));
     const distance = distanceIndex >= 0 ? block[distanceIndex] : null;
     const drive = distanceIndex >= 0 && block[distanceIndex + 1] && /^(?:\d+(?:\.\d+)?\s*(?:hr|min)|\d+\.\d+\s*hr)$/i.test(block[distanceIndex + 1]) ? block[distanceIndex + 1] : null;
+    const detailedLines = detailSeparator < 0 ? [] : rawBlock.slice(detailSeparator);
+    const timeline = [];
+    let current = null;
+    const ignored = /^(?:Day\s+\d+\s+\d{1,2}\/\d{1,2}|Lunch time|Dinner time|Quick lunch time|shopping\s*!*|\d{1,2}\/\d{1,2}\s+\d{1,2}:\d{2},?\s*|住宿地址[:：]?\s*)$/i;
+    const detailHeading = /^(?:(\d{1,2}:\d{2}(?:\s*[–-]\s*\d{1,2}:\d{2})?)\s+)?(.+)$/;
+    for (const line of detailedLines) {
+      if (ignored.test(line)) continue;
+      const match = line.match(detailHeading);
+      if (!match) continue;
+      const value = clean(match[2]);
+      const isContinuation = /^(?:https?:\/\/|位置[:：]|停車場座標|集合地點[:：]|營業時間[:：]|停車位置[:：]|官網[:：]|網址[:：])/.test(value)
+        || (current && (value.length > 55 || /[。；!?]$/.test(value)));
+      if (isContinuation && current) {
+        current[2] = clean(`${current[2]} ${value}`);
+      } else {
+        current = [match[1] || '', value.replace(/\s+https?:\/\/\S+.*$/, ''), ''];
+        timeline.push(current);
+      }
+    }
+    const renderedTimeline = timeline.map(([time, title, detail], index) => [time || `${String(8 + Math.floor(index * 1.2)).padStart(2, '0')}:00`, title, detail || '詳情請見 Google Doc 原文']);
     parsed.push({
       id: start.id,
       date,
@@ -138,8 +160,9 @@ function parseDays(text) {
       distance,
       drive,
       highlights: highlights.length ? highlights : ['Google Doc 尚未填寫白天景點'],
-      notes: ['此日資料由 Google Doc 自動同步；詳細景點與注意事項以原文件為準。'],
+      notes: ['詳細行程與景點說明已由 Google Doc 同步。'],
       type: dayType(start.id, highlights),
+      ...(renderedTimeline.length ? { timeline: renderedTimeline } : {}),
     });
   }
   return parsed;
@@ -157,6 +180,7 @@ function parseDocument(text) {
     ...(allDays.length ? { days: allDays } : {}),
     ...(arrivalDay ? { arrivalDay } : {}),
     ...(tasks.length ? { tasks } : {}),
+    ...(days.length ? { timelines: Object.fromEntries(days.filter(day => day.timeline).map(day => [day.id, day.timeline])) } : {}),
   };
 }
 
@@ -167,6 +191,12 @@ function validate(content) {
   }
   if (content.tasks && (!Array.isArray(content.tasks) || content.tasks.some(task => !task || typeof task.id !== 'string'))) {
     throw new Error('tasks 必須是包含 id 的陣列');
+  }
+  if (content.timelines && (!isObject(content.timelines) || Object.values(content.timelines).some(items => !Array.isArray(items) || items.some(item => !Array.isArray(item) || item.length < 3 || item.some(value => typeof value !== 'string'))))) {
+    throw new Error('timelines 必須是每日詳細行程陣列');
+  }
+  if (!content.timelines || Object.keys(content.timelines).length < 10) {
+    throw new Error('Google Doc 詳細行程解析不足，拒絕覆蓋既有網站資料');
   }
 }
 

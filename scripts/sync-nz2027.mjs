@@ -112,6 +112,29 @@ function parseDays(text) {
   // The summary uses a bare "Day N" heading with its date on the next line.
   // Detailed sections use "Day N M/D (weekday) [departure time]" inline.
   const detailedStarts = starts.filter(start => start.hasInlineDate);
+  const summaryStarts = starts.filter(start => !start.hasInlineDate);
+  const summaries = new Map();
+  for (const [position, start] of summaryStarts.entries()) {
+    const end = summaryStarts[position + 1]?.index ?? detailedStarts[0]?.index ?? lines.length;
+    const block = lines.slice(start.index + 1, end).filter(Boolean);
+    const dateIndex = block.findIndex(line => /^\d{1,2}\/\d{1,2}/.test(line));
+    const distanceIndex = block.findIndex(line => /^\d+\s*km$/i.test(line));
+    const cityIndex = block.findIndex((line, index) => index > dateIndex && /^\(.+\)$/.test(line));
+    const city = cityIndex > 0 ? `${block[cityIndex - 1]} ${block[cityIndex].slice(1, -1)}` : ([0, 16].includes(start.id) ? '空中' : start.id === 17 ? 'Sweet home' : '');
+    const activityEnd = cityIndex > 0 ? cityIndex - 1 : distanceIndex >= 0 ? distanceIndex : block.length;
+    const activityStart = dateIndex >= 0 ? dateIndex + 1 : 0;
+    const highlights = block.slice(activityStart, activityEnd)
+      .filter(line => !/^2026\s+12\/31/.test(line))
+      .flatMap(line => line.split(/[、，,]/).map(clean))
+      .filter(line => line && !/^Day\s+/i.test(line));
+    summaries.set(start.id, {
+      date: dateIndex >= 0 ? block[dateIndex].replace(/\s*\([^)]*\)/, '') : '',
+      city,
+      distance: distanceIndex >= 0 ? block[distanceIndex] : null,
+      drive: distanceIndex >= 0 && /^(?:\d+(?:\.\d+)?\s*(?:hr|min))$/i.test(block[distanceIndex + 1] || '') ? block[distanceIndex + 1] : null,
+      highlights,
+    });
+  }
   if (!detailedStarts.length) return [];
   const parsed = [];
   for (const [position, start] of detailedStarts.entries()) {
@@ -120,29 +143,15 @@ function parseDays(text) {
     const dateIndex = block.findIndex(line => /^\d{1,2}\/\d{1,2}/.test(line));
     if (dateIndex < 0 && !start.inlineDate) continue;
     const date = start.inlineDate || block[dateIndex];
-    const distanceIndex = block.findIndex((line, index) => index > dateIndex && /^\d+\s*km$/i.test(line));
-    const beforeLocation = distanceIndex >= 0 ? block.slice(dateIndex + 1, distanceIndex) : block.slice(dateIndex + 1);
-    const cityPairIndex = beforeLocation.findIndex(line => /^\(.+\)$/.test(line));
-    let city = '';
-    let activityLines = beforeLocation;
-    if (cityPairIndex > 0) {
-      city = `${beforeLocation[cityPairIndex - 1]} ${beforeLocation[cityPairIndex].slice(1, -1)}`;
-      activityLines = beforeLocation.slice(0, cityPairIndex - 1);
-    } else if (start.id === 17) {
-      city = 'Sweet home';
-    } else if (start.id === 0 || start.id === 16) {
-      city = '空中';
-    }
-    const highlights = activityLines
-      .filter(line => line && !/^Day\s+/i.test(line))
-      .flatMap(line => line.split(/[、，]/).map(clean))
-      .filter(line => line && !/^\d{4}\s+\d/.test(line));
-    const distance = distanceIndex >= 0 ? block[distanceIndex] : null;
-    const drive = distanceIndex >= 0 && block[distanceIndex + 1] && /^(?:\d+(?:\.\d+)?\s*(?:hr|min)|\d+\.\d+\s*hr)$/i.test(block[distanceIndex + 1]) ? block[distanceIndex + 1] : null;
+    const summary = summaries.get(start.id) || {};
+    const city = summary.city || (start.id === 17 ? 'Sweet home' : [0, 16].includes(start.id) ? '空中' : '');
+    const highlights = summary.highlights || [];
+    const distance = summary.distance || null;
+    const drive = summary.drive || null;
     const detailedLines = block;
     const timeline = [];
     let current = null;
-    const ignored = /^(?:Day\s+\d+\s+\d{1,2}\/\d{1,2}|Lunch time|Dinner time|Quick lunch time|shopping\s*!*|\d{1,2}\/\d{1,2}\s+\d{1,2}:\d{2},?\s*|住宿地址[:：]?\s*)$/i;
+    const ignored = /^(?:Day\s+\d+\s+\d{1,2}\/\d{1,2}|Lunch time|Dinner time|Quick lunch time|shopping\s*!*|\d{1,2}\/\d{1,2}\s+\d{1,2}:\d{2},?\s*|住宿地址[:：]?\s*|_{4,})$/i;
     const detailHeading = /^(?:(\d{1,2}:\d{2}(?:\s*[–-]\s*\d{1,2}:\d{2})?)\s+)?(.+)$/;
     for (const line of detailedLines) {
       if (ignored.test(line)) continue;
@@ -150,7 +159,7 @@ function parseDays(text) {
       if (!match) continue;
       const value = clean(match[2]);
       const isContinuation = /^(?:https?:\/\/|位置[:：]|停車場座標|集合地點[:：]|營業時間[:：]|停車位置[:：]|官網[:：]|網址[:：])/.test(value)
-        || (current && (value.length > 55 || /[。；!?]$/.test(value)));
+        || (current && !/^\d+[.、-]?\s/.test(value) && !/^\d{1,2}:\d{2}/.test(value));
       if (isContinuation && current) {
         current[2] = clean(`${current[2]} ${value}`);
       } else {
@@ -158,10 +167,10 @@ function parseDays(text) {
         timeline.push(current);
       }
     }
-    const renderedTimeline = timeline.map(([time, title, detail], index) => [time || `${String(8 + Math.floor(index * 1.2)).padStart(2, '0')}:00`, title, detail || '詳情請見 Google Doc 原文']);
+    const renderedTimeline = timeline.map(([time, title, detail]) => [time, title, detail || '']);
     parsed.push({
       id: start.id,
-      date,
+      date: summary.date || date,
       title: titleForDay(start.id, highlights, city || '旅程'),
       city: city || '未設定',
       distance,
